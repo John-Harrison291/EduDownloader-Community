@@ -36,7 +36,7 @@ Para usar downloads, mídia e o OCR portátil também na execução pelo código
 
 A [documentação de compilação](Baixador%20Escolar/docs/COMPILACAO.md) descreve os insumos verificados, a validação, a geração do portátil e do instalador. Use a versão e a arquitetura exatas do ambiente ao reproduzir os pacotes.
 
-Contribuições podem incluir reproduções de erros, correções, testes ou documentação. Use documentos e URLs de teste sintéticos ou expressamente autorizados e mantenha credenciais, dados pessoais, logs e binários fora da árvore. Antes de propor uma mudança, execute os testes da área afetada e as verificações de estilo. Para mudanças na interface, descreva os cenários verificados no Windows.
+Contribuições podem incluir reproduções de erros, correções, testes ou documentação..Antes de propor uma mudança, execute os testes da área afetada e as verificações de estilo. Para mudanças na interface, descreva os cenários verificados no Windows.
 
 ## Limitações conhecidas
 
@@ -45,7 +45,3 @@ Contribuições podem incluir reproduções de erros, correções, testes ou doc
 - A conversão PDF para Word é aproximada. Layouts complexos, tabelas, fontes e páginas digitalizadas podem exigir correções no DOCX.
 - Caminhos temporários extensos no Windows podem afetar a conversão pelo LibreOffice. A instalação para todos os usuários, a reutilização de instalações independentes do LibreOffice e o cenário sem Visual C++ prévio ainda precisam de homologação externa.
 - O gerenciamento usa o catálogo local distribuído com o aplicativo. A autoridade de assinatura e o catálogo remoto de produção aguardam provisionamento.
-
-## Licenciamento
-
-O código e os documentos próprios seguem a [licença MIT](LICENSE) com o aviso de direitos autorais nela indicado. Os materiais de terceiros seguem suas próprias licenças. Consulte os [avisos e as fontes correspondentes](Baixador%20Escolar/Licencas/). A disponibilização do código-fonte da Community e a redistribuição de executáveis de terceiros são etapas distintas. Quem redistribuir um pacote binário deve cumprir a documentação de procedência e as condições dos respectivos componentes.
