@@ -15,6 +15,8 @@ py -3.14 -m pip download --require-hashes --only-binary=:all: -r requirements-bu
 
 Coloque os quatro executáveis abaixo diretamente em `$insumos`. Preserve as versões exatas dos pares compatíveis. O par histórico FFmpeg/FFprobe exige uma cópia arquivada até haver uma fonte pública verificável ou a homologação de outro par. As receitas e revisões registradas no manifesto permitem investigar a reconstrução. A equivalência byte a byte de uma reconstrução ainda não foi demonstrada.
 
+A reprodução integral da compilação por terceiros permanece temporariamente pendente porque o ZIP original não está mais disponível no canal do fornecedor. O instalador e a versão portátil da Community 3.0.0 já incluem o par homologado e funcionam sem esse download. As fontes correspondentes dos executáveis redistribuídos seguem as licenças e os avisos dos respectivos componentes.
+
 | Arquivo | Origem |
 | --- | --- |
 | `yt-dlp.exe` | [yt-dlp 2026.08.19](https://github.com/yt-dlp/yt-dlp/releases/tag/2026.08.19) |
