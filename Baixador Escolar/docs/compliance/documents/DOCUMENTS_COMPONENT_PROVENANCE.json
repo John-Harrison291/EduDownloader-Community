@@ -1,0 +1,548 @@
+{
+  "binary_artifact": {
+    "architecture": "x86_64",
+    "authenticode": {
+      "certificate_sha1_thumbprint": "DF99B68F457C981B0FDF83731DE299A26B64CCF7",
+      "issuer": "GlobalSign GCC R45 CodeSigning CA 2020",
+      "signer": "RARE IDEAS, LLC",
+      "status": "VALID"
+    },
+    "display_version": "26.2.4",
+    "engine_runtime_version": "26.2.4.2",
+    "installer_filename": "LibreOfficePortable_26.2.4_MultilingualStandard.paf.exe",
+    "installer_sha256": "4BDE93374AEF4409243505B20D16561A4628AC7591457DD01FC6E1CCF571BA65",
+    "installer_size_bytes": 223657592,
+    "official_page": "https://portableapps.com/apps/office/libreoffice_portable",
+    "origin_authority": "PortableApps.com",
+    "package_version": "26.2.4.0",
+    "platform": "windows"
+  },
+  "canonical_engine_tree": {
+    "excluded_content": [
+      "profiles",
+      "runtime .pyc",
+      "temporary files",
+      "conversion outputs",
+      "proof-of-concept evidence"
+    ],
+    "file_count": 15354,
+    "inventory_file": "DOCUMENTS_COMPONENT_INVENTORY.json",
+    "inventory_file_sha256": "FE3CF5E39FCA3EA4B25ECFF5E602075320CE00F25C14CB91D34F2C08FD1340A2",
+    "inventory_sha256": "8D212879137C57DDF77EFC6785AB4019EDB6C3D78E5974C8A4F845F3F6C69A4F",
+    "policy": "READ_ONLY_EXPECTED",
+    "revalidation": {
+      "canonical_entries_identical": 15354,
+      "classification": "NON_BLOCKING_DOCUMENTATION",
+      "extra_files": 8,
+      "extra_files_bytes": 1098448,
+      "extra_files_kind": "LibreOffice crash dump files created by prior proof-of-concept runs",
+      "missing_files": 0,
+      "modified_files": 0,
+      "notes": "The ignored proof-of-concept copy is not package authority. A future package must be materialized from an inventory-exact clean extraction; FULL_VERIFY rejects these extras.",
+      "pyc_files": 0
+    },
+    "total_size_bytes": 928815136
+  },
+  "compliance_matrix": [
+    {
+      "binary_present": true,
+      "component": "LibreOffice core",
+      "gap_classification": "RESOLVED",
+      "hash_or_version": "26.2.4.2 / core tag 995ae2723a5200b4bab3e5fe39c18f24b544aaf3",
+      "license_present": true,
+      "notice_delivery": "App/libreoffice/LICENSE.html, license.txt and NOTICE",
+      "source_authority": "Official TDF core archive, hash, signature and exact tag",
+      "status": "COMPLETE"
+    },
+    {
+      "binary_present": true,
+      "component": "Dictionaries",
+      "gap_classification": "LEGAL_REVIEW_ONLY",
+      "hash_or_version": "26.2.4.2 / dictionaries tag 36bdd8e1575813c6bbbfecb235623de8f8aeac6a",
+      "license_present": true,
+      "notice_delivery": "Dictionary-specific LICENSE, COPYING and README files plus package notice index",
+      "source_authority": "Official TDF dictionaries archive, hash, signature and exact tag",
+      "status": "TECHNICALLY_COMPLETE"
+    },
+    {
+      "binary_present": true,
+      "component": "Help",
+      "gap_classification": "RESOLVED",
+      "hash_or_version": "26.2.4.2 / help tag 99be0bfdcc9115986e5677b1a27a9357afc5cfee",
+      "license_present": true,
+      "notice_delivery": "LibreOffice aggregate license and notice set",
+      "source_authority": "Official TDF help archive, hash, signature and exact tag",
+      "status": "COMPLETE"
+    },
+    {
+      "binary_present": true,
+      "component": "Translations and locales",
+      "gap_classification": "RESOLVED",
+      "hash_or_version": "26.2.4.2 / translations tag 4d2386b239bbe244410c2059c49e2527f799b84a",
+      "license_present": true,
+      "notice_delivery": "LibreOffice aggregate license and notice set",
+      "source_authority": "Official TDF translations archive, hash, signature and exact tag",
+      "status": "COMPLETE"
+    },
+    {
+      "binary_present": true,
+      "component": "PortableApps launcher",
+      "gap_classification": "RESOLVED",
+      "hash_or_version": "2.2.9.0 / binary SHA-256 8308DE6D16E74E15318FEB04E80BF1612E8FF318706A16983CFC24114B808C6C",
+      "license_present": true,
+      "notice_delivery": "Other/Source/License.txt, Readme.txt and application-specific NSIS source",
+      "source_authority": "Official PortableApps.com Launcher 2.2.9 source package and upstream repository",
+      "status": "COMPLETE"
+    },
+    {
+      "binary_present": true,
+      "component": "OpenSymbol",
+      "gap_classification": "LEGAL_REVIEW_ONLY",
+      "hash_or_version": "102.12 / SHA-256 F543E6E2D7275557A839A164941C0A86E5F2C3F2A0042BFC434C88C6DDE9E140",
+      "license_present": true,
+      "notice_delivery": "LibreOffice aggregate license set plus canonical source reference",
+      "source_authority": "OpenSymbol.sfd and download.lst from exact LibreOffice core tag",
+      "status": "TECHNICALLY_COMPLETE"
+    },
+    {
+      "binary_present": true,
+      "component": "Third-party aggregate",
+      "gap_classification": "LEGAL_REVIEW_ONLY",
+      "hash_or_version": "download.lst blob e217b679efbcbbb0d70aa307f97ce491401b33d1",
+      "license_present": true,
+      "notice_delivery": "LibreOffice aggregate LICENSE/NOTICE plus component-specific texts",
+      "source_authority": "Exact core tag download.lst maps upstream tarballs and hashes",
+      "status": "TECHNICALLY_COMPLETE"
+    },
+    {
+      "binary_present": true,
+      "component": "Fonts",
+      "gap_classification": "LEGAL_REVIEW_ONLY",
+      "hash_or_version": "Only OpenSymbol; two identical copies",
+      "license_present": true,
+      "notice_delivery": "LibreOffice aggregate license set plus OpenSymbol source reference",
+      "source_authority": "Exact LibreOffice core tag",
+      "status": "TECHNICALLY_COMPLETE"
+    },
+    {
+      "binary_present": true,
+      "component": "Embedded Python",
+      "gap_classification": "RESOLVED",
+      "hash_or_version": "Python 3.12.13 / source SHA-256 C08BC65A81971C1DD5783182826503369466C7E67374D1646519ADF05207B684",
+      "license_present": true,
+      "notice_delivery": "Python license text within App/libreoffice/LICENSE.html and license.txt",
+      "source_authority": "Python-3.12.13.tar.xz pinned by exact LibreOffice core download.lst",
+      "status": "COMPLETE"
+    },
+    {
+      "binary_present": true,
+      "component": "Bundled extensions",
+      "gap_classification": "LEGAL_REVIEW_ONLY",
+      "hash_or_version": "Covered by canonical 15,354-file inventory",
+      "license_present": true,
+      "notice_delivery": "Extension registration license files and aggregate LibreOffice texts",
+      "source_authority": "Exact core and dictionaries source archives/tags",
+      "status": "TECHNICALLY_COMPLETE"
+    }
+  ],
+  "component_id": "edudownloader.documents.libreoffice",
+  "component_version": "documents-component-26.2.4.2",
+  "critical_files": [
+    {
+      "path": "LibreOfficePortable.exe",
+      "role": "portable-launcher-present-but-not-the-future-operational-entrypoint",
+      "sha256": "8308DE6D16E74E15318FEB04E80BF1612E8FF318706A16983CFC24114B808C6C",
+      "size_bytes": 339216
+    },
+    {
+      "path": "App/libreoffice/program/soffice.com",
+      "role": "future-direct-operational-entrypoint",
+      "sha256": "5D8954C7FBE457B5AAB7FA601059E57D9DD3ECCB25694C276BD12D1FAEE25335",
+      "size_bytes": 523688
+    },
+    {
+      "path": "App/libreoffice/program/soffice.bin",
+      "role": "office-engine-process",
+      "sha256": "651F5BC9C0A771B65F1E5124079BAADE982C2B5578FA05D93FE48A665F4593E7",
+      "size_bytes": 2730920
+    },
+    {
+      "path": "App/libreoffice/program/python.exe",
+      "role": "embedded-python-launcher",
+      "sha256": "36D659510D39C047D716A0EE9D9342A76C539A49AEAB52F55FC68BB776122F0A",
+      "size_bytes": 41384
+    },
+    {
+      "path": "App/libreoffice/program/python3.dll",
+      "role": "embedded-python-runtime-library",
+      "sha256": "173D9766B38822D5EDEB43F5BEBEFA2E570A567BBA744D73DD9763D395BD9BF4",
+      "size_bytes": 66984
+    },
+    {
+      "path": "App/libreoffice/program/python-core-3.12.13/bin/python.exe",
+      "role": "embedded-python-runtime",
+      "sha256": "574FF275980D94D6A4EB14081A562F1577FF0C413BD207E05AC6360421536F00",
+      "size_bytes": 102312
+    }
+  ],
+  "dictionaries": {
+    "file_count": 601,
+    "items": [
+      {
+        "bytes": 8098058,
+        "license_evidence": "COPYING.txt and README_ar.txt",
+        "name": "dict-ar",
+        "status": "RESOLVED"
+      },
+      {
+        "bytes": 85582733,
+        "license_evidence": "GPLv2, GPLv3 and OASIS texts plus README files",
+        "name": "dict-de",
+        "status": "RESOLVED"
+      },
+      {
+        "bytes": 26437284,
+        "license_evidence": "license.txt, WordNet license and README files",
+        "name": "dict-en",
+        "status": "RESOLVED"
+      },
+      {
+        "bytes": 23588582,
+        "license_evidence": "LICENSE.md and README files",
+        "name": "dict-es",
+        "status": "RESOLVED"
+      },
+      {
+        "bytes": 6825425,
+        "license_evidence": "License declarations in README files and aggregate LibreOffice license set",
+        "name": "dict-fr",
+        "status": "TECHNICALLY_RESOLVED_LEGAL_REVIEW_ONLY"
+      },
+      {
+        "bytes": 4059055,
+        "license_evidence": "License declarations in README files and aggregate LibreOffice license set",
+        "name": "dict-it",
+        "status": "TECHNICALLY_RESOLVED_LEGAL_REVIEW_ONLY"
+      },
+      {
+        "bytes": 13969940,
+        "license_evidence": "GPL-3.0 declaration in README_ko_KR.txt and aggregate LibreOffice license set",
+        "name": "dict-ko",
+        "status": "TECHNICALLY_RESOLVED_LEGAL_REVIEW_ONLY"
+      },
+      {
+        "bytes": 27253493,
+        "license_evidence": "LGPL/MPL declarations in README files and aggregate LibreOffice license set",
+        "name": "dict-pt-BR",
+        "status": "TECHNICALLY_RESOLVED_LEGAL_REVIEW_ONLY"
+      },
+      {
+        "bytes": 5607430,
+        "license_evidence": "LICENSES.txt and README files",
+        "name": "dict-pt-PT",
+        "status": "RESOLVED"
+      },
+      {
+        "bytes": 6894350,
+        "license_evidence": "MPL/GPL/LGPL declarations in README files and aggregate LibreOffice license set",
+        "name": "dict-ru",
+        "status": "TECHNICALLY_RESOLVED_LEGAL_REVIEW_ONLY"
+      }
+    ],
+    "source_authority": "libreoffice-dictionaries-26.2.4.2.tar.xz and exact libreoffice-26.2.4.2 tag",
+    "status": "TECHNICALLY_COMPLETE_WITH_LEGAL_REVIEW_ONLY",
+    "total_size_bytes": 208316350
+  },
+  "fonts": {
+    "items": [
+      {
+        "binary_version": "102.12",
+        "canonical_source": {
+          "download_list_match": "OPENSYMBOL_SHA256SUM exactly matches the installed TTF",
+          "path": "extras/source/truetype/symbol/OpenSymbol.sfd",
+          "repository": "https://github.com/LibreOffice/core",
+          "source_blob_sha1": "32885C1BAF1ED58538B56BE6AE630043770B4945",
+          "tag": "libreoffice-26.2.4.2",
+          "tag_commit": "995AE2723A5200B4BAB3E5FE39C18F24B544AAF3"
+        },
+        "duplicate_paths": [
+          "App/Fonts/opens___.ttf",
+          "App/libreoffice/program/resource/common/fonts/opens___.ttf"
+        ],
+        "filename": "opens___.ttf",
+        "sha256": "F543E6E2D7275557A839A164941C0A86E5F2C3F2A0042BFC434C88C6DDE9E140",
+        "size_bytes": 207992
+      }
+    ],
+    "license_evidence": "LibreOffice aggregate license set and canonical source in the exact core tag",
+    "scope": "Only font files carried inside the component; Windows/system fonts are excluded",
+    "status": "TECHNICALLY_COMPLETE_WITH_LEGAL_REVIEW_ONLY"
+  },
+  "future_package": {
+    "filename": "EduDownloader-Documents-Component-26.2.4.2.zip",
+    "must_be_frozen_before_distribution": true,
+    "required_layout": [
+      "component-manifest.json",
+      "provenance/DOCUMENTS_COMPONENT_PROVENANCE.json",
+      "inventory/DOCUMENTS_COMPONENT_INVENTORY.json",
+      "licenses/",
+      "engine/LibreOfficePortable/"
+    ],
+    "required_release_authorities": [
+      "file_count",
+      "total_size_bytes",
+      "inventory_sha256",
+      "zip_sha256"
+    ],
+    "status": "NOT_CREATED"
+  },
+  "gaps": [
+    {
+      "classification": "LEGAL_REVIEW_ONLY",
+      "detail": "Choose the legally sufficient source-delivery model and confirm obligations for the combined LibreOffice Portable component.",
+      "item": "source delivery and redistribution approval",
+      "required_action": "External legal review before official distribution"
+    },
+    {
+      "classification": "LEGAL_REVIEW_ONLY",
+      "detail": "Some dictionary packages publish license declarations in README files rather than a separately named complete text.",
+      "item": "dictionary notice sufficiency",
+      "required_action": "Confirm legal sufficiency; technical source and declarations are pinned"
+    },
+    {
+      "classification": "LEGAL_REVIEW_ONLY",
+      "detail": "OpenSymbol source and binary correspondence are exact, while the standalone license expression is represented through the LibreOffice aggregate license set.",
+      "item": "OpenSymbol notice presentation",
+      "required_action": "Confirm final notice wording and placement"
+    },
+    {
+      "classification": "NON_BLOCKING_DOCUMENTATION",
+      "detail": "The ignored PoC copy contains eight crash dumps created after the canonical capture; all 15,354 canonical entries remain byte-identical.",
+      "item": "proof-of-concept tree runtime residue",
+      "required_action": "Do not package the PoC copy; materialize the future package from an inventory-exact clean extraction"
+    }
+  ],
+  "help_and_translations": {
+    "help_source": "libreoffice-help-26.2.4.2.tar.xz / exact help tag",
+    "status": "COMPLETE",
+    "translations_source": "libreoffice-translations-26.2.4.2.tar.xz / exact translations tag"
+  },
+  "license_and_notice_evidence": [
+    {
+      "classification": "PRESENT_IN_COMPONENT",
+      "path": "App/libreoffice/LICENSE.html",
+      "sha256": "D64906F93035CEBB4B499F884265C269AF94D1BB7077F6856282EAF183C98F1F",
+      "size_bytes": 584659
+    },
+    {
+      "classification": "PRESENT_IN_COMPONENT",
+      "path": "App/libreoffice/license.txt",
+      "sha256": "4A4424CCA75F2C723DFBC04C0394A70E97E37BADCE72700F3FB38701966AC344",
+      "size_bytes": 512711
+    },
+    {
+      "classification": "PRESENT_IN_COMPONENT",
+      "path": "App/libreoffice/NOTICE",
+      "sha256": "8D34210EBBFAEE4BA258EF7B30C3044170F356AB82C8259C81B53860BCDEEF7B",
+      "size_bytes": 1859
+    },
+    {
+      "classification": "PRESENT_IN_COMPONENT",
+      "path": "Other/Source/License.txt",
+      "sha256": "EAE2B033F0B0822913C076F36D498E51450C712B3229C1C83C7D12198FA097EE",
+      "size_bytes": 18322
+    },
+    {
+      "classification": "PRESENT_IN_COMPONENT",
+      "path": "Other/Source/Readme.txt",
+      "sha256": "99C095383016F6B9452FA138C908A359FB9CED267D40399E174FF83F16A1AF4F",
+      "size_bytes": 2569
+    },
+    {
+      "classification": "PRESENT_IN_COMPONENT",
+      "path": "dictionary-specific LICENSE, COPYING and README files",
+      "reason": "Exact dictionaries source and local package-specific declarations are mapped; legal sufficiency remains separate."
+    },
+    {
+      "classification": "PRESENT_BY_AGGREGATE_AND_SOURCE_REFERENCE",
+      "path": "OpenSymbol font correspondence",
+      "reason": "Exact TTF hash matches download.lst and exact-tag OpenSymbol.sfd; final notice presentation remains legal review only."
+    }
+  ],
+  "locales": {
+    "file_count": 449,
+    "items": [
+      "ar",
+      "common",
+      "de",
+      "en_GB",
+      "en_ZA",
+      "es",
+      "fr",
+      "it",
+      "ja",
+      "ko",
+      "pt",
+      "pt_BR",
+      "ru",
+      "zh_CN",
+      "zh_TW"
+    ],
+    "source_authority": "Official translations archive and exact translations tag for 26.2.4.2",
+    "status": "COMPLETE",
+    "total_size_bytes": 43129170
+  },
+  "notice_delivery": {
+    "package_root_notice_index": "licenses/README.md or equivalent generated index",
+    "required_material": [
+      "LibreOffice LICENSE.html, license.txt and NOTICE",
+      "PortableApps launcher License.txt, Readme.txt and application-specific NSIS source",
+      "dictionary-specific LICENSE, COPYING and README files",
+      "component manifest, provenance and canonical inventory",
+      "exact source-correspondence references, versions and hashes"
+    ],
+    "status": "TECHNICAL_DELIVERY_SET_DEFINED"
+  },
+  "portable_launcher": {
+    "application_specific_sources": [
+      "Other/Source/LibreOfficePortableBaseU.nsi",
+      "Other/Source/LibreOfficePortableCalcU.nsi",
+      "Other/Source/LibreOfficePortableDrawU.nsi",
+      "Other/Source/LibreOfficePortableImpressU.nsi",
+      "Other/Source/LibreOfficePortableMathU.nsi",
+      "Other/Source/LibreOfficePortableWriterU.nsi",
+      "Other/Source/PortableApps.comInstallerCustom.nsh",
+      "Other/Source/ReplaceInFileWithTextReplace.nsh"
+    ],
+    "binary": {
+      "file_version": "2.2.9.0",
+      "path": "LibreOfficePortable.exe",
+      "sha256": "8308DE6D16E74E15318FEB04E80BF1612E8FF318706A16983CFC24114B808C6C",
+      "size_bytes": 339216
+    },
+    "helper_launchers": {
+      "application_specific_nsi_source_present": true,
+      "file_version": "3.1.0.0"
+    },
+    "license": {
+      "evidence": "Other/Source/License.txt and Other/Source/Readme.txt",
+      "expression_declared_by_readme": "GPL-2.0-or-later"
+    },
+    "source_authority": {
+      "exact_release_package": {
+        "filename": "PortableApps.comLauncher_2.2.9.paf.exe",
+        "official_url": "https://portableapps.com/apps/development/portableapps.com_launcher",
+        "sha256": "7BC93E47B885D5E953FA2082A2E65169AE98128026AC4D747F774A23BD01345B",
+        "version": "2.2.9"
+      },
+      "repository": {
+        "exact_tag": "NOT_PUBLISHED; exact official source release package is the version authority",
+        "url": "https://github.com/PortableApps/Launcher"
+      }
+    },
+    "status": "COMPLETE_OFFICIAL_SOURCE_PACKAGE_PLUS_BUNDLED_APPLICATION_SOURCE"
+  },
+  "recorded_at": "2026-09-21",
+  "schema_version": 2,
+  "source_correspondence": {
+    "archives": [
+      {
+        "filename": "libreoffice-26.2.4.2.tar.xz",
+        "official_archive_url": "https://download.documentfoundation.org/libreoffice/src/26.2.4/libreoffice-26.2.4.2.tar.xz",
+        "official_sha256_url": "https://download.documentfoundation.org/libreoffice/src/26.2.4/libreoffice-26.2.4.2.tar.xz.sha256",
+        "official_signature_available": true,
+        "official_signature_url": "https://download.documentfoundation.org/libreoffice/src/26.2.4/libreoffice-26.2.4.2.tar.xz.asc",
+        "preserved_locally": false,
+        "repository_commit": "995AE2723A5200B4BAB3E5FE39C18F24B544AAF3",
+        "sha256": "B9F9655442432998AF2CD1034AEEE802641ABA4D0BE6B6CE4FC10BEC78CE4B9B",
+        "size_bytes": 292105604
+      },
+      {
+        "filename": "libreoffice-dictionaries-26.2.4.2.tar.xz",
+        "official_archive_url": "https://download.documentfoundation.org/libreoffice/src/26.2.4/libreoffice-dictionaries-26.2.4.2.tar.xz",
+        "official_sha256_url": "https://download.documentfoundation.org/libreoffice/src/26.2.4/libreoffice-dictionaries-26.2.4.2.tar.xz.sha256",
+        "official_signature_available": true,
+        "official_signature_url": "https://download.documentfoundation.org/libreoffice/src/26.2.4/libreoffice-dictionaries-26.2.4.2.tar.xz.asc",
+        "preserved_locally": false,
+        "repository_commit": "36BDD8E1575813C6BBBFECB235623DE8F8AEAC6A",
+        "sha256": "7E64776D79240943CB2C20D467723A488638178337B6810DE4526D1CBABE40FB",
+        "size_bytes": 62188908
+      },
+      {
+        "filename": "libreoffice-help-26.2.4.2.tar.xz",
+        "official_archive_url": "https://download.documentfoundation.org/libreoffice/src/26.2.4/libreoffice-help-26.2.4.2.tar.xz",
+        "official_sha256_url": "https://download.documentfoundation.org/libreoffice/src/26.2.4/libreoffice-help-26.2.4.2.tar.xz.sha256",
+        "official_signature_available": true,
+        "official_signature_url": "https://download.documentfoundation.org/libreoffice/src/26.2.4/libreoffice-help-26.2.4.2.tar.xz.asc",
+        "preserved_locally": false,
+        "repository_commit": "99BE0BFDCC9115986E5677B1A27A9357AFC5CFEE",
+        "sha256": "491DBC6333A24A1856FE1690E4DB981F83D451C6C850D84F7D0F2475317825F5",
+        "size_bytes": 58404004
+      },
+      {
+        "filename": "libreoffice-translations-26.2.4.2.tar.xz",
+        "official_archive_url": "https://download.documentfoundation.org/libreoffice/src/26.2.4/libreoffice-translations-26.2.4.2.tar.xz",
+        "official_sha256_url": "https://download.documentfoundation.org/libreoffice/src/26.2.4/libreoffice-translations-26.2.4.2.tar.xz.sha256",
+        "official_signature_available": true,
+        "official_signature_url": "https://download.documentfoundation.org/libreoffice/src/26.2.4/libreoffice-translations-26.2.4.2.tar.xz.asc",
+        "preserved_locally": false,
+        "repository_commit": "4D2386B239BBE244410C2059C49E2527F799B84A",
+        "sha256": "B9FD1C2F21333F5B444C91ABFEC201BC7CF23854ACEF345133DF78CA6CE094E0",
+        "size_bytes": 234920384
+      }
+    ],
+    "source_directory": "https://download.documentfoundation.org/libreoffice/src/26.2.4/",
+    "status": "COMPLETE_OFFICIAL_REFERENCE_SET",
+    "tag": {
+      "name": "libreoffice-26.2.4.2",
+      "repositories": {
+        "core": "995AE2723A5200B4BAB3E5FE39C18F24B544AAF3",
+        "dictionaries": "36BDD8E1575813C6BBBFECB235623DE8F8AEAC6A",
+        "help": "99BE0BFDCC9115986E5677B1A27A9357AFC5CFEE",
+        "translations": "4D2386B239BBE244410C2059C49E2527F799B84A"
+      }
+    },
+    "upstream_authority": "The Document Foundation"
+  },
+  "source_delivery_models": [
+    {
+      "option": "A_INCLUDE_CORRESPONDING_SOURCES",
+      "technical_requirement": "Freeze and deliver the exact four official source archives plus launcher source authority and checksums."
+    },
+    {
+      "option": "B_OFFICIAL_REFERENCES_AND_HASHES",
+      "technical_requirement": "Deliver immutable version/commit/hash references and verify that this satisfies the applicable obligations."
+    },
+    {
+      "option": "C_SEPARATE_SOURCE_CORRESPONDENCE_PACKAGE",
+      "technical_requirement": "Freeze a separately versioned source-evidence package mapped one-to-one to the binary component."
+    }
+  ],
+  "status": {
+    "distribution_allowed": "NOT_DECLARED",
+    "legal_review_required": true,
+    "phase": "1.4-G1",
+    "product_integration": "IMPLEMENTED_WITHOUT_BUNDLED_ENGINE",
+    "technical_engine_decision": "GO_LIBREOFFICE_SEPARATE_COMPONENT",
+    "technical_redistribution_evidence": "COMPLETE"
+  },
+  "third_party_scope": {
+    "aggregate_evidence": [
+      "App/libreoffice/license.txt",
+      "App/libreoffice/LICENSE.html",
+      "App/libreoffice/NOTICE",
+      "component-specific license and README files"
+    ],
+    "classification": "COVERED_BY_UPSTREAM_NOTICE",
+    "exact_crosswalk_authority": {
+      "blob_sha1": "E217B679EFBCBBB0D70AA307F97CE491401B33D1",
+      "path": "download.lst",
+      "sha256": "DDEAE7C86FDD87BC1A1AAF2256A4766DB735C53C69754244A3E7645E586AEDDD",
+      "size_bytes": 33313,
+      "tag": "libreoffice-26.2.4.2",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/libreoffice-26.2.4.2/download.lst"
+    },
+    "notes": "The official aggregate license set and exact-tag download.lst provide a proportional upstream crosswalk. This record does not independently reclassify every DLL.",
+    "status": "TECHNICALLY_COMPLETE_WITH_LEGAL_REVIEW_ONLY"
+  }
+}

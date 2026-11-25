@@ -1,0 +1,146 @@
+{
+  "application": {
+    "activation_required_for_current_edition": false,
+    "app_version": "0.9.5",
+    "name": "EduDownloader",
+    "product_edition": "community"
+  },
+  "external_binaries": [
+    {
+      "component": "Deno",
+      "sha256": "98F8C2A2D470E4CCB04C935C86FF8050817D877762AEC5EAEEB9E409CCB3B9FD",
+      "version": "2.9.5 x86_64-pc-windows-msvc"
+    },
+    {
+      "component": "FFmpeg",
+      "sha256": "1326DDE4C84FF1F96FE6B8916C5BED29E163E9B5DCCF995F6F3DB069D143EC5E",
+      "version": "8.1.2 essentials"
+    },
+    {
+      "component": "FFprobe",
+      "sha256": "B49CCC7C6547B141AD5A2F6EC69CC04323D7133D7704D70B331B904C63EECB07",
+      "version": "8.1.2 essentials"
+    },
+    {
+      "component": "yt-dlp",
+      "sha256": "52FE3C26DCF71FBDC85B528589020BB0B8E383155CFA81B64DD447BBE35E24B8",
+      "version": "2026.07.04"
+    }
+  ],
+  "microsoft_runtime_packaging": {
+    "runtime_files": [
+      {
+        "filename": "VCRUNTIME140.dll"
+      },
+      {
+        "filename": "VCRUNTIME140_1.dll"
+      }
+    ],
+    "vc_runtime_authority": {
+      "version": "14.51.36247.0"
+    }
+  },
+  "notice_delivery": {
+    "cffi_cryptography": {
+      "reason": "component-specific runtime notices are not delivered",
+      "status": "PENDING_FIX"
+    },
+    "cpython_tcl_tk": {
+      "reason": "component-specific runtime notices are not delivered",
+      "status": "PENDING_FIX"
+    },
+    "customtkinter": {
+      "reason": "component license is present; bundled font review remains separate",
+      "status": "PARTIAL"
+    },
+    "deno": {
+      "reason": "Deno license is present; third-party notice closure remains separate",
+      "status": "PARTIAL"
+    },
+    "microsoft": {
+      "reason": "D13A notice template is not delivered pending P3 review",
+      "status": "PENDING_FIX"
+    },
+    "other": {
+      "reason": "delivered notices exist; remaining review is tracked separately",
+      "status": "PARTIAL"
+    },
+    "pyinstaller": {
+      "reason": "physical license files checked in the candidate",
+      "status": "DELIVERED"
+    }
+  },
+  "package_materiality": [
+    {
+      "classification": "BUILD_ONLY",
+      "package": "altgraph"
+    },
+    {
+      "classification": "DISTRIBUTED_NATIVE",
+      "package": "cffi"
+    },
+    {
+      "classification": "DISTRIBUTED_NATIVE",
+      "package": "cryptography"
+    },
+    {
+      "classification": "DISTRIBUTED_RUNTIME",
+      "package": "customtkinter"
+    },
+    {
+      "classification": "DISTRIBUTED_RUNTIME",
+      "package": "darkdetect"
+    },
+    {
+      "classification": "DISTRIBUTED_RUNTIME",
+      "package": "packaging"
+    },
+    {
+      "classification": "BUILD_ONLY",
+      "package": "pefile"
+    },
+    {
+      "classification": "DISTRIBUTED_NATIVE",
+      "package": "pillow"
+    },
+    {
+      "classification": "BUILD_TOOL_ONLY",
+      "package": "pip"
+    },
+    {
+      "classification": "BUILD_ONLY",
+      "package": "pycparser"
+    },
+    {
+      "classification": "PARTIAL_COMPONENT_PRESENT",
+      "package": "pyinstaller"
+    },
+    {
+      "classification": "PARTIAL_COMPONENT_PRESENT",
+      "package": "pyinstaller-hooks-contrib"
+    },
+    {
+      "classification": "DISTRIBUTED_RUNTIME",
+      "package": "pypdf"
+    },
+    {
+      "classification": "DISTRIBUTED_NATIVE",
+      "package": "pypdfium2"
+    },
+    {
+      "classification": "BUILD_ONLY",
+      "package": "pywin32-ctypes"
+    },
+    {
+      "classification": "BUILD_TOOL_ONLY",
+      "package": "ruff"
+    },
+    {
+      "classification": "BUILD_TOOL_ONLY",
+      "package": "setuptools"
+    }
+  ],
+  "pristine_inventory": {
+    "inventory_sha256": "2977A447168A9E82B97A1691648DBB3DBEE434002BEDDFE3C86609FAFE755AF3"
+  }
+}

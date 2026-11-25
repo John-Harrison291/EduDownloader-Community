@@ -1,0 +1,18 @@
+FFMPEG / FFPROBE — BASELINE ATIVA BTBN
+
+Componente: FFmpeg e FFprobe
+Versão: n8.1.2-44-g7c533d0f86-20260825 win64-lgpl-8.1
+Provedor ativo: BtbN/FFmpeg-Builds
+Arquivos distribuídos: ffmpeg.exe e ffprobe.exe
+Licença declarada pela build ativa: LGPL-3.0-or-later
+Texto da licença: FFMPEG_BTBN_LICENSE.txt
+GPLv3 incorporada pela LGPLv3: yt-dlp/GPL-3.0.txt
+libmp3lame: fonte SVN r6761 e textos LGPL preservados no bundle correspondente.
+
+ffmpeg.exe SHA-256:
+88F0453C46DBF83D3DA583A3ECECCBA6F2B82169C89A9B4254C481267E7135F8
+ffprobe.exe SHA-256:
+07A26215E0C482407412EEBA88FD169CAA97C8CBCD0C567CF9C6CFBA6F2843C7
+
+Fonte correspondente e modo de entrega futuro: THIRD_PARTY_SOURCE_INFORMATION.txt.
+O bundle foi preservado localmente; nenhum asset público foi criado nesta etapa.

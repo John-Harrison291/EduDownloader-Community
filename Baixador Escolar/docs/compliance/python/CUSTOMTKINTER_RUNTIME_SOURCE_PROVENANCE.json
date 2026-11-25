@@ -1,0 +1,2064 @@
+{
+  "acquisitions": {
+    "ctk-LICENSE": {
+      "final_url": "https://raw.githubusercontent.com/TomSchimansky/CustomTkinter/a2f0ecd144c6fee931fc06c823a14d9ae0d01bdb/LICENSE",
+      "sha256": "C973B8600E620159CB0473EB9B08783143E0D9ED5333F350FC933368D94D9E0D",
+      "size": 1071,
+      "url": "https://raw.githubusercontent.com/TomSchimansky/CustomTkinter/a2f0ecd144c6fee931fc06c823a14d9ae0d01bdb/LICENSE"
+    },
+    "ctk-README.md": {
+      "final_url": "https://raw.githubusercontent.com/TomSchimansky/CustomTkinter/a2f0ecd144c6fee931fc06c823a14d9ae0d01bdb/Readme.md",
+      "sha256": "BEAEDB408C155B6954E22930AEE6DE5FCBCD6E22272B459EF129D97F92E83143",
+      "size": 5165,
+      "url": "https://raw.githubusercontent.com/TomSchimansky/CustomTkinter/a2f0ecd144c6fee931fc06c823a14d9ae0d01bdb/Readme.md"
+    },
+    "ctk-commit.json": {
+      "final_url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/git/commits/a2f0ecd144c6fee931fc06c823a14d9ae0d01bdb",
+      "sha256": "74C99FB533710EED8CD7F165E2622A2A18B36D5BB6DD64991ADE72D649283F6F",
+      "size": 1153,
+      "url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/git/commits/a2f0ecd144c6fee931fc06c823a14d9ae0d01bdb"
+    },
+    "ctk-font-history.json": {
+      "final_url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/commits/15558b4d0f093b346aeaf207939da71e2dd6db69",
+      "sha256": "AE5D33B344A4E41F6B6F677ADCF6B0E64551784B9D713C3C3808B8D36DA05E60",
+      "size": 5879,
+      "url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/commits/15558b4d0f093b346aeaf207939da71e2dd6db69"
+    },
+    "ctk-fontmanager-creation.json": {
+      "final_url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/commits/afe44f4ff772030211d0659972aaea559776e53d",
+      "sha256": "ABD1F171483887E91CFAC5D42E499E5EEA4E3E0E50983C769D565DDA612E850D",
+      "size": 129046,
+      "url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/commits/afe44f4ff772030211d0659972aaea559776e53d"
+    },
+    "ctk-fontmanager-move.json": {
+      "final_url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/commits/08a0835fd0c0a458746da9ac23c297aac592c848",
+      "sha256": "614FB7FAF754B102C75527706DB63309887E0DE0F3B720AB20E82BE788296CF4",
+      "size": 56351,
+      "url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/commits/08a0835fd0c0a458746da9ac23c297aac592c848"
+    },
+    "ctk-fontmanager-rename.json": {
+      "final_url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/commits/c2a5b4881e36851ebc11afbeac9d156f0fbbab6c",
+      "sha256": "B39FDAE1CF7C999F7EA1A5844E1EB750756A715A532CF8E16B09646570C9D67A",
+      "size": 75180,
+      "url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/commits/c2a5b4881e36851ebc11afbeac9d156f0fbbab6c"
+    },
+    "ctk-icon-history.json": {
+      "final_url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/commits/f3710de173c6ba73afc651923e536e103054ae2d",
+      "sha256": "01836E1CB146A4682B7711563E091CF92FF34C42D57EFC9E7051A5E24CAF3ECC",
+      "size": 4918,
+      "url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/commits/f3710de173c6ba73afc651923e536e103054ae2d"
+    },
+    "ctk-initial-font-history.json": {
+      "final_url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/commits?sha=bf1835922b21cbec631fc76577d279f61e3f782b&path=customtkinter/font_manager.py&per_page=100",
+      "sha256": "E1E09499787FC92A95223320C30D0BF0C67025AD67FEE71635647C2000733D58",
+      "size": 11712,
+      "url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/commits?sha=bf1835922b21cbec631fc76577d279f61e3f782b&path=customtkinter/font_manager.py&per_page=100"
+    },
+    "ctk-license-change.json": {
+      "final_url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/commits/4d52febd993110119cb50cbd2d4b61188798ca61",
+      "sha256": "3BD871C563ADD157190EF3F27C718CAA0904CF5228B9795C8D2843EF86A074AE",
+      "size": 13146,
+      "url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/commits/4d52febd993110119cb50cbd2d4b61188798ca61"
+    },
+    "ctk-old-font-history-pinned.json": {
+      "final_url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/commits?sha=e5484cb6cde28813eb0cc3d88606a45c7eb7816d&path=customtkinter/widgets/font/font_manager.py&per_page=100",
+      "sha256": "12DDCC2EEF2FDF8E9540C583E4BFC8996387EF7060B7900B35606FA7C3F2B672",
+      "size": 3568,
+      "url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/commits?sha=e5484cb6cde28813eb0cc3d88606a45c7eb7816d&path=customtkinter/widgets/font/font_manager.py&per_page=100"
+    },
+    "ctk-old-font-history.json": {
+      "final_url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/commits?path=customtkinter/widgets/font/font_manager.py&per_page=100",
+      "sha256": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945",
+      "size": 2,
+      "url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/commits?path=customtkinter/widgets/font/font_manager.py&per_page=100"
+    },
+    "ctk-pypi.json": {
+      "final_url": "https://pypi.org/pypi/customtkinter/5.2.2/json",
+      "sha256": "3ACD759010AF39D8F460DFF9DA621A191DE0E307763CA83439616533B5A54B0E",
+      "size": 2899,
+      "url": "https://pypi.org/pypi/customtkinter/5.2.2/json"
+    },
+    "ctk-setup.cfg": {
+      "final_url": "https://raw.githubusercontent.com/TomSchimansky/CustomTkinter/a2f0ecd144c6fee931fc06c823a14d9ae0d01bdb/setup.cfg",
+      "sha256": "AE6E45B8633190860F3CAF5B82EE59C85EC567D27A13ADC6D8DC9506ACBA95D6",
+      "size": 1350,
+      "url": "https://raw.githubusercontent.com/TomSchimansky/CustomTkinter/a2f0ecd144c6fee931fc06c823a14d9ae0d01bdb/setup.cfg"
+    },
+    "ctk-tag.json": {
+      "final_url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/git/tags/e2c410af89401cedb5f6a49616794668e5a9ca2c",
+      "sha256": "14BDD85D34B4BBE30A8B66EB96A553CD4AB69C49CD07D77E50FB79E180D0DF1D",
+      "size": 682,
+      "url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/git/tags/e2c410af89401cedb5f6a49616794668e5a9ca2c"
+    },
+    "ctk-tree.json": {
+      "final_url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/git/trees/a2f0ecd144c6fee931fc06c823a14d9ae0d01bdb?recursive=1",
+      "sha256": "311DA71767374BD5533936D0C009ED3D66EF6F13261281A61AE44EA8BD5BED79",
+      "size": 41914,
+      "url": "https://api.github.com/repos/TomSchimansky/CustomTkinter/git/trees/a2f0ecd144c6fee931fc06c823a14d9ae0d01bdb?recursive=1"
+    },
+    "customtkinter-5.2.2.tar.gz": {
+      "final_url": "https://files.pythonhosted.org/packages/cf/48/c5a9d44188c44702e1e3db493c741e9c779596835a761b819fe15431d163/customtkinter-5.2.2.tar.gz",
+      "sha256": "FD8DB3BAFA961C982EE6030DBA80B4C2E25858630756B513986DB19113D8D207",
+      "size": 261999,
+      "url": "https://files.pythonhosted.org/packages/cf/48/c5a9d44188c44702e1e3db493c741e9c779596835a761b819fe15431d163/customtkinter-5.2.2.tar.gz"
+    },
+    "digsby-LICENSE": {
+      "final_url": "https://raw.githubusercontent.com/ifwe/digsby/f5fe00244744aa131e07f09348d10563f3d8fa99/LICENSE",
+      "sha256": "40DDC25914FCC63289871553C5D478CCC7CCC196987F69F5BDE4A8EC399FC374",
+      "size": 2420,
+      "url": "https://raw.githubusercontent.com/ifwe/digsby/f5fe00244744aa131e07f09348d10563f3d8fa99/LICENSE"
+    },
+    "digsby-commit.json": {
+      "final_url": "https://api.github.com/repos/ifwe/digsby/git/commits/f5fe00244744aa131e07f09348d10563f3d8fa99",
+      "sha256": "0156A254C87583E7DD7CC421F3591C58C4F3999799243968F89AE9240FCC78C0",
+      "size": 1405,
+      "url": "https://api.github.com/repos/ifwe/digsby/git/commits/f5fe00244744aa131e07f09348d10563f3d8fa99"
+    },
+    "digsby-f5fe00244744aa131e07f09348d10563f3d8fa99.tar.gz": {
+      "final_url": "https://codeload.github.com/ifwe/digsby/tar.gz/f5fe00244744aa131e07f09348d10563f3d8fa99",
+      "sha256": "5CE4C8E45D0BE1000C076C8A66B654175DC0EEC8D933BAB63C933C8AF6FD87D4",
+      "size": 57366382,
+      "url": "https://codeload.github.com/ifwe/digsby/tar.gz/f5fe00244744aa131e07f09348d10563f3d8fa99"
+    },
+    "digsby-tree.json": {
+      "final_url": "https://api.github.com/repos/ifwe/digsby/git/trees/f5fe00244744aa131e07f09348d10563f3d8fa99?recursive=1",
+      "sha256": "39271AF01219BFC6392C6F7BC79E9D46752293128B1CF1F602FF2AE69866DB6D",
+      "size": 1413474,
+      "url": "https://api.github.com/repos/ifwe/digsby/git/trees/f5fe00244744aa131e07f09348d10563f3d8fa99?recursive=1"
+    },
+    "roboto-2138-tree.json": {
+      "final_url": "https://api.github.com/repos/googlefonts/roboto-2/git/trees/ab4876f650a4aeb9b661c83fee47f908c739bb70?recursive=1",
+      "sha256": "DA6006A5DE04EE577E864824219C8060DDC3603DBF88C1F412DCC2514CF51BF1",
+      "size": 1844295,
+      "url": "https://api.github.com/repos/googlefonts/roboto-2/git/trees/ab4876f650a4aeb9b661c83fee47f908c739bb70?recursive=1"
+    },
+    "roboto-googlefonts-tree.json": {
+      "final_url": "https://api.github.com/repos/google/fonts/git/trees/724bf98e9f5cb98a1d3d5044f45a2e286b817401?recursive=1",
+      "sha256": "858547A6810E0DC2432CA7C2CE79A026B90957319BF8E4CA1B741FCCAAA2B9BB",
+      "size": 1479386,
+      "url": "https://api.github.com/repos/google/fonts/git/trees/724bf98e9f5cb98a1d3d5044f45a2e286b817401?recursive=1"
+    },
+    "roboto-historical-LICENSE.txt": {
+      "final_url": "https://raw.githubusercontent.com/google/fonts/724bf98e9f5cb98a1d3d5044f45a2e286b817401/apache/roboto/LICENSE.txt",
+      "sha256": "CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30",
+      "size": 11358,
+      "url": "https://raw.githubusercontent.com/google/fonts/724bf98e9f5cb98a1d3d5044f45a2e286b817401/apache/roboto/LICENSE.txt"
+    },
+    "roboto-tester-history.json": {
+      "final_url": "https://api.github.com/repos/googlefonts/robototester/commits?until=2017-04-10T00:00:00Z&per_page=3",
+      "sha256": "A5D0D31716613DC70433B654B906E1067822AADCC188B7ECFB954C1FEF4286B2",
+      "size": 10421,
+      "url": "https://api.github.com/repos/googlefonts/robototester/commits?until=2017-04-10T00:00:00Z&per_page=3"
+    },
+    "roboto-tester-tree.json": {
+      "final_url": "https://api.github.com/repos/googlefonts/robototester/git/trees/7c4152a2fea8fe850b513cfd1a4fee3052d578e4?recursive=1",
+      "sha256": "F00C86EEC21859E39AC5B66C417969B3B93A1D3BCBD92EB05F2780A22C8A3DB7",
+      "size": 6197,
+      "url": "https://api.github.com/repos/googlefonts/robototester/git/trees/7c4152a2fea8fe850b513cfd1a4fee3052d578e4?recursive=1"
+    },
+    "so-answer.json": {
+      "final_url": "https://api.stackexchange.com/2.3/answers/30631309?site=stackoverflow&filter=withbody",
+      "sha256": "5A9F0003F5F5514B7FA7D9295902C1B15E2577855E1D2B2E58B9134C213B8DD5",
+      "size": 4143,
+      "url": "https://api.stackexchange.com/2.3/answers/30631309?site=stackoverflow&filter=withbody"
+    },
+    "so-revisions.json": {
+      "final_url": "https://api.stackexchange.com/2.3/posts/30631309/revisions?site=stackoverflow&filter=withbody",
+      "sha256": "20B2D90D8AAD86F1CB119BC435BACD750AB8A4932A98F8E79C4C77188E3A7E32",
+      "size": 16523,
+      "url": "https://api.stackexchange.com/2.3/posts/30631309/revisions?site=stackoverflow&filter=withbody"
+    }
+  },
+  "bundle": null,
+  "classification": "PARTIAL",
+  "customtkinter": {
+    "commit": "a2f0ecd144c6fee931fc06c823a14d9ae0d01bdb",
+    "sdist_sha256": "FD8DB3BAFA961C982EE6030DBA80B4C2E25858630756B513986DB19113D8D207",
+    "sdist_status": "VERIFIED",
+    "status": "PRESERVED",
+    "tag": "v5.2.2",
+    "tag_object": "e2c410af89401cedb5f6a49616794668e5a9ca2c",
+    "tree": "acaba786f081b183465f61772b18cef182233643",
+    "version": "5.2.2",
+    "wheel_sha256": "14AD3E7CD3CB3B9EB642B9D4E8711AE80D3F79FB82545AD11258EEFFB2E6B37C"
+  },
+  "data": [
+    {
+      "classification": "NON_RUNTIME_PACKAGING_RESIDUE",
+      "path": "customtkinter/assets/.DS_Store",
+      "sha256": "57ADA387AF15BFF448242A05E4E35D2B757798B0802CB894C81B4DC4E473002F",
+      "size": 6148
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/assets/fonts/CustomTkinter_shapes_font.otf",
+      "sha256": "FAD67E2B060C318B6C8646D087FBD3ADD938B6676243F14B0C52623179641274",
+      "size": 3528
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/assets/fonts/Roboto/Roboto-Medium.ttf",
+      "sha256": "4AC8E03606FFA4C37F61A6510A2080F1F37A7054F4726C214887D3B23F72E369",
+      "size": 168644
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/assets/fonts/Roboto/Roboto-Regular.ttf",
+      "sha256": "319CFF6E7A31F0F2A41C475DCA42890AA5D19FE16017E2290F8C1D4E14F76481",
+      "size": 168260
+    },
+    {
+      "classification": "NON_RUNTIME_PACKAGING_RESIDUE",
+      "path": "customtkinter/assets/icons/.DS_Store",
+      "sha256": "E53EFB2CA4FDE2219A3DC5DED422EC46EECC7A0547B6663B9AC9E16196AC6D25",
+      "size": 6148
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/assets/icons/CustomTkinter_icon_Windows.ico",
+      "sha256": "1234C017C871EB2E20D36F668F93E066CDCB93DB464D5CEF9D7A5BF83506D28C",
+      "size": 13238
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/assets/themes/blue.json",
+      "sha256": "C9417470C16CED7A43D6C4A8E027AFA6EDC62C24D5AEE7C4C2DCD11385964D3B",
+      "size": 4520
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/assets/themes/dark-blue.json",
+      "sha256": "6A57FA6F8FB8961A30CE6429522B180D76E3AF9B8E0DAAC259059841386A6BD3",
+      "size": 4514
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/assets/themes/green.json",
+      "sha256": "79AD86BFEA7F0557AC1E20802892ABB44A967AF15B9315B0039CD75C8B72A776",
+      "size": 4515
+    }
+  ],
+  "determinism": "NOT_APPLICABLE_UNRESOLVED_PARENT",
+  "digsby": {
+    "archive_sha256": "5CE4C8E45D0BE1000C076C8A66B654175DC0EEC8D933BAB63C933C8AF6FD87D4",
+    "commit": "f5fe00244744aa131e07f09348d10563f3d8fa99",
+    "inventory": {
+      "file_count": 4949,
+      "inventory_sha256": "ABE72F1E7421C874470E5B9B878299BF7E4FC3100C14837C6A23E5A0D53A53F3",
+      "total_size": 92982787
+    },
+    "license": "Digsby License v1",
+    "license_sha256": "40DDC25914FCC63289871553C5D478CCC7CCC196987F69F5BDE4A8EC399FC374",
+    "source": "digsby/src/gui/native/win/winfonts.py",
+    "source_sha256": "3F20A0E42E8DD2F779AA1DD800925909DEF1E7A04B8FF525040AE2E65674CA90",
+    "status": "PRESERVED",
+    "tree": "fd48fba90bb227017ac2da9786d59f9b9130aaf0"
+  },
+  "ds_store": {
+    "actual_scope": "PRESENT_IN_SDIST_AND_WHEEL_ABSENT_FROM_TAG",
+    "candidate_untouched": true,
+    "classification": "NON_RUNTIME_PACKAGING_RESIDUE",
+    "d7_label": "WHEEL_ONLY_NON_RUNTIME",
+    "future_policy": "EXCLUDE_FROM_FUTURE_DISTRIBUTION",
+    "source_gap": false
+  },
+  "frozen_authority": {
+    "application": {
+      "activation_required_for_current_edition": false,
+      "app_version": "0.9.5",
+      "name": "EduDownloader",
+      "product_edition": "community"
+    },
+    "gates": {
+      "activation_operational": true,
+      "default_trust_store_key_count": 1,
+      "operational_private_key_configured": false,
+      "operational_public_key_configured": true,
+      "production_crypto_configured": true,
+      "production_ready": false,
+      "public_release_allowed": false
+    },
+    "inventory_sha256": "26B6CCDAA3332D46DAF30DCEE44100EADFA53971C990F995A418A0A65B073857"
+  },
+  "icon": {
+    "classification": "COVERED_BY_CUSTOMTKINTER_PARENT",
+    "history_commit": "f3710de173c6ba73afc651923e536e103054ae2d",
+    "specific_terms": "P3_PENDING",
+    "upstream_author": "Tom Schimansky"
+  },
+  "legal_review": "P3_PENDING",
+  "license_discrepancy": "METADATA_DISCREPANCY_EXPLAINED",
+  "license_signals": {
+    "candidate_crlf_sha256": "4C58162E0686C537AFBB0A40577B5F96467EEBE518F03FC2152707DA2FBE4F7A",
+    "change_commit": "4d52febd993110119cb50cbd2d4b61188798ca61",
+    "classifier": "MIT",
+    "license_file": "MIT",
+    "license_lf_sha256": "C973B8600E620159CB0473EB9B08783143E0D9ED5333F350FC933368D94D9E0D",
+    "metadata_license": "Creative Commons Zero v1.0 Universal",
+    "readme_badge": "MIT",
+    "technical_explanation": "LICENSE changed; stale setup.cfg field retained; no legal precedence inferred"
+  },
+  "logical_parents": 3,
+  "modules": [
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "1486FE2E5DDA2E1AD52D63244DD0A14709FE7B3CDC5A89CEC2F17C56F74BD774",
+      "module": "customtkinter",
+      "path": "customtkinter/__init__.py",
+      "source_sha256": "FDE2E3A726E1401E3D38E45430853EA29F30D3F5B81B1BACE40422DF2CD07238"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "260839B416C7EDB487AF9BD40C7F37552C33859A1B544551298B2B1620604C44",
+      "module": "customtkinter.windows",
+      "path": "customtkinter/windows/__init__.py",
+      "source_sha256": "792A28D31FF85E44A893F05A41BB4CF80B70311BB5CDAE8C3E177A61F5B3EAC2"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "2993567B228D36E2093FFC3CE8D95164B55339615709AA7444D7670DA657276E",
+      "module": "customtkinter.windows.ctk_input_dialog",
+      "path": "customtkinter/windows/ctk_input_dialog.py",
+      "source_sha256": "FE60165440523E2B8180849B5DA584F0B1B916CEE1A7428E33E06655F0709E9D"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "84E6B1C9F7B30C69CEA3D545BC56B06A73933B9869BF1170C2AA17D2C67399B9",
+      "module": "customtkinter.windows.ctk_tk",
+      "path": "customtkinter/windows/ctk_tk.py",
+      "source_sha256": "A6F603EE63FD497755288A2645B34AB7466EDA916C20E7F7DB8E83A8F173D4F8"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "08E1357D6BA7FED64FF57BEA8E8CD9317DA30683EEE00295C1D58BA54DA4AF54",
+      "module": "customtkinter.windows.ctk_toplevel",
+      "path": "customtkinter/windows/ctk_toplevel.py",
+      "source_sha256": "8C4689A579C05D6EB0B1D7A1DD3AFDA00064DFD192BA4D19FFB3A01BC17D35FF"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "514984ACB58D2F63F16171CF24D1C54DB7D799BD4C333369DDC4C2D0490DD758",
+      "module": "customtkinter.windows.widgets",
+      "path": "customtkinter/windows/widgets/__init__.py",
+      "source_sha256": "0CDA213A917947601ED623F8C0DA6C0D890E9CC46256B70D77008F588C4D5862"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "8678AD8852B15A638D4F7BAC8A836C5EE93CBD84814B35FAF5794C4D9875905E",
+      "module": "customtkinter.windows.widgets.appearance_mode",
+      "path": "customtkinter/windows/widgets/appearance_mode/__init__.py",
+      "source_sha256": "7CA28AD1F5541C58AA992670D0664563418A809183B3C039397BD20440B7A928"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "6FDC37E2446F40253226C5D6443244958ACD30C6B01F1A4A061104BE7F1C139C",
+      "module": "customtkinter.windows.widgets.appearance_mode.appearance_mode_base_class",
+      "path": "customtkinter/windows/widgets/appearance_mode/appearance_mode_base_class.py",
+      "source_sha256": "9D35C90B8BE9C23AE00A268EBF7576D3156FB64C4A47DA5527290892158A173F"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "62F816EE16425AA9C9ADE283808BEE1C13AA22D2A57EB1741B501DF8BF82B448",
+      "module": "customtkinter.windows.widgets.appearance_mode.appearance_mode_tracker",
+      "path": "customtkinter/windows/widgets/appearance_mode/appearance_mode_tracker.py",
+      "source_sha256": "2FE5FE78BC561617A75AD1EBED9FCCA799AC6814CC108C5CFA184AAC8567EDB7"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "583B82AA67A58ADDF43FB9FE34B3DB2ACB615CE8F970CB49C5C787506738D464",
+      "module": "customtkinter.windows.widgets.core_rendering",
+      "path": "customtkinter/windows/widgets/core_rendering/__init__.py",
+      "source_sha256": "DB5D9635843DD3FE1863F401EB1D04FB10AAAA6517B167A034F43855E5D228ED"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "60DD0BBA4AE1AA51CA840368E4F0FA418464EC1EEB2DFB185A8CCE0D642F883E",
+      "module": "customtkinter.windows.widgets.core_rendering.ctk_canvas",
+      "path": "customtkinter/windows/widgets/core_rendering/ctk_canvas.py",
+      "source_sha256": "B971D8A9D4E7B352C0A7619869DC810DC2ADE4FA4D50791AFFB978695D63AAA8"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "AC5C84FF5267661FF58E115C71302AAFAAE4D53027265F014F59025FFB299122",
+      "module": "customtkinter.windows.widgets.core_rendering.draw_engine",
+      "path": "customtkinter/windows/widgets/core_rendering/draw_engine.py",
+      "source_sha256": "79E5E9B188820CEA94428E4FCF99C11C342A83DF5DAEDE100E33839AB75E7BCC"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "F0F211469D9472186098961F5ECC1B31B95F1C27ED55A72A36703DD2F6DF02E7",
+      "module": "customtkinter.windows.widgets.core_widget_classes",
+      "path": "customtkinter/windows/widgets/core_widget_classes/__init__.py",
+      "source_sha256": "0EC1B7CE8E21CC05267456EDDDA5E07A7D15B3463DFA9A7270A4C87EB1D360C0"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "F0CB86615308FE91F62AFFA46F23360B13D8172EBBBCC7ECE016773DEEC2EF60",
+      "module": "customtkinter.windows.widgets.core_widget_classes.ctk_base_class",
+      "path": "customtkinter/windows/widgets/core_widget_classes/ctk_base_class.py",
+      "source_sha256": "3D3C4F7AABDF9DCB7EC2E5C1AA875B183C697D727AEC26A5DB4D6A2710ADDC41"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "6CA43C02FD389566BEE387AC990D70A1F6F5C6BB646F3E1B713486A023502E6B",
+      "module": "customtkinter.windows.widgets.core_widget_classes.dropdown_menu",
+      "path": "customtkinter/windows/widgets/core_widget_classes/dropdown_menu.py",
+      "source_sha256": "742FD211693F5D06D7E3B3632C3CA1B0A87C60A3723C59DDA08231A809CE1911"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "DDD2F95B4CE51F266371E81757EB57547B1AF4ADA477485021C29C73BCC075D5",
+      "module": "customtkinter.windows.widgets.ctk_button",
+      "path": "customtkinter/windows/widgets/ctk_button.py",
+      "source_sha256": "4C4FFA4FCF1C2FC69ED69F193B2FD61388A7A718CFD226977A3D2A9A37236C25"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "E52BA96778FF6AB0057E838C31A487C7AE53F4EC807809619192FBBAD5300900",
+      "module": "customtkinter.windows.widgets.ctk_checkbox",
+      "path": "customtkinter/windows/widgets/ctk_checkbox.py",
+      "source_sha256": "87CC3B486FFDA16138C78FE2050FAA5EFC53AB527FA340E3E02E89640A9700D5"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "53B74E0F34C2B5B360C8EF6DF7B2AE7F8DE88F7B5E14E35F3E6F9A4919582814",
+      "module": "customtkinter.windows.widgets.ctk_combobox",
+      "path": "customtkinter/windows/widgets/ctk_combobox.py",
+      "source_sha256": "A757584B6AFD9EAEC115F89D21BB7D242699441F17B635785C7515F271A9746A"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "8305D287A35E081BD283A8D6D78A2AA9F5B7EA892ACD9D0BEF37AD6E2820F2AF",
+      "module": "customtkinter.windows.widgets.ctk_entry",
+      "path": "customtkinter/windows/widgets/ctk_entry.py",
+      "source_sha256": "6F185C64042DF354B9F54039BFD7C9B6C5CB2C77FD36E532E2A0E1E0ADA6F847"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "3AA90A30ED605A644B176E88F6F9E4757AF5EE3E006EE55594109655BD75868F",
+      "module": "customtkinter.windows.widgets.ctk_frame",
+      "path": "customtkinter/windows/widgets/ctk_frame.py",
+      "source_sha256": "85CC8687C3B30760B3C026FD7380CC0B6F50A894BD6B0CCDCC46599B3BF952C7"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "E7E1EDF2EBFC18BB8FC47010E29D314219752381A2774FFD3F111E2EF4FC305D",
+      "module": "customtkinter.windows.widgets.ctk_label",
+      "path": "customtkinter/windows/widgets/ctk_label.py",
+      "source_sha256": "E160D12FF81B72D57DB7E4882A9D68A306EF5C1FB1DC2379A39C9A8EB3A88311"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "314D4F4323C185BB91ADE2AB4FE8CFF262FAF6BBBF140964E3E56FEBB6E75A0C",
+      "module": "customtkinter.windows.widgets.ctk_optionmenu",
+      "path": "customtkinter/windows/widgets/ctk_optionmenu.py",
+      "source_sha256": "E60D8ECC8EA67B1CC66719AB512B6CCAE1BE3228A102BF94872CD54B9CB9BE4A"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "8D92684399099182E83DB701979B94A94D58664081F834F5CB2F4BFE7B5D7928",
+      "module": "customtkinter.windows.widgets.ctk_progressbar",
+      "path": "customtkinter/windows/widgets/ctk_progressbar.py",
+      "source_sha256": "93C69AFD150855BFA0354B0E531207033064C3CC83819B94D1AAF925E469E040"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "03F873D026EB9974B43DF447630F59A27993EAE9BF25F809140CA15B97599D1F",
+      "module": "customtkinter.windows.widgets.ctk_radiobutton",
+      "path": "customtkinter/windows/widgets/ctk_radiobutton.py",
+      "source_sha256": "844634B83B92B66922CE5A643FC42C7CB5D181135EC5A8FF24F33CFF62327F74"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "7E76906232A4AE2F8B42B2E6DCC46285EA9CC218EE14A587A5B965467D631060",
+      "module": "customtkinter.windows.widgets.ctk_scrollable_frame",
+      "path": "customtkinter/windows/widgets/ctk_scrollable_frame.py",
+      "source_sha256": "C0A248D54DFA9B91610E321CB83A183D66D341B2C3B6EB015EEDDCD546103B39"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "8909D4F71503359AAEFA818F15490B27ADCA2BB81F9F3C96CE908A30EB32985D",
+      "module": "customtkinter.windows.widgets.ctk_scrollbar",
+      "path": "customtkinter/windows/widgets/ctk_scrollbar.py",
+      "source_sha256": "70EE8DC04C6EB5D49750149175B56F7BD6F476F57D76352CF4FC5EB6A7F17E7F"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "C473B56684735080A4A241A96875C9ED30DDE83E5A5B16D477A1ACABF8228C83",
+      "module": "customtkinter.windows.widgets.ctk_segmented_button",
+      "path": "customtkinter/windows/widgets/ctk_segmented_button.py",
+      "source_sha256": "CCA3E3D49FD96C45DBB797A7EEF1DD661A28A8D22B0E4AF70CAA3E404437AEF7"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "90EA4D52892035E581C0CFCEDBCC434B436FA2223D0D4E36FABBC8CBB96AAB17",
+      "module": "customtkinter.windows.widgets.ctk_slider",
+      "path": "customtkinter/windows/widgets/ctk_slider.py",
+      "source_sha256": "D7163DBE785AF9D8E6CA6D222E906454ADF46820F0F7696A4CC3A06622781E19"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "4357759DC08F7779D8FE07CC90BE8C2BF5ECDD92429640F9D120EC74ADAED032",
+      "module": "customtkinter.windows.widgets.ctk_switch",
+      "path": "customtkinter/windows/widgets/ctk_switch.py",
+      "source_sha256": "68EB1C47AF21A075649AE82758CA9396C2A52D98060A23B5ADF5E40CE4120B46"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "08E722CD57A5098A5DBDB248E17BC2D5A4F99AA2C1112614674A6AC4826BB1DA",
+      "module": "customtkinter.windows.widgets.ctk_tabview",
+      "path": "customtkinter/windows/widgets/ctk_tabview.py",
+      "source_sha256": "89E1AE110A941FB9A23D0588912CA89FB29559D6EA145296E64EE806FE778D18"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "D1A6A4BA8F5F4BC3C78FA6B0A1746DDF68FCABAEE8BE0CE0015FF527B7D63CE9",
+      "module": "customtkinter.windows.widgets.ctk_textbox",
+      "path": "customtkinter/windows/widgets/ctk_textbox.py",
+      "source_sha256": "97E5C441061528C07B713124E21D79D1BDACFA8D87A5187BCC744E55CF47DDB0"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "72E4414876CE979DA753B515BD071ADFB70F7D19CDD5EFD76C69774C91A59906",
+      "module": "customtkinter.windows.widgets.font",
+      "path": "customtkinter/windows/widgets/font/__init__.py",
+      "source_sha256": "CD8952B091FEF2B2FBEEDEDD933D2F5CEA1F1E1F0D76222E3102B857C99F20D3"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "3F2767B46564E482130ED71091D0B6DEAEE9E21F8FF13DF63C3713BD26215014",
+      "module": "customtkinter.windows.widgets.font.ctk_font",
+      "path": "customtkinter/windows/widgets/font/ctk_font.py",
+      "source_sha256": "E5C747BEE8C1FED7C396CC3D651322181012BE645283F5886D217DF71FF6D6F0"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "F3B5AD11981632B4630AF209E34DEE6FF3344C196F48452E8D619B1B0B371889",
+      "module": "customtkinter.windows.widgets.font.font_manager",
+      "path": "customtkinter/windows/widgets/font/font_manager.py",
+      "source_sha256": "8F0A6EEB5674D27A2AD1459C15A1DFB40311BD78262901C4990883ABE0ABA8DC"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "C4E2D9B5ACD47B5122D80F192208B8A586760EEF5ADA8051AD322DBA800CC0D8",
+      "module": "customtkinter.windows.widgets.image",
+      "path": "customtkinter/windows/widgets/image/__init__.py",
+      "source_sha256": "A736F0948015E0E13E0A4771248AE5D442DC460EEF6D02A40BA1DA1CB183348F"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "A97736CD58F6A5368FAC0CAF6F7482A02FA80AE551F855CF995EC3E990724870",
+      "module": "customtkinter.windows.widgets.image.ctk_image",
+      "path": "customtkinter/windows/widgets/image/ctk_image.py",
+      "source_sha256": "B8BFE826B96AF19D77E2A8E28A2E382E0D37BAD11349FEEB049EA480F1DE6339"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "CB1FF5E7B43DFD974BFC8B92A487363FF50EC263FC229734E3052996BBA2D4DC",
+      "module": "customtkinter.windows.widgets.scaling",
+      "path": "customtkinter/windows/widgets/scaling/__init__.py",
+      "source_sha256": "D868DE1B6FC0E20ABC83BA5138A3F0E904769881FB6FA8910D0BD3DBAAB3F11E"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "D499F33317DB841CE3D1A6217E6C093ACF4BFA6603A3E48BF45F94B55A4EB7E6",
+      "module": "customtkinter.windows.widgets.scaling.scaling_base_class",
+      "path": "customtkinter/windows/widgets/scaling/scaling_base_class.py",
+      "source_sha256": "55BCF303D18FBA33986C42630EC4119EFA18EAFED14A2B59C2BDFB95902493FF"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "402208170A4525A9885534E5A11722A7395137D14A52D5D4735D1F76ADBA495D",
+      "module": "customtkinter.windows.widgets.scaling.scaling_tracker",
+      "path": "customtkinter/windows/widgets/scaling/scaling_tracker.py",
+      "source_sha256": "72E8A55C47924CECA580344D7F6921F9E0D04A1BA9FA2D8D73BA0E70BA3756DC"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "08B804608B79934EB80580EE328C58E6F88709285EFE8968B95731F91CF91993",
+      "module": "customtkinter.windows.widgets.theme",
+      "path": "customtkinter/windows/widgets/theme/__init__.py",
+      "source_sha256": "899E93E8EFAFDFD84E2DF4CBB8D6D32EDD1703FADA098B71C069E6A8D0762E69"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "2F190509B8FFBA4BA159DBCEA412A839D1A8182D410E78CA30F21819AF3011BE",
+      "module": "customtkinter.windows.widgets.theme.theme_manager",
+      "path": "customtkinter/windows/widgets/theme/theme_manager.py",
+      "source_sha256": "13E56DCD6299D885EB73F86F7C651D8F9D0636BF1E208ED2FDF581939F318B1D"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "334EA26EDBBC507FD8200BAD0F8CA605188B19A14DA9F3D61848B41B37043445",
+      "module": "customtkinter.windows.widgets.utility",
+      "path": "customtkinter/windows/widgets/utility/__init__.py",
+      "source_sha256": "493B20390BD3840A146AB57DA2F33A338D1AADA4140CD53F4269876F231A471D"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "frozen_code_sha256": "2D051D7253D3CCCF273F22480619ADD28392C5C4D547740E0A8D89E36E8C8A12",
+      "module": "customtkinter.windows.widgets.utility.utility_functions",
+      "path": "customtkinter/windows/widgets/utility/utility_functions.py",
+      "source_sha256": "7745A3E408A8C616F7AAD0B4213B8D6478F07C51DE8147CAF9B7E40D7AEBB9F9"
+    }
+  ],
+  "new_source_acquisitions": 2,
+  "notice_delivery": "PENDING_FIX",
+  "notice_identity": "PARTIAL",
+  "other_blocks": "unchanged; Deno NEXT_SEPARATE_GAP; Microsoft P3_PENDING_REVIEW; Gyan active; BtbN CANDIDATE_NOT_PROMOTED",
+  "package_member_classification": [
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter-5.2.2.dist-info/LICENSE",
+      "source_path": "LICENSE"
+    },
+    {
+      "classification": "GENERATED_PACKAGING_METADATA",
+      "in_sdist": false,
+      "in_tag": false,
+      "path": "customtkinter-5.2.2.dist-info/METADATA"
+    },
+    {
+      "classification": "GENERATED_PACKAGING_METADATA",
+      "in_sdist": false,
+      "in_tag": false,
+      "path": "customtkinter-5.2.2.dist-info/RECORD"
+    },
+    {
+      "classification": "GENERATED_PACKAGING_METADATA",
+      "in_sdist": false,
+      "in_tag": false,
+      "path": "customtkinter-5.2.2.dist-info/WHEEL"
+    },
+    {
+      "classification": "GENERATED_PACKAGING_METADATA",
+      "in_sdist": false,
+      "in_tag": false,
+      "path": "customtkinter-5.2.2.dist-info/top_level.txt"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/__init__.py"
+    },
+    {
+      "classification": "NON_RUNTIME_PACKAGING_RESIDUE",
+      "in_sdist": true,
+      "in_tag": false,
+      "path": "customtkinter/assets/.DS_Store"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/assets/fonts/CustomTkinter_shapes_font.otf"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/assets/fonts/Roboto/Roboto-Medium.ttf"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/assets/fonts/Roboto/Roboto-Regular.ttf"
+    },
+    {
+      "classification": "NON_RUNTIME_PACKAGING_RESIDUE",
+      "in_sdist": true,
+      "in_tag": false,
+      "path": "customtkinter/assets/icons/.DS_Store"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/assets/icons/CustomTkinter_icon_Windows.ico"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/assets/themes/blue.json"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/assets/themes/dark-blue.json"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/assets/themes/green.json"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/ctk_input_dialog.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/ctk_tk.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/ctk_toplevel.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/appearance_mode/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/appearance_mode/appearance_mode_base_class.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/appearance_mode/appearance_mode_tracker.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/core_rendering/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/core_rendering/ctk_canvas.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/core_rendering/draw_engine.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/core_widget_classes/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/core_widget_classes/ctk_base_class.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/core_widget_classes/dropdown_menu.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/ctk_button.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/ctk_checkbox.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/ctk_combobox.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/ctk_entry.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/ctk_frame.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/ctk_label.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/ctk_optionmenu.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/ctk_progressbar.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/ctk_radiobutton.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/ctk_scrollable_frame.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/ctk_scrollbar.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/ctk_segmented_button.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/ctk_slider.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/ctk_switch.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/ctk_tabview.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/ctk_textbox.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/font/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/font/ctk_font.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/font/font_manager.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/image/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/image/ctk_image.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/scaling/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/scaling/scaling_base_class.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/scaling/scaling_tracker.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/theme/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/theme/theme_manager.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/utility/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "in_sdist": true,
+      "in_tag": true,
+      "path": "customtkinter/windows/widgets/utility/utility_functions.py"
+    }
+  ],
+  "parents_preserved": 2,
+  "recorded_on": "2026-09-08",
+  "roboto": {
+    "hashes": {
+      "Medium": "4AC8E03606FFA4C37F61A6510A2080F1F37A7054F4726C214887D3B23F72E369",
+      "Regular": "319CFF6E7A31F0F2A41C475DCA42890AA5D19FE16017E2290F8C1D4E14F76481"
+    },
+    "license": "Apache-2.0",
+    "license_authority_commit": "724bf98e9f5cb98a1d3d5044f45a2e286b817401",
+    "license_evidence": "roboto-historical-LICENSE.txt",
+    "name_tables": {
+      "Medium": {
+        "0": [
+          "Copyright 2011 Google Inc. All Rights Reserved."
+        ],
+        "1": [
+          "Roboto Medium"
+        ],
+        "11": [
+          "Google.com"
+        ],
+        "12": [
+          "Christian Robertson"
+        ],
+        "13": [
+          "Licensed under the Apache License, Version 2.0"
+        ],
+        "14": [
+          "http://www.apache.org/licenses/LICENSE-2.0"
+        ],
+        "2": [
+          "Regular"
+        ],
+        "3": [
+          "Roboto Medium"
+        ],
+        "4": [
+          "Roboto Medium"
+        ],
+        "5": [
+          "Version 2.137; 2017"
+        ],
+        "6": [
+          "Roboto-Medium"
+        ],
+        "9": [
+          "Google"
+        ]
+      },
+      "Regular": {
+        "0": [
+          "Copyright 2011 Google Inc. All Rights Reserved."
+        ],
+        "1": [
+          "Roboto"
+        ],
+        "11": [
+          "Google.com"
+        ],
+        "12": [
+          "Christian Robertson"
+        ],
+        "13": [
+          "Licensed under the Apache License, Version 2.0"
+        ],
+        "14": [
+          "http://www.apache.org/licenses/LICENSE-2.0"
+        ],
+        "2": [
+          "Regular"
+        ],
+        "3": [
+          "Roboto"
+        ],
+        "4": [
+          "Roboto"
+        ],
+        "5": [
+          "Version 2.137; 2017"
+        ],
+        "6": [
+          "Roboto-Regular"
+        ],
+        "9": [
+          "Google"
+        ]
+      }
+    },
+    "producer_status": "PROVENANCE_PENDING",
+    "producing_parent": null,
+    "rejected_producers": [
+      {
+        "commit": "724bf98e9f5cb98a1d3d5044f45a2e286b817401",
+        "reason": "2.137 Regular 171676 / Medium 172064 bytes; Git blobs differ from shipped 168260 / 168644",
+        "repository": "google/fonts"
+      },
+      {
+        "commit": "ab4876f650a4aeb9b661c83fee47f908c739bb70",
+        "reason": "2.138 and hinted bytes differ",
+        "repository": "googlefonts/roboto-2"
+      },
+      {
+        "commit": "7c4152a2fea8fe850b513cfd1a4fee3052d578e4",
+        "reason": "same 171676 / 172064 Google Fonts blobs; mismatch",
+        "repository": "googlefonts/robototester"
+      }
+    ],
+    "source_archive_acquired": false,
+    "version": "2.137"
+  },
+  "schema_version": 1,
+  "sdist_inventory": {
+    "file_count": 62,
+    "files": [
+      {
+        "path": "LICENSE",
+        "sha256": "C973B8600E620159CB0473EB9B08783143E0D9ED5333F350FC933368D94D9E0D",
+        "size": 1071
+      },
+      {
+        "path": "MANIFEST.in",
+        "sha256": "B919285E32F5503315157A661744B7BA68A19BB744241F9E3194EA16A7799BD9",
+        "size": 187
+      },
+      {
+        "path": "PKG-INFO",
+        "sha256": "B386D0619793E50E642A42FB5330A21176ED08225288AA447C8C92030E0D2204",
+        "size": 676
+      },
+      {
+        "path": "customtkinter.egg-info/PKG-INFO",
+        "sha256": "B386D0619793E50E642A42FB5330A21176ED08225288AA447C8C92030E0D2204",
+        "size": 676
+      },
+      {
+        "path": "customtkinter.egg-info/SOURCES.txt",
+        "sha256": "51B99B1B36D782915315F7BB60AE3CBEA98C34905EB44438505F70B31EF68369",
+        "size": 2793
+      },
+      {
+        "path": "customtkinter.egg-info/dependency_links.txt",
+        "sha256": "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B",
+        "size": 1
+      },
+      {
+        "path": "customtkinter.egg-info/requires.txt",
+        "sha256": "9C75E814C9BF3A8C9159E503E75F1C459BCFD68576124BA3F024992A2542E18F",
+        "size": 67
+      },
+      {
+        "path": "customtkinter.egg-info/top_level.txt",
+        "sha256": "C0B5EB636292F158F63270081F9DF11F980730D08B08A4049A7D908D4F670C7D",
+        "size": 14
+      },
+      {
+        "path": "customtkinter/__init__.py",
+        "sha256": "FDE2E3A726E1401E3D38E45430853EA29F30D3F5B81B1BACE40422DF2CD07238",
+        "size": 2861
+      },
+      {
+        "path": "customtkinter/assets/.DS_Store",
+        "sha256": "57ADA387AF15BFF448242A05E4E35D2B757798B0802CB894C81B4DC4E473002F",
+        "size": 6148
+      },
+      {
+        "path": "customtkinter/assets/fonts/CustomTkinter_shapes_font.otf",
+        "sha256": "FAD67E2B060C318B6C8646D087FBD3ADD938B6676243F14B0C52623179641274",
+        "size": 3528
+      },
+      {
+        "path": "customtkinter/assets/fonts/Roboto/Roboto-Medium.ttf",
+        "sha256": "4AC8E03606FFA4C37F61A6510A2080F1F37A7054F4726C214887D3B23F72E369",
+        "size": 168644
+      },
+      {
+        "path": "customtkinter/assets/fonts/Roboto/Roboto-Regular.ttf",
+        "sha256": "319CFF6E7A31F0F2A41C475DCA42890AA5D19FE16017E2290F8C1D4E14F76481",
+        "size": 168260
+      },
+      {
+        "path": "customtkinter/assets/icons/.DS_Store",
+        "sha256": "E53EFB2CA4FDE2219A3DC5DED422EC46EECC7A0547B6663B9AC9E16196AC6D25",
+        "size": 6148
+      },
+      {
+        "path": "customtkinter/assets/icons/CustomTkinter_icon_Windows.ico",
+        "sha256": "1234C017C871EB2E20D36F668F93E066CDCB93DB464D5CEF9D7A5BF83506D28C",
+        "size": 13238
+      },
+      {
+        "path": "customtkinter/assets/themes/blue.json",
+        "sha256": "C9417470C16CED7A43D6C4A8E027AFA6EDC62C24D5AEE7C4C2DCD11385964D3B",
+        "size": 4520
+      },
+      {
+        "path": "customtkinter/assets/themes/dark-blue.json",
+        "sha256": "6A57FA6F8FB8961A30CE6429522B180D76E3AF9B8E0DAAC259059841386A6BD3",
+        "size": 4514
+      },
+      {
+        "path": "customtkinter/assets/themes/green.json",
+        "sha256": "79AD86BFEA7F0557AC1E20802892ABB44A967AF15B9315B0039CD75C8B72A776",
+        "size": 4515
+      },
+      {
+        "path": "customtkinter/windows/__init__.py",
+        "sha256": "792A28D31FF85E44A893F05A41BB4CF80B70311BB5CDAE8C3E177A61F5B3EAC2",
+        "size": 107
+      },
+      {
+        "path": "customtkinter/windows/ctk_input_dialog.py",
+        "sha256": "FE60165440523E2B8180849B5DA584F0B1B916CEE1A7428E33E06655F0709E9D",
+        "size": 5897
+      },
+      {
+        "path": "customtkinter/windows/ctk_tk.py",
+        "sha256": "A6F603EE63FD497755288A2645B34AB7466EDA916C20E7F7DB8E83A8F173D4F8",
+        "size": 15646
+      },
+      {
+        "path": "customtkinter/windows/ctk_toplevel.py",
+        "sha256": "8C4689A579C05D6EB0B1D7A1DD3AFDA00064DFD192BA4D19FFB3A01BC17D35FF",
+        "size": 14750
+      },
+      {
+        "path": "customtkinter/windows/widgets/__init__.py",
+        "sha256": "0CDA213A917947601ED623F8C0DA6C0D890E9CC46256B70D77008F588C4D5862",
+        "size": 622
+      },
+      {
+        "path": "customtkinter/windows/widgets/appearance_mode/__init__.py",
+        "sha256": "7CA28AD1F5541C58AA992670D0664563418A809183B3C039397BD20440B7A928",
+        "size": 172
+      },
+      {
+        "path": "customtkinter/windows/widgets/appearance_mode/appearance_mode_base_class.py",
+        "sha256": "9D35C90B8BE9C23AE00A268EBF7576D3156FB64C4A47DA5527290892158A173F",
+        "size": 2602
+      },
+      {
+        "path": "customtkinter/windows/widgets/appearance_mode/appearance_mode_tracker.py",
+        "sha256": "2FE5FE78BC561617A75AD1EBED9FCCA799AC6814CC108C5CFA184AAC8567EDB7",
+        "size": 3630
+      },
+      {
+        "path": "customtkinter/windows/widgets/core_rendering/__init__.py",
+        "sha256": "DB5D9635843DD3FE1863F401EB1D04FB10AAAA6517B167A034F43855E5D228ED",
+        "size": 324
+      },
+      {
+        "path": "customtkinter/windows/widgets/core_rendering/ctk_canvas.py",
+        "sha256": "B971D8A9D4E7B352C0A7619869DC810DC2ADE4FA4D50791AFFB978695D63AAA8",
+        "size": 5894
+      },
+      {
+        "path": "customtkinter/windows/widgets/core_rendering/draw_engine.py",
+        "sha256": "79E5E9B188820CEA94428E4FCF99C11C342A83DF5DAEDE100E33839AB75E7BCC",
+        "size": 91030
+      },
+      {
+        "path": "customtkinter/windows/widgets/core_widget_classes/__init__.py",
+        "sha256": "0EC1B7CE8E21CC05267456EDDDA5E07A7D15B3463DFA9A7270A4C87EB1D360C0",
+        "size": 81
+      },
+      {
+        "path": "customtkinter/windows/widgets/core_widget_classes/ctk_base_class.py",
+        "sha256": "3D3C4F7AABDF9DCB7EC2E5C1AA875B183C697D727AEC26A5DB4D6A2710ADDC41",
+        "size": 15793
+      },
+      {
+        "path": "customtkinter/windows/widgets/core_widget_classes/dropdown_menu.py",
+        "sha256": "742FD211693F5D06D7E3B3632C3CA1B0A87C60A3723C59DDA08231A809CE1911",
+        "size": 8516
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_button.py",
+        "sha256": "4C4FFA4FCF1C2FC69ED69F193B2FD61388A7A718CFD226977A3D2A9A37236C25",
+        "size": 27699
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_checkbox.py",
+        "sha256": "87CC3B486FFDA16138C78FE2050FAA5EFC53AB527FA340E3E02E89640A9700D5",
+        "size": 22420
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_combobox.py",
+        "sha256": "A757584B6AFD9EAEC115F89D21BB7D242699441F17B635785C7515F271A9746A",
+        "size": 20602
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_entry.py",
+        "sha256": "6F185C64042DF354B9F54039BFD7C9B6C5CB2C77FD36E532E2A0E1E0ADA6F847",
+        "size": 17898
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_frame.py",
+        "sha256": "85CC8687C3B30760B3C026FD7380CC0B6F50A894BD6B0CCDCC46599B3BF952C7",
+        "size": 9515
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_label.py",
+        "sha256": "E160D12FF81B72D57DB7E4882A9D68A306EF5C1FB1DC2379A39C9A8EB3A88311",
+        "size": 13106
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_optionmenu.py",
+        "sha256": "E60D8ECC8EA67B1CC66719AB512B6CCAE1BE3228A102BF94872CD54B9CB9BE4A",
+        "size": 19637
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_progressbar.py",
+        "sha256": "93C69AFD150855BFA0354B0E531207033064C3CC83819B94D1AAF925E469E040",
+        "size": 14120
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_radiobutton.py",
+        "sha256": "844634B83B92B66922CE5A643FC42C7CB5D181135EC5A8FF24F33CFF62327F74",
+        "size": 20215
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_scrollable_frame.py",
+        "sha256": "C0A248D54DFA9B91610E321CB83A183D66D341B2C3B6EB015EEDDCD546103B39",
+        "size": 15121
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_scrollbar.py",
+        "sha256": "70EE8DC04C6EB5D49750149175B56F7BD6F476F57D76352CF4FC5EB6A7F17E7F",
+        "size": 13860
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_segmented_button.py",
+        "sha256": "CCA3E3D49FD96C45DBB797A7EEF1DD661A28A8D22B0E4AF70CAA3E404437AEF7",
+        "size": 20878
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_slider.py",
+        "sha256": "D7163DBE785AF9D8E6CA6D222E906454ADF46820F0F7696A4CC3A06622781E19",
+        "size": 18867
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_switch.py",
+        "sha256": "68EB1C47AF21A075649AE82758CA9396C2A52D98060A23B5ADF5E40CE4120B46",
+        "size": 23420
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_tabview.py",
+        "sha256": "89E1AE110A941FB9A23D0588912CA89FB29559D6EA145296E64EE806FE778D18",
+        "size": 21472
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_textbox.py",
+        "sha256": "97E5C441061528C07B713124E21D79D1BDACFA8D87A5187BCC744E55CF47DDB0",
+        "size": 24571
+      },
+      {
+        "path": "customtkinter/windows/widgets/font/__init__.py",
+        "sha256": "CD8952B091FEF2B2FBEEDEDD933D2F5CEA1F1E1F0D76222E3102B857C99F20D3",
+        "size": 1302
+      },
+      {
+        "path": "customtkinter/windows/widgets/font/ctk_font.py",
+        "sha256": "E5C747BEE8C1FED7C396CC3D651322181012BE645283F5886D217DF71FF6D6F0",
+        "size": 3825
+      },
+      {
+        "path": "customtkinter/windows/widgets/font/font_manager.py",
+        "sha256": "8F0A6EEB5674D27A2AD1459C15A1DFB40311BD78262901C4990883ABE0ABA8DC",
+        "size": 2268
+      },
+      {
+        "path": "customtkinter/windows/widgets/image/__init__.py",
+        "sha256": "A736F0948015E0E13E0A4771248AE5D442DC460EEF6D02A40BA1DA1CB183348F",
+        "size": 32
+      },
+      {
+        "path": "customtkinter/windows/widgets/image/ctk_image.py",
+        "sha256": "B8BFE826B96AF19D77E2A8E28A2E382E0D37BAD11349FEEB049EA480F1DE6339",
+        "size": 5306
+      },
+      {
+        "path": "customtkinter/windows/widgets/scaling/__init__.py",
+        "sha256": "D868DE1B6FC0E20ABC83BA5138A3F0E904769881FB6FA8910D0BD3DBAAB3F11E",
+        "size": 287
+      },
+      {
+        "path": "customtkinter/windows/widgets/scaling/scaling_base_class.py",
+        "sha256": "55BCF303D18FBA33986C42630EC4119EFA18EAFED14A2B59C2BDFB95902493FF",
+        "size": 7060
+      },
+      {
+        "path": "customtkinter/windows/widgets/scaling/scaling_tracker.py",
+        "sha256": "72E8A55C47924CECA580344D7F6921F9E0D04A1BA9FA2D8D73BA0E70BA3756DC",
+        "size": 8745
+      },
+      {
+        "path": "customtkinter/windows/widgets/theme/__init__.py",
+        "sha256": "899E93E8EFAFDFD84E2DF4CBB8D6D32EDD1703FADA098B71C069E6A8D0762E69",
+        "size": 471
+      },
+      {
+        "path": "customtkinter/windows/widgets/theme/theme_manager.py",
+        "sha256": "13E56DCD6299D885EB73F86F7C651D8F9D0636BF1E208ED2FDF581939F318B1D",
+        "size": 2179
+      },
+      {
+        "path": "customtkinter/windows/widgets/utility/__init__.py",
+        "sha256": "493B20390BD3840A146AB57DA2F33A338D1AADA4140CD53F4269876F231A471D",
+        "size": 72
+      },
+      {
+        "path": "customtkinter/windows/widgets/utility/utility_functions.py",
+        "sha256": "7745A3E408A8C616F7AAD0B4213B8D6478F07C51DE8147CAF9B7E40D7AEBB9F9",
+        "size": 766
+      },
+      {
+        "path": "pyproject.toml",
+        "sha256": "79FFF91703742AD798DCD238F237486807DD7116E5795D531066CB684120DFF7",
+        "size": 757
+      },
+      {
+        "path": "setup.cfg",
+        "sha256": "F6D5AB6A22F4FA11F9FE95AF00BEA3A2A4EF6064D599C99E4CF2360D6292FAA2",
+        "size": 1341
+      }
+    ],
+    "inventory_sha256": "9DBF086270A2C4DE68181608F1D063AEDADA1EEB9BA2537C2BABF5DAA29BE693",
+    "total_size": 890737
+  },
+  "sdist_member_classification": [
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "LICENSE"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "MANIFEST.in"
+    },
+    {
+      "classification": "GENERATED_PACKAGING_METADATA",
+      "path": "PKG-INFO"
+    },
+    {
+      "classification": "GENERATED_PACKAGING_METADATA",
+      "path": "customtkinter.egg-info/PKG-INFO"
+    },
+    {
+      "classification": "GENERATED_PACKAGING_METADATA",
+      "path": "customtkinter.egg-info/SOURCES.txt"
+    },
+    {
+      "classification": "GENERATED_PACKAGING_METADATA",
+      "path": "customtkinter.egg-info/dependency_links.txt"
+    },
+    {
+      "classification": "GENERATED_PACKAGING_METADATA",
+      "path": "customtkinter.egg-info/requires.txt"
+    },
+    {
+      "classification": "GENERATED_PACKAGING_METADATA",
+      "path": "customtkinter.egg-info/top_level.txt"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/__init__.py"
+    },
+    {
+      "classification": "NON_RUNTIME_PACKAGING_RESIDUE",
+      "path": "customtkinter/assets/.DS_Store"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/assets/fonts/CustomTkinter_shapes_font.otf"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/assets/fonts/Roboto/Roboto-Medium.ttf"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/assets/fonts/Roboto/Roboto-Regular.ttf"
+    },
+    {
+      "classification": "NON_RUNTIME_PACKAGING_RESIDUE",
+      "path": "customtkinter/assets/icons/.DS_Store"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/assets/icons/CustomTkinter_icon_Windows.ico"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/assets/themes/blue.json"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/assets/themes/dark-blue.json"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/assets/themes/green.json"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/ctk_input_dialog.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/ctk_tk.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/ctk_toplevel.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/appearance_mode/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/appearance_mode/appearance_mode_base_class.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/appearance_mode/appearance_mode_tracker.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/core_rendering/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/core_rendering/ctk_canvas.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/core_rendering/draw_engine.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/core_widget_classes/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/core_widget_classes/ctk_base_class.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/core_widget_classes/dropdown_menu.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/ctk_button.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/ctk_checkbox.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/ctk_combobox.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/ctk_entry.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/ctk_frame.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/ctk_label.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/ctk_optionmenu.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/ctk_progressbar.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/ctk_radiobutton.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/ctk_scrollable_frame.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/ctk_scrollbar.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/ctk_segmented_button.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/ctk_slider.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/ctk_switch.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/ctk_tabview.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/ctk_textbox.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/font/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/font/ctk_font.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/font/font_manager.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/image/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/image/ctk_image.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/scaling/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/scaling/scaling_base_class.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/scaling/scaling_tracker.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/theme/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/theme/theme_manager.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/utility/__init__.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "customtkinter/windows/widgets/utility/utility_functions.py"
+    },
+    {
+      "classification": "SOURCE_MATCH",
+      "path": "pyproject.toml"
+    },
+    {
+      "classification": "GENERATED_PACKAGING_METADATA",
+      "path": "setup.cfg"
+    }
+  ],
+  "setup_cfg_transformation": {
+    "changes": [
+      "whitespace/indentation reformatted",
+      "added egg_info: tag_build empty, tag_date 0"
+    ],
+    "classification": "GENERATED_PACKAGING_METADATA",
+    "original_fields": "SEMANTICALLY_IDENTICAL_INCLUDING_CC0_AND_MIT_CLASSIFIER",
+    "sdist_sha256": "F6D5AB6A22F4FA11F9FE95AF00BEA3A2A4EF6064D599C99E4CF2360D6292FAA2",
+    "tag_sha256": "AE6E45B8633190860F3CAF5B82EE59C85EC567D27A13ADC6D8DC9506ACBA95D6"
+  },
+  "shapes_font": {
+    "classification": "COVERED_BY_CUSTOMTKINTER_PARENT",
+    "history_commit": "15558b4d0f093b346aeaf207939da71e2dd6db69",
+    "name_table": {
+      "0": [
+        " "
+      ],
+      "1": [
+        "CustomTkinter_shapes_font"
+      ],
+      "11": [
+        " "
+      ],
+      "12": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ],
+      "2": [
+        "Regular"
+      ],
+      "3": [
+        " :CustomTkinter_shapes_font Regular"
+      ],
+      "4": [
+        "CustomTkinter_shapes_font Regular"
+      ],
+      "5": [
+        "Version 0.001"
+      ],
+      "6": [
+        "CustomTkinter_shapes_fontRegular"
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ]
+    },
+    "specific_terms": "P3_PENDING"
+  },
+  "source_blocked": 1,
+  "source_pending": 1,
+  "stack_overflow": {
+    "adaptations": [
+      {
+        "detail": "AddFontResourceExA/W; private and enumerable flags; ctypes buffers",
+        "kind": "UNCHANGED"
+      },
+      {
+        "detail": "camelCase locals become snake_case",
+        "kind": "RENAMED"
+      },
+      {
+        "detail": "str/unicode become bytes/str",
+        "kind": "PYTHON3_ADAPTATION"
+      },
+      {
+        "detail": "module function becomes classmethod of FontManager",
+        "kind": "STRUCTURAL_CHANGE"
+      },
+      {
+        "detail": "bool(count) becomes bool(min(count, 1)); diagnostic/docstring changes",
+        "kind": "OTHER"
+      }
+    ],
+    "answer_id": 30631309,
+    "author": "Felipe",
+    "canonical_url": "https://stackoverflow.com/questions/11993290/truly-custom-font-in-tkinter/30631309",
+    "creation_date": 1433367854,
+    "fontmanager_creation_commit": "afe44f4ff772030211d0659972aaea559776e53d",
+    "license_policy_observed": "Contributions 2011-04-08 <= t < 2018-05-02: CC BY-SA 3.0; later: 4.0; applicability P3",
+    "license_policy_url": "https://stackoverflow.com/help/licensing",
+    "lineage_excerpt": "from ctypes import windll, byref, create_unicode_buffer, create_string_buffer",
+    "lineage_status": "RESOLVED",
+    "original_link": "https://github.com/ifwe/digsby/blob/f5fe00244744aa131e07f09348d10563f3d8fa99/digsby/src/gui/native/win/winfonts.py",
+    "revision_available_at_fontmanager_creation": 3,
+    "revision_used": null,
+    "revision_used_status": "REVISION_IDENTITY_PARTIAL",
+    "revisions": [
+      {
+        "api_content_license": "CC BY-SA 3.0",
+        "author": "Felipe",
+        "code_sha256": "C4164EDB8AAFFAB52FA3BA8A3F758BA6705EDCBF0FAF927BBFA0CC82EEA990B3",
+        "comment": "",
+        "contains_digsby_reference": true,
+        "creation_date": 1433367854,
+        "guid": "5BD436D5-49FD-4F42-8279-7D3BB172393D",
+        "number": 1
+      },
+      {
+        "api_content_license": "CC BY-SA 3.0",
+        "author": "Felipe",
+        "code_sha256": "C4164EDB8AAFFAB52FA3BA8A3F758BA6705EDCBF0FAF927BBFA0CC82EEA990B3",
+        "comment": "incorporated suggestion from comments for finding the font family name",
+        "contains_digsby_reference": true,
+        "creation_date": 1433376445,
+        "guid": "585246BE-0D5B-41F2-A328-3CE4EAD15BEF",
+        "number": 2
+      },
+      {
+        "api_content_license": "CC BY-SA 4.0",
+        "author": "mkrieger1",
+        "code_sha256": "C4164EDB8AAFFAB52FA3BA8A3F758BA6705EDCBF0FAF927BBFA0CC82EEA990B3",
+        "comment": "deleted 26 characters in body",
+        "contains_digsby_reference": true,
+        "creation_date": 1643053311,
+        "guid": "ACCD8372-28F2-4AD7-A4AF-8A5B94A79150",
+        "number": 3
+      },
+      {
+        "api_content_license": "CC BY-SA 4.0",
+        "author": "TheLizzard",
+        "code_sha256": "56034E9B3E7CAD372A5713D4D148AFDFA78BA86CE16E0C31F6978C4E8052B591",
+        "comment": "Removed trailing white spaces",
+        "contains_digsby_reference": true,
+        "creation_date": 1673449198,
+        "guid": "9B862B5B-EEA5-4608-99AC-C614DD44B412",
+        "number": 4
+      }
+    ],
+    "role": "PROVENANCE_INTERMEDIARY / NOTICE_EVIDENCE"
+  },
+  "staging": null,
+  "unknown_material_files": 2,
+  "wheel_inventory": {
+    "file_count": 57,
+    "files": [
+      {
+        "path": "customtkinter-5.2.2.dist-info/LICENSE",
+        "sha256": "C973B8600E620159CB0473EB9B08783143E0D9ED5333F350FC933368D94D9E0D",
+        "size": 1071
+      },
+      {
+        "path": "customtkinter-5.2.2.dist-info/METADATA",
+        "sha256": "26ED0B552F28055764CDFBD5EC3E25AE645DFCB012100179A7C3DE558C3A0EC3",
+        "size": 677
+      },
+      {
+        "path": "customtkinter-5.2.2.dist-info/RECORD",
+        "sha256": "7460D0CFA35C57E31810D5FBA16934866443798E6F763C820D8BE9642ED03A58",
+        "size": 5903
+      },
+      {
+        "path": "customtkinter-5.2.2.dist-info/WHEEL",
+        "sha256": "A2241587FE4F9D033413780F762CF4F5608D9B08870CC6867ABFDE96A0777283",
+        "size": 92
+      },
+      {
+        "path": "customtkinter-5.2.2.dist-info/top_level.txt",
+        "sha256": "C0B5EB636292F158F63270081F9DF11F980730D08B08A4049A7D908D4F670C7D",
+        "size": 14
+      },
+      {
+        "path": "customtkinter/__init__.py",
+        "sha256": "FDE2E3A726E1401E3D38E45430853EA29F30D3F5B81B1BACE40422DF2CD07238",
+        "size": 2861
+      },
+      {
+        "path": "customtkinter/assets/.DS_Store",
+        "sha256": "57ADA387AF15BFF448242A05E4E35D2B757798B0802CB894C81B4DC4E473002F",
+        "size": 6148
+      },
+      {
+        "path": "customtkinter/assets/fonts/CustomTkinter_shapes_font.otf",
+        "sha256": "FAD67E2B060C318B6C8646D087FBD3ADD938B6676243F14B0C52623179641274",
+        "size": 3528
+      },
+      {
+        "path": "customtkinter/assets/fonts/Roboto/Roboto-Medium.ttf",
+        "sha256": "4AC8E03606FFA4C37F61A6510A2080F1F37A7054F4726C214887D3B23F72E369",
+        "size": 168644
+      },
+      {
+        "path": "customtkinter/assets/fonts/Roboto/Roboto-Regular.ttf",
+        "sha256": "319CFF6E7A31F0F2A41C475DCA42890AA5D19FE16017E2290F8C1D4E14F76481",
+        "size": 168260
+      },
+      {
+        "path": "customtkinter/assets/icons/.DS_Store",
+        "sha256": "E53EFB2CA4FDE2219A3DC5DED422EC46EECC7A0547B6663B9AC9E16196AC6D25",
+        "size": 6148
+      },
+      {
+        "path": "customtkinter/assets/icons/CustomTkinter_icon_Windows.ico",
+        "sha256": "1234C017C871EB2E20D36F668F93E066CDCB93DB464D5CEF9D7A5BF83506D28C",
+        "size": 13238
+      },
+      {
+        "path": "customtkinter/assets/themes/blue.json",
+        "sha256": "C9417470C16CED7A43D6C4A8E027AFA6EDC62C24D5AEE7C4C2DCD11385964D3B",
+        "size": 4520
+      },
+      {
+        "path": "customtkinter/assets/themes/dark-blue.json",
+        "sha256": "6A57FA6F8FB8961A30CE6429522B180D76E3AF9B8E0DAAC259059841386A6BD3",
+        "size": 4514
+      },
+      {
+        "path": "customtkinter/assets/themes/green.json",
+        "sha256": "79AD86BFEA7F0557AC1E20802892ABB44A967AF15B9315B0039CD75C8B72A776",
+        "size": 4515
+      },
+      {
+        "path": "customtkinter/windows/__init__.py",
+        "sha256": "792A28D31FF85E44A893F05A41BB4CF80B70311BB5CDAE8C3E177A61F5B3EAC2",
+        "size": 107
+      },
+      {
+        "path": "customtkinter/windows/ctk_input_dialog.py",
+        "sha256": "FE60165440523E2B8180849B5DA584F0B1B916CEE1A7428E33E06655F0709E9D",
+        "size": 5897
+      },
+      {
+        "path": "customtkinter/windows/ctk_tk.py",
+        "sha256": "A6F603EE63FD497755288A2645B34AB7466EDA916C20E7F7DB8E83A8F173D4F8",
+        "size": 15646
+      },
+      {
+        "path": "customtkinter/windows/ctk_toplevel.py",
+        "sha256": "8C4689A579C05D6EB0B1D7A1DD3AFDA00064DFD192BA4D19FFB3A01BC17D35FF",
+        "size": 14750
+      },
+      {
+        "path": "customtkinter/windows/widgets/__init__.py",
+        "sha256": "0CDA213A917947601ED623F8C0DA6C0D890E9CC46256B70D77008F588C4D5862",
+        "size": 622
+      },
+      {
+        "path": "customtkinter/windows/widgets/appearance_mode/__init__.py",
+        "sha256": "7CA28AD1F5541C58AA992670D0664563418A809183B3C039397BD20440B7A928",
+        "size": 172
+      },
+      {
+        "path": "customtkinter/windows/widgets/appearance_mode/appearance_mode_base_class.py",
+        "sha256": "9D35C90B8BE9C23AE00A268EBF7576D3156FB64C4A47DA5527290892158A173F",
+        "size": 2602
+      },
+      {
+        "path": "customtkinter/windows/widgets/appearance_mode/appearance_mode_tracker.py",
+        "sha256": "2FE5FE78BC561617A75AD1EBED9FCCA799AC6814CC108C5CFA184AAC8567EDB7",
+        "size": 3630
+      },
+      {
+        "path": "customtkinter/windows/widgets/core_rendering/__init__.py",
+        "sha256": "DB5D9635843DD3FE1863F401EB1D04FB10AAAA6517B167A034F43855E5D228ED",
+        "size": 324
+      },
+      {
+        "path": "customtkinter/windows/widgets/core_rendering/ctk_canvas.py",
+        "sha256": "B971D8A9D4E7B352C0A7619869DC810DC2ADE4FA4D50791AFFB978695D63AAA8",
+        "size": 5894
+      },
+      {
+        "path": "customtkinter/windows/widgets/core_rendering/draw_engine.py",
+        "sha256": "79E5E9B188820CEA94428E4FCF99C11C342A83DF5DAEDE100E33839AB75E7BCC",
+        "size": 91030
+      },
+      {
+        "path": "customtkinter/windows/widgets/core_widget_classes/__init__.py",
+        "sha256": "0EC1B7CE8E21CC05267456EDDDA5E07A7D15B3463DFA9A7270A4C87EB1D360C0",
+        "size": 81
+      },
+      {
+        "path": "customtkinter/windows/widgets/core_widget_classes/ctk_base_class.py",
+        "sha256": "3D3C4F7AABDF9DCB7EC2E5C1AA875B183C697D727AEC26A5DB4D6A2710ADDC41",
+        "size": 15793
+      },
+      {
+        "path": "customtkinter/windows/widgets/core_widget_classes/dropdown_menu.py",
+        "sha256": "742FD211693F5D06D7E3B3632C3CA1B0A87C60A3723C59DDA08231A809CE1911",
+        "size": 8516
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_button.py",
+        "sha256": "4C4FFA4FCF1C2FC69ED69F193B2FD61388A7A718CFD226977A3D2A9A37236C25",
+        "size": 27699
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_checkbox.py",
+        "sha256": "87CC3B486FFDA16138C78FE2050FAA5EFC53AB527FA340E3E02E89640A9700D5",
+        "size": 22420
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_combobox.py",
+        "sha256": "A757584B6AFD9EAEC115F89D21BB7D242699441F17B635785C7515F271A9746A",
+        "size": 20602
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_entry.py",
+        "sha256": "6F185C64042DF354B9F54039BFD7C9B6C5CB2C77FD36E532E2A0E1E0ADA6F847",
+        "size": 17898
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_frame.py",
+        "sha256": "85CC8687C3B30760B3C026FD7380CC0B6F50A894BD6B0CCDCC46599B3BF952C7",
+        "size": 9515
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_label.py",
+        "sha256": "E160D12FF81B72D57DB7E4882A9D68A306EF5C1FB1DC2379A39C9A8EB3A88311",
+        "size": 13106
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_optionmenu.py",
+        "sha256": "E60D8ECC8EA67B1CC66719AB512B6CCAE1BE3228A102BF94872CD54B9CB9BE4A",
+        "size": 19637
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_progressbar.py",
+        "sha256": "93C69AFD150855BFA0354B0E531207033064C3CC83819B94D1AAF925E469E040",
+        "size": 14120
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_radiobutton.py",
+        "sha256": "844634B83B92B66922CE5A643FC42C7CB5D181135EC5A8FF24F33CFF62327F74",
+        "size": 20215
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_scrollable_frame.py",
+        "sha256": "C0A248D54DFA9B91610E321CB83A183D66D341B2C3B6EB015EEDDCD546103B39",
+        "size": 15121
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_scrollbar.py",
+        "sha256": "70EE8DC04C6EB5D49750149175B56F7BD6F476F57D76352CF4FC5EB6A7F17E7F",
+        "size": 13860
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_segmented_button.py",
+        "sha256": "CCA3E3D49FD96C45DBB797A7EEF1DD661A28A8D22B0E4AF70CAA3E404437AEF7",
+        "size": 20878
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_slider.py",
+        "sha256": "D7163DBE785AF9D8E6CA6D222E906454ADF46820F0F7696A4CC3A06622781E19",
+        "size": 18867
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_switch.py",
+        "sha256": "68EB1C47AF21A075649AE82758CA9396C2A52D98060A23B5ADF5E40CE4120B46",
+        "size": 23420
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_tabview.py",
+        "sha256": "89E1AE110A941FB9A23D0588912CA89FB29559D6EA145296E64EE806FE778D18",
+        "size": 21472
+      },
+      {
+        "path": "customtkinter/windows/widgets/ctk_textbox.py",
+        "sha256": "97E5C441061528C07B713124E21D79D1BDACFA8D87A5187BCC744E55CF47DDB0",
+        "size": 24571
+      },
+      {
+        "path": "customtkinter/windows/widgets/font/__init__.py",
+        "sha256": "CD8952B091FEF2B2FBEEDEDD933D2F5CEA1F1E1F0D76222E3102B857C99F20D3",
+        "size": 1302
+      },
+      {
+        "path": "customtkinter/windows/widgets/font/ctk_font.py",
+        "sha256": "E5C747BEE8C1FED7C396CC3D651322181012BE645283F5886D217DF71FF6D6F0",
+        "size": 3825
+      },
+      {
+        "path": "customtkinter/windows/widgets/font/font_manager.py",
+        "sha256": "8F0A6EEB5674D27A2AD1459C15A1DFB40311BD78262901C4990883ABE0ABA8DC",
+        "size": 2268
+      },
+      {
+        "path": "customtkinter/windows/widgets/image/__init__.py",
+        "sha256": "A736F0948015E0E13E0A4771248AE5D442DC460EEF6D02A40BA1DA1CB183348F",
+        "size": 32
+      },
+      {
+        "path": "customtkinter/windows/widgets/image/ctk_image.py",
+        "sha256": "B8BFE826B96AF19D77E2A8E28A2E382E0D37BAD11349FEEB049EA480F1DE6339",
+        "size": 5306
+      },
+      {
+        "path": "customtkinter/windows/widgets/scaling/__init__.py",
+        "sha256": "D868DE1B6FC0E20ABC83BA5138A3F0E904769881FB6FA8910D0BD3DBAAB3F11E",
+        "size": 287
+      },
+      {
+        "path": "customtkinter/windows/widgets/scaling/scaling_base_class.py",
+        "sha256": "55BCF303D18FBA33986C42630EC4119EFA18EAFED14A2B59C2BDFB95902493FF",
+        "size": 7060
+      },
+      {
+        "path": "customtkinter/windows/widgets/scaling/scaling_tracker.py",
+        "sha256": "72E8A55C47924CECA580344D7F6921F9E0D04A1BA9FA2D8D73BA0E70BA3756DC",
+        "size": 8745
+      },
+      {
+        "path": "customtkinter/windows/widgets/theme/__init__.py",
+        "sha256": "899E93E8EFAFDFD84E2DF4CBB8D6D32EDD1703FADA098B71C069E6A8D0762E69",
+        "size": 471
+      },
+      {
+        "path": "customtkinter/windows/widgets/theme/theme_manager.py",
+        "sha256": "13E56DCD6299D885EB73F86F7C651D8F9D0636BF1E208ED2FDF581939F318B1D",
+        "size": 2179
+      },
+      {
+        "path": "customtkinter/windows/widgets/utility/__init__.py",
+        "sha256": "493B20390BD3840A146AB57DA2F33A338D1AADA4140CD53F4269876F231A471D",
+        "size": 72
+      },
+      {
+        "path": "customtkinter/windows/widgets/utility/utility_functions.py",
+        "sha256": "7745A3E408A8C616F7AAD0B4213B8D6478F07C51DE8147CAF9B7E40D7AEBB9F9",
+        "size": 766
+      }
+    ],
+    "inventory_sha256": "1D205F92C1C4E1513E7222DD4A886E8C9E8DC966FF9AA32BA1AAE8582446CB1F",
+    "total_size": 890911
+  }
+}

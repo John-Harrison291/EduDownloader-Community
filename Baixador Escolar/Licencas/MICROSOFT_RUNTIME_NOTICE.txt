@@ -1,0 +1,16 @@
+MICROSOFT VISUAL C++ RUNTIME — PRÉ-REQUISITO EXTERNO
+
+Modelo: EXTERNAL_PREREQUISITE
+NENHUMA DLL MICROSOFT DISTRIBUÍDA DIRETAMENTE pelo EduDownloader.
+O Windows precisa ter Microsoft Visual C++ Runtime x64 compatível instalado
+antes de iniciar o aplicativo. O EduDownloader não inclui nem hospeda o
+instalador Microsoft. Se necessário, obtenha-o na fonte oficial:
+https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
+
+Material Microsoft incorporado por binários upstream é assunto separado:
+COMMUNITY_1_4_RECORDED_RISK. Este aviso não resolve sua cadeia transitiva.
+Não há versão mínima comprovada para todos os binários atuais; a versão
+14.51.36247.0 foi observada apenas no host de teste.
+
+Este notice não declara LEGAL_APPROVED, autorização comercial, production_ready
+ou public_release_allowed.

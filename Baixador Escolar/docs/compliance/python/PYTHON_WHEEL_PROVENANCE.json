@@ -1,0 +1,652 @@
+{
+  "capture_classification": "A",
+  "capture_policy": {
+    "artifact_identity_per_package": 1,
+    "index_url": "https://pypi.org/simple",
+    "no_dependencies_during_download": true,
+    "only_binary_all": true,
+    "sdists_allowed": false
+  },
+  "hashed_lock": {
+    "path": "requirements-build-hashes.lock",
+    "sha256": "196D8A0743AC96CFB805D316A6836F9B4BCC3A5C7AF977DF5C6F8B2509E59669"
+  },
+  "lock": {
+    "all_versions_exact": true,
+    "package_count": 17,
+    "path": "requirements-build.lock",
+    "sha256": "2DAC755598C2F0810897EB701884D46064B6513C4D0B86FA5EC14289986F06B5"
+  },
+  "offline_proof": {
+    "environment_exactness": "PASS",
+    "import_smoke": "PASS",
+    "missing_wheel_fail_closed": "PASS",
+    "no_index": true,
+    "pip_check": "PASS",
+    "require_hashes": true
+  },
+  "packages": [
+    {
+      "authority": "https://pypi.org/simple",
+      "declared_license": "MIT",
+      "declared_license_files": [
+        "LICENSE"
+      ],
+      "dist_info": "altgraph-0.17.5.dist-info",
+      "distribution": "altgraph",
+      "filename": "altgraph-0.17.5-py2.py3-none-any.whl",
+      "license_files": [
+        "altgraph-0.17.5.dist-info/LICENSE"
+      ],
+      "marker": null,
+      "native_payload_files": [],
+      "native_payload_present": false,
+      "relationship": "transitive: pyinstaller",
+      "sha256": "F3A22400BCE1B0C701683820AC4F3B159CD301ACAB067C51C653E06961600597",
+      "size": 21228,
+      "tags": [
+        "py2-none-any",
+        "py3-none-any"
+      ],
+      "version": "0.17.5",
+      "wheel_metadata_tags": [
+        "py2-none-any",
+        "py3-none-any"
+      ]
+    },
+    {
+      "authority": "https://pypi.org/simple",
+      "declared_license": "MIT-0",
+      "declared_license_files": [
+        "LICENSE"
+      ],
+      "dist_info": "cffi-2.1.1.dist-info",
+      "distribution": "cffi",
+      "filename": "cffi-2.1.1-cp314-cp314-win_amd64.whl",
+      "license_files": [
+        "cffi-2.1.1.dist-info/licenses/LICENSE"
+      ],
+      "marker": null,
+      "native_payload_files": [
+        "_cffi_backend.cp314-win_amd64.pyd"
+      ],
+      "native_payload_present": true,
+      "relationship": "transitive: cryptography",
+      "sha256": "3222BA5D678F80A030E6AFBCC33DC1AE5CB45FACABB61CEE2C7016B8432FDE48",
+      "size": 187949,
+      "tags": [
+        "cp314-cp314-win_amd64"
+      ],
+      "version": "2.1.1",
+      "wheel_metadata_tags": [
+        "cp314-cp314-win_amd64"
+      ]
+    },
+    {
+      "authority": "https://pypi.org/simple",
+      "declared_license": "Apache-2.0 OR BSD-3-Clause",
+      "declared_license_files": [
+        "LICENSE",
+        "LICENSE.APACHE",
+        "LICENSE.BSD"
+      ],
+      "dist_info": "cryptography-49.0.0.dist-info",
+      "distribution": "cryptography",
+      "filename": "cryptography-49.0.0-cp311-abi3-win_amd64.whl",
+      "license_files": [
+        "cryptography-49.0.0.dist-info/licenses/LICENSE",
+        "cryptography-49.0.0.dist-info/licenses/LICENSE.APACHE",
+        "cryptography-49.0.0.dist-info/licenses/LICENSE.BSD"
+      ],
+      "marker": null,
+      "native_payload_files": [
+        "cryptography/hazmat/bindings/_rust.pyd"
+      ],
+      "native_payload_present": true,
+      "relationship": "direct runtime dependency",
+      "sha256": "E5DFC1E64DE5677CEC922FFA8DA89C546D0415BF6EFDF081842E5D44C84E1F0E",
+      "size": 3810026,
+      "tags": [
+        "cp311-abi3-win_amd64"
+      ],
+      "version": "49.0.0",
+      "wheel_metadata_tags": [
+        "cp311-abi3-win_amd64"
+      ]
+    },
+    {
+      "authority": "https://pypi.org/simple",
+      "declared_license": "Creative Commons Zero v1.0 Universal",
+      "declared_license_files": [
+        "LICENSE"
+      ],
+      "dist_info": "customtkinter-5.2.2.dist-info",
+      "distribution": "customtkinter",
+      "filename": "customtkinter-5.2.2-py3-none-any.whl",
+      "license_files": [
+        "customtkinter-5.2.2.dist-info/LICENSE"
+      ],
+      "marker": null,
+      "native_payload_files": [],
+      "native_payload_present": false,
+      "relationship": "direct runtime dependency",
+      "sha256": "14AD3E7CD3CB3B9EB642B9D4E8711AE80D3F79FB82545AD11258EEFFB2E6B37C",
+      "size": 296062,
+      "tags": [
+        "py3-none-any"
+      ],
+      "version": "5.2.2",
+      "wheel_metadata_tags": [
+        "py3-none-any"
+      ]
+    },
+    {
+      "authority": "https://pypi.org/simple",
+      "declared_license": "BSD-3-Clause",
+      "declared_license_files": [
+        "LICENSE"
+      ],
+      "dist_info": "darkdetect-0.8.0.dist-info",
+      "distribution": "darkdetect",
+      "filename": "darkdetect-0.8.0-py3-none-any.whl",
+      "license_files": [
+        "darkdetect-0.8.0.dist-info/LICENSE"
+      ],
+      "marker": null,
+      "native_payload_files": [],
+      "native_payload_present": false,
+      "relationship": "transitive: customtkinter",
+      "sha256": "A7509CCF517EAAD92B31C214F593DBCF138EA8A43B2935406BBD565E15527A85",
+      "size": 8955,
+      "tags": [
+        "py3-none-any"
+      ],
+      "version": "0.8.0",
+      "wheel_metadata_tags": [
+        "py3-none-any"
+      ]
+    },
+    {
+      "authority": "https://pypi.org/simple",
+      "declared_license": "Apache-2.0 OR BSD-2-Clause",
+      "declared_license_files": [
+        "LICENSE",
+        "LICENSE.APACHE",
+        "LICENSE.BSD"
+      ],
+      "dist_info": "packaging-26.3.dist-info",
+      "distribution": "packaging",
+      "filename": "packaging-26.3-py3-none-any.whl",
+      "license_files": [
+        "packaging-26.3.dist-info/licenses/LICENSE",
+        "packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+        "packaging-26.3.dist-info/licenses/LICENSE.BSD",
+        "packaging/licenses/__init__.py",
+        "packaging/licenses/_spdx.py"
+      ],
+      "marker": null,
+      "native_payload_files": [],
+      "native_payload_present": false,
+      "relationship": "build tooling dependency",
+      "sha256": "D7193F7C8E4E93F444FDE0262BF90AF30E16FA0AD0AD44CB553C87339B23CD1C",
+      "size": 129956,
+      "tags": [
+        "py3-none-any"
+      ],
+      "version": "26.3",
+      "wheel_metadata_tags": [
+        "py3-none-any"
+      ]
+    },
+    {
+      "authority": "https://pypi.org/simple",
+      "declared_license": "MIT",
+      "declared_license_files": [
+        "LICENSE"
+      ],
+      "dist_info": "pefile-2024.8.26.dist-info",
+      "distribution": "pefile",
+      "filename": "pefile-2024.8.26-py3-none-any.whl",
+      "license_files": [
+        "pefile-2024.8.26.dist-info/LICENSE"
+      ],
+      "marker": null,
+      "native_payload_files": [],
+      "native_payload_present": false,
+      "relationship": "transitive: pyinstaller on Windows",
+      "sha256": "76F8B485DCD3B1BB8166F1128D395FA3D87AF26360C2358FB75B80019B957C6F",
+      "size": 74766,
+      "tags": [
+        "py3-none-any"
+      ],
+      "version": "2024.8.26",
+      "wheel_metadata_tags": [
+        "py3-none-any"
+      ]
+    },
+    {
+      "authority": "https://pypi.org/simple",
+      "declared_license": "MIT-CMU",
+      "declared_license_files": [
+        "LICENSE"
+      ],
+      "dist_info": "pillow-13.0.0.dist-info",
+      "distribution": "pillow",
+      "filename": "pillow-13.0.0-cp314-cp314-win_amd64.whl",
+      "license_files": [
+        "pillow-13.0.0.dist-info/licenses/LICENSE"
+      ],
+      "marker": null,
+      "native_payload_files": [
+        "PIL/_avif.cp314-win_amd64.pyd",
+        "PIL/_imaging.cp314-win_amd64.pyd",
+        "PIL/_imagingcms.cp314-win_amd64.pyd",
+        "PIL/_imagingft.cp314-win_amd64.pyd",
+        "PIL/_imagingmath.cp314-win_amd64.pyd",
+        "PIL/_imagingmorph.cp314-win_amd64.pyd",
+        "PIL/_imagingtk.cp314-win_amd64.pyd",
+        "PIL/_webp.cp314-win_amd64.pyd"
+      ],
+      "native_payload_present": true,
+      "relationship": "direct runtime dependency",
+      "sha256": "F7CBB7A64E7EC664775195E4F81923BC8A93D9451B963F844E59118F63147A7A",
+      "size": 7281830,
+      "tags": [
+        "cp314-cp314-win_amd64"
+      ],
+      "version": "13.0.0",
+      "wheel_metadata_tags": [
+        "cp314-cp314-win_amd64"
+      ]
+    },
+    {
+      "authority": "https://pypi.org/simple",
+      "declared_license": "MIT",
+      "declared_license_files": [
+        "AUTHORS.txt",
+        "LICENSE.txt",
+        "src/pip/_vendor/cachecontrol/LICENSE.txt",
+        "src/pip/_vendor/certifi/LICENSE",
+        "src/pip/_vendor/distlib/LICENSE.txt",
+        "src/pip/_vendor/distro/LICENSE",
+        "src/pip/_vendor/idna/LICENSE.md",
+        "src/pip/_vendor/msgpack/COPYING",
+        "src/pip/_vendor/packaging/LICENSE",
+        "src/pip/_vendor/packaging/LICENSE.APACHE",
+        "src/pip/_vendor/packaging/LICENSE.BSD",
+        "src/pip/_vendor/pkg_resources/LICENSE",
+        "src/pip/_vendor/platformdirs/LICENSE",
+        "src/pip/_vendor/pygments/LICENSE",
+        "src/pip/_vendor/pyproject_hooks/LICENSE",
+        "src/pip/_vendor/requests/LICENSE",
+        "src/pip/_vendor/resolvelib/LICENSE",
+        "src/pip/_vendor/rich/LICENSE",
+        "src/pip/_vendor/tomli/LICENSE",
+        "src/pip/_vendor/tomli_w/LICENSE",
+        "src/pip/_vendor/truststore/LICENSE",
+        "src/pip/_vendor/urllib3/LICENSE.txt"
+      ],
+      "dist_info": "pip-26.1.2.dist-info",
+      "distribution": "pip",
+      "filename": "pip-26.1.2-py3-none-any.whl",
+      "license_files": [
+        "pip-26.1.2.dist-info/licenses/AUTHORS.txt",
+        "pip-26.1.2.dist-info/licenses/LICENSE.txt",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/cachecontrol/LICENSE.txt",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/certifi/LICENSE",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/distlib/LICENSE.txt",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/distro/LICENSE",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/msgpack/COPYING",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/packaging/LICENSE",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/packaging/LICENSE.APACHE",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/packaging/LICENSE.BSD",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/pkg_resources/LICENSE",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/platformdirs/LICENSE",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/pygments/LICENSE",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/pyproject_hooks/LICENSE",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/requests/LICENSE",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/resolvelib/LICENSE",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/rich/LICENSE",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/tomli/LICENSE",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/tomli_w/LICENSE",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/truststore/LICENSE",
+        "pip-26.1.2.dist-info/licenses/src/pip/_vendor/urllib3/LICENSE.txt",
+        "pip/_vendor/cachecontrol/LICENSE.txt",
+        "pip/_vendor/certifi/LICENSE",
+        "pip/_vendor/distlib/LICENSE.txt",
+        "pip/_vendor/distro/LICENSE",
+        "pip/_vendor/idna/LICENSE.md",
+        "pip/_vendor/msgpack/COPYING",
+        "pip/_vendor/packaging/LICENSE",
+        "pip/_vendor/packaging/LICENSE.APACHE",
+        "pip/_vendor/packaging/LICENSE.BSD",
+        "pip/_vendor/packaging/licenses/__init__.py",
+        "pip/_vendor/packaging/licenses/_spdx.py",
+        "pip/_vendor/pkg_resources/LICENSE",
+        "pip/_vendor/platformdirs/LICENSE",
+        "pip/_vendor/pygments/LICENSE",
+        "pip/_vendor/pyproject_hooks/LICENSE",
+        "pip/_vendor/requests/LICENSE",
+        "pip/_vendor/resolvelib/LICENSE",
+        "pip/_vendor/rich/LICENSE",
+        "pip/_vendor/tomli/LICENSE",
+        "pip/_vendor/tomli_w/LICENSE",
+        "pip/_vendor/truststore/LICENSE",
+        "pip/_vendor/urllib3/LICENSE.txt"
+      ],
+      "marker": null,
+      "native_payload_files": [
+        "pip/_vendor/distlib/t32.exe",
+        "pip/_vendor/distlib/t64-arm.exe",
+        "pip/_vendor/distlib/t64.exe",
+        "pip/_vendor/distlib/w32.exe",
+        "pip/_vendor/distlib/w64-arm.exe",
+        "pip/_vendor/distlib/w64.exe"
+      ],
+      "native_payload_present": true,
+      "relationship": "build environment bootstrap tooling",
+      "sha256": "382FF9F685EE3BC25864F820AA50505825F10F5458FFFF07E30A6D96E5715CAB",
+      "size": 1813144,
+      "tags": [
+        "py3-none-any"
+      ],
+      "version": "26.1.2",
+      "wheel_metadata_tags": [
+        "py3-none-any"
+      ]
+    },
+    {
+      "authority": "https://pypi.org/simple",
+      "declared_license": "BSD-3-Clause",
+      "declared_license_files": [
+        "LICENSE"
+      ],
+      "dist_info": "pycparser-3.0.dist-info",
+      "distribution": "pycparser",
+      "filename": "pycparser-3.0-py3-none-any.whl",
+      "license_files": [
+        "pycparser-3.0.dist-info/licenses/LICENSE"
+      ],
+      "marker": null,
+      "native_payload_files": [],
+      "native_payload_present": false,
+      "relationship": "transitive: cffi",
+      "sha256": "B727414169A36B7D524C1C3E31839A521725078D7B2FF038656844266160A992",
+      "size": 48172,
+      "tags": [
+        "py3-none-any"
+      ],
+      "version": "3.0",
+      "wheel_metadata_tags": [
+        "py3-none-any"
+      ]
+    },
+    {
+      "authority": "https://pypi.org/simple",
+      "declared_license": "GPLv2-or-later with a special exception which allows to use PyInstaller to build and distribute non-free programs (including commercial ones)",
+      "declared_license_files": [
+        "COPYING.txt"
+      ],
+      "dist_info": "pyinstaller-6.21.0.dist-info",
+      "distribution": "pyinstaller",
+      "filename": "pyinstaller-6.21.0-py3-none-win_amd64.whl",
+      "license_files": [
+        "pyinstaller-6.21.0.dist-info/licenses/COPYING.txt"
+      ],
+      "marker": null,
+      "native_payload_files": [
+        "PyInstaller/bootloader/Windows-64bit-intel/run.exe",
+        "PyInstaller/bootloader/Windows-64bit-intel/run_d.exe",
+        "PyInstaller/bootloader/Windows-64bit-intel/runw.exe",
+        "PyInstaller/bootloader/Windows-64bit-intel/runw_d.exe"
+      ],
+      "native_payload_present": true,
+      "relationship": "direct build dependency",
+      "sha256": "7FAE06C494CE0EBFE6BD3055C0E409DEF884F63AF2E3705D06BD431AD9237FC7",
+      "size": 1397487,
+      "tags": [
+        "py3-none-win_amd64"
+      ],
+      "version": "6.21.0",
+      "wheel_metadata_tags": [
+        "py3-none-win_amd64"
+      ]
+    },
+    {
+      "authority": "https://pypi.org/simple",
+      "declared_license": "UNKNOWN",
+      "declared_license_files": [
+        "LICENSE"
+      ],
+      "dist_info": "pyinstaller_hooks_contrib-2026.6.dist-info",
+      "distribution": "pyinstaller-hooks-contrib",
+      "filename": "pyinstaller_hooks_contrib-2026.6-py3-none-any.whl",
+      "license_files": [
+        "pyinstaller_hooks_contrib-2026.6.dist-info/licenses/LICENSE"
+      ],
+      "marker": null,
+      "native_payload_files": [],
+      "native_payload_present": false,
+      "relationship": "transitive: pyinstaller",
+      "sha256": "FD13B8AC126B35361175EDACD41A0D97080B75DD5F4B594ECEFEFFF969509DD3",
+      "size": 457159,
+      "tags": [
+        "py3-none-any"
+      ],
+      "version": "2026.6",
+      "wheel_metadata_tags": [
+        "py3-none-any"
+      ]
+    },
+    {
+      "authority": "https://pypi.org/simple",
+      "declared_license": "BSD-3-Clause",
+      "declared_license_files": [
+        "LICENSE"
+      ],
+      "dist_info": "pypdf-7.1.1.dist-info",
+      "distribution": "pypdf",
+      "filename": "pypdf-7.1.1-py3-none-any.whl",
+      "license_files": [
+        "pypdf-7.1.1.dist-info/licenses/LICENSE"
+      ],
+      "marker": null,
+      "native_payload_files": [],
+      "native_payload_present": false,
+      "relationship": "direct runtime dependency",
+      "sha256": "04C5680D4B4CFA04AB505B09393FC949860C34A4DAD6565284D11A2F5C3CE8B1",
+      "size": 421026,
+      "tags": [
+        "py3-none-any"
+      ],
+      "version": "7.1.1",
+      "wheel_metadata_tags": [
+        "py3-none-any"
+      ]
+    },
+    {
+      "authority": "https://pypi.org/simple",
+      "declared_license": "BSD-3-Clause, Apache-2.0, dependency licenses",
+      "declared_license_files": [
+        "LICENSES/Apache-2.0.txt",
+        "LICENSES/BSD-3-Clause.txt",
+        "LICENSES/CC-BY-4.0.txt",
+        "data/windows_x64/BUILD_LICENSES/abseil.txt",
+        "data/windows_x64/BUILD_LICENSES/agg23.txt",
+        "data/windows_x64/BUILD_LICENSES/fast_float.txt",
+        "data/windows_x64/BUILD_LICENSES/freetype.txt",
+        "data/windows_x64/BUILD_LICENSES/icu.txt",
+        "data/windows_x64/BUILD_LICENSES/lcms.txt",
+        "data/windows_x64/BUILD_LICENSES/libjpeg_turbo.ijg",
+        "data/windows_x64/BUILD_LICENSES/libjpeg_turbo.md",
+        "data/windows_x64/BUILD_LICENSES/libopenjpeg.txt",
+        "data/windows_x64/BUILD_LICENSES/libpng.txt",
+        "data/windows_x64/BUILD_LICENSES/libtiff.txt",
+        "data/windows_x64/BUILD_LICENSES/llvm-libc.txt",
+        "data/windows_x64/BUILD_LICENSES/pdfium-binaries.txt",
+        "data/windows_x64/BUILD_LICENSES/pdfium.txt",
+        "data/windows_x64/BUILD_LICENSES/simdutf.txt",
+        "data/windows_x64/BUILD_LICENSES/zlib.txt"
+      ],
+      "dist_info": "pypdfium2-5.12.1.dist-info",
+      "distribution": "pypdfium2",
+      "filename": "pypdfium2-5.12.1-py3-none-win_amd64.whl",
+      "license_files": [
+        "pypdfium2-5.12.1.dist-info/licenses/LICENSES/Apache-2.0.txt",
+        "pypdfium2-5.12.1.dist-info/licenses/LICENSES/BSD-3-Clause.txt",
+        "pypdfium2-5.12.1.dist-info/licenses/LICENSES/CC-BY-4.0.txt",
+        "pypdfium2-5.12.1.dist-info/licenses/data/windows_x64/BUILD_LICENSES/abseil.txt",
+        "pypdfium2-5.12.1.dist-info/licenses/data/windows_x64/BUILD_LICENSES/agg23.txt",
+        "pypdfium2-5.12.1.dist-info/licenses/data/windows_x64/BUILD_LICENSES/fast_float.txt",
+        "pypdfium2-5.12.1.dist-info/licenses/data/windows_x64/BUILD_LICENSES/freetype.txt",
+        "pypdfium2-5.12.1.dist-info/licenses/data/windows_x64/BUILD_LICENSES/icu.txt",
+        "pypdfium2-5.12.1.dist-info/licenses/data/windows_x64/BUILD_LICENSES/lcms.txt",
+        "pypdfium2-5.12.1.dist-info/licenses/data/windows_x64/BUILD_LICENSES/libjpeg_turbo.ijg",
+        "pypdfium2-5.12.1.dist-info/licenses/data/windows_x64/BUILD_LICENSES/libjpeg_turbo.md",
+        "pypdfium2-5.12.1.dist-info/licenses/data/windows_x64/BUILD_LICENSES/libopenjpeg.txt",
+        "pypdfium2-5.12.1.dist-info/licenses/data/windows_x64/BUILD_LICENSES/libpng.txt",
+        "pypdfium2-5.12.1.dist-info/licenses/data/windows_x64/BUILD_LICENSES/libtiff.txt",
+        "pypdfium2-5.12.1.dist-info/licenses/data/windows_x64/BUILD_LICENSES/llvm-libc.txt",
+        "pypdfium2-5.12.1.dist-info/licenses/data/windows_x64/BUILD_LICENSES/pdfium-binaries.txt",
+        "pypdfium2-5.12.1.dist-info/licenses/data/windows_x64/BUILD_LICENSES/pdfium.txt",
+        "pypdfium2-5.12.1.dist-info/licenses/data/windows_x64/BUILD_LICENSES/simdutf.txt",
+        "pypdfium2-5.12.1.dist-info/licenses/data/windows_x64/BUILD_LICENSES/zlib.txt"
+      ],
+      "marker": null,
+      "native_payload_files": [
+        "pypdfium2_raw/pdfium.dll"
+      ],
+      "native_payload_present": true,
+      "relationship": "direct runtime dependency",
+      "sha256": "9609BE73A6701A68F29DFFE0335F7A2E4B3BA581542ED65D35D49F761A4600CA",
+      "size": 3859845,
+      "tags": [
+        "py3-none-win_amd64"
+      ],
+      "version": "5.12.1",
+      "wheel_metadata_tags": [
+        "py3-none-win_amd64"
+      ]
+    },
+    {
+      "authority": "https://pypi.org/simple",
+      "declared_license": "BSD-3-Clause",
+      "declared_license_files": [],
+      "dist_info": "pywin32_ctypes-0.2.3.dist-info",
+      "distribution": "pywin32-ctypes",
+      "filename": "pywin32_ctypes-0.2.3-py3-none-any.whl",
+      "license_files": [
+        "pywin32_ctypes-0.2.3.dist-info/LICENSE.txt"
+      ],
+      "marker": null,
+      "native_payload_files": [],
+      "native_payload_present": false,
+      "relationship": "transitive: pyinstaller on Windows",
+      "sha256": "8A1513379D709975552D202D942D9837758905C8D01EB82B8BCC30918929E7B8",
+      "size": 30756,
+      "tags": [
+        "py3-none-any"
+      ],
+      "version": "0.2.3",
+      "wheel_metadata_tags": [
+        "py3-none-any"
+      ]
+    },
+    {
+      "authority": "https://pypi.org/simple",
+      "declared_license": "MIT",
+      "declared_license_files": [
+        "LICENSE"
+      ],
+      "dist_info": "ruff-0.15.21.dist-info",
+      "distribution": "ruff",
+      "filename": "ruff-0.15.21-py3-none-win_amd64.whl",
+      "license_files": [
+        "ruff-0.15.21.dist-info/licenses/LICENSE"
+      ],
+      "marker": null,
+      "native_payload_files": [
+        "ruff-0.15.21.data/scripts/ruff.exe"
+      ],
+      "native_payload_present": true,
+      "relationship": "direct development/build validation dependency",
+      "sha256": "D4B8D9A2F0F12B816B50447F6ECCB9F4BB01A6B82C86B50FB3B5354B458DC6D3",
+      "size": 12038772,
+      "tags": [
+        "py3-none-win_amd64"
+      ],
+      "version": "0.15.21",
+      "wheel_metadata_tags": [
+        "py3-none-win_amd64"
+      ]
+    },
+    {
+      "authority": "https://pypi.org/simple",
+      "declared_license": "MIT",
+      "declared_license_files": [
+        "LICENSE"
+      ],
+      "dist_info": "setuptools-84.0.0.dist-info",
+      "distribution": "setuptools",
+      "filename": "setuptools-84.0.0-py3-none-any.whl",
+      "license_files": [
+        "setuptools-84.0.0.dist-info/licenses/LICENSE",
+        "setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE",
+        "setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE",
+        "setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE",
+        "setuptools/_vendor/jaraco.text-4.0.0.dist-info/LICENSE",
+        "setuptools/_vendor/jaraco_context-6.1.0.dist-info/licenses/LICENSE",
+        "setuptools/_vendor/jaraco_functools-4.4.0.dist-info/licenses/LICENSE",
+        "setuptools/_vendor/more_itertools-10.8.0.dist-info/licenses/LICENSE",
+        "setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE",
+        "setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.APACHE",
+        "setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.BSD",
+        "setuptools/_vendor/packaging/licenses/__init__.py",
+        "setuptools/_vendor/packaging/licenses/_spdx.py",
+        "setuptools/_vendor/platformdirs-4.4.0.dist-info/licenses/LICENSE",
+        "setuptools/_vendor/tomli-2.4.0.dist-info/licenses/LICENSE",
+        "setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt",
+        "setuptools/_vendor/zipp-3.23.0.dist-info/licenses/LICENSE",
+        "setuptools/config/NOTICE",
+        "setuptools/config/_validate_pyproject/NOTICE"
+      ],
+      "marker": null,
+      "native_payload_files": [
+        "setuptools/cli-32.exe",
+        "setuptools/cli-64.exe",
+        "setuptools/cli-arm64.exe",
+        "setuptools/cli.exe",
+        "setuptools/gui-32.exe",
+        "setuptools/gui-64.exe",
+        "setuptools/gui-arm64.exe",
+        "setuptools/gui.exe"
+      ],
+      "native_payload_present": true,
+      "relationship": "build environment bootstrap tooling",
+      "sha256": "51A52592B3B99E102B609654876BD65F19F999935166D1352678931132B0C670",
+      "size": 818216,
+      "tags": [
+        "py3-none-any"
+      ],
+      "version": "84.0.0",
+      "wheel_metadata_tags": [
+        "py3-none-any"
+      ]
+    }
+  ],
+  "recorded_on": "2026-11-23",
+  "schema_version": 1,
+  "target": {
+    "architecture": "x86_64",
+    "implementation": "CPython",
+    "platform_tag": "win_amd64",
+    "python_version": "3.14.6"
+  },
+  "wheelhouse": {
+    "file_count": 17,
+    "inventory_sha256": "5197DCA42F1D140ECD4A4A80EA2B2504E4AE40FCB7C38F963D9D13981A4FE3B1",
+    "total_size": 32695349,
+    "tracked_in_git": false
+  }
+}

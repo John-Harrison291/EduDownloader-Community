@@ -1,0 +1,783 @@
+{
+  "bin_deps_evidence": [
+    {
+      "commit": "94cb9a1c7feb608adf2b9f8fe2dbd6925ffbf90d",
+      "commit_metadata_path": "metadata/bin-deps/libffi-3.4.4.commit.json",
+      "ref_metadata_path": "metadata/bin-deps/libffi-3.4.4.ref.json",
+      "repository": "https://github.com/python/cpython-bin-deps",
+      "role": "liga o source libffi 3.4.4 aos binários Windows consumidos por _ctypes",
+      "tag": "libffi-3.4.4",
+      "tree": "bf8087b61bea675a2d4ab393e25e017a9eea9734",
+      "tree_metadata_path": "metadata/bin-deps/libffi-3.4.4.tree-recursive.json"
+    },
+    {
+      "commit": "3217be5a2a7e20dbc5f5b5160ef21a9c84de7138",
+      "commit_metadata_path": "metadata/bin-deps/openssl-bin-3.5.7.commit.json",
+      "ref_metadata_path": "metadata/bin-deps/openssl-bin-3.5.7.ref.json",
+      "repository": "https://github.com/python/cpython-bin-deps",
+      "role": "liga o source OpenSSL 3.5.7 às DLLs Windows consumidas por _ssl e _hashlib",
+      "tag": "openssl-bin-3.5.7",
+      "tree": "489fe20520999c58ed7f39d43bea3c482ec46cee",
+      "tree_metadata_path": "metadata/bin-deps/openssl-bin-3.5.7.tree-recursive.json"
+    },
+    {
+      "commit": "5a51bb7b87efa119332c52b04a84c49d3042279c",
+      "commit_metadata_path": "metadata/bin-deps/tcltk-8.6.15.0.commit.json",
+      "ref_metadata_path": "metadata/bin-deps/tcltk-8.6.15.0.ref.json",
+      "repository": "https://github.com/python/cpython-bin-deps",
+      "role": "liga os sources Tcl/Tk 8.6.15 ao payload Windows do instalador CPython",
+      "tag": "tcltk-8.6.15.0",
+      "tree": "d30680904f4152fa2fd06bda1f332b7041c8728c",
+      "tree_metadata_path": "metadata/bin-deps/tcltk-8.6.15.0.tree-recursive.json"
+    }
+  ],
+  "bundle": {
+    "classification": "COMPLETE_CANDIDATE_FOR_LEGAL_REVIEW",
+    "filename": "EduDownloader-ThirdParty-Source-CPython-3.14.6-COMPLETE.zip",
+    "root": "EduDownloader-ThirdParty-Source-CPython-3.14.6",
+    "scope": "somente corresponding source e evidência pública do runtime CPython/Tcl-Tk; sem código proprietário, executáveis ou runtimes Microsoft"
+  },
+  "classification": {
+    "legal_review": "PENDING",
+    "notice_review": "PENDING",
+    "source_correspondence": "A",
+    "technical_status": "technically-complete-pending-legal-review"
+  },
+  "component": "CPython frozen runtime source closure",
+  "counts": {
+    "blocked": 0,
+    "logical_source_parents": 10,
+    "new_acquisitions": 8,
+    "pending": 0,
+    "preserved": 10,
+    "reused_existing": 2,
+    "unknown_material": 0
+  },
+  "covered_by_parent": [
+    {
+      "evidence": "Modules/expat e Modules/expat/refresh.sh no source CPython fixam R_2_8_1",
+      "id": "expat",
+      "parent": "cpython",
+      "status": "PRESERVED_WITH_PARENT",
+      "version": "2.8.1"
+    },
+    {
+      "evidence": "Modules/_hacl e refresh.sh no source CPython fixam a revisão upstream integral",
+      "id": "hacl",
+      "parent": "cpython",
+      "status": "PRESERVED_WITH_PARENT",
+      "version": "8ba599b2f6c9701b3dc961db895b0856a2210f76"
+    },
+    {
+      "evidence": "diretório libtommath completo, 76 arquivos e licença, dentro do parent Tcl",
+      "id": "libtommath",
+      "parent": "tcl",
+      "status": "PRESERVED_WITH_PARENT",
+      "version": "Tcl 8.6.15.0 vendored snapshot"
+    },
+    {
+      "evidence": "diretório compat/zlib completo, 266 arquivos e licença, dentro do parent Tcl",
+      "id": "tcl-zlib",
+      "parent": "tcl",
+      "status": "PRESERVED_WITH_PARENT",
+      "version": "1.3.1"
+    },
+    {
+      "evidence": "tabelas geradas e Tools/unicode/makeunicodedata.py no parent CPython",
+      "id": "unicode",
+      "parent": "cpython",
+      "status": "PRESERVED_WITH_PARENT",
+      "version": "16.0.0"
+    }
+  ],
+  "distribution_notice": {
+    "candidate_tk_license_path": "_internal/_tk_data/license.terms",
+    "candidate_tk_license_sha256": "0D1E4405F6273F091732764ED89B57066BE63CE64869BE6C71EA337DC4F2F9B5",
+    "comparison": "MATCH_AFTER_CRLF_LF_NORMALIZATION",
+    "source_tk_license_path": "licenses/tk/license.terms",
+    "source_tk_license_sha256": "2CDE822B93CA16AE535C954B7DFE658B4AD10DF2A193628D1B358F1765E8B198",
+    "tcl_license_detail": "o source e a licença Tcl estão preservados no bundle; o candidate atual não expõe license.terms sob _tcl_data",
+    "tcl_license_status": "NOTICE_GAP_TO_FIX_LATER"
+  },
+  "frozen_candidate": {
+    "classification": "INTERNAL_ANALYSIS_CANDIDATE",
+    "file_count": 1068,
+    "inventory_sha256": "26B6CCDAA3332D46DAF30DCEE44100EADFA53971C990F995A418A0A65B073857",
+    "source_commit": "621a72b8c3329dc68abc0c581ec152d6c3bd9e08",
+    "total_size_bytes": 382736507
+  },
+  "gates": {
+    "activation_operational": true,
+    "activation_required_for_current_edition": false,
+    "app_version": "0.9.5",
+    "default_trust_store_key_count": 1,
+    "operational_private_key_configured": false,
+    "operational_public_key_configured": true,
+    "product_edition": "community",
+    "production_crypto_configured": true,
+    "production_ready": false,
+    "public_release_allowed": false
+  },
+  "metadata_collections": [
+    {
+      "authority": "licenças extraídas byte a byte dos dez source parents",
+      "file_count": 20,
+      "inventory_sha256": "B7BF8C3C466D1078262C72769189CFB146ECB9B0CCB6EA04AC6C34E60F9A63B0",
+      "root": "licenses",
+      "total_size_bytes": 215720
+    },
+    {
+      "authority": "GitHub API oficial python/cpython-bin-deps",
+      "file_count": 9,
+      "inventory_sha256": "373DAF487D78FF0F28973BE7EB52B35BC5E4ED6D64B57E00B112D6FDD9CF0036",
+      "root": "metadata/bin-deps",
+      "total_size_bytes": 970877
+    },
+    {
+      "authority": "source release CPython e GitHub API oficial python/cpython",
+      "file_count": 33,
+      "inventory_sha256": "EE330CEDFD76A7F0F97340554915CBF4C70940C1D903533437E7C788F1279681",
+      "root": "metadata/cpython",
+      "total_size_bytes": 1645515
+    },
+    {
+      "authority": "python.org release 3.14.6, Sigstore e SPDX oficiais",
+      "file_count": 6,
+      "inventory_sha256": "BB25E7F6D81DD1D56932298945ABF66FCA9E371AA2B5AD85C0F4B8EF2A985756",
+      "root": "metadata/release",
+      "total_size_bytes": 3157090
+    },
+    {
+      "authority": "closure yt-dlp preservada e versionada, reutilizada sem redownload",
+      "file_count": 4,
+      "inventory_sha256": "E05653EDF3BAD3CD552F4878A0866B639098B63BED31F337E98B8E2B095EBCEF",
+      "root": "metadata/reused",
+      "total_size_bytes": 310952
+    },
+    {
+      "authority": "GitHub API oficial python/cpython-source-deps",
+      "file_count": 22,
+      "inventory_sha256": "D1E5C7BF6BC9E6F176137D7785901ADE75711E64A9C419D0249D12368859098D",
+      "root": "metadata/source-deps",
+      "total_size_bytes": 2766416
+    }
+  ],
+  "non_material": [
+    {
+      "component": "SQLite",
+      "reason": "_sqlite3.pyd e sqlite3.dll não existem no frozen candidate; o pin PCbuild não participa da composição distribuída",
+      "source_required": false,
+      "status": "NOT_REQUIRED",
+      "version": "3.50.4.0"
+    }
+  ],
+  "parents": [
+    {
+      "archive_tree_verification": {
+        "allowed_archive_only": [],
+        "archive_root": "cpython-source-deps-bzip2-1.0.8",
+        "counts": {
+          "archive_file_count": 56,
+          "direct_matches": 56,
+          "eol_normalized_matches": 0,
+          "extra_files": 0,
+          "missing_tree_blobs": 0,
+          "tree_blob_count": 56
+        },
+        "strategy": "git-archive-exact"
+      },
+      "consumers": [
+        "_internal/_bz2.pyd"
+      ],
+      "external_sbom_package": "bzip2",
+      "external_sbom_sha256": "AB8D1B0CC087C20D4C32C0E4FCF7D0C733A95DA12CEDC6D63B3F0A9AF07427E2",
+      "external_sbom_url": "https://github.com/python/cpython-source-deps/archive/refs/tags/bzip2-1.0.8.tar.gz",
+      "external_sbom_version": "1.0.8",
+      "git": {
+        "commit": "05301997b2f9590f49c672cf3dfd3d3dfa7ad521",
+        "repository": "https://github.com/python/cpython-source-deps",
+        "reuse_provenance_path": "metadata/reused/yt-dlp-SOURCE_PROVENANCE.json",
+        "tag": "bzip2-1.0.8",
+        "tree": "933e65e88f0a28f9bcbc8abe5a4c12e3f618c043",
+        "tree_metadata_path": "metadata/reused/bzip2-1.0.8.tree-recursive.json"
+      },
+      "id": "bzip2",
+      "license_expression": "bzip2-1.0.6",
+      "licenses": [
+        {
+          "archive_path": "LICENSE",
+          "sha256": "C6DBBF828498BE844A89EAA3B84ADBAB3199E342EB5CB2ED2F0D4BA7EC0F38A3",
+          "size_bytes": 1896,
+          "staging_path": "licenses/bzip2/LICENSE"
+        }
+      ],
+      "preservation_status": "REUSED_EXISTING_SOURCE",
+      "reused_from": "compliance_artifacts/yt-dlp/2026.07.04/sources/lot-1f/bzip2-1.0.8.zip",
+      "source_archive": {
+        "origin": "https://github.com/python/cpython-source-deps/archive/refs/tags/bzip2-1.0.8.zip",
+        "sha256": "12C17D15F99E27235529574A722FB484A4E8FDF2427CEF53B1B68BDF07E404A9",
+        "size_bytes": 831543,
+        "staging_path": "sources/bzip2-1.0.8.zip"
+      },
+      "upstream": "https://sourceware.org/bzip2/",
+      "version": "1.0.8"
+    },
+    {
+      "archive_tree_verification": {
+        "allowed_archive_only": [
+          "Misc/NEWS"
+        ],
+        "archive_root": "Python-3.14.6",
+        "counts": {
+          "archive_file_count": 5100,
+          "direct_matches": 4935,
+          "eol_normalized_matches": 164,
+          "extra_files": 1,
+          "missing_tree_blobs": 185,
+          "tree_blob_count": 5284
+        },
+        "strategy": "official-release-export"
+      },
+      "consumers": [
+        "_internal/python314.dll",
+        "_internal/python3.dll",
+        "_internal/base_library.zip",
+        "stdlib PYZ",
+        "16 extensões CPython: _bz2, _ctypes, _decimal, _elementtree, _hashlib, _lzma, _queue, _socket, _ssl, _tkinter, _uuid, _wmi, _zstd, pyexpat, select e unicodedata"
+      ],
+      "git": {
+        "commit": "c63aec69bd59c55314c06c23f4c22c03de76fe45",
+        "commit_metadata_path": "metadata/cpython/v3.14.6.commit.json",
+        "ref_metadata_path": "metadata/cpython/v3.14.6.ref.json",
+        "ref_sha": "8594736f5057fdc979d42d2135895d56274589a8",
+        "ref_type": "tag",
+        "repository": "https://github.com/python/cpython",
+        "tag": "v3.14.6",
+        "tag_object_metadata_path": "metadata/cpython/v3.14.6.tag-object.json",
+        "tree": "ad415ee943062293d0032daad921a37a3b760410",
+        "tree_metadata_path": "metadata/cpython/v3.14.6.tree-recursive.json"
+      },
+      "id": "cpython",
+      "license_expression": "PSF-2.0 AND historical-license-notices; documentation includes 0BSD terms",
+      "licenses": [
+        {
+          "archive_path": "LICENSE",
+          "sha256": "B0E25A78CFFB43F4D92DE8B61CCFA1F1F98ECBC22330B54B5251E7B6BA010231",
+          "size_bytes": 13804,
+          "staging_path": "licenses/cpython/LICENSE"
+        },
+        {
+          "archive_path": "Doc/license.rst",
+          "sha256": "C695D550B135E53E38807E76496D1DB17D22C40E461D1F3F354C86188D3305DD",
+          "size_bytes": 57595,
+          "staging_path": "licenses/cpython/Doc/license.rst"
+        },
+        {
+          "archive_path": "Modules/expat/COPYING",
+          "sha256": "31B15DE82AA19A845156169A17A5488BF597E561B2C318D159ED583139B25E87",
+          "size_bytes": 1144,
+          "staging_path": "licenses/cpython/Modules/expat/COPYING"
+        }
+      ],
+      "preservation_status": "PRESERVED_NEW",
+      "release_date": "2026-06-10",
+      "source_archive": {
+        "origin": "https://www.python.org/ftp/python/3.14.6/Python-3.14.6.tar.xz",
+        "sha256": "143B1DDDEFAEC3BD2E21E3B839B34A2B7FB9842272883C576420D605E9F30C63",
+        "size_bytes": 23921184,
+        "staging_path": "sources/Python-3.14.6.tar.xz"
+      },
+      "upstream": "https://www.python.org/",
+      "version": "3.14.6"
+    },
+    {
+      "archive_tree_verification": {
+        "allowed_archive_only": [],
+        "archive_root": "cpython-source-deps-libffi-3.4.4",
+        "counts": {
+          "archive_file_count": 433,
+          "direct_matches": 433,
+          "eol_normalized_matches": 0,
+          "extra_files": 0,
+          "missing_tree_blobs": 0,
+          "tree_blob_count": 433
+        },
+        "strategy": "git-archive-exact"
+      },
+      "consumers": [
+        "_internal/_ctypes.pyd",
+        "_internal/libffi-8.dll"
+      ],
+      "external_sbom_package": "libffi",
+      "external_sbom_sha256": "9D802681ADFEA27D84CAE0487A785FB9CAA925BDAD44C401B364C59AB2B8EDDA",
+      "external_sbom_url": "https://github.com/python/cpython-source-deps/archive/refs/tags/libffi-3.4.4.tar.gz",
+      "external_sbom_version": "3.4.4",
+      "git": {
+        "commit": "73b247f34ef3ae1859b8c2c34d321d34ebc5db15",
+        "commit_metadata_path": "metadata/source-deps/libffi-3.4.4.commit.json",
+        "ref_metadata_path": "metadata/source-deps/libffi-3.4.4.ref.json",
+        "ref_sha": "73b247f34ef3ae1859b8c2c34d321d34ebc5db15",
+        "ref_type": "commit",
+        "repository": "https://github.com/python/cpython-source-deps",
+        "tag": "libffi-3.4.4",
+        "tree": "dba0e3bd6143ae50d7017850345f7053775c6677",
+        "tree_metadata_path": "metadata/source-deps/libffi-3.4.4.tree-recursive.json"
+      },
+      "id": "libffi",
+      "license_expression": "MIT; build tooling notices preserved separately",
+      "licenses": [
+        {
+          "archive_path": "LICENSE",
+          "sha256": "2C9C2ACB9743E6B007B91350475308AEE44691D96AA20EACEF8E199988C8C388",
+          "size_bytes": 1132,
+          "staging_path": "licenses/libffi/LICENSE"
+        },
+        {
+          "archive_path": "LICENSE-BUILDTOOLS",
+          "sha256": "E67978CD18816C0CB7D29AAAACDE7B7447402C2FB321A051698890A8EAEDDA94",
+          "size_bytes": 18698,
+          "staging_path": "licenses/libffi/LICENSE-BUILDTOOLS"
+        }
+      ],
+      "preservation_status": "PRESERVED_NEW",
+      "source_archive": {
+        "origin": "https://github.com/python/cpython-source-deps/archive/refs/tags/libffi-3.4.4.tar.gz",
+        "sha256": "9D802681ADFEA27D84CAE0487A785FB9CAA925BDAD44C401B364C59AB2B8EDDA",
+        "size_bytes": 1375889,
+        "staging_path": "sources/libffi-3.4.4.tar.gz"
+      },
+      "upstream": "https://github.com/libffi/libffi",
+      "version": "3.4.4"
+    },
+    {
+      "archive_tree_verification": {
+        "allowed_archive_only": [],
+        "archive_root": "cpython-source-deps-mpdecimal-4.0.0",
+        "counts": {
+          "archive_file_count": 142,
+          "direct_matches": 142,
+          "eol_normalized_matches": 0,
+          "extra_files": 0,
+          "missing_tree_blobs": 0,
+          "tree_blob_count": 142
+        },
+        "strategy": "git-archive-exact"
+      },
+      "consumers": [
+        "_internal/_decimal.pyd"
+      ],
+      "external_sbom_package": "mpdecimal",
+      "external_sbom_sha256": "338FAC3FB8CDD60F406B6326431338756F58A8AF94229FFD9BF1E7C2B1AD71CA",
+      "external_sbom_url": "https://github.com/python/cpython-source-deps/archive/refs/tags/mpdecimal-4.0.0.tar.gz",
+      "external_sbom_version": "4.0.0",
+      "git": {
+        "commit": "48316ec025c1ebe500854c332be0a12c640c7301",
+        "commit_metadata_path": "metadata/source-deps/mpdecimal-4.0.0.commit.json",
+        "ref_metadata_path": "metadata/source-deps/mpdecimal-4.0.0.ref.json",
+        "ref_sha": "780e21d43a92832d12c2add68fcc8e03cee38bcf",
+        "ref_type": "tag",
+        "repository": "https://github.com/python/cpython-source-deps",
+        "tag": "mpdecimal-4.0.0",
+        "tag_object_metadata_path": "metadata/source-deps/mpdecimal-4.0.0.tag-object.json",
+        "tree": "1ecd3b3fb74d2b6c93f384b553a6023a88e0de34",
+        "tree_metadata_path": "metadata/source-deps/mpdecimal-4.0.0.tree-recursive.json"
+      },
+      "id": "mpdecimal",
+      "license_expression": "BSD-2-Clause",
+      "licenses": [
+        {
+          "archive_path": "COPYRIGHT.txt",
+          "sha256": "2713324211652CE4A60E6E21E54F9DC3004299E591B0933A352F1A89C5FB53C2",
+          "size_bytes": 1285,
+          "staging_path": "licenses/mpdecimal/COPYRIGHT.txt"
+        }
+      ],
+      "preservation_status": "PRESERVED_NEW",
+      "source_archive": {
+        "origin": "https://github.com/python/cpython-source-deps/archive/refs/tags/mpdecimal-4.0.0.tar.gz",
+        "sha256": "338FAC3FB8CDD60F406B6326431338756F58A8AF94229FFD9BF1E7C2B1AD71CA",
+        "size_bytes": 319629,
+        "staging_path": "sources/mpdecimal-4.0.0.tar.gz"
+      },
+      "upstream": "https://www.bytereef.org/mpdecimal/",
+      "version": "4.0.0"
+    },
+    {
+      "archive_tree_verification": {
+        "allowed_archive_only": [],
+        "archive_root": "cpython-source-deps-openssl-3.5.7",
+        "counts": {
+          "archive_file_count": 5750,
+          "direct_matches": 5750,
+          "eol_normalized_matches": 0,
+          "extra_files": 0,
+          "missing_tree_blobs": 0,
+          "tree_blob_count": 5750
+        },
+        "strategy": "git-archive-exact"
+      },
+      "consumers": [
+        "_internal/_hashlib.pyd",
+        "_internal/_ssl.pyd",
+        "_internal/libcrypto-3.dll",
+        "_internal/libssl-3.dll"
+      ],
+      "external_sbom_package": "openssl",
+      "external_sbom_sha256": "CA94E7C6C223D9CAF77BB51AAC5949186379608EA2A0CAD3AA8BDF31856912E9",
+      "external_sbom_url": "https://github.com/python/cpython-source-deps/archive/refs/tags/openssl-3.5.7.tar.gz",
+      "external_sbom_version": "3.5.7",
+      "git": {
+        "commit": "6a6901fa60c604816acb50b4e167791e5339c8f8",
+        "commit_metadata_path": "metadata/source-deps/openssl-3.5.7.commit.json",
+        "ref_metadata_path": "metadata/source-deps/openssl-3.5.7.ref.json",
+        "ref_sha": "6a6901fa60c604816acb50b4e167791e5339c8f8",
+        "ref_type": "commit",
+        "repository": "https://github.com/python/cpython-source-deps",
+        "tag": "openssl-3.5.7",
+        "tree": "4f5b47534bc1016b89e70bd6dc27382670adcee5",
+        "tree_metadata_path": "metadata/source-deps/openssl-3.5.7.tree-recursive.json"
+      },
+      "id": "openssl",
+      "license_expression": "Apache-2.0",
+      "licenses": [
+        {
+          "archive_path": "LICENSE.txt",
+          "sha256": "7D5450CB2D142651B8AFA315B5F238EFC805DAD827D91BA367D8516BC9D49E7A",
+          "size_bytes": 10175,
+          "staging_path": "licenses/openssl/LICENSE.txt"
+        },
+        {
+          "archive_path": "ACKNOWLEDGEMENTS.md",
+          "sha256": "58DEE45791F007CED048114717F86672778FE75C551827C57E760861446CE3C3",
+          "size_bytes": 159,
+          "staging_path": "licenses/openssl/ACKNOWLEDGEMENTS.md"
+        }
+      ],
+      "preservation_status": "PRESERVED_NEW",
+      "source_archive": {
+        "origin": "https://github.com/python/cpython-source-deps/archive/refs/tags/openssl-3.5.7.tar.gz",
+        "sha256": "CA94E7C6C223D9CAF77BB51AAC5949186379608EA2A0CAD3AA8BDF31856912E9",
+        "size_bytes": 53341406,
+        "staging_path": "sources/openssl-3.5.7.tar.gz"
+      },
+      "upstream": "https://www.openssl.org/",
+      "version": "3.5.7"
+    },
+    {
+      "archive_tree_verification": {
+        "allowed_archive_only": [],
+        "archive_root": "cpython-source-deps-tcl-core-8.6.15.0",
+        "counts": {
+          "archive_file_count": 2322,
+          "direct_matches": 2322,
+          "eol_normalized_matches": 0,
+          "extra_files": 0,
+          "missing_tree_blobs": 0,
+          "tree_blob_count": 2322
+        },
+        "strategy": "git-archive-exact"
+      },
+      "consumers": [
+        "_internal/tcl86t.dll",
+        "_internal/_tcl_data",
+        "_internal/_tkinter.pyd"
+      ],
+      "external_sbom_package": "tcl-core",
+      "external_sbom_sha256": "4C23F0DD3EFCBE6F3A22C503A68D147617BB30C4F5290F1EB3EAACF0B460440B",
+      "external_sbom_url": "https://github.com/python/cpython-source-deps/archive/refs/tags/tcl-core-8.6.15.0.tar.gz",
+      "external_sbom_version": "8.6.15.0",
+      "git": {
+        "commit": "275286594fd3e162af29e8c0ba4e365d3d1f7775",
+        "commit_metadata_path": "metadata/source-deps/tcl-core-8.6.15.0.commit.json",
+        "ref_metadata_path": "metadata/source-deps/tcl-core-8.6.15.0.ref.json",
+        "ref_sha": "275286594fd3e162af29e8c0ba4e365d3d1f7775",
+        "ref_type": "commit",
+        "repository": "https://github.com/python/cpython-source-deps",
+        "tag": "tcl-core-8.6.15.0",
+        "tree": "85bd8c2c9b2f8db34f56d08efdb3f65dd909b7c3",
+        "tree_metadata_path": "metadata/source-deps/tcl-core-8.6.15.0.tree-recursive.json"
+      },
+      "id": "tcl",
+      "license_expression": "TCL; bundled zlib and libtommath notices preserved",
+      "licenses": [
+        {
+          "archive_path": "license.terms",
+          "sha256": "C0A69A2BFD757361EC7E6143973B103C90409316B49E9C88DB26AD6388E79F16",
+          "size_bytes": 2255,
+          "staging_path": "licenses/tcl/license.terms"
+        },
+        {
+          "archive_path": "compat/zlib/LICENSE",
+          "sha256": "845EFC77857D485D91FB3E0B884AAA929368C717AE8186B66FE1ED2495753243",
+          "size_bytes": 1002,
+          "staging_path": "licenses/tcl/compat/zlib/LICENSE"
+        },
+        {
+          "archive_path": "libtommath/LICENSE",
+          "sha256": "2FA64B163659F41965C9815882A8296D3D03FF546B76153E11445F9BDECF955A",
+          "size_bytes": 1257,
+          "staging_path": "licenses/tcl/libtommath/LICENSE"
+        }
+      ],
+      "preservation_status": "PRESERVED_NEW",
+      "source_archive": {
+        "origin": "https://github.com/python/cpython-source-deps/archive/refs/tags/tcl-core-8.6.15.0.tar.gz",
+        "sha256": "4C23F0DD3EFCBE6F3A22C503A68D147617BB30C4F5290F1EB3EAACF0B460440B",
+        "size_bytes": 11889733,
+        "staging_path": "sources/tcl-core-8.6.15.0.tar.gz"
+      },
+      "upstream": "https://www.tcl-lang.org/",
+      "version": "8.6.15.0"
+    },
+    {
+      "archive_tree_verification": {
+        "allowed_archive_only": [],
+        "archive_root": "cpython-source-deps-tk-8.6.15.0",
+        "counts": {
+          "archive_file_count": 930,
+          "direct_matches": 930,
+          "eol_normalized_matches": 0,
+          "extra_files": 0,
+          "missing_tree_blobs": 0,
+          "tree_blob_count": 930
+        },
+        "strategy": "git-archive-exact"
+      },
+      "consumers": [
+        "_internal/tk86t.dll",
+        "_internal/_tk_data",
+        "_internal/_tkinter.pyd"
+      ],
+      "external_sbom_package": "tk",
+      "external_sbom_sha256": "0AE56D39BCA92865F338529557A1E56D110594184B6DC5A91339C5675751E264",
+      "external_sbom_url": "https://github.com/python/cpython-source-deps/archive/refs/tags/tk-8.6.15.0.tar.gz",
+      "external_sbom_version": "8.6.15.0",
+      "git": {
+        "commit": "a526badcf885e4986e13e68695398a0bb64d5ea1",
+        "commit_metadata_path": "metadata/source-deps/tk-8.6.15.0.commit.json",
+        "ref_metadata_path": "metadata/source-deps/tk-8.6.15.0.ref.json",
+        "ref_sha": "a526badcf885e4986e13e68695398a0bb64d5ea1",
+        "ref_type": "commit",
+        "repository": "https://github.com/python/cpython-source-deps",
+        "tag": "tk-8.6.15.0",
+        "tree": "642dd68515c70ff138bc867919304f0936cf3fe9",
+        "tree_metadata_path": "metadata/source-deps/tk-8.6.15.0.tree-recursive.json"
+      },
+      "id": "tk",
+      "license_expression": "TCL",
+      "licenses": [
+        {
+          "archive_path": "license.terms",
+          "sha256": "2CDE822B93CA16AE535C954B7DFE658B4AD10DF2A193628D1B358F1765E8B198",
+          "size_bytes": 2267,
+          "staging_path": "licenses/tk/license.terms"
+        }
+      ],
+      "preservation_status": "PRESERVED_NEW",
+      "source_archive": {
+        "origin": "https://github.com/python/cpython-source-deps/archive/refs/tags/tk-8.6.15.0.tar.gz",
+        "sha256": "0AE56D39BCA92865F338529557A1E56D110594184B6DC5A91339C5675751E264",
+        "size_bytes": 4629677,
+        "staging_path": "sources/tk-8.6.15.0.tar.gz"
+      },
+      "upstream": "https://www.tcl-lang.org/",
+      "version": "8.6.15.0"
+    },
+    {
+      "archive_tree_verification": {
+        "allowed_archive_only": [],
+        "archive_root": "cpython-source-deps-xz-5.2.5",
+        "counts": {
+          "archive_file_count": 480,
+          "direct_matches": 480,
+          "eol_normalized_matches": 0,
+          "extra_files": 0,
+          "missing_tree_blobs": 0,
+          "tree_blob_count": 480
+        },
+        "strategy": "git-archive-exact"
+      },
+      "consumers": [
+        "_internal/_lzma.pyd"
+      ],
+      "external_sbom_package": "xz",
+      "external_sbom_sha256": "A15C168E39E87D750C3DC766EDC7F19BDDA57DACF01E509678467EACE91AD282",
+      "external_sbom_url": "https://github.com/python/cpython-source-deps/archive/refs/tags/xz-5.2.5.tar.gz",
+      "external_sbom_version": "5.2.5",
+      "git": {
+        "commit": "c6bc0c612605622aaef101a33a751f9de2ecc193",
+        "repository": "https://github.com/python/cpython-source-deps",
+        "reuse_provenance_path": "metadata/reused/yt-dlp-SOURCE_PROVENANCE.json",
+        "tag": "xz-5.2.5",
+        "tree": "2b8fb6a3c0b111c2175bec896b2a22448fd0ac4b",
+        "tree_metadata_path": "metadata/reused/xz-5.2.5.tree-recursive.json"
+      },
+      "id": "xz",
+      "license_expression": "mixed public-domain, LGPL-2.1-or-later, GPL-2.0-or-later and GPL-3.0-or-later notices",
+      "licenses": [
+        {
+          "archive_path": "COPYING",
+          "sha256": "BCB02973EF6E87EA73D331B3A80DF7748407F17EFDB784B61B47E0E610D3BB5C",
+          "size_bytes": 2775,
+          "staging_path": "licenses/xz/COPYING"
+        },
+        {
+          "archive_path": "COPYING.GPLv2",
+          "sha256": "8177F97513213526DF2CF6184D8FF986C675AFB514D4E68A404010521B880643",
+          "size_bytes": 18092,
+          "staging_path": "licenses/xz/COPYING.GPLv2"
+        },
+        {
+          "archive_path": "COPYING.GPLv3",
+          "sha256": "8CEB4B9EE5ADEDDE47B31E975C1D90C73AD27B6B165A1DCD80C7C545EB65B903",
+          "size_bytes": 35147,
+          "staging_path": "licenses/xz/COPYING.GPLv3"
+        },
+        {
+          "archive_path": "COPYING.LGPLv2.1",
+          "sha256": "DC626520DCD53A22F727AF3EE42C770E56C97A64FE3ADB063799D8AB032FE551",
+          "size_bytes": 26530,
+          "staging_path": "licenses/xz/COPYING.LGPLv2.1"
+        }
+      ],
+      "preservation_status": "REUSED_EXISTING_SOURCE",
+      "reused_from": "compliance_artifacts/yt-dlp/2026.07.04/sources/lot-1f/xz-5.2.5.zip",
+      "source_archive": {
+        "origin": "https://github.com/python/cpython-source-deps/archive/refs/tags/xz-5.2.5.zip",
+        "sha256": "6A4389CC05143BEB2679B1299CECEE71B02BAA55E70F68A88B44DC01AD495424",
+        "size_bytes": 2054244,
+        "staging_path": "sources/xz-5.2.5.zip"
+      },
+      "upstream": "https://tukaani.org/xz/",
+      "version": "5.2.5"
+    },
+    {
+      "archive_tree_verification": {
+        "allowed_archive_only": [],
+        "archive_root": "cpython-source-deps-zlib-ng-2.2.4",
+        "counts": {
+          "archive_file_count": 330,
+          "direct_matches": 330,
+          "eol_normalized_matches": 0,
+          "extra_files": 0,
+          "missing_tree_blobs": 0,
+          "tree_blob_count": 330
+        },
+        "strategy": "git-archive-exact"
+      },
+      "consumers": [
+        "_internal/python314.dll (zlib compatibility 1.3.1.zlib-ng)"
+      ],
+      "external_sbom_package": "zlib-ng",
+      "external_sbom_sha256": "00BBD88709BC416CB96160AB61D3E1C8F76E106799AF7328D0FE434DC7DD5004",
+      "external_sbom_url": "https://github.com/python/cpython-source-deps/archive/refs/tags/zlib-ng-2.2.4.tar.gz",
+      "external_sbom_version": "2.2.4",
+      "git": {
+        "commit": "a502e047655c31db29601def76ad6539acacf43d",
+        "commit_metadata_path": "metadata/source-deps/zlib-ng-2.2.4.commit.json",
+        "ref_metadata_path": "metadata/source-deps/zlib-ng-2.2.4.ref.json",
+        "ref_sha": "a502e047655c31db29601def76ad6539acacf43d",
+        "ref_type": "commit",
+        "repository": "https://github.com/python/cpython-source-deps",
+        "tag": "zlib-ng-2.2.4",
+        "tree": "897870eecd4dd0e8cc94db018ddb09bc01348671",
+        "tree_metadata_path": "metadata/source-deps/zlib-ng-2.2.4.tree-recursive.json"
+      },
+      "id": "zlib-ng",
+      "license_expression": "Zlib",
+      "licenses": [
+        {
+          "archive_path": "LICENSE.md",
+          "sha256": "6C9F0D975B41AFAA34D22F55BB8986CE69E5CB7AD327CB2B28820CD425EDF5EE",
+          "size_bytes": 867,
+          "staging_path": "licenses/zlib-ng/LICENSE.md"
+        }
+      ],
+      "preservation_status": "PRESERVED_NEW",
+      "source_archive": {
+        "origin": "https://github.com/python/cpython-source-deps/archive/refs/tags/zlib-ng-2.2.4.tar.gz",
+        "sha256": "00BBD88709BC416CB96160AB61D3E1C8F76E106799AF7328D0FE434DC7DD5004",
+        "size_bytes": 2415819,
+        "staging_path": "sources/zlib-ng-2.2.4.tar.gz"
+      },
+      "upstream": "https://github.com/zlib-ng/zlib-ng",
+      "version": "2.2.4"
+    },
+    {
+      "archive_tree_verification": {
+        "allowed_archive_only": [],
+        "archive_root": "cpython-source-deps-zstd-1.5.7",
+        "counts": {
+          "archive_file_count": 628,
+          "direct_matches": 595,
+          "eol_normalized_matches": 33,
+          "extra_files": 0,
+          "missing_tree_blobs": 0,
+          "tree_blob_count": 628
+        },
+        "strategy": "git-archive-eol-normalized"
+      },
+      "consumers": [
+        "_internal/_zstd.pyd"
+      ],
+      "external_sbom_package": "zstd",
+      "external_sbom_sha256": "F24B52470D12F466E9FA4FCC94E6C530625ADA51D7B36DE7FDC6ED7E6F499C8E",
+      "external_sbom_url": "https://github.com/python/cpython-source-deps/archive/refs/tags/zstd-1.5.7.tar.gz",
+      "external_sbom_version": "1.5.7",
+      "git": {
+        "commit": "eef946ae8cf1591c0e5cc5f43486210768647c2e",
+        "commit_metadata_path": "metadata/source-deps/zstd-1.5.7.commit.json",
+        "ref_metadata_path": "metadata/source-deps/zstd-1.5.7.ref.json",
+        "ref_sha": "eef946ae8cf1591c0e5cc5f43486210768647c2e",
+        "ref_type": "commit",
+        "repository": "https://github.com/python/cpython-source-deps",
+        "tag": "zstd-1.5.7",
+        "tree": "65df13bfb803791fd5d2073f3ce86a8743dd05ff",
+        "tree_metadata_path": "metadata/source-deps/zstd-1.5.7.tree-recursive.json"
+      },
+      "id": "zstandard",
+      "license_expression": "BSD-3-Clause OR GPL-2.0-only",
+      "licenses": [
+        {
+          "archive_path": "LICENSE",
+          "sha256": "7055266497633C9025B777C78EB7235AF13922117480ED5C674677ADC381C9D8",
+          "size_bytes": 1549,
+          "staging_path": "licenses/zstandard/LICENSE"
+        },
+        {
+          "archive_path": "COPYING",
+          "sha256": "F9C375A1BE4A41F7B70301DD83C91CB89E41567478859B77EEF375A52D782505",
+          "size_bytes": 18091,
+          "staging_path": "licenses/zstandard/COPYING"
+        }
+      ],
+      "preservation_status": "PRESERVED_NEW",
+      "source_archive": {
+        "origin": "https://github.com/python/cpython-source-deps/archive/refs/tags/zstd-1.5.7.tar.gz",
+        "sha256": "F24B52470D12F466E9FA4FCC94E6C530625ADA51D7B36DE7FDC6ED7E6F499C8E",
+        "size_bytes": 2440298,
+        "staging_path": "sources/zstd-1.5.7.tar.gz"
+      },
+      "upstream": "https://github.com/facebook/zstd",
+      "version": "1.5.7"
+    }
+  ],
+  "schema_version": 1,
+  "separations": {
+    "active_ffmpeg": "GYAN",
+    "btbn": "CANDIDATE_NOT_PROMOTED",
+    "build_reproducibility": "SEPARATE_PENDING_REVIEW",
+    "legal_review": "PENDING",
+    "microsoft_runtime": "P3_PENDING_LEGAL_REVIEW",
+    "next_gaps": [
+      "PyInstaller 6.21.0 e runtime hooks",
+      "cffi 2.1.1",
+      "cryptography 49.0.0",
+      "Deno notices",
+      "CustomTkinter notice/license reconciliation",
+      "Microsoft runtime redistribution review"
+    ],
+    "production": "NO-GO",
+    "public_release": "NO-GO"
+  }
+}

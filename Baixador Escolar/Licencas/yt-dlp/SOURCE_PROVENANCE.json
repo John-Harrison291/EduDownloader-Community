@@ -1,0 +1,2601 @@
+{
+  "build_inputs": [
+    {
+      "origin": "https://raw.githubusercontent.com/yt-dlp/Pyinstaller-Builds/2026.08.19.215425/.github/workflows/build.yml",
+      "purpose": "workflow que compila o bootloader e o wheel Windows customizado do PyInstaller",
+      "sha256": "4B065FACF2F20493E534534980AC64557C5EAD4F3DE24F9282B55CC8D5735FB8",
+      "size": 8863,
+      "staging_path": "build-inputs/pyinstaller-builds/.github/workflows/build.yml"
+    },
+    {
+      "origin": "https://raw.githubusercontent.com/yt-dlp/Pyinstaller-Builds/2026.08.19.215425/LICENSE",
+      "purpose": "licença do repositório de scripts Pyinstaller-Builds",
+      "sha256": "7E12E5DF4BAE12CB21581BA157CED20E1986A0508DD10D0E8A4AB9A4CF94E85C",
+      "size": 1211,
+      "staging_path": "build-inputs/pyinstaller-builds/LICENSE"
+    },
+    {
+      "origin": "https://raw.githubusercontent.com/yt-dlp/Pyinstaller-Builds/2026.08.19.215425/pyproject.toml",
+      "purpose": "configuração do projeto auxiliar de build",
+      "sha256": "6D617F8CE9FF38060A20B99DD61F89BC2BF5EF477311831D58C0B9CF21A3127F",
+      "size": 424,
+      "staging_path": "build-inputs/pyinstaller-builds/pyproject.toml"
+    },
+    {
+      "origin": "https://raw.githubusercontent.com/yt-dlp/Pyinstaller-Builds/2026.08.19.215425/requirements/build.txt",
+      "purpose": "requirements com hashes usados para construir o wheel customizado",
+      "sha256": "370E428BF32C29BE70220A1333B505366D6BFC13170763BED02A66C71323EA66",
+      "size": 1659,
+      "staging_path": "build-inputs/pyinstaller-builds/requirements/build.txt"
+    },
+    {
+      "origin": "https://raw.githubusercontent.com/yt-dlp/Pyinstaller-Builds/2026.08.19.215425/requirements/pip.txt",
+      "purpose": "versão e hashes do pip usados pelo build do wheel customizado",
+      "sha256": "9CBB5EB515EA9DB4BF574BE76F2A0E0D42911C41A01E3327B5E6903B8AF9F412",
+      "size": 182,
+      "staging_path": "build-inputs/pyinstaller-builds/requirements/pip.txt"
+    },
+    {
+      "origin": "https://raw.githubusercontent.com/yt-dlp/Pyinstaller-Builds/2026.08.19.215425/uv.lock",
+      "purpose": "lock com URLs e hashes das ferramentas de build do wheel customizado",
+      "sha256": "63DC56AF0F367C9B6BDBD2AF1D54E7B2ED36A97619CDA562FCCFBD28DEF74993",
+      "size": 7971,
+      "staging_path": "build-inputs/pyinstaller-builds/uv.lock"
+    },
+    {
+      "origin": "yt-dlp.tar.gz!yt-dlp/Makefile",
+      "purpose": "receita oficial que produz o source archive da release",
+      "sha256": "CA03807670D8328C2815A66A51ED1A2CA3D0EC0464E5B7E17BEDC36591266308",
+      "size": 10330,
+      "staging_path": "build-inputs/source-archive/yt-dlp/Makefile"
+    },
+    {
+      "origin": "yt-dlp.tar.gz!yt-dlp/devscripts/make_lazy_extractors.py",
+      "purpose": "script executado pelo workflow antes do empacotamento",
+      "sha256": "BEBBB3632A6945A401E485DAE9CF1E24DC07360D1374E4AC3485D76084905D21",
+      "size": 3950,
+      "staging_path": "build-inputs/source-archive/yt-dlp/devscripts/make_lazy_extractors.py"
+    },
+    {
+      "origin": "yt-dlp.tar.gz!yt-dlp/devscripts/update-version.py",
+      "purpose": "script que fixa versão, canal, origem e source commit",
+      "sha256": "82A3544733D5DD93EF044BD0F4178951E1D9D1589597CD24F684FCAE90ED5C4E",
+      "size": 1822,
+      "staging_path": "build-inputs/source-archive/yt-dlp/devscripts/update-version.py"
+    },
+    {
+      "origin": "yt-dlp.tar.gz!yt-dlp/pyproject.toml",
+      "purpose": "metadata e grupos de dependências oficiais do source",
+      "sha256": "52966AD39751DDD50157A1BF9B3BA508C438BCE6EF732991B63EF49A0BE114FC",
+      "size": 12629,
+      "staging_path": "build-inputs/source-archive/yt-dlp/pyproject.toml"
+    },
+    {
+      "origin": "yt-dlp.tar.gz!yt-dlp/yt_dlp/__pyinstaller/__init__.py",
+      "purpose": "registro do diretório de hooks customizados do yt-dlp",
+      "sha256": "F9CE19A3C9D018A026F3073F2C3B1CC4CB4AEF3AFF6216704670BD08CAEE5011",
+      "size": 72,
+      "staging_path": "build-inputs/source-archive/yt-dlp/yt_dlp/__pyinstaller/__init__.py"
+    },
+    {
+      "origin": "yt-dlp.tar.gz!yt-dlp/yt_dlp/__pyinstaller/hook-yt_dlp.py",
+      "purpose": "hook customizado que coleta imports e dados para o executável",
+      "sha256": "E51774CD5DA90EC9236352AD4F4C2C8F1BF8852B71EBBB0B0A351EC6C16F16EB",
+      "size": 1339,
+      "staging_path": "build-inputs/source-archive/yt-dlp/yt_dlp/__pyinstaller/hook-yt_dlp.py"
+    },
+    {
+      "origin": "yt-dlp.tar.gz!yt-dlp/yt_dlp/version.py",
+      "purpose": "evidência da versão, canal e source functional commit incorporados",
+      "sha256": "5D7C9A50DBACBDB3596A77C9856A7C1AEDED2FFCE3CFDD25A7DF76954791CF4D",
+      "size": 250,
+      "staging_path": "build-inputs/source-archive/yt-dlp/yt_dlp/version.py"
+    },
+    {
+      "origin": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/2026.08.19/.github/workflows/build.yml",
+      "purpose": "workflow oficial que define o job win_exe x64",
+      "sha256": "CD9AAE06AFAA22166670BD7182D7279AE12DAD2C1034C1CBEB0DB3F5D993FC04",
+      "size": 22091,
+      "staging_path": "build-inputs/yt-dlp-tag/.github/workflows/build.yml"
+    },
+    {
+      "origin": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/2026.08.19/bundle/pyinstaller.py",
+      "purpose": "script oficial que configura o CArchive/PYZ e o hook customizado",
+      "sha256": "792B2E882D469B46E46F15707BF1869A2C043F7E89C79BC75F8725014482759A",
+      "size": 4739,
+      "staging_path": "build-inputs/yt-dlp-tag/bundle/pyinstaller.py"
+    },
+    {
+      "origin": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/2026.08.19/bundle/requirements/curl-cffi.txt",
+      "purpose": "lock com hashes das dependências instaladas no job Windows x64",
+      "sha256": "898C4D3BF40A6F1CB59E8CB8184536C0B97C543367E3256621A5B6D791729632",
+      "size": 52256,
+      "staging_path": "build-inputs/yt-dlp-tag/bundle/requirements/curl-cffi.txt"
+    },
+    {
+      "origin": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/2026.08.19/bundle/requirements/pip.txt",
+      "purpose": "versão e hashes do pip instalado no job Windows x64",
+      "sha256": "9CBB5EB515EA9DB4BF574BE76F2A0E0D42911C41A01E3327B5E6903B8AF9F412",
+      "size": 182,
+      "staging_path": "build-inputs/yt-dlp-tag/bundle/requirements/pip.txt"
+    },
+    {
+      "origin": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/2026.08.19/bundle/requirements/win-x64-pyinstaller.txt",
+      "purpose": "lock do PyInstaller e auxiliares usados no win_exe x64",
+      "sha256": "473E6212FF85DA7320B55933EDF7FDC294B5DA7D8F4348D1863D7D06865A60C6",
+      "size": 1855,
+      "staging_path": "build-inputs/yt-dlp-tag/bundle/requirements/win-x64-pyinstaller.txt"
+    }
+  ],
+  "component": "yt-dlp",
+  "correspondence": {
+    "certifi": {
+      "cacert_archive_member": "certifi-2026.7.22/certifi/cacert.pem",
+      "cacert_sha256": "9CC2A774B5198DCFF14D9BE1E66091F538975D867CE029A96BCE15A55DFD730F",
+      "certdata_commit": "4e9426ae522c67de47ff3e060774328b42df0134",
+      "certdata_staging_path": "sources/lot-1b/mozilla-firefox-certdata-4e9426a.txt",
+      "mkcert_service_commit": "90d0d3395d94391b365bf6a3a3bfa444be5cc4b8",
+      "status": "verified",
+      "trusted_certificate_count": 121,
+      "verification": "equivalent offline selection of TLS trusted delegators, including 398-day distrust-after policy, followed by equality of the 118 DER SHA-256 sets",
+      "verification_as_of_utc": "2026-07-22T03:33:30Z"
+    },
+    "cpython_runtime": {
+      "archive": {
+        "archive_git_common_blobs": 4277,
+        "archive_git_direct_matches": 4127,
+        "archive_git_eol_normalized_matches": 150,
+        "archive_only_members": [
+          "Misc/NEWS"
+        ],
+        "archive_root": "Python-3.10.11",
+        "commit": "7d4cc5aa854fdea4d01a5b9c59e37c6e62f1103d",
+        "commit_metadata_path": "source-metadata/lot-1e/cpython-v3.10.11.commit.json",
+        "expected_file_count": 4278,
+        "filename": "Python-3.10.11.tar.xz",
+        "release_date": "2023-04-05",
+        "sha256": "3C3BC3048303721C904A03EB8326B631E921F11CC3BE2988456A42F115DAF04C",
+        "sigstore_digest_base64": "PDvDBIMDchyQSgPrgya2Mekh8RzDvimIRWpC8RXa8Ew=",
+        "sigstore_metadata_path": "source-metadata/lot-1e/Python-3.10.11.tar.xz.sigstore",
+        "staging_path": "sources/lot-1e/Python-3.10.11.tar.xz",
+        "status": "verified",
+        "tag": "v3.10.11",
+        "tag_object": "67e163167580c6867f6c735bc143e601a3318561",
+        "tag_object_metadata_path": "source-metadata/lot-1e/cpython-v3.10.11.tag-object.json",
+        "tag_ref_metadata_path": "source-metadata/lot-1e/cpython-v3.10.11.tag-ref.json",
+        "tree": "70d149737111f058b90938480d20b2a9cb038480",
+        "tree_metadata_path": "source-metadata/lot-1e/cpython-v3.10.11.tree-recursive.json"
+      },
+      "bundled_sources": [
+        {
+          "component": "Expat",
+          "license_path": "Modules/expat/COPYING",
+          "separate_source_required": false,
+          "source_path": "Modules/expat",
+          "status": "covered-by-parent",
+          "version": "2.5.0"
+        },
+        {
+          "component": "mpdecimal",
+          "license_path": "Modules/_decimal/libmpdec/mpdecimal.h",
+          "separate_source_required": false,
+          "source_path": "Modules/_decimal/libmpdec",
+          "status": "covered-by-parent",
+          "version": "2.5.1"
+        }
+      ],
+      "external_pins": [
+        {
+          "archive_blob_count": 3099,
+          "archive_direct_matches": 3099,
+          "archive_eol_normalized_matches": 0,
+          "archive_root": "cpython-source-deps-openssl-1.1.1t",
+          "binary_pin": {
+            "commit": "81a3a6a51d4d9f9703f5a58ecaf2aa17db2c09f2",
+            "repository": "https://github.com/python/cpython-bin-deps",
+            "tag": "openssl-bin-1.1.1t",
+            "tree": "fdc2124f0f8d0818323a4e401d13f49551fdbfb1"
+          },
+          "component": "OpenSSL",
+          "coverage": "source necessário para libcrypto-1_1.dll, libssl-1_1.dll, _ssl.pyd e _hashlib.pyd do runtime CPython",
+          "cpython_pin_evidence": "PCbuild/python.props, PCbuild/get_external.py, PCbuild/prepare_ssl.bat e openssl.vcxproj",
+          "expected_source_archive": "openssl-1.1.1t.zip",
+          "integrity_authority": "local_calculated_verified_revision",
+          "license_references": [
+            "LICENSE",
+            "external/perl/Text-Template-1.46/COPYING"
+          ],
+          "material_evidence": "libcrypto-1_1.dll and libssl-1_1.dll report OpenSSL 1.1.1t",
+          "material_role": "runtime external used by CPython _ssl and _hashlib",
+          "patches": [
+            "source-deps commit applies upstream OpenSSL PR 20235 for ARM64"
+          ],
+          "preservation_filename": "openssl-1.1.1t.zip",
+          "source_archive_component": "CPython OpenSSL runtime",
+          "source_archive_strategy": "GitHub ref ZIP fetched by PCbuild/get_external.py",
+          "source_commit": "82bfdc9e019e4892c5bd8f90b71c42fbf79f29d0",
+          "source_filename": "openssl-1.1.1t.zip",
+          "source_repository": "https://github.com/python/cpython-source-deps",
+          "source_sha256": "DCB3F0726184F0924249F1FFB2322794FBC0C99C2AB581DBE5A3E9D88B9C837C",
+          "source_size": 11952076,
+          "source_staging_path": "sources/lot-1f/openssl-1.1.1t.zip",
+          "source_tag": "openssl-1.1.1t",
+          "source_tree": "bc4df93cec8153bb83968daa11aa7f0727b2ca20",
+          "status": "verified",
+          "technical_status": "resolved",
+          "tree_metadata_path": "source-metadata/lot-1f/cpython-source-deps-openssl-1.1.1t.tree-recursive.json",
+          "upstream": "https://www.openssl.org/",
+          "version": "1.1.1t",
+          "windows_configuration": "prebuilt openssl-bin consumed by _ssl/_hashlib; prepare_ssl maps the matching source tag"
+        },
+        {
+          "archive_blob_count": 5,
+          "archive_direct_matches": 5,
+          "archive_eol_normalized_matches": 0,
+          "archive_root": "cpython-source-deps-sqlite-3.40.1.0",
+          "binary_pin": null,
+          "component": "SQLite",
+          "coverage": "amalgamation sqlite3.c/sqlite3.h utilizada por sqlite3.vcxproj para sqlite3.dll e _sqlite3.pyd",
+          "cpython_pin_evidence": "PCbuild/python.props, PCbuild/get_external.py e PCbuild/sqlite3.vcxproj",
+          "expected_source_archive": "sqlite-3.40.1.0.zip",
+          "integrity_authority": "local_calculated_verified_revision",
+          "license_references": [
+            "sqlite3.c",
+            "sqlite3.h"
+          ],
+          "material_evidence": "sqlite3.dll reports SQLite 3.40.1 and is imported by _sqlite3.pyd",
+          "material_role": "runtime external used by CPython _sqlite3",
+          "patches": [],
+          "preservation_filename": "sqlite-3.40.1.0.zip",
+          "source_archive_component": "CPython SQLite runtime",
+          "source_archive_strategy": "GitHub ref ZIP fetched by PCbuild/get_external.py",
+          "source_commit": "db4ca556b25787c263ee72a4b764c4be474c322f",
+          "source_filename": "sqlite-3.40.1.0.zip",
+          "source_repository": "https://github.com/python/cpython-source-deps",
+          "source_sha256": "39ADCF18B275197E819F3997F96B9D4C28563739EDBCFDA5305199004B627D01",
+          "source_size": 2597565,
+          "source_staging_path": "sources/lot-1f/sqlite-3.40.1.0.zip",
+          "source_tag": "sqlite-3.40.1.0",
+          "source_tree": "e8bf88c536ad863a1481e88e0742ba5690fc853b",
+          "status": "verified",
+          "technical_status": "resolved",
+          "tree_metadata_path": "source-metadata/lot-1f/cpython-source-deps-sqlite-3.40.1.0.tree-recursive.json",
+          "upstream": "https://www.sqlite.org/",
+          "version": "3.40.1",
+          "windows_configuration": "source-deps tree is built by PCbuild/sqlite3.vcxproj"
+        },
+        {
+          "archive_blob_count": 480,
+          "archive_direct_matches": 480,
+          "archive_eol_normalized_matches": 0,
+          "archive_root": "cpython-source-deps-xz-5.2.5",
+          "binary_pin": null,
+          "component": "XZ/liblzma",
+          "coverage": "source liblzma compilado por liblzma.vcxproj para _lzma.pyd",
+          "cpython_pin_evidence": "PCbuild/python.props, PCbuild/get_external.py e PCbuild/liblzma.vcxproj",
+          "expected_source_archive": "xz-5.2.5.zip",
+          "integrity_authority": "local_calculated_verified_revision",
+          "license_references": [
+            "COPYING",
+            "COPYING.GPLv2",
+            "COPYING.GPLv3",
+            "COPYING.LGPLv2.1"
+          ],
+          "material_evidence": "_lzma.pyd contains statically linked liblzma material",
+          "material_role": "runtime external statically linked into CPython _lzma",
+          "patches": [],
+          "preservation_filename": "xz-5.2.5.zip",
+          "source_archive_component": "CPython XZ/liblzma runtime",
+          "source_archive_strategy": "GitHub ref ZIP fetched by PCbuild/get_external.py",
+          "source_commit": "c6bc0c612605622aaef101a33a751f9de2ecc193",
+          "source_filename": "xz-5.2.5.zip",
+          "source_repository": "https://github.com/python/cpython-source-deps",
+          "source_sha256": "6A4389CC05143BEB2679B1299CECEE71B02BAA55E70F68A88B44DC01AD495424",
+          "source_size": 2054244,
+          "source_staging_path": "sources/lot-1f/xz-5.2.5.zip",
+          "source_tag": "xz-5.2.5",
+          "source_tree": "2b8fb6a3c0b111c2175bec896b2a22448fd0ac4b",
+          "status": "verified",
+          "technical_status": "resolved",
+          "tree_metadata_path": "source-metadata/lot-1f/cpython-source-deps-xz-5.2.5.tree-recursive.json",
+          "upstream": "https://tukaani.org/xz/",
+          "version": "5.2.5",
+          "windows_configuration": "source-deps tree is built and linked by PCbuild/liblzma.vcxproj"
+        },
+        {
+          "archive_blob_count": 56,
+          "archive_direct_matches": 56,
+          "archive_eol_normalized_matches": 0,
+          "archive_root": "cpython-source-deps-bzip2-1.0.8",
+          "binary_pin": null,
+          "component": "bzip2",
+          "coverage": "source bzip2 compilado estaticamente por _bz2.vcxproj para _bz2.pyd",
+          "cpython_pin_evidence": "PCbuild/python.props, PCbuild/get_external.py e PCbuild/_bz2.vcxproj",
+          "expected_source_archive": "bzip2-1.0.8.zip",
+          "integrity_authority": "local_calculated_verified_revision",
+          "license_references": [
+            "LICENSE"
+          ],
+          "material_evidence": "_bz2.pyd reports bzip2 1.0.8 and contains no separate bzip2 DLL import",
+          "material_role": "runtime external statically linked into CPython _bz2",
+          "patches": [],
+          "preservation_filename": "bzip2-1.0.8.zip",
+          "source_archive_component": "CPython bzip2 runtime",
+          "source_archive_strategy": "GitHub ref ZIP fetched by PCbuild/get_external.py",
+          "source_commit": "05301997b2f9590f49c672cf3dfd3d3dfa7ad521",
+          "source_filename": "bzip2-1.0.8.zip",
+          "source_repository": "https://github.com/python/cpython-source-deps",
+          "source_sha256": "12C17D15F99E27235529574A722FB484A4E8FDF2427CEF53B1B68BDF07E404A9",
+          "source_size": 831543,
+          "source_staging_path": "sources/lot-1f/bzip2-1.0.8.zip",
+          "source_tag": "bzip2-1.0.8",
+          "source_tree": "933e65e88f0a28f9bcbc8abe5a4c12e3f618c043",
+          "status": "verified",
+          "technical_status": "resolved",
+          "tree_metadata_path": "source-metadata/lot-1f/cpython-source-deps-bzip2-1.0.8.tree-recursive.json",
+          "upstream": "https://sourceware.org/bzip2/",
+          "version": "1.0.8",
+          "windows_configuration": "source-deps tree is linked into _bz2.pyd"
+        },
+        {
+          "archive_blob_count": 397,
+          "archive_direct_matches": 393,
+          "archive_eol_normalized_matches": 4,
+          "archive_root": "cpython-source-deps-libffi-3.3.0",
+          "binary_pin": {
+            "commit": "1cf06233e3ceb49dc0a73c55e04b1174b436b632",
+            "repository": "https://github.com/python/cpython-bin-deps",
+            "tag": "libffi-3.3.0",
+            "tree": "96b7bb3174d2f9297286c4694966fa50a622c80a"
+          },
+          "component": "libffi runtime",
+          "coverage": "source e configuração Windows correspondentes a libffi-7.dll e _ctypes.pyd do runtime CPython",
+          "cpython_pin_evidence": "PCbuild/python.props, PCbuild/get_external.py, PCbuild/prepare_libffi.bat e libffi.props",
+          "expected_source_archive": "libffi-3.3.0.zip",
+          "integrity_authority": "local_calculated_verified_revision",
+          "license_references": [
+            "LICENSE",
+            "LICENSE-BUILDTOOLS"
+          ],
+          "material_evidence": "_ctypes.pyd imports libffi-7.dll from the CPython runtime",
+          "material_role": "runtime external used by CPython _ctypes",
+          "patches": [],
+          "preservation_filename": "libffi-3.3.0.zip",
+          "source_archive_component": "CPython libffi runtime",
+          "source_archive_strategy": "GitHub ref ZIP fetched by PCbuild/get_external.py",
+          "source_commit": "35a5081d073058159e8db96c43029f88c1da501a",
+          "source_filename": "libffi-3.3.0.zip",
+          "source_repository": "https://github.com/python/cpython-source-deps",
+          "source_sha256": "AD6F4DDFD00591CC6E6A7F1FD82FDBD4CC41CF2D117E861A24235A7CF126D779",
+          "source_size": 828438,
+          "source_staging_path": "sources/lot-1f/libffi-3.3.0.zip",
+          "source_tag": "libffi-3.3.0",
+          "source_tree": "b4583c058b78268d2349dc17f4597d59733a6f43",
+          "status": "verified",
+          "technical_status": "resolved",
+          "tree_metadata_path": "source-metadata/lot-1f/cpython-source-deps-libffi-3.3.0.tree-recursive.json",
+          "upstream": "https://github.com/libffi/libffi",
+          "version": "3.3.0",
+          "version_marker_note": "the exact cpython-source-deps and cpython-bin-deps pins are named 3.3.0; configure.ac in the preserved source tree retains the upstream 3.3-rc0 marker",
+          "windows_configuration": "prebuilt libffi-3.3.0 supplies AMD64 libffi-7.dll and headers to _ctypes"
+        },
+        {
+          "archive_blob_count": 243,
+          "archive_direct_matches": 243,
+          "archive_eol_normalized_matches": 0,
+          "archive_root": "cpython-source-deps-zlib-1.2.13",
+          "binary_pin": null,
+          "component": "zlib runtime",
+          "coverage": "source zlib compilado por PCbuild e incorporado ao runtime CPython, distinto da closure nativa curl",
+          "cpython_pin_evidence": "PCbuild/python.props, PCbuild/get_external.py e PCbuild/pythoncore.vcxproj",
+          "expected_source_archive": "zlib-1.2.13.zip",
+          "integrity_authority": "local_calculated_verified_revision",
+          "license_references": [
+            "LICENSE"
+          ],
+          "material_evidence": "python310.dll contains zlib 1.2.13 runtime markers; distinct from curl closure zlib",
+          "material_role": "runtime external statically compiled into CPython pythoncore",
+          "patches": [],
+          "preservation_filename": "zlib-1.2.13.zip",
+          "source_archive_component": "CPython zlib runtime",
+          "source_archive_strategy": "GitHub ref ZIP fetched by PCbuild/get_external.py",
+          "source_commit": "9071e5ae1bd90c30518404b95ec0be0d4cf6cf84",
+          "source_filename": "zlib-1.2.13.zip",
+          "source_repository": "https://github.com/python/cpython-source-deps",
+          "source_sha256": "93F286FEFC44D971DBE865C59D6C61BB9CF429CA6607EB0604B0A5DAE33D9486",
+          "source_size": 1692041,
+          "source_staging_path": "sources/lot-1f/zlib-1.2.13.zip",
+          "source_tag": "zlib-1.2.13",
+          "source_tree": "a686f8a2cdec1ce5183781d167531e927284188c",
+          "status": "verified",
+          "technical_status": "resolved",
+          "tree_metadata_path": "source-metadata/lot-1f/cpython-source-deps-zlib-1.2.13.tree-recursive.json",
+          "upstream": "https://zlib.net/",
+          "version": "1.2.13",
+          "windows_configuration": "PCbuild zlib project supplies runtime compression material"
+        }
+      ],
+      "metadata_collection_root": "source-metadata/lot-1e",
+      "non_material_externals": [
+        {
+          "component": "Tcl/Tk/Tix",
+          "pins": [
+            "tcl-core-8.6.12.0",
+            "tk-8.6.12.0",
+            "tix-8.4.3.6",
+            "tcltk-8.6.12.0"
+          ],
+          "reason": "Tcl/Tk, tkinter and _tkinter are absent from yt-dlp.exe",
+          "source_required": false,
+          "status": "not-required"
+        },
+        {
+          "component": "NASM",
+          "pins": [
+            "nasm-2.11.06"
+          ],
+          "reason": "build-only input for optional OpenSSL source rebuild; no NASM runtime is distributed",
+          "source_required": false,
+          "status": "not-required"
+        }
+      ],
+      "runtime_correspondence": {
+        "architecture": "AMD64",
+        "embedded_version": "3.10.11",
+        "evidence": "version resources, CArchive/PYZ, native extensions and matching PCbuild pins",
+        "runtime_files": [
+          "python310.dll",
+          "python3.dll",
+          "base_library.zip",
+          "stdlib PYZ",
+          "native CPython extensions"
+        ],
+        "status": "matched-version-and-architecture"
+      },
+      "setup_python": {
+        "action_commit": "ece7cb06caefa5fff74198d8649806c4678c61a1",
+        "architecture": "x64",
+        "checksums_metadata_path": "source-metadata/lot-1e/python-versions-3.10.11-11114431484.hashes.sha256",
+        "exact_job_consumption_proven": false,
+        "manifest_commit": "db69292aaf8695dd9a240def024d487e61e3078e",
+        "manifest_commit_date": "2026-06-24T04:24:41Z",
+        "manifest_metadata_path": "source-metadata/lot-1e/python-versions-db69292aaf8695dd9a240def024d487e61e3078e.versions-manifest.json",
+        "patch_provenance": "B",
+        "resolution": "semver 3.10 resolves from the hosted toolcache first or the official python-versions manifest",
+        "runner": "windows-2025",
+        "runtime_package_downloaded": false,
+        "toolcache_filename": "python-3.10.11-win32-x64.zip",
+        "toolcache_release_tag": "3.10.11-11114431484",
+        "toolcache_release_url": "https://github.com/actions/python-versions/releases/tag/3.10.11-11114431484",
+        "toolcache_sha256": "C7C029492644331F01FACB97382D1F145882B162D920F6B58B297AF22BF459C4",
+        "workflow_constraint": "3.10"
+      },
+      "status": "verified",
+      "technical_status": "resolved"
+    },
+    "ejs": {
+      "asset_hash_algorithm": "SHA3-512",
+      "assets": [
+        {
+          "executable_path": "yt_dlp_ejs/yt/solver/core.min.js",
+          "hash": "ee5b307d07f55e91e4723edf5ac205cc877a474187849d757dc1322e38427b157a9d706d510c1723d3670f98e5a3f8cbcde77874a80406bd7204bc9fea30f283",
+          "source_output": "dist/yt.solver.core.min.js",
+          "status": "verified"
+        },
+        {
+          "executable_path": "yt_dlp_ejs/yt/solver/lib.min.js",
+          "hash": "8420c259ad16e99ce004e4651ac1bcabb53b4457bf5668a97a9359be9a998a789fee8ab124ee17f91a2ea8fd84e0f2b2fc8eabcaf0b16a186ba734cf422ad053",
+          "source_output": "dist/yt.solver.lib.min.js",
+          "status": "verified"
+        }
+      ],
+      "build_process": "hatch_build.py installs a frozen package-manager lock and runs the Rollup/Terser configuration in rollup.config.js",
+      "bundled_dependencies": [
+        {
+          "component": "Astring",
+          "integrity_sha512": "LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==",
+          "source_status": "verified",
+          "version": "1.9.0"
+        },
+        {
+          "component": "Meriyah",
+          "integrity_sha512": "Sz8FzjzI0kN13GK/6MVEsVzMZEPvOhnmmI1lU5+/1cGOiK3QUahntrNNtdVeihrO7t9JpoH75iMNXg6R6uWflQ==",
+          "source_status": "verified",
+          "version": "6.1.4"
+        }
+      ],
+      "source_commit": "4fb477f4af56880cfd324c48bd4294a2d2294e50",
+      "source_tag": "0.8.0",
+      "status": "verified",
+      "wheel_sha256": "79300E5FCA7F937A1EEEDE11F0456862C1B41107CE1D726871E0207424F4BDB4"
+    },
+    "native_curl": {
+      "build_reproducibility_status": "partial",
+      "closure": [
+        {
+          "component": "BoringSSL",
+          "reference": "156c7b75ae9b8c3b3f847acf264f17594c3859fb",
+          "status": "verified"
+        },
+        {
+          "component": "Brotli",
+          "reference": "1.2.0",
+          "status": "verified"
+        },
+        {
+          "component": "curl",
+          "reference": "curl-8_21_0",
+          "status": "verified"
+        },
+        {
+          "component": "libidn2/libunistring",
+          "reference": "Windows build sets USE_LIBIDN2 OFF",
+          "status": "not-required"
+        },
+        {
+          "component": "nghttp2",
+          "reference": "1.63.0",
+          "status": "verified"
+        },
+        {
+          "component": "nghttp3",
+          "reference": "1.15.0",
+          "status": "verified"
+        },
+        {
+          "component": "ngtcp2",
+          "reference": "1.20.0",
+          "status": "verified"
+        },
+        {
+          "component": "zlib",
+          "reference": "1.3.1",
+          "status": "verified"
+        },
+        {
+          "component": "zstd",
+          "reference": "1.5.7",
+          "status": "verified"
+        }
+      ],
+      "closure_status": "resolved-source-correspondence",
+      "curl_cffi_commit": "v0.16.0 / official PyPI sdist",
+      "curl_impersonate_commit": "ec41b71ce888806bfec56ada7a7258d333eb3d19",
+      "curl_impersonate_tag": "v2.0.0",
+      "curl_tree_metadata_path": "sources/lot-1/curl-impersonate-2.0.0.tar.gz",
+      "embedded_evidence": "separate curl_cffi wrapper plus libcurl/8.21.0-IMPERSONATE DLL with BoringSSL, Brotli, nghttp2, nghttp3, ngtcp2, zlib and zstd",
+      "parents": [
+        {
+          "archive_strategy": "official_recipe_hash",
+          "component": "BoringSSL",
+          "coverage": "official source archive fixed by curl-impersonate 2.0.0 URL and SHA-256 recipe",
+          "expected_archive_file_count": 8620,
+          "filename": "boringssl-156c7b75ae9b8c3b3f847acf264f17594c3859fb.zip",
+          "integrity_authority": "official_published",
+          "license_files": [
+            "LICENSE",
+            "third_party/fiat/LICENSE",
+            "third_party/googletest/LICENSE",
+            "third_party/wycheproof_testvectors/LICENSE"
+          ],
+          "local_preservation_filename": "boringssl-156c7b75ae9b8c3b3f847acf264f17594c3859fb.zip",
+          "metadata": {
+            "recipe": "sources/lot-1/curl-impersonate-2.0.0.tar.gz"
+          },
+          "patches": [],
+          "revision": "156c7b75ae9b8c3b3f847acf264f17594c3859fb",
+          "sha256": "450E169B284697C6EAFE523CB7679F4221FBE1A0993F773A566C33B188762844",
+          "size": 80313844,
+          "source_staging_path": "sources/lot-1c/boringssl-156c7b75ae9b8c3b3f847acf264f17594c3859fb.zip",
+          "submodule_status": "archive used exactly as fixed by the official CMake recipe",
+          "tag": null,
+          "technical_status": "resolved",
+          "tree": "not-applicable-recipe-pinned-archive",
+          "upstream": "https://github.com/google/boringssl",
+          "verification": "offline SHA-256, archive readability, exact root/license members and official recipe pin"
+        },
+        {
+          "archive_strategy": "official_recipe_hash",
+          "component": "Brotli native",
+          "coverage": "official source archive fixed by curl-impersonate 2.0.0 URL and SHA-256 recipe",
+          "expected_archive_file_count": 167,
+          "filename": "brotli-v1.2.0.tar.gz",
+          "integrity_authority": "official_published",
+          "license_files": [
+            "LICENSE"
+          ],
+          "local_preservation_filename": "brotli-v1.2.0.tar.gz",
+          "metadata": {
+            "recipe": "sources/lot-1/curl-impersonate-2.0.0.tar.gz"
+          },
+          "patches": [],
+          "revision": "1.2.0",
+          "sha256": "816C96E8E8F193B40151DAD7E8FF37B1221D019DBCB9C35CD3FADBFE6477DFEC",
+          "size": 646315,
+          "source_staging_path": "sources/lot-1c/brotli-v1.2.0.tar.gz",
+          "submodule_status": "archive used exactly as fixed by the official CMake recipe",
+          "tag": "v1.2.0",
+          "technical_status": "resolved",
+          "tree": "not-applicable-recipe-pinned-archive",
+          "upstream": "https://github.com/google/brotli",
+          "verification": "offline SHA-256, archive readability, exact root/license members and official recipe pin"
+        },
+        {
+          "archive_strategy": "official_release_asset",
+          "component": "nghttp2",
+          "coverage": "official release source for static libnghttp2; test and app submodules are non-material",
+          "expected_archive_file_count": 1140,
+          "filename": "nghttp2-1.63.0.tar.bz2",
+          "integrity_authority": "official_published",
+          "license_files": [
+            "COPYING"
+          ],
+          "local_preservation_filename": "nghttp2-1.63.0.tar.bz2",
+          "metadata": {
+            "checksums": "source-metadata/lot-1c/nghttp2-v1.63.0.checksums.txt",
+            "commit": "source-metadata/lot-1c/nghttp2-8f44147c385fb1ed93a6f39911eeb30279bfd2dd.commit.json",
+            "release": "source-metadata/lot-1c/nghttp2-v1.63.0.release.json",
+            "tag_object": "source-metadata/lot-1c/nghttp2-v1.63.0.tag.json",
+            "tag_ref": "source-metadata/lot-1c/nghttp2-v1.63.0.tag-ref.json",
+            "tree": "source-metadata/lot-1c/nghttp2-a697da4a2809065132463d3d2c513bd7313fedee.tree.json"
+          },
+          "patches": [],
+          "revision": "8f44147c385fb1ed93a6f39911eeb30279bfd2dd",
+          "sha256": "607B174554D22A828BC532D1D734FE0F729B5D5ED207F2F12E96A62E83F29C55",
+          "size": 2012107,
+          "source_staging_path": "sources/lot-1c/nghttp2-1.63.0.tar.bz2",
+          "submodule_status": "tests/munit is test-only; mruby and neverbleed are optional app dependencies; upstream release includes them incidentally",
+          "tag": "v1.63.0",
+          "technical_status": "resolved",
+          "tree": "a697da4a2809065132463d3d2c513bd7313fedee",
+          "upstream": "https://github.com/nghttp2/nghttp2",
+          "verification": "official checksum plus annotated tag, exact commit, tree, release asset filename and size"
+        },
+        {
+          "archive_strategy": "official_release_asset",
+          "component": "nghttp3",
+          "coverage": "official release source for lib-only nghttp3 including exact material sfparse blobs",
+          "expected_archive_file_count": 149,
+          "filename": "nghttp3-1.15.0.tar.bz2",
+          "integrity_authority": "official_published",
+          "license_files": [
+            "COPYING",
+            "lib/sfparse/COPYING"
+          ],
+          "local_preservation_filename": "nghttp3-1.15.0.tar.bz2",
+          "metadata": {
+            "checksums": "source-metadata/lot-1c/nghttp3-v1.15.0.checksums.txt",
+            "commit": "source-metadata/lot-1c/nghttp3-d326f4c1eb3f6a780d77793b30e16756c498f913.commit.json",
+            "release": "source-metadata/lot-1c/nghttp3-v1.15.0.release.json",
+            "tag_object": "source-metadata/lot-1c/nghttp3-v1.15.0.tag.json",
+            "tag_ref": "source-metadata/lot-1c/nghttp3-v1.15.0.tag-ref.json",
+            "tree": "source-metadata/lot-1c/nghttp3-ead05ac0aef9a80eff289ca57e00e570b5af587f.tree.json"
+          },
+          "patches": [
+            "patches/nghttp3.patch"
+          ],
+          "revision": "d326f4c1eb3f6a780d77793b30e16756c498f913",
+          "sha256": "C6C491A52804814098E446630E6EFC459AFC0D3DA7952FFE6CBDC0B3F99B2B62",
+          "size": 519681,
+          "source_staging_path": "sources/lot-1c/nghttp3-1.15.0.tar.bz2",
+          "submodule_status": "lib/sfparse is material and covered by parent; tests/munit is non-material",
+          "tag": "v1.15.0",
+          "technical_status": "resolved",
+          "tree": "ead05ac0aef9a80eff289ca57e00e570b5af587f",
+          "upstream": "https://github.com/ngtcp2/nghttp3",
+          "verification": "official checksum plus annotated tag, exact commit, tree and exact sfparse C/header/license blobs"
+        },
+        {
+          "archive_strategy": "official_release_asset",
+          "component": "ngtcp2",
+          "coverage": "official release source for lib-only ngtcp2 and BoringSSL crypto integration",
+          "expected_archive_file_count": 381,
+          "filename": "ngtcp2-1.20.0.tar.bz2",
+          "integrity_authority": "official_published",
+          "license_files": [
+            "COPYING"
+          ],
+          "local_preservation_filename": "ngtcp2-1.20.0.tar.bz2",
+          "metadata": {
+            "checksums": "source-metadata/lot-1c/ngtcp2-v1.20.0.checksums.txt",
+            "commit": "source-metadata/lot-1c/ngtcp2-ca898d32348c93af9fbbc81538505a1c1c062685.commit.json",
+            "release": "source-metadata/lot-1c/ngtcp2-v1.20.0.release.json",
+            "tag_object": "source-metadata/lot-1c/ngtcp2-v1.20.0.tag.json",
+            "tag_ref": "source-metadata/lot-1c/ngtcp2-v1.20.0.tag-ref.json",
+            "tree": "source-metadata/lot-1c/ngtcp2-d294a0604ee3b74c1ef03e9b428d26d0e0c8279b.tree.json"
+          },
+          "patches": [
+            "patches/ngtcp2.patch"
+          ],
+          "revision": "ca898d32348c93af9fbbc81538505a1c1c062685",
+          "sha256": "871EC97AD86803CF312901B0C393B0EE70163E25A87C9B2894D1234341CE4E97",
+          "size": 898205,
+          "source_staging_path": "sources/lot-1c/ngtcp2-1.20.0.tar.bz2",
+          "submodule_status": "tests/munit is test-only; third-party/urlparse is examples-only under ENABLE_LIB_ONLY=ON",
+          "tag": "v1.20.0",
+          "technical_status": "resolved",
+          "tree": "d294a0604ee3b74c1ef03e9b428d26d0e0c8279b",
+          "upstream": "https://github.com/ngtcp2/ngtcp2",
+          "verification": "official checksum plus annotated tag, exact commit, tree, release asset filename and size"
+        },
+        {
+          "archive_strategy": "official_recipe_hash",
+          "component": "zlib",
+          "coverage": "official source archive fixed by curl-impersonate 2.0.0 URL and SHA-256 recipe",
+          "expected_archive_file_count": 253,
+          "filename": "zlib-1.3.1.tar.gz",
+          "integrity_authority": "official_published",
+          "license_files": [
+            "LICENSE"
+          ],
+          "local_preservation_filename": "zlib-1.3.1.tar.gz",
+          "metadata": {
+            "recipe": "sources/lot-1/curl-impersonate-2.0.0.tar.gz"
+          },
+          "patches": [],
+          "revision": "1.3.1",
+          "sha256": "9A93B2B7DFDAC77CEBA5A558A580E74667DD6FEDE4585B91EEFB60F03B72DF23",
+          "size": 1512791,
+          "source_staging_path": "sources/lot-1c/zlib-1.3.1.tar.gz",
+          "submodule_status": "archive used exactly as fixed by the official CMake recipe",
+          "tag": "v1.3.1",
+          "technical_status": "resolved",
+          "tree": "not-applicable-recipe-pinned-archive",
+          "upstream": "https://github.com/madler/zlib",
+          "verification": "offline SHA-256, archive readability, exact root/license members and official recipe pin"
+        },
+        {
+          "archive_strategy": "official_recipe_hash",
+          "component": "zstd",
+          "coverage": "official source archive fixed by curl-impersonate 2.0.0 URL and SHA-256 recipe",
+          "expected_archive_file_count": 637,
+          "filename": "zstd-1.5.7.tar.gz",
+          "integrity_authority": "official_published",
+          "license_files": [
+            "LICENSE",
+            "COPYING"
+          ],
+          "local_preservation_filename": "zstd-1.5.7.tar.gz",
+          "metadata": {
+            "recipe": "sources/lot-1/curl-impersonate-2.0.0.tar.gz"
+          },
+          "patches": [],
+          "revision": "1.5.7",
+          "sha256": "EB33E51F49A15E023950CD7825CA74A4A2B43DB8354825AC24FC1B7EE09E6FA3",
+          "size": 2434947,
+          "source_staging_path": "sources/lot-1c/zstd-1.5.7.tar.gz",
+          "submodule_status": "archive used exactly as fixed by the official CMake recipe",
+          "tag": "v1.5.7",
+          "technical_status": "resolved",
+          "tree": "not-applicable-recipe-pinned-archive",
+          "upstream": "https://github.com/facebook/zstd",
+          "verification": "offline SHA-256, archive readability, exact root/license members and official recipe pin"
+        }
+      ],
+      "patches": [
+        {
+          "allowed_preimage_mismatches": [],
+          "expected_new_files": 0,
+          "expected_verified_preimages": 0,
+          "mechanical_replay_status": "not-replayed-in-P3-delta",
+          "path": "patches/OpenBSD.patch",
+          "purpose": "official curl-impersonate 2.0.0 patch preserved for the corresponding native parent",
+          "sha256": "CED8461D3A55D55801E12EED21FF03CAC14C7DB7D8D63C85C7BDB7BE33857A4C",
+          "size": 5201,
+          "target_components": [
+            "curl"
+          ],
+          "technical_status": "bytes and structure verified; exact build replay remains partial"
+        },
+        {
+          "allowed_preimage_mismatches": [],
+          "expected_new_files": 1,
+          "expected_verified_preimages": 0,
+          "mechanical_replay_status": "not-replayed-in-P3-delta",
+          "path": "patches/boringssl.patch",
+          "purpose": "official curl-impersonate 2.0.0 patch preserved for the corresponding native parent",
+          "sha256": "905078EEEAF4E258E26D7EE24AF0AC1AE7769671DA08FA0362B817D8196E7BCF",
+          "size": 53237,
+          "target_components": [
+            "BoringSSL"
+          ],
+          "technical_status": "bytes and structure verified; exact build replay remains partial"
+        },
+        {
+          "allowed_preimage_mismatches": [],
+          "expected_new_files": 0,
+          "expected_verified_preimages": 0,
+          "mechanical_replay_status": "not-replayed-in-P3-delta",
+          "path": "patches/brotli.patch",
+          "purpose": "official curl-impersonate 2.0.0 patch preserved for the corresponding native parent",
+          "sha256": "D59EC1994AE6285222F65DD7192C2CBCBC0D0AE6C85EB5FCE1CAE735010F4D4F",
+          "size": 541,
+          "target_components": [
+            "Brotli native"
+          ],
+          "technical_status": "bytes and structure verified; exact build replay remains partial"
+        },
+        {
+          "allowed_preimage_mismatches": [],
+          "expected_new_files": 6,
+          "expected_verified_preimages": 0,
+          "mechanical_replay_status": "not-replayed-in-P3-delta",
+          "path": "patches/curl.patch",
+          "purpose": "official curl-impersonate 2.0.0 patch preserved for the corresponding native parent",
+          "sha256": "104945B7E8B69456714DACD19665173FB7896DCA45490A9D9450EDFE7BFB416B",
+          "size": 424546,
+          "target_components": [
+            "curl"
+          ],
+          "technical_status": "bytes and structure verified; exact build replay remains partial"
+        },
+        {
+          "allowed_preimage_mismatches": [],
+          "expected_new_files": 0,
+          "expected_verified_preimages": 0,
+          "mechanical_replay_status": "not-replayed-in-P3-delta",
+          "path": "patches/nghttp3.patch",
+          "purpose": "official curl-impersonate 2.0.0 patch preserved for the corresponding native parent",
+          "sha256": "F23395F2896A150910D7620044A0913B6179440326CE8C7F9E5AB93A30A615AC",
+          "size": 12854,
+          "target_components": [
+            "nghttp3"
+          ],
+          "technical_status": "bytes and structure verified; exact build replay remains partial"
+        },
+        {
+          "allowed_preimage_mismatches": [],
+          "expected_new_files": 1,
+          "expected_verified_preimages": 0,
+          "mechanical_replay_status": "not-replayed-in-P3-delta",
+          "path": "patches/ngtcp2.patch",
+          "purpose": "official curl-impersonate 2.0.0 patch preserved for the corresponding native parent",
+          "sha256": "2A2634ADCC78B2C213EE25AF4CE6682E01F5061843BC81AD753150DECC42AD34",
+          "size": 10877,
+          "target_components": [
+            "ngtcp2"
+          ],
+          "technical_status": "bytes and structure verified; exact build replay remains partial"
+        }
+      ],
+      "sfparse": {
+        "material_files": [
+          {
+            "git_blob_sha1": "cbcf813e23a094641c51e966db605553ecceab5d",
+            "path": "lib/sfparse/sfparse.c",
+            "sha256": "12674E0D5FE7865971436B010048FC397F0916E63505BB1DADB446E1B01C68AE",
+            "size": 35711
+          },
+          {
+            "git_blob_sha1": "9341221a0994381b1ab4c0613970aa7d75b16dd1",
+            "path": "lib/sfparse/sfparse.h",
+            "sha256": "58CB666A5923FA7528E79AD559CBD53103AF5AB8B2453FDA195B4831BD5FB07D",
+            "size": 14054
+          },
+          {
+            "git_blob_sha1": "8212d82d83ab74e6814adeebc3d6effc74d8f64a",
+            "path": "lib/sfparse/COPYING",
+            "sha256": "CD6D5FEEACF9406FE915D3C23B85A6BF86DEECFA1661396B63D2D2188B90BEDA",
+            "size": 1081
+          }
+        ],
+        "metadata": {
+          "commit": "source-metadata/lot-1c/sfparse-ff7f230e7df2844afef7dc49631cda03a30455f3.commit.json",
+          "tree": "source-metadata/lot-1c/sfparse-2f89609efaf3ba61e3435e6f929e67cbb17da8b0.tree.json"
+        },
+        "parent": "nghttp3",
+        "path": "lib/sfparse",
+        "revision": "ff7f230e7df2844afef7dc49631cda03a30455f3",
+        "separate_archive_required": false,
+        "status": "covered-by-parent"
+      },
+      "status": "verified",
+      "submodules": [
+        {
+          "classification": "A",
+          "disposition": "covered by nghttp3 release archive",
+          "material": true,
+          "parent": "nghttp3",
+          "path": "lib/sfparse",
+          "revision": "ff7f230e7df2844afef7dc49631cda03a30455f3"
+        },
+        {
+          "classification": "B",
+          "disposition": "not downloaded separately; test-only",
+          "material": false,
+          "parent": "nghttp3",
+          "path": "tests/munit",
+          "revision": "11e8e3466b2d6a8bdfd4b05a3d1ee7805c5d3442"
+        },
+        {
+          "classification": "B",
+          "disposition": "not downloaded separately; nested tests only",
+          "material": false,
+          "parent": "sfparse",
+          "path": "munit",
+          "revision": "11e8e3466b2d6a8bdfd4b05a3d1ee7805c5d3442"
+        },
+        {
+          "classification": "B",
+          "disposition": "not downloaded separately; test-only",
+          "material": false,
+          "parent": "ngtcp2",
+          "path": "tests/munit",
+          "revision": "11e8e3466b2d6a8bdfd4b05a3d1ee7805c5d3442"
+        },
+        {
+          "classification": "C",
+          "disposition": "not downloaded separately; examples-only",
+          "material": false,
+          "parent": "ngtcp2",
+          "path": "third-party/urlparse",
+          "revision": "c8168839c89fc5c5917c375e1bd6ffeddf3f7f88"
+        },
+        {
+          "classification": "B",
+          "disposition": "not downloaded separately; test-only",
+          "material": false,
+          "parent": "nghttp2",
+          "path": "tests/munit",
+          "revision": "7f53fea8901089d46233302b3af35bf8be93cfc5"
+        },
+        {
+          "classification": "C",
+          "disposition": "not downloaded separately; optional app dependency disabled",
+          "material": false,
+          "parent": "nghttp2",
+          "path": "third-party/mruby",
+          "revision": "32279e4128527bab4c961854b9cce727a060abea"
+        },
+        {
+          "classification": "C",
+          "disposition": "not downloaded separately; optional app dependency disabled",
+          "material": false,
+          "parent": "nghttp2",
+          "path": "third-party/neverbleed",
+          "revision": "929e470260d460dacc20a10601c2d3c7a9f386b2"
+        }
+      ]
+    },
+    "python_p2": {
+      "build_only_dependencies": [
+        {
+          "classification": "build-only",
+          "component": "Cython",
+          "material_in_executable": false,
+          "parent": "websockets",
+          "reason": "speedups.c generated source is already preserved in the exact sdist",
+          "source_required": false
+        },
+        {
+          "classification": "build-only",
+          "component": "mypy/mypyc",
+          "material_in_executable": false,
+          "parent": "charset-normalizer",
+          "reason": "the two compiled modules correspond to preserved cd.py and md.py source",
+          "source_required": false
+        },
+        {
+          "classification": "build-only",
+          "component": "packaging",
+          "material_in_executable": false,
+          "parent": "PyInstaller build environment",
+          "reason": "locked for build but absent from the executable PYZ",
+          "source_required": false
+        },
+        {
+          "classification": "build-only",
+          "component": "setuptools",
+          "material_in_executable": false,
+          "parent": "PyInstaller build environment",
+          "reason": "locked for build but absent from the executable PYZ",
+          "source_required": false
+        }
+      ],
+      "native_closures": [
+        {
+          "component": "Brotli Python bundled C implementation",
+          "evidence": "python/_brotli.c and the complete c/common, c/dec and c/enc trees are in brotli-1.2.0.tar.gz",
+          "parent": "brotli",
+          "separate_source_required": false,
+          "status": "covered-by-parent"
+        },
+        {
+          "component": "PyCryptodome C and libtom material",
+          "evidence": "setup.py, native src tree and libtom license/source material are in pycryptodomex-3.23.0.tar.gz",
+          "parent": "pycryptodomex",
+          "separate_source_required": false,
+          "status": "covered-by-parent"
+        },
+        {
+          "component": "cffi Windows libffi implementation",
+          "evidence": "_cffi_backend.c and libffi_x86_x64 source, headers, assembly and object inputs are in cffi-2.1.1.tar.gz",
+          "parent": "cffi",
+          "separate_source_required": false,
+          "status": "covered-by-parent"
+        },
+        {
+          "component": "websockets speedups extension",
+          "evidence": "generated src/websockets/speedups.c is in websockets-16.1.1.tar.gz",
+          "parent": "websockets",
+          "separate_source_required": false,
+          "status": "covered-by-parent"
+        }
+      ],
+      "packages": [
+        {
+          "archive_root": "brotli-1.2.0",
+          "build_only_dependencies": [
+            "setuptools"
+          ],
+          "component": "Brotli Python",
+          "coverage": "1 observed Python module and 1 native extension; Python wrapper and full bundled C implementation are preserved",
+          "dist_info_status": "dist-info absent; version established by exact lock plus observed material mapping",
+          "integrity_authority": "official PyPI JSON and SHA-256 fixed by curl-cffi.txt",
+          "license_files": [
+            "LICENSE"
+          ],
+          "lock_hash": "E310F77E41941C13340A95976FE66A8A95B01E783D430EEAF7A2F87E0A57DD0A",
+          "lock_path": "build-inputs/yt-dlp-tag/bundle/requirements/curl-cffi.txt",
+          "material_name": "brotli",
+          "metadata_staging_path": "source-metadata/lot-1d/brotli-1.2.0.pypi.json",
+          "native_status": "covered by bundled C source in this sdist",
+          "observed_native_extensions": 1,
+          "observed_python_modules": 1,
+          "package": "brotli",
+          "required_archive_members": [
+            "c/common/constants.c",
+            "python/_brotli.c",
+            "setup.py"
+          ],
+          "source_filename": "brotli-1.2.0.tar.gz",
+          "source_sha256": "E310F77E41941C13340A95976FE66A8A95B01E783D430EEAF7A2F87E0A57DD0A",
+          "source_size": 7388632,
+          "source_staging_path": "sources/lot-1d/brotli-1.2.0.tar.gz",
+          "technical_status": "resolved",
+          "upstream": "https://github.com/google/brotli",
+          "vendor_status": "no separately vendored runtime package observed",
+          "version": "1.2.0"
+        },
+        {
+          "archive_root": "cffi-2.1.1",
+          "build_only_dependencies": [
+            "setuptools"
+          ],
+          "component": "cffi",
+          "coverage": "all material modules observed in the executable are covered by the exact official sdist",
+          "dist_info_status": "version established by exact upstream lock and material mapping",
+          "integrity_authority": "official PyPI JSON and SHA-256 fixed by the yt-dlp lock",
+          "license_files": [
+            "LICENSE"
+          ],
+          "lock_hash": "DD31F52EA1086513BB9DF30F8FCEE9B8918323AE067A3D5B78BC826A000712BE",
+          "lock_path": "build-inputs/yt-dlp-tag/bundle/requirements/curl-cffi.txt",
+          "material_name": "cffi",
+          "metadata_staging_path": "source-metadata/lot-1d/cffi-2.1.1.pypi.json",
+          "native_status": "source corresponding to observed runtime material is preserved",
+          "observed_native_extensions": 1,
+          "observed_python_modules": 16,
+          "package": "cffi",
+          "required_archive_members": [
+            "setup.py",
+            "src/c/_cffi_backend.c",
+            "src/c/libffi_x86_x64/ffi.c",
+            "src/c/libffi_x86_x64/win64.asm"
+          ],
+          "source_filename": "cffi-2.1.1.tar.gz",
+          "source_sha256": "DD31F52EA1086513BB9DF30F8FCEE9B8918323AE067A3D5B78BC826A000712BE",
+          "source_size": 530807,
+          "source_staging_path": "sources/lot-1d/cffi-2.1.1.tar.gz",
+          "technical_status": "resolved",
+          "upstream": "https://pypi.org/project/cffi/",
+          "vendor_status": "no separately vendored runtime package observed",
+          "version": "2.1.1"
+        },
+        {
+          "archive_root": "charset_normalizer-3.5.0",
+          "build_only_dependencies": [
+            "mypy/mypyc",
+            "setuptools"
+          ],
+          "component": "charset-normalizer",
+          "coverage": "all material modules observed in the executable are covered by the exact official sdist",
+          "dist_info_status": "version established by exact upstream lock and material mapping",
+          "integrity_authority": "official PyPI JSON and SHA-256 fixed by the yt-dlp lock",
+          "license_files": [
+            "LICENSE",
+            "data/NOTICE.md"
+          ],
+          "lock_hash": "49BD5FEB59B0BF3CBF6EBCF4352E371C95B9DA9BACD4449F8B64D0AD2C10A26E",
+          "lock_path": "build-inputs/yt-dlp-tag/bundle/requirements/curl-cffi.txt",
+          "material_name": "charset_normalizer",
+          "metadata_staging_path": "source-metadata/lot-1d/charset_normalizer-3.5.0.pypi.json",
+          "native_status": "source corresponding to observed runtime material is preserved",
+          "observed_native_extensions": 2,
+          "observed_python_modules": 7,
+          "package": "charset-normalizer",
+          "required_archive_members": [
+            "setup.py",
+            "src/charset_normalizer/__init__.py",
+            "src/charset_normalizer/cd.py",
+            "src/charset_normalizer/md.py"
+          ],
+          "source_filename": "charset_normalizer-3.5.0.tar.gz",
+          "source_sha256": "49BD5FEB59B0BF3CBF6EBCF4352E371C95B9DA9BACD4449F8B64D0AD2C10A26E",
+          "source_size": 169295,
+          "source_staging_path": "sources/lot-1d/charset_normalizer-3.5.0.tar.gz",
+          "technical_status": "resolved",
+          "upstream": "https://pypi.org/project/charset-normalizer/",
+          "vendor_status": "no separately vendored runtime package observed",
+          "version": "3.5.0"
+        },
+        {
+          "archive_root": "idna-3.18",
+          "build_only_dependencies": [
+            "flit_core"
+          ],
+          "component": "idna",
+          "coverage": "all 6 observed modules and generated IDNA data modules are preserved",
+          "dist_info_status": "dist-info absent; version established by exact lock plus observed material mapping",
+          "integrity_authority": "official PyPI JSON and SHA-256 fixed by curl-cffi.txt",
+          "license_files": [
+            "LICENSE.md"
+          ],
+          "lock_hash": "FFB385A7E039654CEF1AB9EF32C6FAFE283C0C0467BBA1D9029738CE4A14A848",
+          "lock_path": "build-inputs/yt-dlp-tag/bundle/requirements/curl-cffi.txt",
+          "material_name": "idna",
+          "metadata_staging_path": "source-metadata/lot-1d/idna-3.18.pypi.json",
+          "native_status": "pure Python material",
+          "observed_native_extensions": 0,
+          "observed_python_modules": 6,
+          "package": "idna",
+          "required_archive_members": [
+            "idna/__init__.py",
+            "idna/idnadata.py",
+            "idna/uts46data.py",
+            "pyproject.toml"
+          ],
+          "source_filename": "idna-3.18.tar.gz",
+          "source_sha256": "FFB385A7E039654CEF1AB9EF32C6FAFE283C0C0467BBA1D9029738CE4A14A848",
+          "source_size": 196711,
+          "source_staging_path": "sources/lot-1d/idna-3.18.tar.gz",
+          "technical_status": "resolved",
+          "upstream": "https://github.com/kjd/idna",
+          "vendor_status": "no separately vendored runtime package observed",
+          "version": "3.18"
+        },
+        {
+          "archive_root": "pycparser-3.0",
+          "build_only_dependencies": [
+            "setuptools"
+          ],
+          "component": "pycparser",
+          "coverage": "all 5 observed parser modules are preserved; this release does not vendor or require PLY tables",
+          "dist_info_status": "dist-info absent; version established by exact lock plus observed material mapping",
+          "integrity_authority": "official PyPI JSON and SHA-256 fixed by curl-cffi.txt",
+          "license_files": [
+            "LICENSE"
+          ],
+          "lock_hash": "600F49D217304A5902AC3C37E1281C9FE94E4D0489DE643A9504C5CDFDFC6B29",
+          "lock_path": "build-inputs/yt-dlp-tag/bundle/requirements/curl-cffi.txt",
+          "material_name": "pycparser",
+          "metadata_staging_path": "source-metadata/lot-1d/pycparser-3.0.pypi.json",
+          "native_status": "pure Python material",
+          "observed_native_extensions": 0,
+          "observed_python_modules": 5,
+          "package": "pycparser",
+          "required_archive_members": [
+            "pycparser/__init__.py",
+            "pycparser/c_parser.py",
+            "setup.py"
+          ],
+          "source_filename": "pycparser-3.0.tar.gz",
+          "source_sha256": "600F49D217304A5902AC3C37E1281C9FE94E4D0489DE643A9504C5CDFDFC6B29",
+          "source_size": 103492,
+          "source_staging_path": "sources/lot-1d/pycparser-3.0.tar.gz",
+          "technical_status": "resolved",
+          "upstream": "https://github.com/eliben/pycparser",
+          "vendor_status": "no separately vendored runtime package observed",
+          "version": "3.0"
+        },
+        {
+          "archive_root": "pycryptodomex-3.23.0",
+          "build_only_dependencies": [
+            "setuptools"
+          ],
+          "component": "PyCryptodome",
+          "coverage": "68 observed Python modules and 42 native extensions; Cryptodome source, native implementations and libtom material are preserved",
+          "dist_info_status": "dist-info absent; version established by exact lock plus observed material mapping",
+          "integrity_authority": "official PyPI JSON and SHA-256 fixed by curl-cffi.txt",
+          "license_files": [
+            "Doc/LEGAL/copy/LICENSE.libtom",
+            "Doc/LEGAL/copy/LICENSE.orig",
+            "Doc/LEGAL/copy/LICENSE.python-2.2",
+            "LICENSE.rst"
+          ],
+          "lock_hash": "71909758F010C82BC99B0ABF4EA12012C98962FBF0583C2164F8B84533C2E4DA",
+          "lock_path": "build-inputs/yt-dlp-tag/bundle/requirements/curl-cffi.txt",
+          "material_name": "Cryptodome",
+          "metadata_staging_path": "source-metadata/lot-1d/pycryptodomex-3.23.0.pypi.json",
+          "native_status": "all native extension sources and libtom material are covered by this sdist",
+          "observed_native_extensions": 42,
+          "observed_python_modules": 68,
+          "package": "pycryptodomex",
+          "required_archive_members": [
+            "lib/Cryptodome/Cipher/AES.py",
+            "setup.py",
+            "src/AES.c"
+          ],
+          "source_filename": "pycryptodomex-3.23.0.tar.gz",
+          "source_sha256": "71909758F010C82BC99B0ABF4EA12012C98962FBF0583C2164F8B84533C2E4DA",
+          "source_size": 4922157,
+          "source_staging_path": "sources/lot-1d/pycryptodomex-3.23.0.tar.gz",
+          "technical_status": "resolved",
+          "upstream": "https://www.pycryptodome.org/",
+          "vendor_status": "libtom source and license material are covered by the parent sdist",
+          "version": "3.23.0"
+        },
+        {
+          "archive_root": "requests-2.34.2",
+          "build_only_dependencies": [
+            "hatchling"
+          ],
+          "component": "requests",
+          "coverage": "all 19 observed modules are preserved; requests.packages aliases external dependencies rather than embedding copies",
+          "dist_info_status": "dist-info absent; version established by exact lock plus observed material mapping",
+          "integrity_authority": "official PyPI JSON and SHA-256 fixed by curl-cffi.txt",
+          "license_files": [
+            "LICENSE",
+            "NOTICE"
+          ],
+          "lock_hash": "F288924CAE4E29463698D6D60BC6A4DA69C89185AD1E0BCC4104F584E960B9ED",
+          "lock_path": "build-inputs/yt-dlp-tag/bundle/requirements/curl-cffi.txt",
+          "material_name": "requests",
+          "metadata_staging_path": "source-metadata/lot-1d/requests-2.34.2.pypi.json",
+          "native_status": "pure Python material",
+          "observed_native_extensions": 0,
+          "observed_python_modules": 19,
+          "package": "requests",
+          "required_archive_members": [
+            "pyproject.toml",
+            "src/requests/__init__.py",
+            "src/requests/packages.py"
+          ],
+          "source_filename": "requests-2.34.2.tar.gz",
+          "source_sha256": "F288924CAE4E29463698D6D60BC6A4DA69C89185AD1E0BCC4104F584E960B9ED",
+          "source_size": 142856,
+          "source_staging_path": "sources/lot-1d/requests-2.34.2.tar.gz",
+          "technical_status": "resolved",
+          "upstream": "https://github.com/psf/requests",
+          "vendor_status": "requests.packages is an alias layer; urllib3 and idna are separately covered",
+          "version": "2.34.2"
+        },
+        {
+          "archive_root": "typing_extensions-4.16.0",
+          "build_only_dependencies": [
+            "flit_core"
+          ],
+          "component": "typing-extensions",
+          "coverage": "all material modules observed in the executable are covered by the exact official sdist",
+          "dist_info_status": "version established by exact upstream lock and material mapping",
+          "integrity_authority": "official PyPI JSON and SHA-256 fixed by the yt-dlp lock",
+          "license_files": [
+            "LICENSE"
+          ],
+          "lock_hash": "DC983D19A509C94DBA722EE6ABD33940F7C05A89E243C47E907EB4DB6F1A43E5",
+          "lock_path": "build-inputs/yt-dlp-tag/bundle/requirements/curl-cffi.txt",
+          "material_name": "typing_extensions",
+          "metadata_staging_path": "source-metadata/lot-1d/typing_extensions-4.16.0.pypi.json",
+          "native_status": "source corresponding to observed runtime material is preserved",
+          "observed_native_extensions": 0,
+          "observed_python_modules": 1,
+          "package": "typing-extensions",
+          "required_archive_members": [
+            "pyproject.toml",
+            "src/typing_extensions.py"
+          ],
+          "source_filename": "typing_extensions-4.16.0.tar.gz",
+          "source_sha256": "DC983D19A509C94DBA722EE6ABD33940F7C05A89E243C47E907EB4DB6F1A43E5",
+          "source_size": 113555,
+          "source_staging_path": "sources/lot-1d/typing_extensions-4.16.0.tar.gz",
+          "technical_status": "resolved",
+          "upstream": "https://pypi.org/project/typing-extensions/",
+          "vendor_status": "no separately vendored runtime package observed",
+          "version": "4.16.0"
+        },
+        {
+          "archive_root": "urllib3-2.7.0",
+          "build_only_dependencies": [
+            "hatchling"
+          ],
+          "component": "urllib3",
+          "coverage": "all 36 observed modules are preserved; optional pyopenssl integration does not embed PyOpenSSL",
+          "dist_info_status": "dist-info absent; version established by exact lock plus observed material mapping",
+          "integrity_authority": "official PyPI JSON and SHA-256 fixed by curl-cffi.txt",
+          "license_files": [
+            "LICENSE.txt"
+          ],
+          "lock_hash": "231E0EC3B63CEB14667C67BE60F2F2C40A518CB38B03AF60ABC813DA26505F4C",
+          "lock_path": "build-inputs/yt-dlp-tag/bundle/requirements/curl-cffi.txt",
+          "material_name": "urllib3",
+          "metadata_staging_path": "source-metadata/lot-1d/urllib3-2.7.0.pypi.json",
+          "native_status": "pure Python material",
+          "observed_native_extensions": 0,
+          "observed_python_modules": 36,
+          "package": "urllib3",
+          "required_archive_members": [
+            "pyproject.toml",
+            "src/urllib3/__init__.py",
+            "src/urllib3/contrib/pyopenssl.py"
+          ],
+          "source_filename": "urllib3-2.7.0.tar.gz",
+          "source_sha256": "231E0EC3B63CEB14667C67BE60F2F2C40A518CB38B03AF60ABC813DA26505F4C",
+          "source_size": 433602,
+          "source_staging_path": "sources/lot-1d/urllib3-2.7.0.tar.gz",
+          "technical_status": "resolved",
+          "upstream": "https://github.com/urllib3/urllib3",
+          "vendor_status": "no separately vendored runtime package observed",
+          "version": "2.7.0"
+        },
+        {
+          "archive_root": "websockets-16.1.1",
+          "build_only_dependencies": [
+            "Cython",
+            "setuptools"
+          ],
+          "component": "websockets",
+          "coverage": "all material modules observed in the executable are covered by the exact official sdist",
+          "dist_info_status": "version established by exact upstream lock and material mapping",
+          "integrity_authority": "official PyPI JSON and SHA-256 fixed by the yt-dlp lock",
+          "license_files": [
+            "LICENSE"
+          ],
+          "lock_hash": "DB234EDA965DCCE15DF96BB9709F587CD87D4D52AAF0E80E2F34EC04C7670C57",
+          "lock_path": "build-inputs/yt-dlp-tag/bundle/requirements/curl-cffi.txt",
+          "material_name": "websockets",
+          "metadata_staging_path": "source-metadata/lot-1d/websockets-16.1.1.pypi.json",
+          "native_status": "source corresponding to observed runtime material is preserved",
+          "observed_native_extensions": 1,
+          "observed_python_modules": 52,
+          "package": "websockets",
+          "required_archive_members": [
+            "setup.py",
+            "src/websockets/__init__.py",
+            "src/websockets/speedups.c"
+          ],
+          "source_filename": "websockets-16.1.1.tar.gz",
+          "source_sha256": "DB234EDA965DCCE15DF96BB9709F587CD87D4D52AAF0E80E2F34EC04C7670C57",
+          "source_size": 182204,
+          "source_staging_path": "sources/lot-1d/websockets-16.1.1.tar.gz",
+          "technical_status": "resolved",
+          "upstream": "https://pypi.org/project/websockets/",
+          "vendor_status": "no separately vendored runtime package observed",
+          "version": "16.1.1"
+        }
+      ],
+      "status": "verified",
+      "technical_status": "resolved",
+      "vendors": []
+    }
+  },
+  "dependencies": [
+    {
+      "classification": "A",
+      "component": "brotli",
+      "locked_package": "brotli==1.2.0",
+      "source_status": "verified exact sdist; Python wrapper and complete bundled C implementation covered"
+    },
+    {
+      "classification": "A",
+      "component": "certifi",
+      "locked_package": "certifi==2026.7.22",
+      "source_status": "verified exact sdist and corresponding Mozilla certdata revision"
+    },
+    {
+      "classification": "A",
+      "component": "cffi",
+      "locked_package": "cffi==2.1.1",
+      "source_status": "verified exact sdist; native backend source covered"
+    },
+    {
+      "classification": "A",
+      "component": "charset_normalizer",
+      "locked_package": "charset-normalizer==3.5.0",
+      "source_status": "verified exact sdist and material source mapping"
+    },
+    {
+      "classification": "A",
+      "component": "CPython",
+      "locked_package": "CPython 3.10.11 / v3.10.11 / 7d4cc5aa854fdea4d01a5b9c59e37c6e62f1103d",
+      "source_status": "official source archive, Sigstore digest, tag/commit/tree and runtime version correspondence verified; six material externals remain pending"
+    },
+    {
+      "classification": "A",
+      "component": "Cryptodome",
+      "locked_package": "pycryptodomex==3.23.0",
+      "source_status": "verified exact sdist; 68 Python modules, 42 native extensions and bundled libtom closure covered"
+    },
+    {
+      "classification": "A",
+      "component": "curl_cffi",
+      "locked_package": "curl-cffi==0.16.0",
+      "source_status": "verified sdist and curl-impersonate 2.0.0 native source closure; mechanical replay remains partial"
+    },
+    {
+      "classification": "A",
+      "component": "idna",
+      "locked_package": "idna==3.18",
+      "source_status": "verified exact sdist with all observed modules and license"
+    },
+    {
+      "classification": "A",
+      "component": "mutagen",
+      "locked_package": "mutagen==1.48.1",
+      "source_status": "verified sdist stages all 48 material modules"
+    },
+    {
+      "classification": "B",
+      "component": "OpenSSL",
+      "locked_package": "runtime DLLs identified as OpenSSL 1.1.1t",
+      "source_status": "exact CPython source-deps and bin-deps pins identified; source archive not yet preserved"
+    },
+    {
+      "classification": "A",
+      "component": "pycparser",
+      "locked_package": "pycparser==3.0",
+      "source_status": "verified exact sdist with all observed parser modules"
+    },
+    {
+      "classification": "A",
+      "component": "requests",
+      "locked_package": "requests==2.34.2",
+      "source_status": "verified exact sdist; requests.packages confirmed as alias layer"
+    },
+    {
+      "classification": "A",
+      "component": "typing_extensions",
+      "locked_package": "typing-extensions==4.16.0",
+      "source_status": "verified exact sdist for the runtime module embedded by the Python 3.10 build"
+    },
+    {
+      "classification": "A",
+      "component": "urllib3",
+      "locked_package": "urllib3==2.7.0",
+      "source_status": "verified exact sdist; optional pyopenssl integration does not embed PyOpenSSL"
+    },
+    {
+      "classification": "A",
+      "component": "websockets",
+      "locked_package": "websockets==16.1.1",
+      "source_status": "verified exact sdist including generated speedups.c"
+    },
+    {
+      "classification": "A",
+      "component": "yt_dlp",
+      "locked_package": "source functional commit 594bd50c2c78ac432f81600d309fdc4e0a92d82c",
+      "source_status": "included in the verified primary source archive"
+    },
+    {
+      "classification": "A",
+      "component": "yt_dlp_ejs",
+      "locked_package": "yt-dlp-ejs==0.8.0",
+      "source_status": "verified sdist, generated asset hashes, Astring 1.9.0 and Meriyah 6.1.4 source and exact package inputs staged"
+    }
+  ],
+  "executable": {
+    "embedded_python": "3.10.11 AMD64",
+    "filename": "yt-dlp.exe",
+    "sha256": "66674953FE251B89F4D08C5F0E35E0728679BD67AB3D7D05C0562AF101DD3E7A",
+    "size": 17840399,
+    "variant": "win_exe"
+  },
+  "metadata_collections": [
+    {
+      "file_count": 50,
+      "inventory_sha256": "A5AC9D91D07C80B488D26C5A38B1857B42BFF20433B799F8EDF6DBDE10FDC54C",
+      "origin_authorities": [
+        "https://api.github.com",
+        "https://github.com",
+        "https://raw.githubusercontent.com",
+        "https://www.python.org"
+      ],
+      "purpose": "metadata oficial de release, tag/tree, setup-python, toolcache e refs PCbuild do CPython 3.10.11",
+      "staging_root": "source-metadata/lot-1e"
+    },
+    {
+      "file_count": 6,
+      "inventory_sha256": "B0F77408F4E9455CA754D46694A5F3F00CE942718789A1EF2188FEAB77CA8629",
+      "origin_authorities": [
+        "https://api.github.com"
+      ],
+      "purpose": "trees recursivas oficiais das seis revisions cpython-source-deps materiais do runtime CPython 3.10.11",
+      "staging_root": "source-metadata/lot-1f"
+    }
+  ],
+  "missing_sources": [],
+  "provenance_metadata": [
+    {
+      "origin": "https://api.github.com/repos/yt-dlp/yt-dlp/releases/tags/2026.08.19",
+      "purpose": "immutable official release metadata",
+      "sha256": "3D77C7F445A4E24F3DD254FDD29FB347C15453C1461330B562B680F2F6E41923",
+      "size": 52414,
+      "staging_path": "release-metadata/yt-dlp-2026.08.19.release.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/yt-dlp/yt-dlp/git/ref/tags/2026.08.19",
+      "purpose": "official lightweight tag reference",
+      "sha256": "3E19A4A6E4757FEF7CC1B6A7834C8629A75E08F9AB2868494E46FF1A08A7A142",
+      "size": 347,
+      "staging_path": "release-metadata/yt-dlp-2026.08.19.tag-ref.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/yt-dlp/yt-dlp/commits/3a08beaf031ab68f966401ead017ac81fe8486cf",
+      "purpose": "official release commit and tree metadata",
+      "sha256": "4D9E2A81A3D35FEC9BF1545B497F7A16178F89282A960A03FF3323586859FB5F",
+      "size": 16847,
+      "staging_path": "release-metadata/yt-dlp-3a08beaf.commit.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/yt-dlp/yt-dlp/commits/594bd50c2c78ac432f81600d309fdc4e0a92d82c",
+      "purpose": "official RELEASE_GIT_HEAD commit metadata",
+      "sha256": "4947D1EB06CF96017B96E64044D47F51562E1132F9C3522D06732A2F757D3488",
+      "size": 7233,
+      "staging_path": "release-metadata/yt-dlp-594bd50c.commit.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/yt-dlp/yt-dlp/attestations/66674953fe251b89f4d08c5f0e35e0728679bd67ab3d7d05c0562af101dd3e7a",
+      "purpose": "official Sigstore attestation bundle for yt-dlp.exe",
+      "sha256": "C24B7064DA25FD30E7C52175D6B20EDB0848F4089981F520890154DA84D4C210",
+      "size": 4988,
+      "staging_path": "release-metadata/yt-dlp.exe.attestation.bundle.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/yt-dlp/yt-dlp/attestations/66674953fe251b89f4d08c5f0e35e0728679bd67ab3d7d05c0562af101dd3e7a",
+      "purpose": "official GitHub artifact attestation response",
+      "sha256": "8CE71D607196C462C57C269BD9F832721368CC36A263EC6F61D4C98A86D8CCD0",
+      "size": 6857,
+      "staging_path": "release-metadata/yt-dlp.exe.attestations.json"
+    },
+    {
+      "origin": "https://pypi.org/pypi/certifi/2026.7.22/json",
+      "purpose": "official PyPI metadata fixing the selected certifi sdist",
+      "sha256": "8848B518769BE65323EB37B69D3EDE4EBC60C43E48AA2573E61E821294E4172D",
+      "size": 5588,
+      "staging_path": "source-metadata/lot-1/certifi-2026.7.22.pypi.json"
+    },
+    {
+      "origin": "https://pypi.org/pypi/curl-cffi/0.16.0/json",
+      "purpose": "official PyPI metadata fixing the selected curl_cffi sdist",
+      "sha256": "15817BA2D6DDD45041ABEE2D45D5A34C3789F9321CE2FD8D741D9D4EC357A058",
+      "size": 41499,
+      "staging_path": "source-metadata/lot-1/curl-cffi-0.16.0.pypi.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/lexiforest/curl-impersonate/releases/tags/v2.0.0",
+      "purpose": "official curl-impersonate release metadata and Windows asset digest",
+      "sha256": "D5F72B59A02E3D3B537C9A547860B082CB6EBEC2E842E57FC5120AF9A926367B",
+      "size": 89473,
+      "staging_path": "source-metadata/lot-1/curl-impersonate-v2.0.0.release.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/lexiforest/curl-impersonate/git/ref/tags/v2.0.0",
+      "purpose": "official curl-impersonate tag reference",
+      "sha256": "F2E68FA82B20318277959C2141085B9C0C0B92E3EEAB0C152A021482182325D6",
+      "size": 404,
+      "staging_path": "source-metadata/lot-1/curl-impersonate-v2.0.0.tag-ref.json"
+    },
+    {
+      "origin": "https://pypi.org/pypi/mutagen/1.48.1/json",
+      "purpose": "metadata oficial do sdist mutagen e seu hash publicado",
+      "sha256": "9D04C5C8BEFB6750DDFE7AD97AF875CDF61699ACEC08DF1B947E67264AFF38E2",
+      "size": 3986,
+      "staging_path": "source-metadata/lot-1/mutagen-1.48.1.pypi.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/yt-dlp/Pyinstaller-Builds/releases/tags/2026.08.19.215425",
+      "purpose": "official PyInstaller-Builds release metadata",
+      "sha256": "AAF5B729E2A58987EF9DD45B0B396E8DDF1E3E6C6BE7B452BA0CACB4FF804C2B",
+      "size": 10704,
+      "staging_path": "source-metadata/lot-1/pyinstaller-builds-2026.08.19.215425.release.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/yt-dlp/Pyinstaller-Builds/git/ref/tags/2026.08.19.215425",
+      "purpose": "official PyInstaller-Builds tag reference",
+      "sha256": "9EBD6E45473EDEFCDCE781F091DA5D29D2FFAE558728AE86B7CA3D85704E0F06",
+      "size": 446,
+      "staging_path": "source-metadata/lot-1/pyinstaller-builds-2026.08.19.215425.tag-ref.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/yt-dlp/Pyinstaller-Builds/commits/5eb86b862d61adc3df0f44e6e0b815b7d74fa3f5",
+      "purpose": "official PyInstaller-Builds release commit",
+      "sha256": "730B01E71279BB187EDD9F518D6E317626131EDDE3A4EBC1313F098419C51459",
+      "size": 2690,
+      "staging_path": "source-metadata/lot-1/pyinstaller-builds-5eb86b86.commit.json"
+    },
+    {
+      "origin": "https://pypi.org/pypi/yt-dlp-ejs/0.8.0/json",
+      "purpose": "metadata oficial do sdist yt-dlp-ejs e seu hash publicado",
+      "sha256": "0FB174287BD859559A12A401F0147E62D34A2B2793AD9CEBC8CE31C3E24C9188",
+      "size": 5709,
+      "staging_path": "source-metadata/lot-1/yt-dlp-ejs-0.8.0.pypi.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/yt-dlp/ejs/git/ref/tags/0.8.0",
+      "purpose": "referência oficial da tag yt-dlp-ejs 0.8.0",
+      "sha256": "4ACD76AD9FCC9D15BCB7080902778C89BA9E0063D1C9CEE7087F2A588994A6C1",
+      "size": 318,
+      "staging_path": "source-metadata/lot-1/yt-dlp-ejs-0.8.0.tag-ref.json"
+    },
+    {
+      "origin": "https://registry.npmjs.org/astring/1.9.0",
+      "purpose": "metadata oficial npm com versão, licença, gitHead e integridades do package Astring",
+      "sha256": "7F56D79B105038B12FC0F21304624B360C07F4920FF9DD4FA837E18813F9021F",
+      "size": 3721,
+      "staging_path": "source-metadata/lot-1b/astring-1.9.0.npm.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/davidbonnet/astring/git/commits/96dfb2b347fc7e4f359b26579198097b9f0b1256",
+      "purpose": "commit oficial Astring 1.9.0 e identidade da árvore",
+      "sha256": "E3C9C8703B16E184718252BB2768758C956F08819005624BE19F753AAF3A1CC4",
+      "size": 1645,
+      "staging_path": "source-metadata/lot-1b/astring-v1.9.0.commit.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/davidbonnet/astring/git/ref/tags/v1.9.0",
+      "purpose": "referência oficial da tag anotada Astring v1.9.0",
+      "sha256": "8C482185A5247C2C123AA16B55A51F3FDC805B48A860F9B06BE0A68974161333",
+      "size": 341,
+      "staging_path": "source-metadata/lot-1b/astring-v1.9.0.tag-ref.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/davidbonnet/astring/git/tags/c9a330dbc360e17157b1aaf4c09702430fbfbe7f",
+      "purpose": "objeto da tag oficial Astring v1.9.0 que resolve para o commit de source",
+      "sha256": "19280D273C5637182FEE68A362899B26529D4219433E702C88DE7CB7D44B4E1A",
+      "size": 671,
+      "staging_path": "source-metadata/lot-1b/astring-v1.9.0.tag.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/davidbonnet/astring/git/trees/c526e49cc82dbc8358de3a195e063c347868c0ec?recursive=1",
+      "purpose": "árvore Git oficial usada para verificar os 60 blobs do source Astring",
+      "sha256": "2FD7DFE1C96D36562A17D8EB5548D54D7F9F3C01E8F97B447B0A48A84A74855C",
+      "size": 17290,
+      "staging_path": "source-metadata/lot-1b/astring-v1.9.0.tree.json"
+    },
+    {
+      "origin": "https://raw.githubusercontent.com/certifi/python-certifi/d0ac52f3d93a514224197c7efb66c41b1beae5d1/.github/workflows/bump.yml",
+      "purpose": "workflow oficial que atualiza o cacert por meio do alvo make update",
+      "sha256": "DB3774A2AA66B4FACD4E233DB299FE4EC0B38ABFC08D97F2EF05D6B6886A03A5",
+      "size": 1180,
+      "staging_path": "source-metadata/lot-1b/certifi-2026.06.17-bump.yml"
+    },
+    {
+      "origin": "https://raw.githubusercontent.com/certifi/python-certifi/d0ac52f3d93a514224197c7efb66c41b1beae5d1/Makefile",
+      "purpose": "processo oficial que obtém o bundle de mkcert.org e remove comentários não ASCII",
+      "sha256": "CA810F526668D1CFFCA90428CB6D13030A66AFDCD3C5CCF88E5F91FC7956D04C",
+      "size": 155,
+      "staging_path": "source-metadata/lot-1b/certifi-2026.06.17-makefile"
+    },
+    {
+      "origin": "https://raw.githubusercontent.com/certifi/python-certifi/d0ac52f3d93a514224197c7efb66c41b1beae5d1/strip-non-ascii",
+      "purpose": "filtro textual oficial aplicado pelo Certifi ao bundle PEM gerado",
+      "sha256": "2B7C7335328C80A6B0EF6819A8E864DD4E9EFF36E525DB5E34999A02123C3C16",
+      "size": 309,
+      "staging_path": "source-metadata/lot-1b/certifi-2026.06.17-strip-non-ascii"
+    },
+    {
+      "origin": "https://api.github.com/repos/certifi/python-certifi/git/commits/d0ac52f3d93a514224197c7efb66c41b1beae5d1",
+      "purpose": "commit oficial da release Certifi 2026.6.17 e identidade da árvore",
+      "sha256": "A87B859D60ED19C868A2FFCF8751B2CCDEB3227EDAFE1FBB52A57295A423E39C",
+      "size": 2373,
+      "staging_path": "source-metadata/lot-1b/certifi-2026.06.17.commit.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/certifi/python-certifi/git/tags/9b411737c6b36a5bc23c2bdb9761cf2398e8e2b8",
+      "purpose": "tag anotada oficial Certifi 2026.6.17",
+      "sha256": "60DBF6D905E64640EB91085E1F8CED59FE126D6AA2F72F34BCCBE978FA098AAA",
+      "size": 4168,
+      "staging_path": "source-metadata/lot-1b/certifi-2026.06.17.tag.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/certifi/python-certifi/git/trees/0202fe9c8564178d35f5ddee0e7b1ea4152f7846?recursive=1",
+      "purpose": "árvore oficial que fixa o blob cacert.pem da release Certifi 2026.6.17",
+      "sha256": "B9991C0EDEF6BEF0B3EC698BE46FAD2ED36A3CF563911E0DE60ACB7A7770B081",
+      "size": 5877,
+      "staging_path": "source-metadata/lot-1b/certifi-2026.06.17.tree.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/certifi/python-certifi/git/tags/5379b709be8a8595803a7bd907f87e302fc6ae1d",
+      "purpose": "official annotated Certifi tag object",
+      "sha256": "F24299485DDAD9437856266E299B0A2BA48CC31D3C86C15F52542332785D93CD",
+      "size": 4293,
+      "staging_path": "source-metadata/lot-1b/certifi-2026.07.22.tag-object.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/certifi/python-certifi/git/ref/tags/2026.07.22",
+      "purpose": "official Certifi tag reference",
+      "sha256": "DE9C2430E05099A9B1F5FA57B4525FE7D33A2002F6A7938321A28645970AED7E",
+      "size": 408,
+      "staging_path": "source-metadata/lot-1b/certifi-2026.07.22.tag-ref.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/certifi/python-certifi/commits/f4bc676bc101fe2235846e37044e8c693d6cbaf4",
+      "purpose": "official Certifi release commit",
+      "sha256": "5912CAF54CD2617FEA8FBCA54A967307C18792FD7342051497A5B2EF5A891F62",
+      "size": 2577,
+      "staging_path": "source-metadata/lot-1b/certifi-2026.7.22.commit.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/certifi/python-certifi/pulls/418/files",
+      "purpose": "arquivos oficiais do bump que produziu o cacert.pem da release 2026.6.17",
+      "sha256": "EBB0A1AC83F834FA832912502EEC96CE3B4EF81D3A765C3960E4AC07DC90A341",
+      "size": 3374,
+      "staging_path": "source-metadata/lot-1b/certifi-pr-418-files.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/certifi/python-certifi/pulls/418",
+      "purpose": "metadata oficial do bump de certificados criado e integrado em 17 de junho de 2026",
+      "sha256": "FBB879CB62DD2579B98201BE9C6E5A90BF2C7FE884219D06616B13BF1E7594B8",
+      "size": 17403,
+      "staging_path": "source-metadata/lot-1b/certifi-pr-418.json"
+    },
+    {
+      "origin": "https://registry.npmjs.org/meriyah/6.1.4",
+      "purpose": "metadata oficial npm com versão, licença, gitHead e integridades do package Meriyah",
+      "sha256": "DE439868C73D49D66B18120706B33846833111BCA7B5000DCC5E69ADD7824001",
+      "size": 4055,
+      "staging_path": "source-metadata/lot-1b/meriyah-6.1.4.npm.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/meriyah/meriyah/git/commits/abbbfe0c4e4d52649716028a4416bd0fe6644e57",
+      "purpose": "commit oficial Meriyah 6.1.4 e identidade da árvore",
+      "sha256": "B705D4743C9AAAB02D0657FA9911C1AE9A134A373C3F31977C1D9B42F6AD078D",
+      "size": 1059,
+      "staging_path": "source-metadata/lot-1b/meriyah-v6.1.4.commit.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/meriyah/meriyah/git/ref/tags/v6.1.4",
+      "purpose": "referência oficial da tag anotada Meriyah v6.1.4",
+      "sha256": "A8826968C5184683FDF3AD8AF0CE2933A775FDBFABA4FC63F362FDF51CCF4E8F",
+      "size": 333,
+      "staging_path": "source-metadata/lot-1b/meriyah-v6.1.4.tag-ref.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/meriyah/meriyah/git/tags/a6d4298579324a822081a4b3bb46d0933c97df0f",
+      "purpose": "objeto da tag oficial Meriyah v6.1.4 que resolve para o commit de source",
+      "sha256": "8F3E1FC88742E57A7F05AC7D862690FA7CC235CA8FC5A2BD18632B74B7738D14",
+      "size": 644,
+      "staging_path": "source-metadata/lot-1b/meriyah-v6.1.4.tag.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/meriyah/meriyah/git/trees/4f6b3d6bebb10c85b33555d8254c1de9e20c74c4?recursive=1",
+      "purpose": "árvore Git oficial usada para verificar os 304 blobs do source Meriyah",
+      "sha256": "83DCFF0FAB9175515FB06D1A1CD3475E4C68443C1988BF612594A12F36A5960E",
+      "size": 81108,
+      "staging_path": "source-metadata/lot-1b/meriyah-v6.1.4.tree.json"
+    },
+    {
+      "origin": "https://raw.githubusercontent.com/Lukasa/mkcert/90d0d3395d94391b365bf6a3a3bfa444be5cc4b8/convert_mozilla_certdata.go",
+      "purpose": "conversor oficial usado pelo serviço mkcert.org para selecionar roots TLS do certdata",
+      "sha256": "0729CABF8FD724DA39B34AB26F0D1B374C29D062E88EA7FF613CBD98B8917E4F",
+      "size": 16448,
+      "staging_path": "source-metadata/lot-1b/mkcert-service-convert_mozilla_certdata.go"
+    },
+    {
+      "origin": "https://raw.githubusercontent.com/Lukasa/mkcert/90d0d3395d94391b365bf6a3a3bfa444be5cc4b8/main.go",
+      "purpose": "source oficial do serviço mkcert.org que fixa o certdata da branch Firefox beta",
+      "sha256": "D62DAC04EAF87C14A2330C30C3A89AC380DC56DE1DB9F18DD094C670330EB3C2",
+      "size": 7997,
+      "staging_path": "source-metadata/lot-1b/mkcert-service-main.go"
+    },
+    {
+      "origin": "https://api.github.com/repos/Lukasa/mkcert/git/commits/90d0d3395d94391b365bf6a3a3bfa444be5cc4b8",
+      "purpose": "commit oficial do serviço mkcert.org vigente durante o bump do Certifi",
+      "sha256": "88CE9314277CFF8931B7397E20F7D52023E7C56614FE2527A90674FBA2DB67A0",
+      "size": 5687,
+      "staging_path": "source-metadata/lot-1b/mkcert-service-master.commit.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/Lukasa/mkcert/git/trees/90d0d3395d94391b365bf6a3a3bfa444be5cc4b8?recursive=1",
+      "purpose": "árvore oficial do serviço mkcert.org usada na cadeia de geração",
+      "sha256": "1613A7094E95A44691BF9D38CD65E744AFD1C6D8B13B05B6BDEF6204950858F3",
+      "size": 3015,
+      "staging_path": "source-metadata/lot-1b/mkcert-service-master.tree.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/mozilla-firefox/firefox/commits?path=security/nss/lib/ckfw/builtins/certdata.txt",
+      "purpose": "official history identifying the latest certdata revision before the Certifi release",
+      "sha256": "C1887571A0662EB436BEE523FD607CB91EB28244A017A1D3B70BE142A0C370DA",
+      "size": 4021,
+      "staging_path": "source-metadata/lot-1b/mozilla-certdata-history-before-certifi-2026.07.22.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/nghttp2/nghttp2/git/commits/8f44147c385fb1ed93a6f39911eeb30279bfd2dd",
+      "purpose": "official commit metadata linking the preserved revision to its Git tree",
+      "sha256": "C036EAFA1F251D6128706E0767AD04E6F5840197A8D28977BDDBCAF673B68E0B",
+      "size": 1105,
+      "staging_path": "source-metadata/lot-1c/nghttp2-8f44147c385fb1ed93a6f39911eeb30279bfd2dd.commit.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/nghttp2/nghttp2/git/trees/a697da4a2809065132463d3d2c513bd7313fedee?recursive=1",
+      "purpose": "official recursive Git tree used for offline blob correspondence",
+      "sha256": "01CBADF0D0C699EEC55704ECAEB98F91D4EBD7A6F1A6B9185275F8DA58465FC3",
+      "size": 156319,
+      "staging_path": "source-metadata/lot-1c/nghttp2-a697da4a2809065132463d3d2c513bd7313fedee.tree.json"
+    },
+    {
+      "origin": "https://github.com/nghttp2/nghttp2/releases/download/v1.63.0/checksums.txt",
+      "purpose": "official release checksum list",
+      "sha256": "8439E48B9F531B9DE279F31069A6290335BFF0832C4FDC361CD4D9FC6DDC8F6A",
+      "size": 265,
+      "staging_path": "source-metadata/lot-1c/nghttp2-v1.63.0.checksums.txt"
+    },
+    {
+      "origin": "https://api.github.com/repos/nghttp2/nghttp2/releases/tags/v1.63.0",
+      "purpose": "official release metadata fixing asset filename, size and digest when published",
+      "sha256": "7D4649D4F9C04D5135A7096CAB918FFC632A81E3A3BBA78535E8CDAD6556BD9D",
+      "size": 16867,
+      "staging_path": "source-metadata/lot-1c/nghttp2-v1.63.0.release.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/nghttp2/nghttp2/git/ref/tags/v1.63.0",
+      "purpose": "official tag reference metadata",
+      "sha256": "1703CEC1846CE016E78040339033EF29C0D23CDD60A3117934418B62823131A4",
+      "size": 335,
+      "staging_path": "source-metadata/lot-1c/nghttp2-v1.63.0.tag-ref.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/nghttp2/nghttp2/git/tags/189693fce031f185f7b38c15928f12f3a19fbc36",
+      "purpose": "official annotated tag metadata linking tag to commit",
+      "sha256": "413A5D80B47E8FD2A626A7C56D867D3CDB477803717899F6C455703DE434D26C",
+      "size": 2542,
+      "staging_path": "source-metadata/lot-1c/nghttp2-v1.63.0.tag.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/ngtcp2/nghttp3/git/commits/d326f4c1eb3f6a780d77793b30e16756c498f913",
+      "purpose": "official commit metadata linking the preserved revision to its Git tree",
+      "sha256": "6CA2E95AD83CA78BA66EA9CB7C20C913FEF31EE9C07A03F9BDDA284C5182EA93",
+      "size": 1114,
+      "staging_path": "source-metadata/lot-1c/nghttp3-d326f4c1eb3f6a780d77793b30e16756c498f913.commit.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/ngtcp2/nghttp3/git/trees/ead05ac0aef9a80eff289ca57e00e570b5af587f?recursive=1",
+      "purpose": "official recursive Git tree used for offline blob correspondence",
+      "sha256": "17DA7414FDB2C7F0E8C502AD66CFDCB4BA6F1821DB2B7CA6D19640286191E7AE",
+      "size": 38066,
+      "staging_path": "source-metadata/lot-1c/nghttp3-ead05ac0aef9a80eff289ca57e00e570b5af587f.tree.json"
+    },
+    {
+      "origin": "https://github.com/ngtcp2/nghttp3/releases/download/v1.15.0/checksums.txt",
+      "purpose": "official release checksum list",
+      "sha256": "126FF2FCE615C7748683F4853627DE0E9465171E077344AAC33E7AD336727B2C",
+      "size": 265,
+      "staging_path": "source-metadata/lot-1c/nghttp3-v1.15.0.checksums.txt"
+    },
+    {
+      "origin": "https://api.github.com/repos/ngtcp2/nghttp3/releases/tags/v1.15.0",
+      "purpose": "official release metadata fixing asset filename, size and digest when published",
+      "sha256": "4D1354E49689A2556C86CA1D00CABE1084663F5845996B00DF4A7C6647528D5B",
+      "size": 14591,
+      "staging_path": "source-metadata/lot-1c/nghttp3-v1.15.0.release.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/ngtcp2/nghttp3/git/ref/tags/v1.15.0",
+      "purpose": "official tag reference metadata",
+      "sha256": "488C278DB8802ED450ADAD63DD4D3670141769B2D450D4BD1F7DA3F4FC8177D5",
+      "size": 333,
+      "staging_path": "source-metadata/lot-1c/nghttp3-v1.15.0.tag-ref.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/ngtcp2/nghttp3/git/tags/a5391e8b23ed204ca8de02f0f72f1a11773be497",
+      "purpose": "official annotated tag metadata linking tag to commit",
+      "sha256": "100DFD48215145777C70DAABB88AAF5740A2AE559E75F97C52C8BA0D61B8E9AF",
+      "size": 2540,
+      "staging_path": "source-metadata/lot-1c/nghttp3-v1.15.0.tag.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/ngtcp2/ngtcp2/git/commits/ca898d32348c93af9fbbc81538505a1c1c062685",
+      "purpose": "official commit metadata linking the preserved revision to its Git tree",
+      "sha256": "54389C5B4AE0370005EB3CFCD4BF6BCAAD0A81316A6EBA4B47ECE88BCE7F33FB",
+      "size": 1109,
+      "staging_path": "source-metadata/lot-1c/ngtcp2-ca898d32348c93af9fbbc81538505a1c1c062685.commit.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/ngtcp2/ngtcp2/git/trees/d294a0604ee3b74c1ef03e9b428d26d0e0c8279b?recursive=1",
+      "purpose": "official recursive Git tree used for offline blob correspondence",
+      "sha256": "94EF146C69EDC51A6B26430F84ED5FE3B92EA21154D7B97D3EA132CE4E83B949",
+      "size": 112395,
+      "staging_path": "source-metadata/lot-1c/ngtcp2-d294a0604ee3b74c1ef03e9b428d26d0e0c8279b.tree.json"
+    },
+    {
+      "origin": "https://github.com/ngtcp2/ngtcp2/releases/download/v1.20.0/checksums.txt",
+      "purpose": "official release checksum list",
+      "sha256": "6952FFF481A1F9E29E92E9428711A36792C7B4988197EC86F5F3F9E4259ADA99",
+      "size": 262,
+      "staging_path": "source-metadata/lot-1c/ngtcp2-v1.20.0.checksums.txt"
+    },
+    {
+      "origin": "https://api.github.com/repos/ngtcp2/ngtcp2/releases/tags/v1.20.0",
+      "purpose": "official release metadata fixing asset filename, size and digest when published",
+      "sha256": "338D08D749FC14322B590A91A804365EFA82FD54BF45C2209296F5A2779F976D",
+      "size": 16519,
+      "staging_path": "source-metadata/lot-1c/ngtcp2-v1.20.0.release.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/ngtcp2/ngtcp2/git/ref/tags/v1.20.0",
+      "purpose": "official tag reference metadata",
+      "sha256": "6CAE5996C52A850BECBF0642BE85D64B9167643F08E12F3D6BDE948184382173",
+      "size": 331,
+      "staging_path": "source-metadata/lot-1c/ngtcp2-v1.20.0.tag-ref.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/ngtcp2/ngtcp2/git/tags/2b4521d3e2a80f41c46f771db541e96e0be2ade0",
+      "purpose": "official annotated tag metadata linking tag to commit",
+      "sha256": "214AF3A29573B4FD03F3B7FD178ECC1E992221FC0B62A1125B0450E75C1699E2",
+      "size": 2536,
+      "staging_path": "source-metadata/lot-1c/ngtcp2-v1.20.0.tag.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/ngtcp2/sfparse/git/trees/2f89609efaf3ba61e3435e6f929e67cbb17da8b0?recursive=1",
+      "purpose": "official recursive Git tree used for offline blob correspondence",
+      "sha256": "93E85A1F04A187FB46AD72887B036A89349C73860C76BAFF0B03C660ACA38E70",
+      "size": 14056,
+      "staging_path": "source-metadata/lot-1c/sfparse-2f89609efaf3ba61e3435e6f929e67cbb17da8b0.tree.json"
+    },
+    {
+      "origin": "https://api.github.com/repos/ngtcp2/sfparse/git/commits/ff7f230e7df2844afef7dc49631cda03a30455f3",
+      "purpose": "official commit metadata linking the preserved revision to its Git tree",
+      "sha256": "553C1E8B1A2D6B3CF3E5C81BA585A47010818BAFA3C8E18615F6DB825F70B76B",
+      "size": 2625,
+      "staging_path": "source-metadata/lot-1c/sfparse-ff7f230e7df2844afef7dc49631cda03a30455f3.commit.json"
+    },
+    {
+      "origin": "https://pypi.org/pypi/brotli/1.2.0/json",
+      "purpose": "official PyPI metadata fixing the selected brotli 1.2.0 sdist",
+      "sha256": "FFF7B315334C40E145ED39ACF6FA025C315F2A18A023E64B39EFBD4C5A4EFBD8",
+      "size": 92928,
+      "staging_path": "source-metadata/lot-1d/brotli-1.2.0.pypi.json"
+    },
+    {
+      "origin": "https://pypi.org/pypi/cffi/2.1.1/json",
+      "purpose": "official PyPI metadata fixing the selected cffi sdist",
+      "sha256": "B7D9FA64CFAA13644C7C20D61EC84CF0B5DA5D2AE0A2485A60A0235A5CD45493",
+      "size": 111696,
+      "staging_path": "source-metadata/lot-1d/cffi-2.1.1.pypi.json"
+    },
+    {
+      "origin": "https://pypi.org/pypi/charset-normalizer/3.5.0/json",
+      "purpose": "official PyPI metadata fixing the selected charset-normalizer sdist",
+      "sha256": "CFAE8BD7159B449400C2F51D3832886F4B035438B918D0D646B4DA234B95DA32",
+      "size": 237729,
+      "staging_path": "source-metadata/lot-1d/charset_normalizer-3.5.0.pypi.json"
+    },
+    {
+      "origin": "https://pypi.org/pypi/idna/3.18/json",
+      "purpose": "official PyPI metadata fixing the selected idna 3.18 sdist",
+      "sha256": "B7532AF52AB3E189C04565135E71DB0777CF8883A11B82D30B78C0E188CB5EB2",
+      "size": 8146,
+      "staging_path": "source-metadata/lot-1d/idna-3.18.pypi.json"
+    },
+    {
+      "origin": "https://pypi.org/pypi/pycparser/3.0/json",
+      "purpose": "official PyPI metadata fixing the selected pycparser 3.0 sdist",
+      "sha256": "116983F7DE9BDA289946D08200BA1BD7B832547F151165C12BD87D6B8E59B015",
+      "size": 10557,
+      "staging_path": "source-metadata/lot-1d/pycparser-3.0.pypi.json"
+    },
+    {
+      "origin": "https://pypi.org/pypi/pycryptodomex/3.23.0/json",
+      "purpose": "official PyPI metadata fixing the selected pycryptodomex 3.23.0 sdist",
+      "sha256": "3579EA5BAD8138247791A01141A7EB6D6E4D37743026DAE0A70380C4BF2ACE2F",
+      "size": 42265,
+      "staging_path": "source-metadata/lot-1d/pycryptodomex-3.23.0.pypi.json"
+    },
+    {
+      "origin": "https://pypi.org/pypi/requests/2.34.2/json",
+      "purpose": "official PyPI metadata fixing the selected requests 2.34.2 sdist",
+      "sha256": "8622E50FFD295ED759EC793F2A009172A4ED0204BBC5E948DE23111BC3D2AEAE",
+      "size": 6811,
+      "staging_path": "source-metadata/lot-1d/requests-2.34.2.pypi.json"
+    },
+    {
+      "origin": "https://pypi.org/pypi/typing-extensions/4.16.0/json",
+      "purpose": "official PyPI metadata fixing the selected typing-extensions sdist",
+      "sha256": "2799F238A0407026AF7F1CB7FE5A72B2F6611B15678D78E864E67C8C1C041FBA",
+      "size": 6766,
+      "staging_path": "source-metadata/lot-1d/typing_extensions-4.16.0.pypi.json"
+    },
+    {
+      "origin": "https://pypi.org/pypi/urllib3/2.7.0/json",
+      "purpose": "official PyPI metadata fixing the selected urllib3 2.7.0 sdist",
+      "sha256": "A0375620087B0C3B6C4B6B1F6A694537ACAAC10BFB0E8AC856078648FFED4199",
+      "size": 8983,
+      "staging_path": "source-metadata/lot-1d/urllib3-2.7.0.pypi.json"
+    },
+    {
+      "origin": "https://pypi.org/pypi/websockets/16.1.1/json",
+      "purpose": "official PyPI metadata fixing the selected websockets sdist",
+      "sha256": "843CA1A2D3035D5F9DCB80BF7F8FD489B483EEB8F12C0B717E0D2FA5AB264E7E",
+      "size": 128149,
+      "staging_path": "source-metadata/lot-1d/websockets-16.1.1.pypi.json"
+    },
+    {
+      "origin": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.08.19/SHA2-256SUMS",
+      "purpose": "official release checksum authority",
+      "sha256": "A63701F30755CB4D9317950D69703E9D751D490CB1B7059E1BB501A353FE7DCB",
+      "size": 1595,
+      "staging_path": "upstream/SHA2-256SUMS"
+    },
+    {
+      "origin": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.08.19/SHA2-256SUMS.sig",
+      "purpose": "official minisign signature for the checksum authority",
+      "sha256": "8D6F9A7C84C57222E3650C61699185878A3468308DE702993CE4F20B5F9CF199",
+      "size": 566,
+      "staging_path": "upstream/SHA2-256SUMS.sig"
+    }
+  ],
+  "release_commit": "3a08beaf031ab68f966401ead017ac81fe8486cf",
+  "release_tag": "2026.08.19",
+  "requirements_locks": [
+    {
+      "path": "build-inputs/yt-dlp-tag/bundle/requirements/curl-cffi.txt",
+      "role": "runtime dependencies for Windows x64",
+      "sha256": "898C4D3BF40A6F1CB59E8CB8184536C0B97C543367E3256621A5B6D791729632"
+    },
+    {
+      "path": "build-inputs/yt-dlp-tag/bundle/requirements/pip.txt",
+      "role": "pip bootstrap",
+      "sha256": "9CBB5EB515EA9DB4BF574BE76F2A0E0D42911C41A01E3327B5E6903B8AF9F412"
+    },
+    {
+      "path": "build-inputs/yt-dlp-tag/bundle/requirements/win-x64-pyinstaller.txt",
+      "role": "PyInstaller custom wheel and build helpers",
+      "sha256": "473E6212FF85DA7320B55933EDF7FDC294B5DA7D8F4348D1863D7D06865A60C6"
+    }
+  ],
+  "schema_version": 3,
+  "source_archive": {
+    "origin": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.08.19/yt-dlp.tar.gz",
+    "purpose": "official primary source archive for yt-dlp 2026.08.19",
+    "sha256": "072AAD4F2A7604E92155F61A275A4752DC64046C8F6D90DF3710525D94CD37C1",
+    "size": 6020567,
+    "staging_path": "upstream/yt-dlp.tar.gz"
+  },
+  "source_archives": [
+    {
+      "component": "certifi",
+      "coverage": "Python package, MPL-2.0 LICENSE and exact cacert.pem bytes; all 121 DER certificates correspond to the preserved Mozilla certdata revision",
+      "filename": "certifi-2026.7.22.tar.gz",
+      "integrity_authority": "SHA-256 published by PyPI and fixed by the official yt-dlp lock",
+      "official_upstream": "https://github.com/certifi/python-certifi",
+      "origin": "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz",
+      "purpose": "corresponding source for certifi 2026.7.22 embedded in yt-dlp.exe",
+      "sha256": "741E2C3B351DDF169A738DA9F2C048608FF7F2C5CC02F1EBC6B118BB090D5D55",
+      "size": 138112,
+      "staging_path": "sources/lot-1/certifi-2026.7.22.tar.gz",
+      "status": "verified",
+      "version": "2026.7.22"
+    },
+    {
+      "component": "curl",
+      "coverage": "exact official source fixed by the curl-impersonate 2.0.0 CMake recipe, including applicable license material",
+      "filename": "curl-curl-8_21_0.tar.gz",
+      "integrity_authority": "SHA-256 fixed by the official curl-impersonate 2.0.0 CMake recipe",
+      "official_upstream": "https://github.com/curl/curl",
+      "origin": "https://github.com/curl/curl/archive/curl-8_21_0.tar.gz",
+      "purpose": "native source corresponding to the audited curl-impersonate 2.0.0 Windows closure (curl)",
+      "sha256": "EC753AA6F408A3CA9F0D6D5F7A77417AECD1544DB13C03AE5D443612BF367364",
+      "size": 3592963,
+      "staging_path": "sources/lot-1/curl-curl-8_21_0.tar.gz",
+      "status": "verified",
+      "version": "8.21.0"
+    },
+    {
+      "component": "curl-impersonate",
+      "coverage": "exact official source fixed by the curl-impersonate 2.0.0 CMake recipe, including applicable license material",
+      "filename": "curl-impersonate-2.0.0.tar.gz",
+      "integrity_authority": "SHA-256 fixed by the official curl-impersonate 2.0.0 CMake recipe",
+      "official_upstream": "https://github.com/lexiforest/curl-impersonate",
+      "origin": "https://codeload.github.com/lexiforest/curl-impersonate/tar.gz/refs/tags/v2.0.0",
+      "purpose": "native source corresponding to the audited curl-impersonate 2.0.0 Windows closure (curl-impersonate)",
+      "sha256": "A9827CFCE8246E78B86E26F012AE9FCB9BC05822009CD7CE4C9E130AF6BDFB6F",
+      "size": 207780,
+      "staging_path": "sources/lot-1/curl-impersonate-2.0.0.tar.gz",
+      "status": "verified",
+      "version": "2.0.0"
+    },
+    {
+      "component": "curl_cffi",
+      "coverage": "Python modules, CFFI declarations, shim, headers, build script and corresponding native curl-impersonate 2.0.0 closure",
+      "filename": "curl_cffi-0.16.0.tar.gz",
+      "integrity_authority": "SHA-256 published by PyPI and fixed by the official yt-dlp lock",
+      "official_upstream": "https://pypi.org/project/curl-cffi/",
+      "origin": "https://files.pythonhosted.org/packages/b4/23/d32e113b16dbfb458bea408871ed98dd12f306a366a04215e84537e0af7e/curl_cffi-0.16.0.tar.gz",
+      "purpose": "corresponding source for curl_cffi 0.16.0 embedded in yt-dlp.exe",
+      "sha256": "B00B423DA8028EB6221E3B63BCD63D681150C07CEE8B16000D1F7EA292731895",
+      "size": 238344,
+      "staging_path": "sources/lot-1/curl_cffi-0.16.0.tar.gz",
+      "status": "verified",
+      "version": "0.16.0"
+    },
+    {
+      "component": "mutagen",
+      "coverage": "all 48 material modules observed in the PYZ plus license and package metadata",
+      "filename": "mutagen-1.48.1.tar.gz",
+      "integrity_authority": "SHA-256 published by PyPI for the official sdist",
+      "official_upstream": "https://github.com/quodlibet/mutagen",
+      "origin": "https://files.pythonhosted.org/packages/df/70/1675da133ea92227da41bf5b24e1c66be597ff736a1533ade41da986852f/mutagen-1.48.1.tar.gz",
+      "purpose": "source distribution corresponding to mutagen 1.48.1 in the executable",
+      "sha256": "8F95637AB9F6F305CEC6BD1294E197DEBE207998E3E068596563C74F86B0A173",
+      "size": 1276978,
+      "staging_path": "sources/lot-1/mutagen-1.48.1.tar.gz",
+      "status": "verified",
+      "version": "1.48.1"
+    },
+    {
+      "component": "PyInstaller",
+      "coverage": "bootloader source, loaders, runtime hooks, COPYING and bootloader distribution exception",
+      "filename": "pyinstaller-6.22.0.tar.gz",
+      "integrity_authority": "SHA-256 digest published by the official Pyinstaller-Builds release",
+      "official_upstream": "https://github.com/pyinstaller/pyinstaller",
+      "origin": "https://github.com/yt-dlp/Pyinstaller-Builds/releases/download/2026.08.19.215425/pyinstaller-6.22.0.tar.gz",
+      "purpose": "official source asset for the custom PyInstaller 6.22.0 wheel used by yt-dlp 2026.08.19",
+      "sha256": "2FADBED5D951D53F003ED899312823A07DBBA59990A223CBE538933E1C42A168",
+      "size": 3527013,
+      "staging_path": "sources/lot-1/pyinstaller-6.22.0.tar.gz",
+      "status": "verified",
+      "version": "6.22.0"
+    },
+    {
+      "component": "yt-dlp-ejs",
+      "coverage": "TypeScript source, build scripts and locks; generated asset hashes and bundled Astring/Meriyah sources and package inputs are verified",
+      "filename": "yt_dlp_ejs-0.8.0.tar.gz",
+      "integrity_authority": "SHA-256 published by PyPI for the official sdist",
+      "official_upstream": "https://github.com/yt-dlp/ejs",
+      "origin": "https://files.pythonhosted.org/packages/d3/e6/cceb9530e8f4e5940f6f7822d90e9d94f1b85343329a16baaf47bbbb3de1/yt_dlp_ejs-0.8.0.tar.gz",
+      "purpose": "source distribution for the two local EJS solver assets in yt-dlp.exe",
+      "sha256": "D5FA1639F63B5C4AF8D932495F60689D5370F1A095782C944F7F62A303EB104E",
+      "size": 96571,
+      "staging_path": "sources/lot-1/yt_dlp_ejs-0.8.0.tar.gz",
+      "status": "verified",
+      "version": "0.8.0"
+    },
+    {
+      "component": "Astring package input",
+      "coverage": "exact npm package input fixed by the yt-dlp-ejs package-lock and deno.lock; dist/astring.mjs is byte-identical to tag source src/astring.js",
+      "filename": "astring-1.9.0.tgz",
+      "integrity_authority": "SHA-512 fixed by yt-dlp-ejs locks and SHA-1 published by the official npm registry; SHA-256 calculated locally",
+      "official_upstream": "https://github.com/davidbonnet/astring",
+      "origin": "https://registry.npmjs.org/astring/-/astring-1.9.0.tgz",
+      "purpose": "exact package consumed by the frozen EJS build",
+      "sha256": "422CCA9707ACA293E85EB54FDBBC5A0A167AD415236A325FF342E720E67AFB49",
+      "size": 60574,
+      "staging_path": "sources/lot-1b/astring-1.9.0.tgz",
+      "status": "verified",
+      "version": "1.9.0"
+    },
+    {
+      "component": "Astring",
+      "coverage": "official v1.9.0 tag source, license and build metadata; all 60 blobs verified against Git tree c526e49cc82dbc8358de3a195e063c347868c0ec",
+      "filename": "astring-v1.9.0-source.tar.gz",
+      "integrity_authority": "archive verified blob-for-blob against the official Git tree; SHA-256 calculated locally",
+      "official_upstream": "https://github.com/davidbonnet/astring",
+      "origin": "https://codeload.github.com/davidbonnet/astring/tar.gz/refs/tags/v1.9.0",
+      "purpose": "corresponding source for Astring code bundled into yt-dlp-ejs lib.min.js",
+      "sha256": "DAE80FF54C154215C607F99B7F52292E38844A20B07D3654DBDA6C3FBA804284",
+      "size": 153338,
+      "staging_path": "sources/lot-1b/astring-v1.9.0-source.tar.gz",
+      "status": "verified",
+      "version": "1.9.0"
+    },
+    {
+      "component": "Meriyah package input",
+      "coverage": "exact npm package input fixed by the yt-dlp-ejs package-lock and deno.lock and linked by official npm gitHead to tag commit abbbfe0c4e4d52649716028a4416bd0fe6644e57",
+      "filename": "meriyah-6.1.4.tgz",
+      "integrity_authority": "SHA-512 fixed by yt-dlp-ejs locks and SHA-1 published by the official npm registry; SHA-256 calculated locally",
+      "official_upstream": "https://github.com/meriyah/meriyah",
+      "origin": "https://registry.npmjs.org/meriyah/-/meriyah-6.1.4.tgz",
+      "purpose": "exact package consumed by the frozen EJS build",
+      "sha256": "C0F105D9FB01BB48C76EA6EE382E6099277B95E3F351FB99B67DDFB79D6088B8",
+      "size": 278043,
+      "staging_path": "sources/lot-1b/meriyah-6.1.4.tgz",
+      "status": "verified",
+      "version": "6.1.4"
+    },
+    {
+      "component": "Meriyah",
+      "coverage": "official v6.1.4 tag source, ISC license, TypeScript sources and build script; all 304 blobs verified against Git tree 4f6b3d6bebb10c85b33555d8254c1de9e20c74c4",
+      "filename": "meriyah-v6.1.4-source.tar.gz",
+      "integrity_authority": "archive verified blob-for-blob against the official Git tree; SHA-256 calculated locally",
+      "official_upstream": "https://github.com/meriyah/meriyah",
+      "origin": "https://codeload.github.com/meriyah/meriyah/tar.gz/refs/tags/v6.1.4",
+      "purpose": "corresponding source for Meriyah code bundled into yt-dlp-ejs lib.min.js",
+      "sha256": "047AD1407D17DF3AA78EA4F3D97C2F7953FCB9399E9CEC8C2CC91A35A932A630",
+      "size": 942326,
+      "staging_path": "sources/lot-1b/meriyah-v6.1.4-source.tar.gz",
+      "status": "verified",
+      "version": "6.1.4"
+    },
+    {
+      "component": "Mozilla certdata",
+      "coverage": "exact Firefox certdata revision; all 121 trusted TLS DER certificates correspond to certifi 2026.7.22 cacert.pem",
+      "filename": "mozilla-firefox-certdata-4e9426a.txt",
+      "integrity_authority": "Git blob SHA verified against the official Mozilla repository; SHA-256 calculated locally",
+      "official_upstream": "https://github.com/mozilla-firefox/firefox",
+      "origin": "https://raw.githubusercontent.com/mozilla-firefox/firefox/4e9426ae522c67de47ff3e060774328b42df0134/security/nss/lib/ckfw/builtins/certdata.txt",
+      "purpose": "exact Mozilla source data corresponding to certifi 2026.7.22 cacert.pem",
+      "sha256": "81B7F2576333A2E360E673F912D7B0B7A765D836C731003E348A46CAC5D37198",
+      "size": 1375098,
+      "staging_path": "sources/lot-1b/mozilla-firefox-certdata-4e9426a.txt",
+      "status": "verified",
+      "version": "4e9426ae522c67de47ff3e060774328b42df0134"
+    },
+    {
+      "component": "BoringSSL",
+      "coverage": "exact official source fixed by the curl-impersonate 2.0.0 CMake recipe, including applicable license material",
+      "filename": "boringssl-156c7b75ae9b8c3b3f847acf264f17594c3859fb.zip",
+      "integrity_authority": "SHA-256 fixed by the official curl-impersonate 2.0.0 CMake recipe",
+      "official_upstream": "https://github.com/google/boringssl",
+      "origin": "https://github.com/google/boringssl/archive/156c7b75ae9b8c3b3f847acf264f17594c3859fb.zip",
+      "purpose": "native source corresponding to the audited curl-impersonate 2.0.0 Windows closure (BoringSSL)",
+      "sha256": "450E169B284697C6EAFE523CB7679F4221FBE1A0993F773A566C33B188762844",
+      "size": 80313844,
+      "staging_path": "sources/lot-1c/boringssl-156c7b75ae9b8c3b3f847acf264f17594c3859fb.zip",
+      "status": "verified",
+      "version": "156c7b75ae9b8c3b3f847acf264f17594c3859fb"
+    },
+    {
+      "component": "Brotli native",
+      "coverage": "exact official source fixed by the curl-impersonate 2.0.0 CMake recipe, including applicable license material",
+      "filename": "brotli-v1.2.0.tar.gz",
+      "integrity_authority": "SHA-256 fixed by the official curl-impersonate 2.0.0 CMake recipe",
+      "official_upstream": "https://github.com/google/brotli",
+      "origin": "https://github.com/google/brotli/archive/refs/tags/v1.2.0.tar.gz",
+      "purpose": "native source corresponding to the audited curl-impersonate 2.0.0 Windows closure (Brotli native)",
+      "sha256": "816C96E8E8F193B40151DAD7E8FF37B1221D019DBCB9C35CD3FADBFE6477DFEC",
+      "size": 646315,
+      "staging_path": "sources/lot-1c/brotli-v1.2.0.tar.gz",
+      "status": "verified",
+      "version": "1.2.0"
+    },
+    {
+      "component": "nghttp2",
+      "coverage": "official release archive, MIT COPYING and material static libnghttp2 source",
+      "filename": "nghttp2-1.63.0.tar.bz2",
+      "integrity_authority": "official_published",
+      "official_upstream": "https://github.com/nghttp2/nghttp2",
+      "origin": "https://github.com/nghttp2/nghttp2/releases/download/v1.63.0/nghttp2-1.63.0.tar.bz2",
+      "purpose": "HTTP/2 library source materially linked into curl_cffi/_wrapper.pyd",
+      "sha256": "607B174554D22A828BC532D1D734FE0F729B5D5ED207F2F12E96A62E83F29C55",
+      "size": 2012107,
+      "staging_path": "sources/lot-1c/nghttp2-1.63.0.tar.bz2",
+      "status": "verified",
+      "version": "1.63.0 / 8f44147c385fb1ed93a6f39911eeb30279bfd2dd"
+    },
+    {
+      "component": "nghttp3",
+      "coverage": "official release archive, MIT COPYING, material libnghttp3 source and exact sfparse material blobs",
+      "filename": "nghttp3-1.15.0.tar.bz2",
+      "integrity_authority": "official_published",
+      "official_upstream": "https://github.com/ngtcp2/nghttp3",
+      "origin": "https://github.com/ngtcp2/nghttp3/releases/download/v1.15.0/nghttp3-1.15.0.tar.bz2",
+      "purpose": "HTTP/3 library source materially linked into curl_cffi/_wrapper.pyd",
+      "sha256": "C6C491A52804814098E446630E6EFC459AFC0D3DA7952FFE6CBDC0B3F99B2B62",
+      "size": 519681,
+      "staging_path": "sources/lot-1c/nghttp3-1.15.0.tar.bz2",
+      "status": "verified",
+      "version": "1.15.0 / d326f4c1eb3f6a780d77793b30e16756c498f913"
+    },
+    {
+      "component": "ngtcp2",
+      "coverage": "official release archive, MIT COPYING and lib-only BoringSSL crypto source",
+      "filename": "ngtcp2-1.20.0.tar.bz2",
+      "integrity_authority": "official_published",
+      "official_upstream": "https://github.com/ngtcp2/ngtcp2",
+      "origin": "https://github.com/ngtcp2/ngtcp2/releases/download/v1.20.0/ngtcp2-1.20.0.tar.bz2",
+      "purpose": "QUIC library and BoringSSL integration materially linked into curl_cffi/_wrapper.pyd",
+      "sha256": "871EC97AD86803CF312901B0C393B0EE70163E25A87C9B2894D1234341CE4E97",
+      "size": 898205,
+      "staging_path": "sources/lot-1c/ngtcp2-1.20.0.tar.bz2",
+      "status": "verified",
+      "version": "1.20.0 / ca898d32348c93af9fbbc81538505a1c1c062685"
+    },
+    {
+      "component": "zlib",
+      "coverage": "exact official source fixed by the curl-impersonate 2.0.0 CMake recipe, including applicable license material",
+      "filename": "zlib-1.3.1.tar.gz",
+      "integrity_authority": "SHA-256 fixed by the official curl-impersonate 2.0.0 CMake recipe",
+      "official_upstream": "https://github.com/madler/zlib",
+      "origin": "https://github.com/madler/zlib/releases/download/v1.3.1/zlib-1.3.1.tar.gz",
+      "purpose": "native source corresponding to the audited curl-impersonate 2.0.0 Windows closure (zlib)",
+      "sha256": "9A93B2B7DFDAC77CEBA5A558A580E74667DD6FEDE4585B91EEFB60F03B72DF23",
+      "size": 1512791,
+      "staging_path": "sources/lot-1c/zlib-1.3.1.tar.gz",
+      "status": "verified",
+      "version": "1.3.1"
+    },
+    {
+      "component": "zstd",
+      "coverage": "exact official source fixed by the curl-impersonate 2.0.0 CMake recipe, including applicable license material",
+      "filename": "zstd-1.5.7.tar.gz",
+      "integrity_authority": "SHA-256 fixed by the official curl-impersonate 2.0.0 CMake recipe",
+      "official_upstream": "https://github.com/facebook/zstd",
+      "origin": "https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.gz",
+      "purpose": "native source corresponding to the audited curl-impersonate 2.0.0 Windows closure (zstd)",
+      "sha256": "EB33E51F49A15E023950CD7825CA74A4A2B43DB8354825AC24FC1B7EE09E6FA3",
+      "size": 2434947,
+      "staging_path": "sources/lot-1c/zstd-1.5.7.tar.gz",
+      "status": "verified",
+      "version": "1.5.7"
+    },
+    {
+      "component": "Brotli Python",
+      "coverage": "Python wrapper plus complete bundled C implementation for the observed brotli module and extension",
+      "filename": "brotli-1.2.0.tar.gz",
+      "integrity_authority": "SHA-256 published by PyPI and fixed by curl-cffi.txt",
+      "official_upstream": "https://github.com/google/brotli",
+      "origin": "https://files.pythonhosted.org/packages/f7/16/c92ca344d646e71a43b8bb353f0a6490d7f6e06210f8554c8f874e454285/brotli-1.2.0.tar.gz",
+      "purpose": "corresponding source for brotli 1.2.0 embedded in yt-dlp.exe",
+      "sha256": "E310F77E41941C13340A95976FE66A8A95B01E783D430EEAF7A2F87E0A57DD0A",
+      "size": 7388632,
+      "staging_path": "sources/lot-1d/brotli-1.2.0.tar.gz",
+      "status": "verified",
+      "version": "1.2.0"
+    },
+    {
+      "component": "cffi",
+      "coverage": "exact official sdist corresponding to material observed in yt-dlp.exe",
+      "filename": "cffi-2.1.1.tar.gz",
+      "integrity_authority": "SHA-256 published by PyPI and fixed by the official yt-dlp lock",
+      "official_upstream": "https://pypi.org/project/cffi/",
+      "origin": "https://files.pythonhosted.org/packages/9e/ef/008a1939e372c06329a3fce4279c02f328488f3526744906eeec3da7ad5f/cffi-2.1.1.tar.gz",
+      "purpose": "corresponding source for cffi 2.1.1 embedded in yt-dlp.exe",
+      "sha256": "DD31F52EA1086513BB9DF30F8FCEE9B8918323AE067A3D5B78BC826A000712BE",
+      "size": 530807,
+      "staging_path": "sources/lot-1d/cffi-2.1.1.tar.gz",
+      "status": "verified",
+      "version": "2.1.1"
+    },
+    {
+      "component": "charset-normalizer",
+      "coverage": "exact official sdist corresponding to material observed in yt-dlp.exe",
+      "filename": "charset_normalizer-3.5.0.tar.gz",
+      "integrity_authority": "SHA-256 published by PyPI and fixed by the official yt-dlp lock",
+      "official_upstream": "https://pypi.org/project/charset-normalizer/",
+      "origin": "https://files.pythonhosted.org/packages/cb/31/4971872b3ed8715346231fb6eb4da8fcba65a4143c189db151ee28a2812b/charset_normalizer-3.5.0.tar.gz",
+      "purpose": "corresponding source for charset_normalizer 3.5.0 embedded in yt-dlp.exe",
+      "sha256": "49BD5FEB59B0BF3CBF6EBCF4352E371C95B9DA9BACD4449F8B64D0AD2C10A26E",
+      "size": 169295,
+      "staging_path": "sources/lot-1d/charset_normalizer-3.5.0.tar.gz",
+      "status": "verified",
+      "version": "3.5.0"
+    },
+    {
+      "component": "idna",
+      "coverage": "all observed Python and generated IDNA data modules",
+      "filename": "idna-3.18.tar.gz",
+      "integrity_authority": "SHA-256 published by PyPI and fixed by curl-cffi.txt",
+      "official_upstream": "https://github.com/kjd/idna",
+      "origin": "https://files.pythonhosted.org/packages/cd/63/9496c57188a2ee585e0f1db071d75089a11e98aa86eb99d9d7618fc1edce/idna-3.18.tar.gz",
+      "purpose": "corresponding source for idna 3.18 embedded in yt-dlp.exe",
+      "sha256": "FFB385A7E039654CEF1AB9EF32C6FAFE283C0C0467BBA1D9029738CE4A14A848",
+      "size": 196711,
+      "staging_path": "sources/lot-1d/idna-3.18.tar.gz",
+      "status": "verified",
+      "version": "3.18"
+    },
+    {
+      "component": "pycparser",
+      "coverage": "all observed parser modules; release 3.0 is self-contained and does not embed PLY tables",
+      "filename": "pycparser-3.0.tar.gz",
+      "integrity_authority": "SHA-256 published by PyPI and fixed by curl-cffi.txt",
+      "official_upstream": "https://github.com/eliben/pycparser",
+      "origin": "https://files.pythonhosted.org/packages/1b/7d/92392ff7815c21062bea51aa7b87d45576f649f16458d78b7cf94b9ab2e6/pycparser-3.0.tar.gz",
+      "purpose": "corresponding source for pycparser 3.0 embedded in yt-dlp.exe",
+      "sha256": "600F49D217304A5902AC3C37E1281C9FE94E4D0489DE643A9504C5CDFDFC6B29",
+      "size": 103492,
+      "staging_path": "sources/lot-1d/pycparser-3.0.tar.gz",
+      "status": "verified",
+      "version": "3.0"
+    },
+    {
+      "component": "PyCryptodome",
+      "coverage": "Cryptodome Python modules, native extension source and bundled libtom material",
+      "filename": "pycryptodomex-3.23.0.tar.gz",
+      "integrity_authority": "SHA-256 published by PyPI and fixed by curl-cffi.txt",
+      "official_upstream": "https://www.pycryptodome.org/",
+      "origin": "https://files.pythonhosted.org/packages/c9/85/e24bf90972a30b0fcd16c73009add1d7d7cd9140c2498a68252028899e41/pycryptodomex-3.23.0.tar.gz",
+      "purpose": "corresponding source for PyCryptodomex 3.23.0 embedded as Cryptodome in yt-dlp.exe",
+      "sha256": "71909758F010C82BC99B0ABF4EA12012C98962FBF0583C2164F8B84533C2E4DA",
+      "size": 4922157,
+      "staging_path": "sources/lot-1d/pycryptodomex-3.23.0.tar.gz",
+      "status": "verified",
+      "version": "3.23.0"
+    },
+    {
+      "component": "requests",
+      "coverage": "all observed Python modules; requests.packages is verified as an alias layer rather than a vendored copy",
+      "filename": "requests-2.34.2.tar.gz",
+      "integrity_authority": "SHA-256 published by PyPI and fixed by curl-cffi.txt",
+      "official_upstream": "https://github.com/psf/requests",
+      "origin": "https://files.pythonhosted.org/packages/ac/c3/e2a2b89f2d3e2179abd6d00ebd70bff6273f37fb3e0cc209f48b39d00cbf/requests-2.34.2.tar.gz",
+      "purpose": "corresponding source for requests 2.34.2 embedded in yt-dlp.exe",
+      "sha256": "F288924CAE4E29463698D6D60BC6A4DA69C89185AD1E0BCC4104F584E960B9ED",
+      "size": 142856,
+      "staging_path": "sources/lot-1d/requests-2.34.2.tar.gz",
+      "status": "verified",
+      "version": "2.34.2"
+    },
+    {
+      "component": "typing-extensions",
+      "coverage": "exact official sdist corresponding to material observed in yt-dlp.exe",
+      "filename": "typing_extensions-4.16.0.tar.gz",
+      "integrity_authority": "SHA-256 published by PyPI and fixed by the official yt-dlp lock",
+      "official_upstream": "https://pypi.org/project/typing-extensions/",
+      "origin": "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz",
+      "purpose": "corresponding source for typing_extensions 4.16.0 embedded in yt-dlp.exe",
+      "sha256": "DC983D19A509C94DBA722EE6ABD33940F7C05A89E243C47E907EB4DB6F1A43E5",
+      "size": 113555,
+      "staging_path": "sources/lot-1d/typing_extensions-4.16.0.tar.gz",
+      "status": "verified",
+      "version": "4.16.0"
+    },
+    {
+      "component": "urllib3",
+      "coverage": "all observed Python modules; optional pyopenssl integration imports external packages and embeds no copy",
+      "filename": "urllib3-2.7.0.tar.gz",
+      "integrity_authority": "SHA-256 published by PyPI and fixed by curl-cffi.txt",
+      "official_upstream": "https://github.com/urllib3/urllib3",
+      "origin": "https://files.pythonhosted.org/packages/53/0c/06f8b233b8fd13b9e5ee11424ef85419ba0d8ba0b3138bf360be2ff56953/urllib3-2.7.0.tar.gz",
+      "purpose": "corresponding source for urllib3 2.7.0 embedded in yt-dlp.exe",
+      "sha256": "231E0EC3B63CEB14667C67BE60F2F2C40A518CB38B03AF60ABC813DA26505F4C",
+      "size": 433602,
+      "staging_path": "sources/lot-1d/urllib3-2.7.0.tar.gz",
+      "status": "verified",
+      "version": "2.7.0"
+    },
+    {
+      "component": "websockets",
+      "coverage": "exact official sdist corresponding to material observed in yt-dlp.exe",
+      "filename": "websockets-16.1.1.tar.gz",
+      "integrity_authority": "SHA-256 published by PyPI and fixed by the official yt-dlp lock",
+      "official_upstream": "https://pypi.org/project/websockets/",
+      "origin": "https://files.pythonhosted.org/packages/21/f7/bc3a25c5ec26ce62ce487690becc2f3710bbc7b33338f005ad390db0b986/websockets-16.1.1.tar.gz",
+      "purpose": "corresponding source for websockets 16.1.1 embedded in yt-dlp.exe",
+      "sha256": "DB234EDA965DCCE15DF96BB9709F587CD87D4D52AAF0E80E2F34EC04C7670C57",
+      "size": 182204,
+      "staging_path": "sources/lot-1d/websockets-16.1.1.tar.gz",
+      "status": "verified",
+      "version": "16.1.1"
+    },
+    {
+      "component": "CPython",
+      "coverage": "official 3.10.11 source release with interpreter, stdlib, PCbuild, Expat 2.5.0, mpdecimal 2.5.1, PSF terms and bundled licenses",
+      "filename": "Python-3.10.11.tar.xz",
+      "integrity_authority": "SHA-256 bound by the official python.org Sigstore bundle; GPG signature also preserved",
+      "official_upstream": "https://github.com/python/cpython",
+      "origin": "https://www.python.org/ftp/python/3.10.11/Python-3.10.11.tar.xz",
+      "purpose": "corresponding parent source for the CPython 3.10.11 AMD64 runtime embedded in yt-dlp.exe",
+      "sha256": "3C3BC3048303721C904A03EB8326B631E921F11CC3BE2988456A42F115DAF04C",
+      "size": 19640792,
+      "staging_path": "sources/lot-1e/Python-3.10.11.tar.xz",
+      "status": "verified",
+      "version": "3.10.11"
+    },
+    {
+      "component": "CPython bzip2 runtime",
+      "coverage": "exact cpython-source-deps tree compiled statically into _bz2.pyd",
+      "filename": "bzip2-1.0.8.zip",
+      "integrity_authority": "local_calculated_verified_revision",
+      "official_upstream": "https://github.com/python/cpython-source-deps",
+      "origin": "https://github.com/python/cpython-source-deps/archive/bzip2-1.0.8.zip",
+      "purpose": "corresponding source for bzip2 1.0.8 material in the CPython runtime embedded in yt-dlp.exe",
+      "sha256": "12C17D15F99E27235529574A722FB484A4E8FDF2427CEF53B1B68BDF07E404A9",
+      "size": 831543,
+      "staging_path": "sources/lot-1f/bzip2-1.0.8.zip",
+      "status": "verified",
+      "version": "1.0.8"
+    },
+    {
+      "component": "CPython libffi runtime",
+      "coverage": "exact cpython-source-deps tree corresponding to libffi-7.dll and _ctypes.pyd",
+      "filename": "libffi-3.3.0.zip",
+      "integrity_authority": "local_calculated_verified_revision",
+      "official_upstream": "https://github.com/python/cpython-source-deps",
+      "origin": "https://github.com/python/cpython-source-deps/archive/libffi-3.3.0.zip",
+      "purpose": "corresponding source for libffi runtime material in the CPython runtime embedded in yt-dlp.exe",
+      "sha256": "AD6F4DDFD00591CC6E6A7F1FD82FDBD4CC41CF2D117E861A24235A7CF126D779",
+      "size": 828438,
+      "staging_path": "sources/lot-1f/libffi-3.3.0.zip",
+      "status": "verified",
+      "version": "3.3.0"
+    },
+    {
+      "component": "CPython OpenSSL runtime",
+      "coverage": "exact cpython-source-deps tree corresponding to OpenSSL 1.1.1t DLLs, _ssl.pyd and _hashlib.pyd",
+      "filename": "openssl-1.1.1t.zip",
+      "integrity_authority": "local_calculated_verified_revision",
+      "official_upstream": "https://github.com/python/cpython-source-deps",
+      "origin": "https://github.com/python/cpython-source-deps/archive/openssl-1.1.1t.zip",
+      "purpose": "corresponding source for OpenSSL 1.1.1t material in the CPython runtime embedded in yt-dlp.exe",
+      "sha256": "DCB3F0726184F0924249F1FFB2322794FBC0C99C2AB581DBE5A3E9D88B9C837C",
+      "size": 11952076,
+      "staging_path": "sources/lot-1f/openssl-1.1.1t.zip",
+      "status": "verified",
+      "version": "1.1.1t"
+    },
+    {
+      "component": "CPython SQLite runtime",
+      "coverage": "exact cpython-source-deps SQLite amalgamation built as sqlite3.dll for _sqlite3.pyd",
+      "filename": "sqlite-3.40.1.0.zip",
+      "integrity_authority": "local_calculated_verified_revision",
+      "official_upstream": "https://github.com/python/cpython-source-deps",
+      "origin": "https://github.com/python/cpython-source-deps/archive/sqlite-3.40.1.0.zip",
+      "purpose": "corresponding source for SQLite 3.40.1 material in the CPython runtime embedded in yt-dlp.exe",
+      "sha256": "39ADCF18B275197E819F3997F96B9D4C28563739EDBCFDA5305199004B627D01",
+      "size": 2597565,
+      "staging_path": "sources/lot-1f/sqlite-3.40.1.0.zip",
+      "status": "verified",
+      "version": "3.40.1"
+    },
+    {
+      "component": "CPython XZ/liblzma runtime",
+      "coverage": "exact cpython-source-deps tree compiled into _lzma.pyd",
+      "filename": "xz-5.2.5.zip",
+      "integrity_authority": "local_calculated_verified_revision",
+      "official_upstream": "https://github.com/python/cpython-source-deps",
+      "origin": "https://github.com/python/cpython-source-deps/archive/xz-5.2.5.zip",
+      "purpose": "corresponding source for XZ/liblzma 5.2.5 material in the CPython runtime embedded in yt-dlp.exe",
+      "sha256": "6A4389CC05143BEB2679B1299CECEE71B02BAA55E70F68A88B44DC01AD495424",
+      "size": 2054244,
+      "staging_path": "sources/lot-1f/xz-5.2.5.zip",
+      "status": "verified",
+      "version": "5.2.5"
+    },
+    {
+      "component": "CPython zlib runtime",
+      "coverage": "exact cpython-source-deps tree compiled into CPython pythoncore, distinct from curl closure zlib",
+      "filename": "zlib-1.2.13.zip",
+      "integrity_authority": "local_calculated_verified_revision",
+      "official_upstream": "https://github.com/python/cpython-source-deps",
+      "origin": "https://github.com/python/cpython-source-deps/archive/zlib-1.2.13.zip",
+      "purpose": "corresponding source for zlib 1.2.13 material in the CPython runtime embedded in yt-dlp.exe",
+      "sha256": "93F286FEFC44D971DBE865C59D6C61BB9CF429CA6607EB0604B0A5DAE33D9486",
+      "size": 1692041,
+      "staging_path": "sources/lot-1f/zlib-1.2.13.zip",
+      "status": "verified",
+      "version": "1.2.13"
+    }
+  ],
+  "source_bundle": {
+    "bundle_filename": "bundles/EduDownloader-ThirdParty-Source-yt-dlp-2026.08.19.zip",
+    "checksum_authority": "Licencas/yt-dlp/SHA2-256SUMS",
+    "completeness_class": "A",
+    "scope": "third-party source only; excludes proprietary EduDownloader source",
+    "status": "technically-complete-pending-legal-review"
+  },
+  "source_commit": "594bd50c2c78ac432f81600d309fdc4e0a92d82c",
+  "toolchain": {
+    "pyinstaller": {
+      "builds_release_commit": "5eb86b862d61adc3df0f44e6e0b815b7d74fa3f5",
+      "builds_release_tag": "2026.08.19.215425",
+      "source_asset_sha256": "2FADBED5D951D53F003ED899312823A07DBBA59990A223CBE538933E1C42A168",
+      "source_asset_status": "verified-preserved",
+      "upstream_commit": "70fc17210920bce17f4ab09bbf8104b0dbd45338",
+      "version": "6.22.0",
+      "wheel_sha256": "294099ECB5FDD2A13AE4C29006D4E335B697A63B6A16CF052B90EC2B40BEF05A",
+      "wheel_size": 1101025
+    },
+    "python": {
+      "architecture": "AMD64",
+      "embedded_version": "3.10.11",
+      "evidence": "executable version resource plus CArchive runtime inspection",
+      "patch_provenance": "B",
+      "source_archive_sha256": "3C3BC3048303721C904A03EB8326B631E921F11CC3BE2988456A42F115DAF04C",
+      "source_commit": "7d4cc5aa854fdea4d01a5b9c59e37c6e62f1103d",
+      "source_status": "verified-preserved",
+      "source_tree": "70d149737111f058b90938480d20b2a9cb038480",
+      "workflow_constraint": "3.10"
+    }
+  },
+  "version": "2026.08.19"
+}

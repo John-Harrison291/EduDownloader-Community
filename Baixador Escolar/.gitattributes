@@ -1,0 +1,68 @@
+Licencas/PYPDFIUM2_LICENSES/** -text whitespace=cr-at-eol,-blank-at-eof
+README.txt text eol=lf
+docs/compliance/THIRD_PARTY_SOURCE_INFORMATION_1_5.txt text eol=lf
+Licencas/PILLOW_LICENSE.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/PILLOW_SBOM.cdx.json -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/yt-dlp/YT-DLP-UNLICENSE.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/yt-dlp/THIRD_PARTY_LICENSES.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/yt-dlp/GPL-3.0.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/yt-dlp/SHA2-256SUMS -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/yt-dlp/SOURCE_PROVENANCE.json -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+docs/compliance/build/FROZEN_CANDIDATE*_COMPOSITION.json -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+requirements-build.lock -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+requirements-build-hashes.lock -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+docs/compliance/python/PYTHON_WHEEL_PROVENANCE.json -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+docs/compliance/ffmpeg/BTBN_SOURCE_PROVENANCE.json -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+docs/compliance/python/CPYTHON_RUNTIME_SOURCE_PROVENANCE.json -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+docs/compliance/microsoft/MICROSOFT_RUNTIME_PACKAGING.json -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+docs/compliance/microsoft/MICROSOFT_EXTERNAL_RUNTIME_POLICY.json -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+docs/compliance/notices/NOTICE_DELIVERY_INVENTORY.json -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+docs/compliance/deno/DENO_THIRD_PARTY_NOTICES.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/CPYTHON_RUNTIME_NOTICES.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/CRYPTOGRAPHY_CFFI_THIRD_PARTY_NOTICES.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/CUSTOMTKINTER_THIRD_PARTY_NOTICES.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/deno/DENO_THIRD_PARTY_NOTICES.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/DENO_LICENSE.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/FFMPEG_BTBN_LICENSE.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/FFMPEG_BTBN_NOTICE.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/THIRD_PARTY_SOURCE_INFORMATION.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/MICROSOFT_RUNTIME_NOTICE.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/PACKAGING_LICENSES.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/PILLOW_COMPOSITION.md -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/PYPDF_LICENSE.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/TCL_LICENSES.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/THIRD_PARTY_NOTICES.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/TK_LICENSE.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/yt-dlp/RUNTIME_SOURCE_NOTICES.md -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/PyInstaller/COPYING.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/PyInstaller/ZLIB_LICENSE.txt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+Licencas/pyinstaller-hooks-contrib/LICENSE -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+docs/compliance/python/PYINSTALLER_RUNTIME_SOURCE_PROVENANCE.json -text
+docs/compliance/python/CRYPTOGRAPHY_CFFI_RUNTIME_SOURCE_PROVENANCE.json -text
+docs/compliance/python/CUSTOMTKINTER_RUNTIME_SOURCE_PROVENANCE.json -text
+docs/compliance/deno/DENO_RUNTIME_SOURCE_PROVENANCE.json -text
+docs/compliance/deno/DENO_THIRD_PARTY_INVENTORY.json -text
+docs/compliance/deno/DENO_SOURCE_REVIEW_BUNDLE.json -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+docs/compliance/licenses/spdx-reference/SPDX_CANONICAL_REFERENCES.json -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+docs/compliance/licenses/spdx-reference/text/** -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+docs/compliance/documents/DOCUMENTS_COMPONENT_INVENTORY.json -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+docs/compliance/documents/DOCUMENTS_COMPONENT_PROVENANCE.json -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+docs/compliance/documents/DOCUMENTS_COMPONENT_MANIFEST_SCHEMA.json -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+
+# Preserve the approved bytes of Community installer, update and OCR inputs.
+docs/windows/OCR_COMMUNITY_DELIVERY_MANIFEST.json -text
+installer/EduDownloader.Community.installed -text
+installer/community-components-v1.json -text
+installer/community.iss -text
+installer/component-assets/DENO-2.9.8-DEPENDENCIAS.txt -text whitespace=cr-at-eol,-blank-at-eol
+installer/libreoffice-image.json -text
+installer/libreoffice-signatures.json -text
+installer/libreoffice-ui-resources.txt -text
+ocr_community_sources.json -text
+
+# CMD label lookup requires CRLF even when core.autocrlf is disabled.
+build.bat text eol=crlf
+
+# Preserve the approved original CRLF bytes of these notices.
+Licencas/CUSTOMTKINTER_LICENSE.txt -text whitespace=cr-at-eol
+Licencas/DARKDETECT_LICENSE.txt -text whitespace=cr-at-eol

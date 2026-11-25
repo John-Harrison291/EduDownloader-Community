@@ -1,0 +1,21 @@
+{
+  "architecture": "windows-x64",
+  "authority": [
+    "The Document Foundation"
+  ],
+  "authority_url": "https://www.libreoffice.org/release-notes/",
+  "compatibility": "EduDownloader 2.5.0; DOCX/ODT via DocumentsComponentService",
+  "component_id": "edudownloader.documents.libreoffice",
+  "display_version": "26.8.3",
+  "download_url": "https://tdf.c3sl.ufpr.br/libreoffice/stable/26.8.3/win/x86_64/LibreOffice_26.8.3_Win_x86-64.msi",
+  "engine_version": "26.8.3.1",
+  "installer_filename": "LibreOffice_26.8.3_Win_x86-64.msi",
+  "installer_sha256": "0E6918C273EABBDBBD800EE0DACBBF130A14C13C2E4CEC861B06DD59E015BF94",
+  "installer_size_bytes": 376311808,
+  "installed_image_size_bytes": 1603968965,
+  "installer_mode": "administrative-image",
+  "installer_signer": "The Document Foundation",
+  "package_version": "26.8.3.1",
+  "publisher": "The Document Foundation",
+  "variant": "MSI"
+}

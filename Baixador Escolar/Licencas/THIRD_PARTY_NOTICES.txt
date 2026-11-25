@@ -1,0 +1,57 @@
+AVISOS E LICENÇAS DE COMPONENTES DE TERCEIROS
+
+Este arquivo é o índice humano do conjunto preparado para o próximo candidato
+Community. Ele não declara revisão jurídica concluída, produção pronta ou
+publicação autorizada.
+
+Microsoft Visual C++ Runtime x64 (pré-requisito externo)
+  MICROSOFT_RUNTIME_NOTICE.txt — nenhuma DLL Microsoft app-local incluída;
+  material transitivo upstream permanece risco registrado.
+
+CPython 3.14.6, Tcl 8.6.15.0 e Tk 8.6.15.0
+  CPYTHON_RUNTIME_NOTICES.txt, TCL_LICENSES.txt e TK_LICENSE.txt.
+
+PyInstaller 6.21.0 e pyinstaller-hooks-contrib 2026.6
+  PyInstaller/ e pyinstaller-hooks-contrib/. O conjunto preserva a associação
+  da Bootloader Exception, zlib e hooks sem duplicar textos.
+
+cffi 2.1.1, cryptography 49.0.0, OpenSSL 4.0.1 e Rust 1.96.0
+  CRYPTOGRAPHY_CFFI_THIRD_PARTY_NOTICES.txt.
+
+Deno 2.9.5
+  DENO_LICENSE.txt e deno/DENO_THIRD_PARTY_NOTICES.txt. O notice mantém
+  explicitamente a diferença entre texto upstream e referência canônica SPDX.
+  Quinze componentes continuam com texto upstream ausente/parcial como risco
+  registrado; a fonte preservada e seu asset previsto são identificados em
+  THIRD_PARTY_SOURCE_INFORMATION.txt.
+
+CustomTkinter 5.2.2
+  CUSTOMTKINTER_LICENSE.txt e CUSTOMTKINTER_THIRD_PARTY_NOTICES.txt. A
+  provenance do produtor exato dos TTF Roboto continua
+  ROBOTO_PRODUCER_PENDING como risco registrado; créditos conhecidos constam
+  do aviso entregue.
+
+Pillow 13.0.0 e pypdfium2/PDFium 5.12.1
+  PILLOW_LICENSE.txt, PILLOW_COMPOSITION.md, PILLOW_SBOM.cdx.json e
+  PYPDFIUM2_LICENSES/.
+  Este software utiliza FreeType por meio do Pillow e do PDFium.
+  This software is based in part of the work of the FreeType Team.
+  Os textos de licença correspondentes estão em PILLOW_LICENSE.txt e
+  PYPDFIUM2_LICENSES/.
+
+yt-dlp 2026.08.19
+  yt-dlp/YT-DLP-UNLICENSE.txt, THIRD_PARTY_LICENSES.txt, GPL-3.0.txt e
+  RUNTIME_SOURCE_NOTICES.md. O asset de fonte correspondente previsto consta
+  de THIRD_PARTY_SOURCE_INFORMATION.txt.
+
+FFmpeg/FFprobe BtbN n8.1.2-44-g7c533d0f86-20260825
+  FFMPEG_BTBN_NOTICE.txt, FFMPEG_BTBN_LICENSE.txt e
+  THIRD_PARTY_SOURCE_INFORMATION.txt. A fonte completa está preservada
+  localmente; a publicação do asset está reservada à futura release.
+
+Outros módulos runtime
+  DARKDETECT_LICENSE.txt, PACKAGING_LICENSES.txt e PYPDF_LICENSE.txt.
+
+Relatórios de provenance, bundles de source, wheelhouse, staging, inventários
+internos, P2 e P3 não pertencem à árvore de notices entregue ao usuário. O R2
+permanece historicamente inalterado com seus statuses anteriores.

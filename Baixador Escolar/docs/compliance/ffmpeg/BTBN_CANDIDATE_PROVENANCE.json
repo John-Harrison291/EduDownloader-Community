@@ -1,0 +1,3906 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-08-31",
+  "scope": "FFmpeg migration phases A/B/B2 plus incremental source preservation phases C1, C2, C3, C4, C4b, C4c, C4d, C5 and C7",
+  "authoritative_note": "The active product dependency remains Gyan; this manifest does not promote BtbN or open any gate.",
+  "source_preservation_authority": {
+    "manifest": "BTBN_SOURCE_PROVENANCE.json",
+    "note": "The per-parent status fields below preserve the phase A inventory baseline; current C7 distributed-pair materiality, Runtime/Toolchain closure, dependency-parent and patch-replay status is authoritative only in the dedicated source manifest.",
+    "status": "PHASE_C7_TECHNICALLY_COMPLETE_FOR_LEGAL_REVIEW"
+  },
+  "active": {
+    "provider": "Gyan",
+    "version": "8.1.2-essentials_build-www.gyan.dev",
+    "license_reported": "GPL-3.0-or-later",
+    "source_correspondence": "B_PARTIAL",
+    "unchanged": true,
+    "ffmpeg": {
+      "size": 101897728,
+      "sha256": "1326DDE4C84FF1F96FE6B8916C5BED29E163E9B5DCCF995F6F3DB069D143EC5E"
+    },
+    "ffprobe": {
+      "size": 101692928,
+      "sha256": "B49CCC7C6547B141AD5A2F6EC69CC04323D7133D7704D70B331B904C63EECB07"
+    }
+  },
+  "candidate": {
+    "provider": "BtbN/FFmpeg-Builds",
+    "release": {
+      "id": 376411895,
+      "tag": "autobuild-2026-08-25-13-06",
+      "created_at": "2026-08-23T21:51:16Z",
+      "published_at": "2026-08-25T13:07:36Z",
+      "html_url": "https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2026-08-25-13-06",
+      "tag_ref_commit": "a1b5c414d3c53f5abf5baf73df9607cdf77bb46a"
+    },
+    "asset": {
+      "id": 529216189,
+      "filename": "ffmpeg-n8.1.2-44-g7c533d0f86-win64-lgpl-8.1.zip",
+      "size": 146078364,
+      "official_digest": "sha256:1c0d36fb52eb7b4112950e7d2c7bf4bcd55876fec590eae81813f9b0e61ca7c0",
+      "local_sha256": "1C0D36FB52EB7B4112950E7D2C7BF4BCD55876FEC590EAE81813F9B0E61CA7C0",
+      "checksums_asset_id": 529217132,
+      "checksums_size": 5712,
+      "checksums_sha256": "E10BF54E8784A2D0234065D3A497CCC856B965709FF5A46C904C795887CF2FD1",
+      "integrity": "PASS"
+    },
+    "btbn_repository": {
+      "commit": "a1b5c414d3c53f5abf5baf73df9607cdf77bb46a",
+      "tree": "a098c963d00941b03f253cdd043746dec04f00cf",
+      "commit_date": "2026-08-23T21:51:16Z",
+      "license": "MIT",
+      "text_files_preserved": 147,
+      "text_inventory_sha256": "5E6B641044D4788E30DA3BE0CFDC879275CD0EB54BA46FD3B8156590A68A2685",
+      "staging_path": "build-compliance-ffmpeg-btbn/autobuild-2026-08-25-13-06/btbn-repository/text",
+      "snapshot_archive_downloaded": true
+    },
+    "ffmpeg_source": {
+      "version": "n8.1.2-44-g7c533d0f86-20260825",
+      "commit": "7c533d0f86f13a06ec93968f6194349665b3536a",
+      "tree": "534d1b4fbb2a25ab6a6be7754784b79fec1faae6",
+      "commit_date": "2026-08-14T23:17:34Z",
+      "branch_recipe": "release/8.1"
+    },
+    "variant": {
+      "target": "win64",
+      "name": "lgpl",
+      "addin": "8.1",
+      "linkage": "static executables; static is default and no libav DLLs are shipped",
+      "license_reported": "LGPL-3.0-or-later",
+      "compiler": "gcc 15.2.0 (crosstool-NG 1.28.0.23_185f348)"
+    },
+    "extracted": {
+      "files": 44,
+      "bytes": 356810890,
+      "inventory_sha256": "A3D28143A0D6C1C368CA3CA9E12FBD4A265A659604F667020F645B3EFB843C66",
+      "executables": [
+        {
+          "path": "ffmpeg-n8.1.2-44-g7c533d0f86-win64-lgpl-8.1/bin/ffmpeg.exe",
+          "size": 113981440,
+          "sha256": "88F0453C46DBF83D3DA583A3ECECCBA6F2B82169C89A9B4254C481267E7135F8"
+        },
+        {
+          "path": "ffmpeg-n8.1.2-44-g7c533d0f86-win64-lgpl-8.1/bin/ffplay.exe",
+          "size": 117500928,
+          "sha256": "A5501B3C4D3280F3FA6E556E68A5482F90D9BA249ED431ED3579E0812DADD8E4"
+        },
+        {
+          "path": "ffmpeg-n8.1.2-44-g7c533d0f86-win64-lgpl-8.1/bin/ffprobe.exe",
+          "size": 113775104,
+          "sha256": "07A26215E0C482407412EEBA88FD169CAA97C8CBCD0C567CF9C6CFBA6F2843C7"
+        }
+      ]
+    },
+    "capabilities": {
+      "verdict": "PASS",
+      "encoder": [
+        "libmp3lame"
+      ],
+      "demuxers": [
+        "mov/mp4/m4a",
+        "matroska/webm",
+        "avi",
+        "mpegts",
+        "mp3",
+        "ogg",
+        "wav",
+        "flac"
+      ],
+      "muxers": [
+        "mp4",
+        "mp3"
+      ],
+      "audio_decoders": [
+        "aac",
+        "mp3",
+        "opus",
+        "vorbis",
+        "flac",
+        "pcm_s16le",
+        "ac3",
+        "eac3"
+      ],
+      "bitstream_filters": [
+        "aac_adtstoasc"
+      ],
+      "protocols": [
+        "file input/output",
+        "pipe input/output"
+      ],
+      "ffprobe": [
+        "JSON output",
+        "stream metadata",
+        "format duration"
+      ],
+      "gpl_components_confirmed_disabled": [
+        "avisynth",
+        "davs2",
+        "dvdread",
+        "dvdnav",
+        "frei0r",
+        "rubberband",
+        "vidstab",
+        "x264",
+        "x265",
+        "xavs2",
+        "xvid"
+      ],
+      "notes": [
+        "dvdcss recipe excluded through LGPL dvd group",
+        "stream copy, mapping and MP4 remux validated locally"
+      ]
+    },
+    "synthetic_tests": {
+      "status": "PASS",
+      "mp3_stream_bitrate": 192000,
+      "commands": 11,
+      "probes": 6,
+      "spaces_unicode": "PASS",
+      "originals_unchanged": "PASS",
+      "temporary_residues": 0,
+      "summary_sha256": "68E56B0EB7CA8CBA724F8DA9F528DBFECD997C0B8DC2829316AB940DF41A2112"
+    },
+    "portability": {
+      "current_environment": "PASS",
+      "current_windows_version": "10.0.26200.0 x64",
+      "standard_non_elevated_user": true,
+      "full_path_without_external_PATH": "PASS",
+      "third_party_runtime_dll_imports": [],
+      "system_imports": [
+        "ADVAPI32.dll",
+        "api-ms-win-core-synch-l1-2-0.dll",
+        "api-ms-win-crt-conio-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "AVICAP32.dll",
+        "AVRT.dll",
+        "bcrypt.dll",
+        "CFGMGR32.dll",
+        "CRYPT32.dll",
+        "d2d1.dll",
+        "DWrite.dll",
+        "GDI32.dll",
+        "IPHLPAPI.DLL",
+        "KERNEL32.dll",
+        "ncrypt.dll",
+        "ntdll.dll",
+        "ole32.dll",
+        "OLEAUT32.dll",
+        "RPCRT4.dll",
+        "Secur32.dll",
+        "SHELL32.dll",
+        "SHLWAPI.dll",
+        "USER32.dll",
+        "USP10.dll",
+        "WINMM.dll",
+        "WS2_32.dll"
+      ],
+      "python_runtime_dependency": false,
+      "installation_required": false,
+      "archive_libav_dll_count": 0
+    },
+    "windows_support": {
+      "documented_minimum": "Windows 10 22H2",
+      "current_environment": "PROVEN_COMPATIBLE",
+      "windows_10_before_22H2": "NOT_PROVEN",
+      "owner_decision_required": true
+    },
+    "phase_b_temporary_integration": {
+      "status": "COMPLETED_WITH_NETWORK_GAP",
+      "active_baseline_before_and_after": "GYAN",
+      "rollback": {
+        "byte_exact_copy_verified": true,
+        "ffmpeg_sha256": "1326DDE4C84FF1F96FE6B8916C5BED29E163E9B5DCCF995F6F3DB069D143EC5E",
+        "ffprobe_sha256": "B49CCC7C6547B141AD5A2F6EC69CC04323D7133D7704D70B331B904C63EECB07"
+      },
+      "temporary_candidate": {
+        "ffmpeg_sha256": "88F0453C46DBF83D3DA583A3ECECCBA6F2B82169C89A9B4254C481267E7135F8",
+        "ffprobe_sha256": "07A26215E0C482407412EEBA88FD169CAA97C8CBCD0C567CF9C6CFBA6F2843C7",
+        "absolute_path_without_external_path_dependency": "PASS"
+      },
+      "evidence": {
+        "baseline_summary_sha256": "85AB471E41853AE1FF2439C0A99660A6D5DFBA9F5BFDAB203DA42472E643C6B6",
+        "candidate_summary_sha256": "916963C24D38585A3A72267FAFCFCA1D28E68939933C5D236357E74C5B90C6B6",
+        "tracked": false,
+        "location_class": "git-ignored local compliance staging"
+      },
+      "product_flows": {
+        "video_to_mp3": {
+          "verdict": "PASS",
+          "formats": [
+            "MP4",
+            "MKV",
+            "WebM",
+            "AVI",
+            "MOV",
+            "M4V"
+          ],
+          "stream_bitrate": 192000,
+          "originals_unchanged": true
+        },
+        "ffprobe": "PASS",
+        "merge": "PASS",
+        "remux": "PASS",
+        "aac_adtstoasc": "PASS",
+        "downloader_local_mp3": "PASS",
+        "downloader_local_mp4": "NOT_APPLICABLE_GENERIC_IE_FORMAT_METADATA",
+        "downloader_integration": "PARTIAL",
+        "cancel": "PASS",
+        "shutdown": "PASS",
+        "portability": "PASS",
+        "offline_flows": "PASS",
+        "residual_processes": 0,
+        "temporary_file_residues": 0,
+        "functional_regression": "NONE"
+      },
+      "network_real_test": {
+        "attempted": true,
+        "flows": [
+          "MP3",
+          "MP4"
+        ],
+        "fixture_class": "official yt-dlp Google Drive extractor test fixture",
+        "authentication_or_bypass": false,
+        "verdict": "FAIL_EXTERNAL_OR_SITE",
+        "candidate_regression_proven": false
+      },
+      "tests_while_candidate_active": {
+        "unittest_count": 96,
+        "skips": 0,
+        "result": "PASS"
+      },
+      "post_restoration_validation": {
+        "active_baseline": "GYAN",
+        "unittest_count": 884,
+        "skips": 4,
+        "result": "PASS",
+        "pip_check": "PASS",
+        "requirements_build_lock": "EXACT_MATCH",
+        "ruff_check": "PASS",
+        "ruff_format_check": "PASS",
+        "source_licensing_files": 384,
+        "source_licensing": "PASS",
+        "compileall": "PASS",
+        "git_diff_check": "PASS"
+      },
+      "observable_comparison": {
+        "verdict": "FUNCTIONALLY_EQUIVALENT_FOR_CONTROLLED_MP4_TO_MP3",
+        "gyan_size": 73872,
+        "btbn_size": 73872,
+        "gyan_duration_seconds": 3.008,
+        "btbn_duration_seconds": 3.008,
+        "gyan_stream_bitrate": 192000,
+        "btbn_stream_bitrate": 192000,
+        "gyan_elapsed_seconds": 0.125,
+        "btbn_elapsed_seconds": 0.126,
+        "warnings_or_errors": "none"
+      },
+      "classification": {
+        "migration_readiness": "GO_COM_AJUSTES",
+        "source_closure_preservation": "NO_GO",
+        "source_closure_go_condition": "reliable real Downloader MP4/merge PASS with the candidate"
+      }
+    },
+    "phase_b2_deterministic_local_downloader_mp4_e2e": {
+      "status": "PASS",
+      "summary_sha256": "9A4E64CBFD164E810A0C499EC3E6390687E8203BBC8E8E85299B8908ED8F2EB2",
+      "tracked": false,
+      "network": {
+        "bind": "127.0.0.1",
+        "dynamic_port": true,
+        "internet_access": false,
+        "server_stopped": true,
+        "real_external_network": "NOT_REQUIRED_FOR_FFMPEG_MIGRATION_EVIDENCE",
+        "previous_google_drive_result": "EXTERNAL_OR_SITE"
+      },
+      "fixture": {
+        "generated_with": "Gyan FFmpeg 8.1.2 Essentials before the candidate swap",
+        "video": {
+          "filename": "video-h264-only.mp4",
+          "size": 305549,
+          "sha256": "BFA700DB69AF6BACFEF5FA0C2AF77C7F80FA20B85CECA9DD35318353C5A02AB3",
+          "codec": "h264",
+          "codec_tag": "avc1",
+          "width": 320,
+          "height": 180,
+          "duration_seconds": 4.0,
+          "audio": false
+        },
+        "audio": {
+          "filename": "audio-aac-only.m4a",
+          "size": 50092,
+          "sha256": "F48E775CC99714DC980228AC7873028B38C8F1F51624F3068482D4FDBAB9321C",
+          "codec": "aac",
+          "codec_tag": "mp4a",
+          "duration_seconds": 4.0,
+          "video": false
+        },
+        "manifest": {
+          "filename": "manifest.mpd",
+          "size": 1906,
+          "sha256": "F6C8A6F2CA8942EDA67483B54A7BDFF5789EFFAF4FC77EBE423773E20D34F538",
+          "adaptation_sets": [
+            "video",
+            "audio"
+          ]
+        },
+        "unchanged": true
+      },
+      "yt_dlp_discovery": {
+        "extractor": "generic",
+        "selector_source": "build_video_format('Melhor qualidade')",
+        "video": {
+          "format_id": "0",
+          "protocol": "http_dash_segments",
+          "ext": "mp4",
+          "vcodec": "avc1.42c01e",
+          "acodec": "none",
+          "width": 320,
+          "height": 180
+        },
+        "audio": {
+          "format_id": "1",
+          "protocol": "http_dash_segments",
+          "ext": "m4a",
+          "vcodec": "none",
+          "acodec": "mp4a.40.2"
+        },
+        "selected_separately": true
+      },
+      "download_service": {
+        "real_product_service": true,
+        "event": "completed",
+        "elapsed_seconds": 2.102,
+        "progress_events": 38,
+        "format_selector_matches_discovery": true,
+        "merge_output_format": "mp4",
+        "remux_video": "mp4",
+        "ffmpeg_location_policy": "beside-app portable directory with spaces and Unicode",
+        "ffmpeg_sha256_at_location": "88F0453C46DBF83D3DA583A3ECECCBA6F2B82169C89A9B4254C481267E7135F8",
+        "separate_fragment_requests": 8
+      },
+      "final_mp4": {
+        "filename": "manifest [manifest] [180p].mp4",
+        "size": 356275,
+        "sha256": "9354562902EB1CD1868B6A43CFBE729A323BD89A66D954075E11CE9EC5C7C6F9",
+        "duration_seconds": 4.0,
+        "video_streams": 1,
+        "video_codec": "h264",
+        "video_codec_tag": "avc1",
+        "audio_streams": 1,
+        "audio_codec": "aac",
+        "audio_codec_tag": "mp4a",
+        "ffprobe": "PASS"
+      },
+      "stream_copy": {
+        "video_source_packet_sha256": "148EE199EFBEA57970C37C960DB80A6A7F6D17534D7F3F366A07C2C64E6FA88C",
+        "video_final_packet_sha256": "148EE199EFBEA57970C37C960DB80A6A7F6D17534D7F3F366A07C2C64E6FA88C",
+        "audio_source_packet_sha256": "39CCAAF500929200651AF47A5E1D1B3593B77F7219C91D9918659C198D5B06CB",
+        "audio_final_packet_sha256": "39CCAAF500929200651AF47A5E1D1B3593B77F7219C91D9918659C198D5B06CB",
+        "video_unchanged": true,
+        "audio_unchanged": true,
+        "verdict": "PASS"
+      },
+      "cleanup": {
+        "unexpected_files": 0,
+        "task_temp_entries": 0,
+        "residual_processes": 0,
+        "verdict": "PASS"
+      },
+      "restoration": {
+        "active_ffmpeg": "GYAN",
+        "ffmpeg_sha256": "1326DDE4C84FF1F96FE6B8916C5BED29E163E9B5DCCF995F6F3DB069D143EC5E",
+        "ffprobe_sha256": "B49CCC7C6547B141AD5A2F6EC69CC04323D7133D7704D70B331B904C63EECB07"
+      },
+      "classification": {
+        "downloader_integration": "PASS",
+        "functional_regression": "NONE",
+        "source_closure_preservation": "GO",
+        "migration_readiness": "GO_COM_AJUSTES"
+      }
+    }
+  },
+  "recipe_closure": {
+    "resolution": "official generate.sh win64 lgpl 8.1; no download/build/docker",
+    "recipes_total": 120,
+    "resolved_stages": 81,
+    "classification_counts": {
+      "A": 57,
+      "B": 18,
+      "C": 4,
+      "D": 1,
+      "E": 38,
+      "F": 2
+    },
+    "classification_legend": {
+      "A": "material direct",
+      "B": "material transitive",
+      "C": "build-only/aggregator",
+      "D": "conditional/system feature",
+      "E": "not included",
+      "F": "materiality needs confirmation"
+    },
+    "dockerfile_sha256": "4D8B90EE3B87E69A4FFA4E4E12F20911C98C437E86207560281BD6204936327A",
+    "recipes": [
+      {
+        "recipe": "scripts.d/10-mingw-std-threads.sh",
+        "included": true,
+        "classification": "F",
+        "classification_reason": "toolchain/runtime; materialidade no PE precisa confirmação adicional",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/meganz/mingw-std-threads.git",
+          "SCRIPT_COMMIT": "c931bac289dd431f1dd30fc4a5d1a7be36668073"
+        },
+        "inline_modifications": false,
+        "sha256": "44B29B0A71465615B40DEEB9CD853039234868699CF4C6B85453560ABA8DC212",
+        "git_blob_sha1": "84109a5c6f49bf822b3d426e1e7e002752f65d17"
+      },
+      {
+        "recipe": "scripts.d/10-mingw.sh",
+        "included": true,
+        "classification": "F",
+        "classification_reason": "toolchain/runtime; materialidade no PE precisa confirmação adicional",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://git.code.sf.net/p/mingw-w64/mingw-w64.git",
+          "SCRIPT_COMMIT": "5ea8e9facd013b815f5f29f20ef26a566319a3de"
+        },
+        "inline_modifications": false,
+        "sha256": "79ED3BC927754EA49A1281B713382FBFAFF36DA13BA71206AD7B77784EEC287C",
+        "git_blob_sha1": "7031f39ecf5b987175a57c887c72792d1173ffc9"
+      },
+      {
+        "recipe": "scripts.d/10-xorg-macros.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/xorg/util/macros.git",
+          "SCRIPT_COMMIT": "a9d71e3fd8e6758b70be31c586921bbbcd2a8449"
+        },
+        "inline_modifications": false,
+        "sha256": "B8D13D5052E4BBC0F810F5207160E6C7CEB8E42552563E49DAAB93EE3B93412C",
+        "git_blob_sha1": "54920b2db0471709da1f095c02ccef96cfe17135"
+      },
+      {
+        "recipe": "scripts.d/15-base.sh",
+        "included": true,
+        "classification": "C",
+        "classification_reason": "agregação/configuração sem source parent próprio",
+        "source_assignments": {
+          "SCRIPT_SKIP": "1"
+        },
+        "inline_modifications": false,
+        "sha256": "2E418D514D75752EF44AD4E44DDB469E21037F752CF207B8C60D613C6834DE47",
+        "git_blob_sha1": "a22f4fce5d3d07e800fa04ce30a217f39c77ec20"
+      },
+      {
+        "recipe": "scripts.d/20-libiconv.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://git.savannah.gnu.org/git/libiconv.git",
+          "SCRIPT_MIRROR": "git://git.git.savannah.gnu.org/libiconv.git",
+          "SCRIPT_COMMIT": "5e517e5bf0e1b4575ad431e81d7a4750fa2b284e",
+          "SCRIPT_REPO2": "https://git.savannah.gnu.org/git/gnulib.git",
+          "SCRIPT_MIRROR2": "https://github.com/coreutils/gnulib.git",
+          "SCRIPT_COMMIT2": "09b1597470c456aeac7e7d19b214821d4526934d"
+        },
+        "inline_modifications": false,
+        "sha256": "0FA31FDFA81CB4302384B895C903D2DB8768AE523E68475D6D95169C4E43E1D1",
+        "git_blob_sha1": "2c42eff3bd33b4019c5c7c55c0f45f496c6a782e"
+      },
+      {
+        "recipe": "scripts.d/20-zlib.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/madler/zlib.git",
+          "SCRIPT_COMMIT": "e3dc0a85b7032e98380dec011bc8f2c2ee0d8fca"
+        },
+        "inline_modifications": false,
+        "sha256": "34E7FE4B2EFAC3AA0DF36E35B3F46D962A1E461B194AD2231452A312A9333EB9",
+        "git_blob_sha1": "fc0e82bc11c402cf1e25032296286ea5c3c2e3b9"
+      },
+      {
+        "recipe": "scripts.d/25-fftw3.sh",
+        "included": true,
+        "classification": "B",
+        "classification_reason": "dependência transitiva de componente material habilitado",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/FFTW/fftw3.git",
+          "SCRIPT_COMMIT": "93ed4c786934aec9946f8dda4b4e3eb08f8be41c"
+        },
+        "inline_modifications": true,
+        "sha256": "0807086B7235186B580D18EB644292AF47D139E917C2A56BB71D2BBA5D0CEAF0",
+        "git_blob_sha1": "21498117853bb2315f1cb832400c4949e955655c"
+      },
+      {
+        "recipe": "scripts.d/25-fribidi.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/fribidi/fribidi.git",
+          "SCRIPT_COMMIT": "04a8cb7a3674717e509c79cd6ee3e127d0c75f4c"
+        },
+        "inline_modifications": true,
+        "sha256": "758580DCF0BFBDF855C39718873C7BFF09BAF91816A02374DCD50E40DEB7D24E",
+        "git_blob_sha1": "d203336844c7dbad4eac98b1f1b6815275174867"
+      },
+      {
+        "recipe": "scripts.d/25-gmp.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/BtbN/gmplib.git",
+          "SCRIPT_COMMIT": "9994908f090c694f8a152d660dc6852e0c48557a"
+        },
+        "inline_modifications": false,
+        "sha256": "6064988CE64F9BE6AA3594124002DAEF5AA1EB50F6FB68FCFD2DFB9D6450ABCD",
+        "git_blob_sha1": "67ba008144581c09ff4353a4241701dc96682725"
+      },
+      {
+        "recipe": "scripts.d/25-libogg.sh",
+        "included": true,
+        "classification": "B",
+        "classification_reason": "dependência transitiva de componente material habilitado",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/xiph/ogg.git",
+          "SCRIPT_COMMIT": "06a5e0262cdc28aa4ae6797627a783b5010440f0"
+        },
+        "inline_modifications": false,
+        "sha256": "F72086B3D86824174BACB8EE4FD4F966C9E13FD8A8242821F429252C77B6E585",
+        "git_blob_sha1": "141bfe97034461aeedcb27749605ee458ecd5b3f"
+      },
+      {
+        "recipe": "scripts.d/25-libxml2.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/GNOME/libxml2.git",
+          "SCRIPT_COMMIT": "c63248941708bc1d2e3a4292954593312212f6ca"
+        },
+        "inline_modifications": false,
+        "sha256": "51690F74AB5148D4B0C41744D0A8C03284CC407DC8B11A469EE05D6868D27274",
+        "git_blob_sha1": "305eaa259424d1adff7eae9ee20071678166ba2d"
+      },
+      {
+        "recipe": "scripts.d/25-openssl.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/openssl/openssl.git",
+          "SCRIPT_COMMIT": "openssl-3.6.3",
+          "SCRIPT_TAGFILTER": "openssl-3.6.*"
+        },
+        "inline_modifications": true,
+        "sha256": "82A433B47D82B6275AAEFAF6E4ADDE2F89831004240A89D0B191E9129230BBBB",
+        "git_blob_sha1": "bcf8366ab022318115fa16f7ecfcfb92d39dbc06"
+      },
+      {
+        "recipe": "scripts.d/25-xz.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/tukaani-project/xz.git",
+          "SCRIPT_COMMIT": "c8b8ab2ef1eb0a0217ad2027d7f5d242ceb944d3"
+        },
+        "inline_modifications": false,
+        "sha256": "3F3D93365A939947096DC6709321ACC3CFC07D2C94E0E2AB62DC69812B0FE9A6",
+        "git_blob_sha1": "2841ba6a942f2d190aed9b1533005732db3acf23"
+      },
+      {
+        "recipe": "scripts.d/45-fonts/25-freetype.sh",
+        "included": true,
+        "classification": "B",
+        "classification_reason": "dependência transitiva de componente material habilitado",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/freetype/freetype.git",
+          "SCRIPT_COMMIT": "9e9d3b73f31367dbb4261f93c727a277f6632c77"
+        },
+        "inline_modifications": false,
+        "sha256": "3F30B8DDD9FF395DC4746480C039829D9B1EF4D46FFCF35A4B2EEC3BB8360D94",
+        "git_blob_sha1": "a0aa1d39448e7dd08b0f4921af261f6668792201"
+      },
+      {
+        "recipe": "scripts.d/45-fonts/35-fontconfig.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/fontconfig/fontconfig.git",
+          "SCRIPT_COMMIT": "d32a1911248576d01583557efcfe4b48fb2d0a5e"
+        },
+        "inline_modifications": false,
+        "sha256": "5FCF2B9F4F80BDE43F27B0A26B17EDE173FF62ECC7CB36CB85E1B11031BFA083",
+        "git_blob_sha1": "e7ae93c7a412b36c3201248dc6b98e1508750e58"
+      },
+      {
+        "recipe": "scripts.d/45-fonts/45-harfbuzz.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/harfbuzz/harfbuzz.git",
+          "SCRIPT_COMMIT": "d8dabe2594596c656b54c3b0072f3aa3093f30a9"
+        },
+        "inline_modifications": false,
+        "sha256": "4F14DEBCF50A73C90C9A313EFEB1559FFDC463AC7A523B9B36A4A753CD92F385",
+        "git_blob_sha1": "a69030006cd265477b6cce53b9c3eec7ddf50482"
+      },
+      {
+        "recipe": "scripts.d/45-fonts/50-freetype.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/freetype/freetype.git",
+          "SCRIPT_COMMIT": "9e9d3b73f31367dbb4261f93c727a277f6632c77"
+        },
+        "inline_modifications": false,
+        "sha256": "7B92364624E4F8A1BD72A2B7A43A2BEA8AC95DD291D8CB0757A65BEA95CF94AE",
+        "git_blob_sha1": "5ddfd9c85fc3df35439cc999a6f122da6eb8bca7"
+      },
+      {
+        "recipe": "scripts.d/45-libsamplerate.sh",
+        "included": true,
+        "classification": "B",
+        "classification_reason": "dependência transitiva de componente material habilitado",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/libsndfile/libsamplerate.git",
+          "SCRIPT_COMMIT": "2ccde9568cca73c7b32c97fefca2e418c16ae5e3"
+        },
+        "inline_modifications": false,
+        "sha256": "F680BCEBDFC5DAEE48CF71A010423CC2EED0D5DBDBB7CC16E189A03E29B96A6F",
+        "git_blob_sha1": "5c322e3d6d27704531f5f4bc91b35c690eda4685"
+      },
+      {
+        "recipe": "scripts.d/45-libudfread.sh",
+        "included": true,
+        "classification": "B",
+        "classification_reason": "dependência transitiva de componente material habilitado",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://code.videolan.org/videolan/libudfread.git",
+          "SCRIPT_COMMIT": "0151d9d61e5f832664f502608d41a77c28846efa"
+        },
+        "inline_modifications": true,
+        "sha256": "293224793CA0A1C50799E9DEBAC9E6104497BE68CD15A0A4250AB697C99CE5C8",
+        "git_blob_sha1": "6b24fd57f421893f00301cb1c9114222c86c87f6"
+      },
+      {
+        "recipe": "scripts.d/45-libunibreak.sh",
+        "included": true,
+        "classification": "B",
+        "classification_reason": "dependência transitiva de componente material habilitado",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/adah1972/libunibreak.git",
+          "SCRIPT_COMMIT": "3ce4bfa3129ff3738046a44a6db533d2ce25af2b"
+        },
+        "inline_modifications": false,
+        "sha256": "96F1088E584B8F87B022B0D1033BBEBF7849A0AEDD2C77FC5DA17F0C6D9444F2",
+        "git_blob_sha1": "a688090d9e49342d4eb700d9c4edd9013972001b"
+      },
+      {
+        "recipe": "scripts.d/45-libvorbis.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/xiph/vorbis.git",
+          "SCRIPT_COMMIT": "1b75110b5a2754ba1931d82dd83cb822b266a21d"
+        },
+        "inline_modifications": false,
+        "sha256": "96A4E7735C0D442D62A4859D8E46DB735B57C09D5A4440361E35D064E1220A90",
+        "git_blob_sha1": "1d716ec1b1c65e6fd39a64b1e393fcf64d4ee8d3"
+      },
+      {
+        "recipe": "scripts.d/45-opencl.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/KhronosGroup/OpenCL-Headers.git",
+          "SCRIPT_COMMIT": "c9c8ccfab584f9f7610057c4633dbd3df7e012cc",
+          "SCRIPT_REPO2": "https://github.com/KhronosGroup/OpenCL-ICD-Loader.git",
+          "SCRIPT_COMMIT2": "18fdcd58286376124f938948aa8ed156079c1c16"
+        },
+        "inline_modifications": false,
+        "sha256": "B6AEBB1C97735A6CF9E6E0516C64D3BF897E6A5F0DE9EA535492C7F66ED0AE21",
+        "git_blob_sha1": "07c192984d2ecd24c4c3408a02ed07a4f82ac19a"
+      },
+      {
+        "recipe": "scripts.d/45-pulseaudio.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/pulseaudio/pulseaudio.git",
+          "SCRIPT_COMMIT": "0cc36279ec993680bccad6b907ba15de97b55c4d"
+        },
+        "inline_modifications": false,
+        "sha256": "B37D138E385563AF37A6D3306F90A0A9B5E50C34C33BF77173336FFAAE48BDE7",
+        "git_blob_sha1": "7d963deceeed478c26adeddf8f46b91177434708"
+      },
+      {
+        "recipe": "scripts.d/45-vmaf.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/Netflix/vmaf.git",
+          "SCRIPT_COMMIT": "e80d6c593e6e2327687dccd00b7cc9c91036d79f"
+        },
+        "inline_modifications": true,
+        "sha256": "EC6B3DF1DDA530EBC32172EF9DEA41EF4B38D41D8C65864025B67E43A9607E26",
+        "git_blob_sha1": "5f06df697eea2e7e80523c7b2d2d214980f9e44d"
+      },
+      {
+        "recipe": "scripts.d/45-x11/10-xcbproto.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/xorg/proto/xcbproto.git",
+          "SCRIPT_COMMIT": "cf7e2581b613802f2f8ec2a4b50a6a20aad4bf52"
+        },
+        "inline_modifications": false,
+        "sha256": "ACFC9CA92025C4B3A138B7026143227BE349335E5E3D0ADFE1F09B67E06E554C",
+        "git_blob_sha1": "d2b628a30a8647f25c244333cee5827c8974a1ab"
+      },
+      {
+        "recipe": "scripts.d/45-x11/10-xproto.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/xorg/proto/xorgproto.git",
+          "SCRIPT_COMMIT": "fcb7e9a1a0b593a44740d83b0babddd331fea830"
+        },
+        "inline_modifications": false,
+        "sha256": "DDC9E2D89BEC7265D08AFB4846C3B445954EBFCC504A3C3AEF353A4AC212F57A",
+        "git_blob_sha1": "8bfb9e14f4cdeb38163dca10ab235ac08272d255"
+      },
+      {
+        "recipe": "scripts.d/45-x11/10-xtrans.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/xorg/lib/libxtrans.git",
+          "SCRIPT_COMMIT": "79f6b0bfe2170496e8c37626043d009f4cd3f1e1"
+        },
+        "inline_modifications": false,
+        "sha256": "2AFE1A0FE979ECBA3EAA16073C02CD532B510186B71986BF585F948517DCAF78",
+        "git_blob_sha1": "1195be91bc95040c3d1053d249a59ad8fbac4bc3"
+      },
+      {
+        "recipe": "scripts.d/45-x11/20-libxau.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/xorg/lib/libxau.git",
+          "SCRIPT_COMMIT": "be1daeb909f1d678e7859ac1555e90b4e768d5c4"
+        },
+        "inline_modifications": false,
+        "sha256": "D17A219799559ADCA1CC47CF87D3F6D2C1E9FEE837AEFA9A3AAF7FAF3D804245",
+        "git_blob_sha1": "c156488e361c89b380127b84129ac3aeed2ed078"
+      },
+      {
+        "recipe": "scripts.d/45-x11/30-libxcb.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/xorg/lib/libxcb.git",
+          "SCRIPT_COMMIT": "4d6e1c8fffaf811cf4d0e68ff3bc6f50e62c32c7"
+        },
+        "inline_modifications": false,
+        "sha256": "651B86C923E3C3044020294455E30D2B0E91E8786FA71FAC2081AE7673ADDAF0",
+        "git_blob_sha1": "c944358c5e59d070b062b704d97aae8f1bef6760"
+      },
+      {
+        "recipe": "scripts.d/45-x11/40-libx11.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/xorg/lib/libx11.git",
+          "SCRIPT_COMMIT": "80dbb7d029b2bbf58b96421e59c83e34f763ab70"
+        },
+        "inline_modifications": false,
+        "sha256": "DE0557FF81066AEB1D1FE46036747CC8AFA0B0FC5EA333B59F2BFEC1DFCC558D",
+        "git_blob_sha1": "33da1cd2d61f477b81e460f8104ee60fbd5be516"
+      },
+      {
+        "recipe": "scripts.d/45-x11/50-libxext.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/xorg/lib/libxext.git",
+          "SCRIPT_COMMIT": "2a694ba264ccdb205909909abfe8b136f9156ebe"
+        },
+        "inline_modifications": false,
+        "sha256": "9B9E9C47FD7274B55EB5999D8D33AFCA2D18BCF2A73B455088EF0CE2F5D71DBC",
+        "git_blob_sha1": "8c4ff0659fc50f59deca2b2ad4d90d8f84eea18e"
+      },
+      {
+        "recipe": "scripts.d/45-x11/50-libxfixes.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/xorg/lib/libxfixes.git",
+          "SCRIPT_COMMIT": "55bb2d1d57d43e0595ce45393f26eb433d75a7cc"
+        },
+        "inline_modifications": false,
+        "sha256": "73547E6E578F04AF825B72F7F1A045AE7A000A54B8C6578EEA119DEE38B18C45",
+        "git_blob_sha1": "981479baaa624dd21102bd010aca228f1add869e"
+      },
+      {
+        "recipe": "scripts.d/45-x11/50-libxi.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/xorg/lib/libxi.git",
+          "SCRIPT_COMMIT": "f00f7e9140b4707775331950dd67851e55058c40"
+        },
+        "inline_modifications": false,
+        "sha256": "F0D8943E76028CF871693D344991A511881398FBD1AF05A0B9B5D0783A19F8E8",
+        "git_blob_sha1": "2c9e53caace1d4173a23df5293e62f902c6f643b"
+      },
+      {
+        "recipe": "scripts.d/45-x11/50-libxinerama.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/xorg/lib/libxinerama.git",
+          "SCRIPT_COMMIT": "d7162b962710bc724b41cabab4e7cea303c4b541"
+        },
+        "inline_modifications": false,
+        "sha256": "96FE9952805A9A1A311D5970CD4D12DE8814BD24D0256D7CA28BEB908A23E1C0",
+        "git_blob_sha1": "57932a751c58caac7a453900d9350b3465c88402"
+      },
+      {
+        "recipe": "scripts.d/45-x11/50-libxrender.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/xorg/lib/libxrender.git",
+          "SCRIPT_COMMIT": "f32afe9f877ae032c6bc9c27b17b7978b1b4c856"
+        },
+        "inline_modifications": false,
+        "sha256": "533A8C30A9FD63734B8BBEFF94898B59D3B5FD30D4C9255453DF0E8B2743A33E",
+        "git_blob_sha1": "f578a7aa4cf74af344e8cbdbaf64da45ccc40cc3"
+      },
+      {
+        "recipe": "scripts.d/45-x11/50-libxscrnsaver.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/xorg/lib/libxscrnsaver.git",
+          "SCRIPT_COMMIT": "3f753e7a4050db083474444ae91cc17a849eaa4d"
+        },
+        "inline_modifications": false,
+        "sha256": "761A34DFF03B11676ED3D9DCF39E8959746B2AD2A631BC2AFCAC55598947142B",
+        "git_blob_sha1": "1b490c483c9b7b936bbe16bdb0625ae43d26a3ad"
+      },
+      {
+        "recipe": "scripts.d/45-x11/50-libxxf86vm.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/xorg/lib/libxxf86vm.git",
+          "SCRIPT_COMMIT": "c76fde6bffcc87e5dd98d8196bb01a299bdc3236"
+        },
+        "inline_modifications": false,
+        "sha256": "05802FE0722248708057F3F8376FA779EB5F10E8721BF7296AA56B412F9D7B31",
+        "git_blob_sha1": "6520459e13ac0747dc594f7300fc02a11c3dc202"
+      },
+      {
+        "recipe": "scripts.d/45-x11/60-libglvnd.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/glvnd/libglvnd.git",
+          "SCRIPT_COMMIT": "c046a760d845416e98ac4128757b2b356c47fdaa"
+        },
+        "inline_modifications": false,
+        "sha256": "4DD4987080D63389F1615B5D9FD3971591E6BAF33D4791C9BB1AD1E2DCFB25D7",
+        "git_blob_sha1": "f34e0a364ec20d7039d0050e1d4e40dd870a3fb9"
+      },
+      {
+        "recipe": "scripts.d/45-x11/60-libxcursor.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/xorg/lib/libxcursor.git",
+          "SCRIPT_COMMIT": "15efad7ccd035f5d1ddc8d437e047569d1775fa7"
+        },
+        "inline_modifications": false,
+        "sha256": "16821A2401C58A462DB2285B665BB99FDAA75FDBF50FAE9B72F70610F6F9369A",
+        "git_blob_sha1": "fc49119236c3462eb99f7113a96b213c18704e9b"
+      },
+      {
+        "recipe": "scripts.d/45-x11/60-libxrandr.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/xorg/lib/libxrandr.git",
+          "SCRIPT_COMMIT": "8a4ba1974bcf07057cf891128d86ae1ab5303574"
+        },
+        "inline_modifications": false,
+        "sha256": "E133962118FC7B8E000FE9AA7CE003B51A5A318977808C86CDF0BC02EFB9FFE4",
+        "git_blob_sha1": "e32626f7db685c7ed1c09f6843a7478c57b604f5"
+      },
+      {
+        "recipe": "scripts.d/45-x11/60-libxv.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/xorg/lib/libxv.git",
+          "SCRIPT_COMMIT": "f315ec50fcad9bdbaed46c3e78dc5e7fe209f933"
+        },
+        "inline_modifications": false,
+        "sha256": "429373B447ABD8A1C5DA6F223E5D00CF1B4FD18B568DE2188C35FE3C49ABC991",
+        "git_blob_sha1": "a59c40f432060ebc7227bb84c55224d3e3a1f60d"
+      },
+      {
+        "recipe": "scripts.d/45-x11/99-finalize.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_SKIP": "1"
+        },
+        "inline_modifications": false,
+        "sha256": "51D5311EE5A279DB229B9044E5E21149B7AA2222904D6AAAFFF1D92BD4BF143E",
+        "git_blob_sha1": "88c9818775a1ac5314b46011e53e2004339d2ee0"
+      },
+      {
+        "recipe": "scripts.d/47-vulkan/40-vulkan-headers.sh",
+        "included": true,
+        "classification": "B",
+        "classification_reason": "dependência transitiva de componente material habilitado",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/KhronosGroup/Vulkan-Headers.git",
+          "SCRIPT_COMMIT": "v1.4.359",
+          "SCRIPT_TAGFILTER": "v?.*.*"
+        },
+        "inline_modifications": false,
+        "sha256": "F72BBC390113B717BB083A08461EF77824E1A45FF61EEDCF23C46E12F88A24D0",
+        "git_blob_sha1": "e180a075813988c2f1d45fd5435031bb9ebf55be"
+      },
+      {
+        "recipe": "scripts.d/47-vulkan/45-vulkan-loader.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/BtbN/Vulkan-Shim-Loader.git",
+          "SCRIPT_COMMIT": "65b3936528cd92eb4ea3de485d03f858a3850484",
+          "SCRIPT_REPO2": "https://github.com/KhronosGroup/Vulkan-Headers.git",
+          "SCRIPT_COMMIT2": "v1.4.359",
+          "SCRIPT_TAGFILTER2": "v?.*.*"
+        },
+        "inline_modifications": false,
+        "sha256": "E6E18AD2F77F6B3318081CAFA43C58234A91A6348E79DDFB0C02F34DC95903C2",
+        "git_blob_sha1": "468620c5afcecc521fe3cecd0ea072bb8c1ca55b"
+      },
+      {
+        "recipe": "scripts.d/47-vulkan/50-shaderc.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/google/shaderc.git",
+          "SCRIPT_COMMIT": "7060a6615a1c6e2515e696651eea685524ecadb5"
+        },
+        "inline_modifications": false,
+        "sha256": "A7F7DE1DE6A7C0F843502CD7A293835A09C9B99E4D7FFFA0BC44BAD88A9A4BBA",
+        "git_blob_sha1": "7000492c9e866d750cd77ee340a278ff0554f6a5"
+      },
+      {
+        "recipe": "scripts.d/47-vulkan/55-spirv-cross.sh",
+        "included": true,
+        "classification": "B",
+        "classification_reason": "dependência transitiva de componente material habilitado",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/KhronosGroup/SPIRV-Cross.git",
+          "SCRIPT_COMMIT": "9c3c8e2cefdd8194b193bb8ed2fdff4d5527e382"
+        },
+        "inline_modifications": true,
+        "sha256": "B4A69A745D3A278368EF236339A7A562F3211F520045095F7ACA33C1B949921E",
+        "git_blob_sha1": "075115f0a79fbbc20cbd3b6c613a12363efab9ab"
+      },
+      {
+        "recipe": "scripts.d/47-vulkan/60-spirv-headers.sh",
+        "included": true,
+        "classification": "B",
+        "classification_reason": "dependência transitiva de componente material habilitado",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/KhronosGroup/SPIRV-Headers.git",
+          "SCRIPT_COMMIT": "f0bf307f7c49d26484db596185cece53c37701fc"
+        },
+        "inline_modifications": false,
+        "sha256": "7A8505E17CE6B9D54B777B4CA170EBB95EEE82479B00C0FBE7624DAC2E5B46A7",
+        "git_blob_sha1": "d9ca0a347e6627357dae09f157b792ed3174459e"
+      },
+      {
+        "recipe": "scripts.d/47-vulkan/99-enable.sh",
+        "included": true,
+        "classification": "C",
+        "classification_reason": "agregação/configuração sem source parent próprio",
+        "source_assignments": {
+          "SCRIPT_SKIP": "1"
+        },
+        "inline_modifications": false,
+        "sha256": "CDD4FF0EF66E99CA076B4B12A63EA090B9CC88BAAE639980584C2032257E60EF",
+        "git_blob_sha1": "8216e7665ccc87ccaba0c0c278a2fe29e330e450"
+      },
+      {
+        "recipe": "scripts.d/50-amf.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/GPUOpen-LibrariesAndSDKs/AMF.git",
+          "SCRIPT_COMMIT": "c35f613aea2e5057a688c979e75b1cf24253297e"
+        },
+        "inline_modifications": false,
+        "sha256": "87D77397EFA53EF4786434D44C2DCE54A2AB9E6C9EE0CCBA2C9C77797CCE107B",
+        "git_blob_sha1": "b68e4701a93ff9416e6057d52c0c2192e3319dc5"
+      },
+      {
+        "recipe": "scripts.d/50-aom.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://aomedia.googlesource.com/aom",
+          "SCRIPT_COMMIT": "95f420511f698ea201e8928464704dc30da4b568"
+        },
+        "inline_modifications": true,
+        "sha256": "767AB6A85709AB7B82BAA9BE82BCD689EDBC2A1ED8C9EB17E7AAFF217FB83FD2",
+        "git_blob_sha1": "c52bca7f4b1ca360a67ac47f2b31169bf3dd6b5c"
+      },
+      {
+        "recipe": "scripts.d/50-aribb24/25-libpng.sh",
+        "included": true,
+        "classification": "B",
+        "classification_reason": "dependência transitiva de componente material habilitado",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/glennrp/libpng.git",
+          "SCRIPT_COMMIT": "d1d0abeffede1cc898ddc3d0e600839cf026d749"
+        },
+        "inline_modifications": false,
+        "sha256": "B7754237644E26E8E517E0A06C3EB26F0B743FE24B6DA585A822D9C245983B72",
+        "git_blob_sha1": "b032e48a967b2898e74b4a536fe92fe579cdd454"
+      },
+      {
+        "recipe": "scripts.d/50-aribb24/50-libaribb24.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/nkoriyama/aribb24.git",
+          "SCRIPT_COMMIT": "5e9be272f96e00f15a2f3c5f8ba7e124862aec38"
+        },
+        "inline_modifications": true,
+        "sha256": "8961ED928F6371ABF22464D72200701204F295BF1C38694EB206CDB34CD30168",
+        "git_blob_sha1": "b80754619e03e24916278be964a84aaa88130591"
+      },
+      {
+        "recipe": "scripts.d/50-avisynth.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/AviSynth/AviSynthPlus.git",
+          "SCRIPT_COMMIT": "de1d1fc0d69e6d308235491b24b8e9b26ac023ff"
+        },
+        "inline_modifications": false,
+        "sha256": "0065A86A25F67E4969E22CF58D98E8FAF54125426C83F598774E3F41D0D109B0",
+        "git_blob_sha1": "da20864f1b267aa1c9432c46b4b3ededc1df9312"
+      },
+      {
+        "recipe": "scripts.d/50-chromaprint.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/acoustid/chromaprint.git",
+          "SCRIPT_COMMIT": "aed8eba2202dd9d7b3b0a56c77904cc805490d72"
+        },
+        "inline_modifications": false,
+        "sha256": "18F0D650B2F6442F374DD8B1A2FA000A15AB88ECBF021A0A3F5A32750C0992B6",
+        "git_blob_sha1": "74cf89d9431a94673502a4c424595cfcb315aadf"
+      },
+      {
+        "recipe": "scripts.d/50-dav1d.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://code.videolan.org/videolan/dav1d.git",
+          "SCRIPT_COMMIT": "54706fc6bc0cdecab7e9593974a4039cc038fca7"
+        },
+        "inline_modifications": false,
+        "sha256": "F929CADD1F9A664F8F8B9E7638F71D73E3368BF6BB67CFAECAFD97ACFC810606",
+        "git_blob_sha1": "49fac78b516804634f260e1bf45c979dbcc7c966"
+      },
+      {
+        "recipe": "scripts.d/50-davs2.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/pkuvcl/davs2.git",
+          "SCRIPT_COMMIT": "b41cf117452e2d73d827f02d3e30aa20f1c721ac"
+        },
+        "inline_modifications": true,
+        "sha256": "DFF0E5E8BF46F349F2AC92BB097122114C4E4C56B4B1B363891A1C81E154BB1E",
+        "git_blob_sha1": "ac7daf844b9db7e0f1fcc3a8a42a4a8709f508f6"
+      },
+      {
+        "recipe": "scripts.d/50-dvd/30-libdvdcss.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://code.videolan.org/videolan/libdvdcss.git",
+          "SCRIPT_COMMIT": "811ce97a1d4d1c9d936f4b2707f533a9ef768251"
+        },
+        "inline_modifications": true,
+        "sha256": "4A630A8652729CFD0DB0E5F38E46D9E146C399ACA7C7B99C98F8EF535CA6F0BD",
+        "git_blob_sha1": "664a541c1b12c363c738d61ef7c57f04d76d5cc3"
+      },
+      {
+        "recipe": "scripts.d/50-dvd/40-libdvdread.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://code.videolan.org/videolan/libdvdread.git",
+          "SCRIPT_COMMIT": "ce9bdb7775601f4e6b95136b875bc72a53c5ba7d"
+        },
+        "inline_modifications": true,
+        "sha256": "01EE59A66B7DF59E3F47BCDD94CF28EFA15DA38126C5A11CEC63E556C6E8CE12",
+        "git_blob_sha1": "071e2feb767cfb9d22d71fe8dc0cc8c824655f3c"
+      },
+      {
+        "recipe": "scripts.d/50-dvd/50-libdvdnav.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://code.videolan.org/videolan/libdvdnav.git",
+          "SCRIPT_COMMIT": "2ffc50b5c37a6ddc086829203fc44e95588198dd"
+        },
+        "inline_modifications": true,
+        "sha256": "BB00192DA7125311F3AA36A33C8661C37F8015C70220609CC94F24EF523EFD53",
+        "git_blob_sha1": "9df9ef52ada0bd0e3b64fc8ee8ef6e4fa11a42ab"
+      },
+      {
+        "recipe": "scripts.d/50-fdk-aac.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/mstorsjo/fdk-aac.git",
+          "SCRIPT_COMMIT": "d8e6b1a3aa606c450241632b64b703f21ea31ce3"
+        },
+        "inline_modifications": false,
+        "sha256": "9694A8536BDA8CDF3928543CAC185A22628E09638F017BE86CCE365FC39AC918",
+        "git_blob_sha1": "a9c357134c174e590f9fed4f3b913cc9f0280530"
+      },
+      {
+        "recipe": "scripts.d/50-ffnvcodec.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/FFmpeg/nv-codec-headers.git",
+          "SCRIPT_COMMIT": "eddcea9e27f6b772057c9b3f87de2cc1737faffc",
+          "SCRIPT_REPO2": "https://github.com/FFmpeg/nv-codec-headers.git",
+          "SCRIPT_COMMIT2": "ced4f8eba3ba5dd431932cba17928f0dffdaeb2b",
+          "SCRIPT_BRANCH2": "sdk/13.0",
+          "SCRIPT_REPO3": "https://github.com/FFmpeg/nv-codec-headers.git",
+          "SCRIPT_COMMIT3": "833faee5f7b8d3f56444347c587f4aed11ee213f",
+          "SCRIPT_BRANCH3": "sdk/11.1"
+        },
+        "inline_modifications": false,
+        "sha256": "D3E4C922288A83E4CC7DC6DFB06C84FDB164D8515F9CDFAB18E6BDFC3855F2E3",
+        "git_blob_sha1": "0fe3eac2d37902ec8f2c12a66772682dfbbedf20"
+      },
+      {
+        "recipe": "scripts.d/50-frei0r.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/dyne/frei0r.git",
+          "SCRIPT_COMMIT": "253addfd4bea3c90b0bf765589ca28ea18f3ddc0"
+        },
+        "inline_modifications": false,
+        "sha256": "93B03A714CDA639422AF2A07F64C61EFDBCA5A883E0402981214CA5C8AF45695",
+        "git_blob_sha1": "c2c20ebb38e0aa285a92712e64c52394ecf9cef3"
+      },
+      {
+        "recipe": "scripts.d/50-gme.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/libgme/game-music-emu.git",
+          "SCRIPT_COMMIT": "fe8da4b6d3876d7542c2fb69d94487e19836d678"
+        },
+        "inline_modifications": false,
+        "sha256": "74649552AC4999991D91B61F49656C5AB328B4B28DB9706942EBD5564BDCADEC",
+        "git_blob_sha1": "b853804ac29f89348e50ffdc284b6031b7dbfcf9"
+      },
+      {
+        "recipe": "scripts.d/50-kvazaar.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/ultravideo/kvazaar.git",
+          "SCRIPT_COMMIT": "d6815293f34a094e26ba6c50b8644660ddc13e09"
+        },
+        "inline_modifications": false,
+        "sha256": "B4E4B90840FBFFD6226DD289166A4616EC95461E2E8898C468CB4C08F8E7E313",
+        "git_blob_sha1": "48eb5f26ce0317ed84888105f3a5d50471a7ed64"
+      },
+      {
+        "recipe": "scripts.d/50-lcevcdec.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/v-novaltd/LCEVCdec.git",
+          "SCRIPT_COMMIT": "a254bd474649e5dcd8182689ac414420bfe8d8c3"
+        },
+        "inline_modifications": false,
+        "sha256": "68F6535A8D71FEAAF0C5B6FF1FB9AC7164B2DB13C5A33D7DE8E8FB4117F3255A",
+        "git_blob_sha1": "b47dd0b5e1c027b2f557f9d6545058c2be166c3a"
+      },
+      {
+        "recipe": "scripts.d/50-libaribcaption.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/xqq/libaribcaption.git",
+          "SCRIPT_COMMIT": "c64c23b8905ba514b87c9789269e9f66f949ffe0"
+        },
+        "inline_modifications": false,
+        "sha256": "BDC45A086A105D789EF80DA7C0EED9BC70E76C15BCB7FB5EF5376BFB18249F6C",
+        "git_blob_sha1": "30337c749a56bc899e3b687b1633ee28722137b1"
+      },
+      {
+        "recipe": "scripts.d/50-libass.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/libass/libass.git",
+          "SCRIPT_COMMIT": "3087d2b2ffda76602a17f9b09d25cb8addc8d313"
+        },
+        "inline_modifications": false,
+        "sha256": "EFCBE74BF6D91A3C051AF452775A2497B5DA1E73EDB72FBA3327F0B114F0C06F",
+        "git_blob_sha1": "00ce86b6aac3f96f6d45bdd59fcab2b8fc2b8976"
+      },
+      {
+        "recipe": "scripts.d/50-libbluray.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://code.videolan.org/videolan/libbluray.git",
+          "SCRIPT_COMMIT": "065247e5ef40ccf39857db81e2c1368354a23ef8"
+        },
+        "inline_modifications": true,
+        "sha256": "88E2C9C958E1D013399041CD62807907018BF4F6FD4CAD66E25B3D73A1E3A1EA",
+        "git_blob_sha1": "aa1465f342b136a26a30f61293dadebaf5f57830"
+      },
+      {
+        "recipe": "scripts.d/50-libcurl.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/curl/curl.git",
+          "SCRIPT_COMMIT": "1a17959fc7a80864c9c9b37097856bdb4a465cf8"
+        },
+        "inline_modifications": false,
+        "sha256": "2C2716BCF39020A7654D693E46B1170B1889CAEA7184858AB8006224E356A492",
+        "git_blob_sha1": "bde5d8209bea909d4d0eaabf952bf4ad638eb552"
+      },
+      {
+        "recipe": "scripts.d/50-libjxl/45-brotli.sh",
+        "included": true,
+        "classification": "B",
+        "classification_reason": "dependência transitiva de componente material habilitado",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/google/brotli.git",
+          "SCRIPT_COMMIT": "8e10eeb3378f6c459dbaf033ca6727e9816afccb"
+        },
+        "inline_modifications": false,
+        "sha256": "C327EDE792545804423119A323C9EDB30491020EC5247D71EFC5C0892B9CF03F",
+        "git_blob_sha1": "f417a4539b80e5a94f5f45f5c3864b50f106abfe"
+      },
+      {
+        "recipe": "scripts.d/50-libjxl/45-lcms2.sh",
+        "included": true,
+        "classification": "B",
+        "classification_reason": "dependência transitiva de componente material habilitado",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/mm2/Little-CMS.git",
+          "SCRIPT_COMMIT": "a5b898c7e3985550aab846a2abb4ae08904a857f"
+        },
+        "inline_modifications": false,
+        "sha256": "CFCB482A944B7B2DC7E1C4F516ADC593FFFA3A55C3E7F7CB09B11B8AC041042B",
+        "git_blob_sha1": "65ecd8b3fe11afadb48cec393e6d1001a36ff7cf"
+      },
+      {
+        "recipe": "scripts.d/50-libjxl/50-libjxl.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/libjxl/libjxl.git",
+          "SCRIPT_COMMIT": "d089091afeb7b00b3d0fec6f019d35eaa3b2b410"
+        },
+        "inline_modifications": false,
+        "sha256": "D63E9EDB54F2126EDB5D790198B37013B4CFF9B621695326C5EF75227BF8766E",
+        "git_blob_sha1": "d000b6ccd752d4c3596c20185e8b0575961f7e16"
+      },
+      {
+        "recipe": "scripts.d/50-libmp3lame.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://svn.code.sf.net/p/lame/svn/trunk/lame",
+          "SCRIPT_REV": "6761"
+        },
+        "inline_modifications": false,
+        "sha256": "664429B562DFBEE58573A5DE8FD9B23183538A71E5E027025442F3EAD9D3B576",
+        "git_blob_sha1": "fc8bd4afd9920ebe358bf76ba684eba93fff892d"
+      },
+      {
+        "recipe": "scripts.d/50-libopus.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/xiph/opus.git",
+          "SCRIPT_COMMIT": "3da9f7a6db1c05c3996cb363a9d1931a978bf1be"
+        },
+        "inline_modifications": false,
+        "sha256": "C428354E76B5166E77BE6F5DB7E7500AB3250134042B65BC626646E736247F44",
+        "git_blob_sha1": "e4e2697f328e20177ac681e86cd23044db665342"
+      },
+      {
+        "recipe": "scripts.d/50-libplacebo.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://code.videolan.org/videolan/libplacebo.git",
+          "SCRIPT_COMMIT": "22ee762e8e0890fc54068beb670310f0edce7263"
+        },
+        "inline_modifications": false,
+        "sha256": "12011124BE8DAC235CEB3218E57BBEF1A01FB83DB8A1C9B0219F175041BA15F7",
+        "git_blob_sha1": "29fed515c04ed81336374a7b927a27f74a2ae2ac"
+      },
+      {
+        "recipe": "scripts.d/50-librist/40-mbedtls.sh",
+        "included": true,
+        "classification": "B",
+        "classification_reason": "dependência transitiva de componente material habilitado",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/ARMmbed/mbedtls.git",
+          "SCRIPT_COMMIT": "v4.2.0",
+          "SCRIPT_TAGFILTER": "v4.*"
+        },
+        "inline_modifications": false,
+        "sha256": "FF89B4A5DE49C845D776E8F30E0E823DFE2F504DDAACF0A4646F7D12461FF74A",
+        "git_blob_sha1": "d27a1b50c74e67d1e990c803374d2b36866ea9d2"
+      },
+      {
+        "recipe": "scripts.d/50-librist/50-librist.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://code.videolan.org/rist/librist.git",
+          "SCRIPT_COMMIT": "4f45ef8f78983892d52ccd52d9f675435b23738f"
+        },
+        "inline_modifications": false,
+        "sha256": "B7A8FE792ABCA18FFF7AC48D1223767985A14F7B284839E536EB3D6662C63532",
+        "git_blob_sha1": "6ac0db7046e89c277eb3cef10fd2752f9d7fcdcc"
+      },
+      {
+        "recipe": "scripts.d/50-libssh.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.com/libssh/libssh-mirror.git",
+          "SCRIPT_COMMIT": "1dc52926c54b59ea7a3350a59a476bb76da3ff33"
+        },
+        "inline_modifications": false,
+        "sha256": "2388A11EFB979F5E286E5443E36EDD76BC024B14FD9F446AC5250DBA8996CE54",
+        "git_blob_sha1": "bf8d9914d10c6d156c58d9d24253800e2b6b8074"
+      },
+      {
+        "recipe": "scripts.d/50-libtheora.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/xiph/theora.git",
+          "SCRIPT_COMMIT": "28fd5ec77f0ad0e07a371cef1047828116f6bd8a"
+        },
+        "inline_modifications": false,
+        "sha256": "CD093A82EB271D465092C498567CDBEF724DBF99165DDA1FEC0179CE5A60C089",
+        "git_blob_sha1": "919eb92bc724b2aa1317f969144e1fa91339f71a"
+      },
+      {
+        "recipe": "scripts.d/50-libvpx.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://chromium.googlesource.com/webm/libvpx",
+          "SCRIPT_COMMIT": "9cc8e1c18024d6b64422ecb7fdd7a43c8e873908"
+        },
+        "inline_modifications": false,
+        "sha256": "DDEA115DA46FB059ECC97595A102F6D01A31D969BE6A37BC84154171BFE09730",
+        "git_blob_sha1": "f1c1090119c04cc0aec4950ee32b3cb269acab25"
+      },
+      {
+        "recipe": "scripts.d/50-libwebp.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://chromium.googlesource.com/webm/libwebp",
+          "SCRIPT_COMMIT": "ba8358578ecbc4c75f0723163275de00dec0c704"
+        },
+        "inline_modifications": true,
+        "sha256": "D7684D8EE290B90E7D69F9F22DDAEB43105529E8D9240CB723D2D3B82D0E25D2",
+        "git_blob_sha1": "0fcd02561f8d993763a0b9c0bcc13fa7184ff444"
+      },
+      {
+        "recipe": "scripts.d/50-libzmq.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/zeromq/libzmq.git",
+          "SCRIPT_COMMIT": "46493370217ac135246617fa2f6ac819d8b61bfc"
+        },
+        "inline_modifications": false,
+        "sha256": "6D664155F794F62F7069385F26BBF2BC725BA648E5C4BECEF5648B48C0203E8A",
+        "git_blob_sha1": "879a39eeeb156409567e82015bb50848b3d5fcfb"
+      },
+      {
+        "recipe": "scripts.d/50-lilv/96-lv2.sh",
+        "included": true,
+        "classification": "B",
+        "classification_reason": "dependência transitiva de componente material habilitado",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/lv2/lv2.git",
+          "SCRIPT_COMMIT": "3c57dae600a5ad8d05acd53ee3490f7d91cb7be6"
+        },
+        "inline_modifications": false,
+        "sha256": "4863872FFD75697AAF8EE39AC79DCE745C03289B15DCEF2339CDF6E053C42F68",
+        "git_blob_sha1": "10d0a2ed5d3f1c90e26395a341187b891007a657"
+      },
+      {
+        "recipe": "scripts.d/50-lilv/96-serd.sh",
+        "included": true,
+        "classification": "B",
+        "classification_reason": "dependência transitiva de componente material habilitado",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/drobilla/serd.git",
+          "SCRIPT_COMMIT": "b6053bb2a4533e6a8e3821c1061f140d5e666938"
+        },
+        "inline_modifications": false,
+        "sha256": "455E9F16E778CAEF9EA8FEBB5433A684204DB22B7F5A13244406069627FFA831",
+        "git_blob_sha1": "fa39952160d41683616edc90e1bdd6ccaf5a08da"
+      },
+      {
+        "recipe": "scripts.d/50-lilv/96-zix.sh",
+        "included": true,
+        "classification": "B",
+        "classification_reason": "dependência transitiva de componente material habilitado",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/drobilla/zix.git",
+          "SCRIPT_COMMIT": "17d632393f5addb6fa24dda2927b96515407cca7"
+        },
+        "inline_modifications": false,
+        "sha256": "AFC07C6E7B5B5F92042CB3F445ED145357A48D3402C60985B136E66182C45F27",
+        "git_blob_sha1": "e3c7c2a3dbb57a8b8599fa549322d76bf02cfa88"
+      },
+      {
+        "recipe": "scripts.d/50-lilv/97-sord.sh",
+        "included": true,
+        "classification": "B",
+        "classification_reason": "dependência transitiva de componente material habilitado",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/drobilla/sord.git",
+          "SCRIPT_COMMIT": "4b5232bb91e7f2f1b84df384494d073fabbcd312"
+        },
+        "inline_modifications": false,
+        "sha256": "2271DBCFB70C67890AA5A9F5C0392046496EE05B2F23B1780DFBC09E28D5DCF9",
+        "git_blob_sha1": "d99939956e8ae6aa999135f46f821f0e4da4fb31"
+      },
+      {
+        "recipe": "scripts.d/50-lilv/98-sratom.sh",
+        "included": true,
+        "classification": "B",
+        "classification_reason": "dependência transitiva de componente material habilitado",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/lv2/sratom.git",
+          "SCRIPT_COMMIT": "9e8ee84eed502e6030ce8bb49694fd28542b08fc"
+        },
+        "inline_modifications": false,
+        "sha256": "70897A779E9A3A24998FA3A5CCAF4AEEE21A551ED3BE9E14ACF00770B9D8BD1B",
+        "git_blob_sha1": "99838620475afaaad84c51f9878a6cabbd924ea2"
+      },
+      {
+        "recipe": "scripts.d/50-lilv/99-lilv.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/lv2/lilv.git",
+          "SCRIPT_COMMIT": "4b8f30055fa5cb4134a2eb45fc1555bc04289314"
+        },
+        "inline_modifications": false,
+        "sha256": "9E46C337C276393545A12FA099BA468185A8F120CE0569FBC64EC687BC082ACF",
+        "git_blob_sha1": "cbff7ee8620653334687df6ed17cc38bf4e72656"
+      },
+      {
+        "recipe": "scripts.d/50-onevpl.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/intel/libvpl.git",
+          "SCRIPT_COMMIT": "674d015bcb294bc39fa276e99a652ea045423e82"
+        },
+        "inline_modifications": false,
+        "sha256": "555CA6E808B7CE81D8068AA464B2AE82BCAE50D081DA7FCE38BB11FC2AE0BE5C",
+        "git_blob_sha1": "d90bd00e0593355f8ecad7eb776e96253006a1a9"
+      },
+      {
+        "recipe": "scripts.d/50-openal.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/kcat/openal-soft.git",
+          "SCRIPT_COMMIT": "c157b87cb9eb58d747748e49f82ee4a64d1dcf8b"
+        },
+        "inline_modifications": false,
+        "sha256": "4607FCE77B8E38856E14F594F4B6A3FC1CC41AC63EEA107FAF278506532ABDFB",
+        "git_blob_sha1": "cf13c75d6552afe33ab9b3225167b46130b23a72"
+      },
+      {
+        "recipe": "scripts.d/50-openapv.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/AcademySoftwareFoundation/openapv.git",
+          "SCRIPT_COMMIT": "d625af974550427e638574db61c270fe7f8c5a73"
+        },
+        "inline_modifications": false,
+        "sha256": "2D35BB7E86BDE2FD547BB2AF8E975433A184BD84533736701F016905E5053812",
+        "git_blob_sha1": "240f1ec326a8be83436be293632f0007b730c380"
+      },
+      {
+        "recipe": "scripts.d/50-opencore-amr.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://git.code.sf.net/p/opencore-amr/code",
+          "SCRIPT_COMMIT": "7dba8c32238418ce0b316a852b2224df586ca896"
+        },
+        "inline_modifications": false,
+        "sha256": "574666D18051057CA5BB5064E034332DFD0FC9D9575A41A17D7B079FF3154D00",
+        "git_blob_sha1": "5d6bef1e769538c0c63e9a83435dc68a69e280ab"
+      },
+      {
+        "recipe": "scripts.d/50-openh264.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/cisco/openh264.git",
+          "SCRIPT_COMMIT": "98bc7cbbeb7381c94ef8f9a5d158327abbf6b8b9"
+        },
+        "inline_modifications": false,
+        "sha256": "AE2B1DDA9A1A25D78D7B59B9D4B33138F72229E94DE39856C421997478FAFD5D",
+        "git_blob_sha1": "297209fcaa44dc028903f0fae1a13ae09e7b1345"
+      },
+      {
+        "recipe": "scripts.d/50-openjpeg.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/uclouvain/openjpeg.git",
+          "SCRIPT_COMMIT": "402ef5862195b177ea0a7788f2a6ef2804e62285"
+        },
+        "inline_modifications": false,
+        "sha256": "F78F326679ECB49469AEF7DCC926F59D4DFBAD3A9D01035DE8DF422269F061D0",
+        "git_blob_sha1": "a9ca1fa0ea2eafb427ca229340657e842e79b2d1"
+      },
+      {
+        "recipe": "scripts.d/50-openmpt.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/OpenMPT/openmpt.git",
+          "SCRIPT_COMMIT": "1b000d4bca071364157b5d35940efe4feecd2e0a"
+        },
+        "inline_modifications": false,
+        "sha256": "F0EFF1B485919B9718C3669C386BA1EE8CF9DE227D14D725618BBC0E3230A96F",
+        "git_blob_sha1": "1946188a3fc9032a5ed62a7aca798e3169f413a4"
+      },
+      {
+        "recipe": "scripts.d/50-rav1e.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/xiph/rav1e.git",
+          "SCRIPT_COMMIT": "564ae3b0007ae2b06893fd7166bf88c5a84c5b63"
+        },
+        "inline_modifications": false,
+        "sha256": "CEEBE7EEA0B39FF3D0E6AFD79B2D6450681DDF1DAEEF8DA660FA2A2AF136D072",
+        "git_blob_sha1": "39298fdaabab0236ff8098d4b8251cb8f34791b0"
+      },
+      {
+        "recipe": "scripts.d/50-rubberband.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/breakfastquay/rubberband.git",
+          "SCRIPT_COMMIT": "e4296ac80b1170018a110bc326fd0d45a0eb27d6"
+        },
+        "inline_modifications": false,
+        "sha256": "0BDED2E6F4DAF32905622AE11CE2BDFBE6F290CC4ABE4362236145739E3BEB39",
+        "git_blob_sha1": "b6fee80e3c65fd8ca860ea4a73c62d78cc2f8fa5"
+      },
+      {
+        "recipe": "scripts.d/50-schannel.sh",
+        "included": true,
+        "classification": "D",
+        "classification_reason": "feature de sistema/condicional sem source parent externo próprio",
+        "source_assignments": {
+          "SCRIPT_SKIP": "1"
+        },
+        "inline_modifications": false,
+        "sha256": "1A815E5FD18665CD59EF40789CC24212C4663E6B09DAC8A685272790B0ED2945",
+        "git_blob_sha1": "351358c4977e4e28e721f290a5b61a33c7df3fa0"
+      },
+      {
+        "recipe": "scripts.d/50-sdl.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/libsdl-org/SDL.git",
+          "SCRIPT_COMMIT": "a2e7c76bda17c853ba93c7d2c9fdddf8a9d621d1",
+          "SCRIPT_BRANCH": "SDL2"
+        },
+        "inline_modifications": false,
+        "sha256": "81F927E5FFA5FB24FF296F76AAC6FB1C1B9E5A1A9A75704CB20334C535988FB1",
+        "git_blob_sha1": "7975312e4e3466bf414f11c9eb378cd10c554ede"
+      },
+      {
+        "recipe": "scripts.d/50-snappy.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/google/snappy.git",
+          "SCRIPT_COMMIT": "747488a9f3d0daf9b639b6704d7188fba48af179"
+        },
+        "inline_modifications": false,
+        "sha256": "C3187D12EABEE1F58BD0B5A7D6F13F663FD772B8BF89443FAD34F724B316616D",
+        "git_blob_sha1": "3106e1db35a93691a99c9d5b8f0c328966082658"
+      },
+      {
+        "recipe": "scripts.d/50-soxr.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://git.code.sf.net/p/soxr/code",
+          "SCRIPT_COMMIT": "945b592b70470e29f917f4de89b4281fbbd540c0"
+        },
+        "inline_modifications": true,
+        "sha256": "333CA3A3331C67FC9468CA81AFFDBAE90385B138A9E91F5B3AD2122F42A8F0F9",
+        "git_blob_sha1": "651d88fe04b6253c2fc53137b54908e5ea203994"
+      },
+      {
+        "recipe": "scripts.d/50-srt.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/Haivision/srt.git",
+          "SCRIPT_COMMIT": "fcae57145c000a9e7b72aa777adb8f85c2463242"
+        },
+        "inline_modifications": false,
+        "sha256": "5998EB3DDF90E908D16AC3AC06239DEEBA61F9C45A43725800F7378603054453",
+        "git_blob_sha1": "8d2579bed17a5233b29b3e9829d82b57f4b46c50"
+      },
+      {
+        "recipe": "scripts.d/50-svtav1.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.com/AOMediaCodec/SVT-AV1.git",
+          "SCRIPT_COMMIT": "fb0ed7e5999caef1c4b51b7b4c8dc2c8c10f9291"
+        },
+        "inline_modifications": false,
+        "sha256": "E831B846048E7993E138C8C4163E087D6ACE645CD62AAE3A52E48C3DA4CA6A8C",
+        "git_blob_sha1": "0eddd5191b24b4046bbfdadbef191d7c8280f65c"
+      },
+      {
+        "recipe": "scripts.d/50-twolame.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/njh/twolame.git",
+          "SCRIPT_COMMIT": "6fced852d4d5cfad58cf9dbe3ea619b08e87d398"
+        },
+        "inline_modifications": true,
+        "sha256": "AC47C5D2B47A0FAF34BF2E032DB75754C6D9ED6CCE7C3F69F8ED64A7E95698D3",
+        "git_blob_sha1": "11a80792fad34d1a19b5d8666e4fd79ee169a219"
+      },
+      {
+        "recipe": "scripts.d/50-uavs3d.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/uavs3/uavs3d.git",
+          "SCRIPT_COMMIT": "0e20d2c291853f196c68922a264bcd8471d75b68"
+        },
+        "inline_modifications": false,
+        "sha256": "3CDE849CAC8A4FE08DF4951840BD40C27592C82E665065F1B7FD506BEF71868E",
+        "git_blob_sha1": "8205b051c4aff1f7e7cfc8249a5499a6d82a8ef5"
+      },
+      {
+        "recipe": "scripts.d/50-vaapi/30-libpciaccess.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/xorg/lib/libpciaccess.git",
+          "SCRIPT_COMMIT": "38e6f15f839fba2c49982e7ad61cde681fd5d4d6"
+        },
+        "inline_modifications": false,
+        "sha256": "D46F13DBC1396A21BE7294B5C18D615F8EBBF161A2B3947D0E80A80AE001946A",
+        "git_blob_sha1": "636c075722a8cee5f1d084df00670ac80d2ac57e"
+      },
+      {
+        "recipe": "scripts.d/50-vaapi/40-libdrm.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://gitlab.freedesktop.org/mesa/drm.git",
+          "SCRIPT_COMMIT": "82f74e7a5a7403392e91352af00210ae26a81f19"
+        },
+        "inline_modifications": false,
+        "sha256": "C4265856DF8FE2992231DB2B9352AEBB4E2CFB78823C3EDEFFEB26A9BB714895",
+        "git_blob_sha1": "24ed5642d7013df44c07ab6f8b951d3240c53917"
+      },
+      {
+        "recipe": "scripts.d/50-vaapi/50-libva.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/intel/libva.git",
+          "SCRIPT_COMMIT": "6b07f7100512817f736967e899b8c26313c20623"
+        },
+        "inline_modifications": true,
+        "sha256": "FBFE24CF3BECC39CE5F69F7A13BC52442DFB13B58933DC546B8D693A630E36C7",
+        "git_blob_sha1": "8fedd14afb1d34326d9b0cf71d27bbddccc92340"
+      },
+      {
+        "recipe": "scripts.d/50-vaapi/99-finalize.sh",
+        "included": true,
+        "classification": "C",
+        "classification_reason": "agregação/configuração sem source parent próprio",
+        "source_assignments": {
+          "SCRIPT_SKIP": "1"
+        },
+        "inline_modifications": false,
+        "sha256": "F53AB88ACCECE6BF1C3E43A1EFB3E23CD01DFD4E7EA3E1B96EAB277E9184802E",
+        "git_blob_sha1": "315f9a7895cd903871002ddc0f1ecb126060b8b1"
+      },
+      {
+        "recipe": "scripts.d/50-vidstab.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/georgmartius/vid.stab.git",
+          "SCRIPT_COMMIT": "c9985e75303da2ba1a78b37083a2bec2ed5baebc"
+        },
+        "inline_modifications": false,
+        "sha256": "EC43DB170335BF2F7C0C4CFC76B143553D81D633C01DD499A466A463121A66CF",
+        "git_blob_sha1": "c70f83a933fa0f110e4dfa98c41327227c5f03e7"
+      },
+      {
+        "recipe": "scripts.d/50-vvenc.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/fraunhoferhhi/vvenc.git",
+          "SCRIPT_COMMIT": "0f2e874451d6b194615e5dfefdc96796a7da00f4"
+        },
+        "inline_modifications": false,
+        "sha256": "F5E9A4FA0067E9E4997221B19B2C0C895505FC9D9D0836C282C255464CB6A9BE",
+        "git_blob_sha1": "2a29305cda40b43babc75124262d532802f130ff"
+      },
+      {
+        "recipe": "scripts.d/50-whisper.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/ggml-org/whisper.cpp.git",
+          "SCRIPT_COMMIT": "592feef04a1802b18cbeffd0fd0eb5d02570c2ec"
+        },
+        "inline_modifications": true,
+        "sha256": "687D49DC0720E24C77A35BA8DE6270D20C54188551083BEBE90A395CB5B5FBD1",
+        "git_blob_sha1": "26c5dc4365848af858152f2e0d826e12ffb699c7"
+      },
+      {
+        "recipe": "scripts.d/50-x264.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://code.videolan.org/videolan/x264.git",
+          "SCRIPT_COMMIT": "0480cb05fa188d37ae87e8f4fd8f1aea3711f7ee"
+        },
+        "inline_modifications": false,
+        "sha256": "37B598E715823C03347BD3BA782F829BF5E289C47CF350EAE8042C2263DABFAA",
+        "git_blob_sha1": "8691a099669e4f311c882c6ee84877d718c63147"
+      },
+      {
+        "recipe": "scripts.d/50-x265.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://bitbucket.org/multicoreware/x265_git.git",
+          "SCRIPT_COMMIT": "b81f650e21e8aacbe6a9ad04ce14aefc05b932c0"
+        },
+        "inline_modifications": true,
+        "sha256": "D05A68E8502C68870A4D70130D8B1B2C92B2BDF696A1A9573C45A9DCB9D88B91",
+        "git_blob_sha1": "edc44abba217f100e5aa5ccdfda082a6359f5b57"
+      },
+      {
+        "recipe": "scripts.d/50-xavs2.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/pkuvcl/xavs2.git",
+          "SCRIPT_COMMIT": "eae1e8b9d12468059bdd7dee893508e470fa83d8"
+        },
+        "inline_modifications": true,
+        "sha256": "AEC8C0DED25B8A6116E6CFDDAEC86591CCA268B376554EFD8BD44842C6E0FC80",
+        "git_blob_sha1": "283e37521506db90109f40c61e7c686cbe22ae09"
+      },
+      {
+        "recipe": "scripts.d/50-xvid.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://svn.xvid.org/trunk/xvidcore",
+          "SCRIPT_REV": "2204"
+        },
+        "inline_modifications": true,
+        "sha256": "B138072E0E59E7AA6DF2F0FDC1D2AACF9776EB3631681516815F7BA4E6997BD8",
+        "git_blob_sha1": "79fe8f6a043b42a1f2cba3eadc479fb1b93d9ddc"
+      },
+      {
+        "recipe": "scripts.d/50-zimg.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/sekrit-twc/zimg.git",
+          "SCRIPT_COMMIT": "f6cc75ad23db1bb9c53673c15523e6b6e960ffc6"
+        },
+        "inline_modifications": true,
+        "sha256": "399BD04225DFB9754BC56E33600CAC83EB41629FC7132CF919355331BA523E54",
+        "git_blob_sha1": "9b5216af7c2788ce0e4211fb73e86a5fe749e0ac"
+      },
+      {
+        "recipe": "scripts.d/50-zvbi.sh",
+        "included": true,
+        "classification": "A",
+        "classification_reason": "componente diretamente habilitado na configuração final",
+        "source_assignments": {
+          "SCRIPT_REPO": "https://github.com/zapping-vbi/zvbi",
+          "SCRIPT_COMMIT": "d3a5ee9f2b047bf16cd1ee5ccf6ec05ee75409d0"
+        },
+        "inline_modifications": false,
+        "sha256": "9485F71ED9884E3D0E5F6187195BC14910E6DDDCF8B63A3914F1D6FB8B7A5558",
+        "git_blob_sha1": "f046de07ac2d32b72d00868c09537d96e06ba19f"
+      },
+      {
+        "recipe": "scripts.d/99-rpath.sh",
+        "included": false,
+        "classification": "E",
+        "classification_reason": "não selecionada pelo resolvedor oficial para win64-lgpl-8.1",
+        "source_assignments": {
+          "SCRIPT_SKIP": "1"
+        },
+        "inline_modifications": false,
+        "sha256": "44D6B0F9A613BB319C027B734ED164229CE70BF698AFBD09A9F837253C736327",
+        "git_blob_sha1": "1f9028177e0c5060d99e3b13edb5a047c132a30c"
+      },
+      {
+        "recipe": "scripts.d/zz-final.sh",
+        "included": false,
+        "classification": "C",
+        "classification_reason": "agregação/configuração sem source parent próprio",
+        "source_assignments": {
+          "SCRIPT_SKIP": "1"
+        },
+        "inline_modifications": false,
+        "sha256": "D6D5E8F42BE90247BD5460DF4F58EDCB7E2CB5FA3622530F36E4124585949156",
+        "git_blob_sha1": "f95651655fc159537c14743e5c5ce40e2232a1b4"
+      }
+    ]
+  },
+  "patches": [
+    {
+      "path": "patches/aom/0001-Fall-back-to-built-in-vmaf-model-on-load-failure.patch",
+      "size": 714,
+      "sha256": "C3B757903BE9B98B52B23AC40F7C49DD562CD999B5151890D19DFAF82F40DDB0",
+      "git_blob_sha1": "fa42e62794379b04bf2c6d8f76c73b78245bc4f1",
+      "applies_to": "aom"
+    },
+    {
+      "path": "patches/aribb24/12.patch",
+      "size": 1511,
+      "sha256": "9059639E9577B123AC4AB3B53771E947B791C42D07B0444CF90E82F563D6D261",
+      "git_blob_sha1": "c55bf234363e5bf9d17da9f481339c91288922c6",
+      "applies_to": "aribb24"
+    },
+    {
+      "path": "patches/aribb24/13.patch",
+      "size": 713,
+      "sha256": "4812661F1C77EC06A5A12548F166AC8646D4C7C1574848A005F0578F3D8CFC7C",
+      "git_blob_sha1": "30d17ba54b55987d4e9340861425b4d004942371",
+      "applies_to": "aribb24"
+    },
+    {
+      "path": "patches/aribb24/17.patch",
+      "size": 6204,
+      "sha256": "1A4FC77F677A6FF87D024E3A218186160B23620C84DBD791EC5C425DE0A8E6C2",
+      "git_blob_sha1": "5961b2ec9aa592710f9a55ffc8422a02204c51fd",
+      "applies_to": "aribb24"
+    }
+  ],
+  "source_parents": {
+    "count": 81,
+    "content_archives_downloaded": 0,
+    "all_content_sha256_pending": true,
+    "parents": [
+      {
+        "dedupe_key": "https://github.com/FFmpeg/FFmpeg.git|7c533d0f86f13a06ec93968f6194349665b3536a",
+        "component": "FFmpeg",
+        "role": "core source",
+        "materiality": "A",
+        "repository": "https://github.com/FFmpeg/FFmpeg.git",
+        "pin": "7c533d0f86f13a06ec93968f6194349665b3536a",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "build.sh + addins/8.1.sh"
+        ],
+        "patches": [],
+        "license": "LGPL-3.0-or-later reported by candidate binary",
+        "source_strategy": "preserve exact Git commit",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/GPUOpen-LibrariesAndSDKs/AMF.git|c35f613aea2e5057a688c979e75b1cf24253297e",
+        "component": "AMF",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/GPUOpen-LibrariesAndSDKs/AMF.git",
+        "pin": "c35f613aea2e5057a688c979e75b1cf24253297e",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-amf.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit c35f613aea2e5057a688c979e75b1cf24253297e",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://aomedia.googlesource.com/aom|95f420511f698ea201e8928464704dc30da4b568",
+        "component": "aom",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://aomedia.googlesource.com/aom",
+        "pin": "95f420511f698ea201e8928464704dc30da4b568",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-aom.sh"
+        ],
+        "patches": [
+          "patches/aom/0001-Fall-back-to-built-in-vmaf-model-on-load-failure.patch"
+        ],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 95f420511f698ea201e8928464704dc30da4b568",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/nkoriyama/aribb24.git|5e9be272f96e00f15a2f3c5f8ba7e124862aec38",
+        "component": "aribb24",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/nkoriyama/aribb24.git",
+        "pin": "5e9be272f96e00f15a2f3c5f8ba7e124862aec38",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-aribb24/50-libaribb24.sh"
+        ],
+        "patches": [
+          "patches/aribb24/12.patch",
+          "patches/aribb24/13.patch",
+          "patches/aribb24/17.patch"
+        ],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 5e9be272f96e00f15a2f3c5f8ba7e124862aec38",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/google/brotli.git|8e10eeb3378f6c459dbaf033ca6727e9816afccb",
+        "component": "brotli",
+        "role": "transitive material dependency",
+        "materiality": "B",
+        "repository": "https://github.com/google/brotli.git",
+        "pin": "8e10eeb3378f6c459dbaf033ca6727e9816afccb",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-libjxl/45-brotli.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 8e10eeb3378f6c459dbaf033ca6727e9816afccb",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/acoustid/chromaprint.git|aed8eba2202dd9d7b3b0a56c77904cc805490d72",
+        "component": "chromaprint",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/acoustid/chromaprint.git",
+        "pin": "aed8eba2202dd9d7b3b0a56c77904cc805490d72",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-chromaprint.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit aed8eba2202dd9d7b3b0a56c77904cc805490d72",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://code.videolan.org/videolan/dav1d.git|54706fc6bc0cdecab7e9593974a4039cc038fca7",
+        "component": "dav1d",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://code.videolan.org/videolan/dav1d.git",
+        "pin": "54706fc6bc0cdecab7e9593974a4039cc038fca7",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-dav1d.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 54706fc6bc0cdecab7e9593974a4039cc038fca7",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/FFTW/fftw3.git|93ed4c786934aec9946f8dda4b4e3eb08f8be41c",
+        "component": "fftw3",
+        "role": "transitive material dependency",
+        "materiality": "B",
+        "repository": "https://github.com/FFTW/fftw3.git",
+        "pin": "93ed4c786934aec9946f8dda4b4e3eb08f8be41c",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/25-fftw3.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 93ed4c786934aec9946f8dda4b4e3eb08f8be41c",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://gitlab.freedesktop.org/fontconfig/fontconfig.git|d32a1911248576d01583557efcfe4b48fb2d0a5e",
+        "component": "fontconfig",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://gitlab.freedesktop.org/fontconfig/fontconfig.git",
+        "pin": "d32a1911248576d01583557efcfe4b48fb2d0a5e",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/45-fonts/35-fontconfig.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit d32a1911248576d01583557efcfe4b48fb2d0a5e",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://gitlab.freedesktop.org/freetype/freetype.git|9e9d3b73f31367dbb4261f93c727a277f6632c77",
+        "component": "freetype",
+        "role": "transitive material dependency",
+        "materiality": "A",
+        "repository": "https://gitlab.freedesktop.org/freetype/freetype.git",
+        "pin": "9e9d3b73f31367dbb4261f93c727a277f6632c77",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/45-fonts/25-freetype.sh",
+          "scripts.d/45-fonts/50-freetype.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 9e9d3b73f31367dbb4261f93c727a277f6632c77",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/fribidi/fribidi.git|04a8cb7a3674717e509c79cd6ee3e127d0c75f4c",
+        "component": "fribidi",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/fribidi/fribidi.git",
+        "pin": "04a8cb7a3674717e509c79cd6ee3e127d0c75f4c",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/25-fribidi.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 04a8cb7a3674717e509c79cd6ee3e127d0c75f4c",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/libgme/game-music-emu.git|fe8da4b6d3876d7542c2fb69d94487e19836d678",
+        "component": "game-music-emu",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/libgme/game-music-emu.git",
+        "pin": "fe8da4b6d3876d7542c2fb69d94487e19836d678",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-gme.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit fe8da4b6d3876d7542c2fb69d94487e19836d678",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/BtbN/gmplib.git|9994908f090c694f8a152d660dc6852e0c48557a",
+        "component": "gmplib",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/BtbN/gmplib.git",
+        "pin": "9994908f090c694f8a152d660dc6852e0c48557a",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/25-gmp.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 9994908f090c694f8a152d660dc6852e0c48557a",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://git.savannah.gnu.org/git/gnulib.git|09b1597470c456aeac7e7d19b214821d4526934d",
+        "component": "gnulib",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://git.savannah.gnu.org/git/gnulib.git",
+        "pin": "09b1597470c456aeac7e7d19b214821d4526934d",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/20-libiconv.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 09b1597470c456aeac7e7d19b214821d4526934d",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/harfbuzz/harfbuzz.git|d8dabe2594596c656b54c3b0072f3aa3093f30a9",
+        "component": "harfbuzz",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/harfbuzz/harfbuzz.git",
+        "pin": "d8dabe2594596c656b54c3b0072f3aa3093f30a9",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/45-fonts/45-harfbuzz.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit d8dabe2594596c656b54c3b0072f3aa3093f30a9",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/ultravideo/kvazaar.git|d6815293f34a094e26ba6c50b8644660ddc13e09",
+        "component": "kvazaar",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/ultravideo/kvazaar.git",
+        "pin": "d6815293f34a094e26ba6c50b8644660ddc13e09",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-kvazaar.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit d6815293f34a094e26ba6c50b8644660ddc13e09",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/v-novaltd/LCEVCdec.git|a254bd474649e5dcd8182689ac414420bfe8d8c3",
+        "component": "LCEVCdec",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/v-novaltd/LCEVCdec.git",
+        "pin": "a254bd474649e5dcd8182689ac414420bfe8d8c3",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-lcevcdec.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit a254bd474649e5dcd8182689ac414420bfe8d8c3",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/xqq/libaribcaption.git|c64c23b8905ba514b87c9789269e9f66f949ffe0",
+        "component": "libaribcaption",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/xqq/libaribcaption.git",
+        "pin": "c64c23b8905ba514b87c9789269e9f66f949ffe0",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-libaribcaption.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit c64c23b8905ba514b87c9789269e9f66f949ffe0",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/libass/libass.git|3087d2b2ffda76602a17f9b09d25cb8addc8d313",
+        "component": "libass",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/libass/libass.git",
+        "pin": "3087d2b2ffda76602a17f9b09d25cb8addc8d313",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-libass.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 3087d2b2ffda76602a17f9b09d25cb8addc8d313",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://code.videolan.org/videolan/libbluray.git|065247e5ef40ccf39857db81e2c1368354a23ef8",
+        "component": "libbluray",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://code.videolan.org/videolan/libbluray.git",
+        "pin": "065247e5ef40ccf39857db81e2c1368354a23ef8",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-libbluray.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 065247e5ef40ccf39857db81e2c1368354a23ef8",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://git.savannah.gnu.org/git/libiconv.git|5e517e5bf0e1b4575ad431e81d7a4750fa2b284e",
+        "component": "libiconv",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://git.savannah.gnu.org/git/libiconv.git",
+        "pin": "5e517e5bf0e1b4575ad431e81d7a4750fa2b284e",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/20-libiconv.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 5e517e5bf0e1b4575ad431e81d7a4750fa2b284e",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/libjxl/libjxl.git|d089091afeb7b00b3d0fec6f019d35eaa3b2b410",
+        "component": "libjxl",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/libjxl/libjxl.git",
+        "pin": "d089091afeb7b00b3d0fec6f019d35eaa3b2b410",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-libjxl/50-libjxl.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit d089091afeb7b00b3d0fec6f019d35eaa3b2b410",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://svn.code.sf.net/p/lame/svn/trunk/lame|6761",
+        "component": "libmp3lame",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://svn.code.sf.net/p/lame/svn/trunk/lame",
+        "pin": "6761",
+        "pin_kind": "svn_revision",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-libmp3lame.sh"
+        ],
+        "patches": [],
+        "license": "LGPL-2.0-or-later reported upstream; preserve exact notice next",
+        "source_strategy": "svn checkout at exact revision 6761",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://code.videolan.org/videolan/libplacebo.git|22ee762e8e0890fc54068beb670310f0edce7263",
+        "component": "libplacebo",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://code.videolan.org/videolan/libplacebo.git",
+        "pin": "22ee762e8e0890fc54068beb670310f0edce7263",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-libplacebo.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 22ee762e8e0890fc54068beb670310f0edce7263",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/glennrp/libpng.git|d1d0abeffede1cc898ddc3d0e600839cf026d749",
+        "component": "libpng",
+        "role": "transitive material dependency",
+        "materiality": "B",
+        "repository": "https://github.com/glennrp/libpng.git",
+        "pin": "d1d0abeffede1cc898ddc3d0e600839cf026d749",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-aribb24/25-libpng.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit d1d0abeffede1cc898ddc3d0e600839cf026d749",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://code.videolan.org/rist/librist.git|4f45ef8f78983892d52ccd52d9f675435b23738f",
+        "component": "librist",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://code.videolan.org/rist/librist.git",
+        "pin": "4f45ef8f78983892d52ccd52d9f675435b23738f",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-librist/50-librist.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 4f45ef8f78983892d52ccd52d9f675435b23738f",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/libsndfile/libsamplerate.git|2ccde9568cca73c7b32c97fefca2e418c16ae5e3",
+        "component": "libsamplerate",
+        "role": "transitive material dependency",
+        "materiality": "B",
+        "repository": "https://github.com/libsndfile/libsamplerate.git",
+        "pin": "2ccde9568cca73c7b32c97fefca2e418c16ae5e3",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/45-libsamplerate.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 2ccde9568cca73c7b32c97fefca2e418c16ae5e3",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://gitlab.com/libssh/libssh-mirror.git|1dc52926c54b59ea7a3350a59a476bb76da3ff33",
+        "component": "libssh-mirror",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://gitlab.com/libssh/libssh-mirror.git",
+        "pin": "1dc52926c54b59ea7a3350a59a476bb76da3ff33",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-libssh.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 1dc52926c54b59ea7a3350a59a476bb76da3ff33",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://code.videolan.org/videolan/libudfread.git|0151d9d61e5f832664f502608d41a77c28846efa",
+        "component": "libudfread",
+        "role": "transitive material dependency",
+        "materiality": "B",
+        "repository": "https://code.videolan.org/videolan/libudfread.git",
+        "pin": "0151d9d61e5f832664f502608d41a77c28846efa",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/45-libudfread.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 0151d9d61e5f832664f502608d41a77c28846efa",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/adah1972/libunibreak.git|3ce4bfa3129ff3738046a44a6db533d2ce25af2b",
+        "component": "libunibreak",
+        "role": "transitive material dependency",
+        "materiality": "B",
+        "repository": "https://github.com/adah1972/libunibreak.git",
+        "pin": "3ce4bfa3129ff3738046a44a6db533d2ce25af2b",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/45-libunibreak.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 3ce4bfa3129ff3738046a44a6db533d2ce25af2b",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/intel/libva.git|6b07f7100512817f736967e899b8c26313c20623",
+        "component": "libva",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/intel/libva.git",
+        "pin": "6b07f7100512817f736967e899b8c26313c20623",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-vaapi/50-libva.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 6b07f7100512817f736967e899b8c26313c20623",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/intel/libvpl.git|674d015bcb294bc39fa276e99a652ea045423e82",
+        "component": "libvpl",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/intel/libvpl.git",
+        "pin": "674d015bcb294bc39fa276e99a652ea045423e82",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-onevpl.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 674d015bcb294bc39fa276e99a652ea045423e82",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://chromium.googlesource.com/webm/libvpx|9cc8e1c18024d6b64422ecb7fdd7a43c8e873908",
+        "component": "libvpx",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://chromium.googlesource.com/webm/libvpx",
+        "pin": "9cc8e1c18024d6b64422ecb7fdd7a43c8e873908",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-libvpx.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 9cc8e1c18024d6b64422ecb7fdd7a43c8e873908",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://chromium.googlesource.com/webm/libwebp|ba8358578ecbc4c75f0723163275de00dec0c704",
+        "component": "libwebp",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://chromium.googlesource.com/webm/libwebp",
+        "pin": "ba8358578ecbc4c75f0723163275de00dec0c704",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-libwebp.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit ba8358578ecbc4c75f0723163275de00dec0c704",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/GNOME/libxml2.git|c63248941708bc1d2e3a4292954593312212f6ca",
+        "component": "libxml2",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/GNOME/libxml2.git",
+        "pin": "c63248941708bc1d2e3a4292954593312212f6ca",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/25-libxml2.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit c63248941708bc1d2e3a4292954593312212f6ca",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/zeromq/libzmq.git|46493370217ac135246617fa2f6ac819d8b61bfc",
+        "component": "libzmq",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/zeromq/libzmq.git",
+        "pin": "46493370217ac135246617fa2f6ac819d8b61bfc",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-libzmq.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 46493370217ac135246617fa2f6ac819d8b61bfc",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/lv2/lilv.git|4b8f30055fa5cb4134a2eb45fc1555bc04289314",
+        "component": "lilv",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/lv2/lilv.git",
+        "pin": "4b8f30055fa5cb4134a2eb45fc1555bc04289314",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-lilv/99-lilv.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 4b8f30055fa5cb4134a2eb45fc1555bc04289314",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/mm2/Little-CMS.git|a5b898c7e3985550aab846a2abb4ae08904a857f",
+        "component": "Little-CMS",
+        "role": "transitive material dependency",
+        "materiality": "B",
+        "repository": "https://github.com/mm2/Little-CMS.git",
+        "pin": "a5b898c7e3985550aab846a2abb4ae08904a857f",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-libjxl/45-lcms2.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit a5b898c7e3985550aab846a2abb4ae08904a857f",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/lv2/lv2.git|3c57dae600a5ad8d05acd53ee3490f7d91cb7be6",
+        "component": "lv2",
+        "role": "transitive material dependency",
+        "materiality": "B",
+        "repository": "https://github.com/lv2/lv2.git",
+        "pin": "3c57dae600a5ad8d05acd53ee3490f7d91cb7be6",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-lilv/96-lv2.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 3c57dae600a5ad8d05acd53ee3490f7d91cb7be6",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/ARMmbed/mbedtls.git|v4.2.0",
+        "component": "mbedtls",
+        "role": "transitive material dependency",
+        "materiality": "B",
+        "repository": "https://github.com/ARMmbed/mbedtls.git",
+        "pin": "v4.2.0",
+        "pin_kind": "git_tag_or_ref",
+        "tag_filter": "v4.*",
+        "recipes": [
+          "scripts.d/50-librist/40-mbedtls.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "resolve ref 'v4.2.0' to immutable object before preservation",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/meganz/mingw-std-threads.git|c931bac289dd431f1dd30fc4a5d1a7be36668073",
+        "component": "mingw-std-threads",
+        "role": "toolchain/runtime materiality pending",
+        "materiality": "F",
+        "repository": "https://github.com/meganz/mingw-std-threads.git",
+        "pin": "c931bac289dd431f1dd30fc4a5d1a7be36668073",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/10-mingw-std-threads.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit c931bac289dd431f1dd30fc4a5d1a7be36668073",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://git.code.sf.net/p/mingw-w64/mingw-w64.git|5ea8e9facd013b815f5f29f20ef26a566319a3de",
+        "component": "mingw-w64",
+        "role": "toolchain/runtime materiality pending",
+        "materiality": "F",
+        "repository": "https://git.code.sf.net/p/mingw-w64/mingw-w64.git",
+        "pin": "5ea8e9facd013b815f5f29f20ef26a566319a3de",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/10-mingw.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 5ea8e9facd013b815f5f29f20ef26a566319a3de",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/FFmpeg/nv-codec-headers.git|833faee5f7b8d3f56444347c587f4aed11ee213f",
+        "component": "nv-codec-headers",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/FFmpeg/nv-codec-headers.git",
+        "pin": "833faee5f7b8d3f56444347c587f4aed11ee213f",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-ffnvcodec.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 833faee5f7b8d3f56444347c587f4aed11ee213f",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/FFmpeg/nv-codec-headers.git|ced4f8eba3ba5dd431932cba17928f0dffdaeb2b",
+        "component": "nv-codec-headers",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/FFmpeg/nv-codec-headers.git",
+        "pin": "ced4f8eba3ba5dd431932cba17928f0dffdaeb2b",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-ffnvcodec.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit ced4f8eba3ba5dd431932cba17928f0dffdaeb2b",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/FFmpeg/nv-codec-headers.git|eddcea9e27f6b772057c9b3f87de2cc1737faffc",
+        "component": "nv-codec-headers",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/FFmpeg/nv-codec-headers.git",
+        "pin": "eddcea9e27f6b772057c9b3f87de2cc1737faffc",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-ffnvcodec.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit eddcea9e27f6b772057c9b3f87de2cc1737faffc",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/xiph/ogg.git|06a5e0262cdc28aa4ae6797627a783b5010440f0",
+        "component": "ogg",
+        "role": "transitive material dependency",
+        "materiality": "B",
+        "repository": "https://github.com/xiph/ogg.git",
+        "pin": "06a5e0262cdc28aa4ae6797627a783b5010440f0",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/25-libogg.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 06a5e0262cdc28aa4ae6797627a783b5010440f0",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/kcat/openal-soft.git|c157b87cb9eb58d747748e49f82ee4a64d1dcf8b",
+        "component": "openal-soft",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/kcat/openal-soft.git",
+        "pin": "c157b87cb9eb58d747748e49f82ee4a64d1dcf8b",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-openal.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit c157b87cb9eb58d747748e49f82ee4a64d1dcf8b",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/AcademySoftwareFoundation/openapv.git|d625af974550427e638574db61c270fe7f8c5a73",
+        "component": "openapv",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/AcademySoftwareFoundation/openapv.git",
+        "pin": "d625af974550427e638574db61c270fe7f8c5a73",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-openapv.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit d625af974550427e638574db61c270fe7f8c5a73",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/KhronosGroup/OpenCL-Headers.git|c9c8ccfab584f9f7610057c4633dbd3df7e012cc",
+        "component": "OpenCL-Headers",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/KhronosGroup/OpenCL-Headers.git",
+        "pin": "c9c8ccfab584f9f7610057c4633dbd3df7e012cc",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/45-opencl.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit c9c8ccfab584f9f7610057c4633dbd3df7e012cc",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/KhronosGroup/OpenCL-ICD-Loader.git|18fdcd58286376124f938948aa8ed156079c1c16",
+        "component": "OpenCL-ICD-Loader",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/KhronosGroup/OpenCL-ICD-Loader.git",
+        "pin": "18fdcd58286376124f938948aa8ed156079c1c16",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/45-opencl.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 18fdcd58286376124f938948aa8ed156079c1c16",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://git.code.sf.net/p/opencore-amr/code|7dba8c32238418ce0b316a852b2224df586ca896",
+        "component": "opencore-amr",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://git.code.sf.net/p/opencore-amr/code",
+        "pin": "7dba8c32238418ce0b316a852b2224df586ca896",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-opencore-amr.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 7dba8c32238418ce0b316a852b2224df586ca896",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/cisco/openh264.git|98bc7cbbeb7381c94ef8f9a5d158327abbf6b8b9",
+        "component": "openh264",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/cisco/openh264.git",
+        "pin": "98bc7cbbeb7381c94ef8f9a5d158327abbf6b8b9",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-openh264.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 98bc7cbbeb7381c94ef8f9a5d158327abbf6b8b9",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/uclouvain/openjpeg.git|402ef5862195b177ea0a7788f2a6ef2804e62285",
+        "component": "openjpeg",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/uclouvain/openjpeg.git",
+        "pin": "402ef5862195b177ea0a7788f2a6ef2804e62285",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-openjpeg.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 402ef5862195b177ea0a7788f2a6ef2804e62285",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/OpenMPT/openmpt.git|1b000d4bca071364157b5d35940efe4feecd2e0a",
+        "component": "openmpt",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/OpenMPT/openmpt.git",
+        "pin": "1b000d4bca071364157b5d35940efe4feecd2e0a",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-openmpt.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 1b000d4bca071364157b5d35940efe4feecd2e0a",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/openssl/openssl.git|openssl-3.6.3",
+        "component": "openssl",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/openssl/openssl.git",
+        "pin": "openssl-3.6.3",
+        "pin_kind": "git_tag_or_ref",
+        "tag_filter": "openssl-3.6.*",
+        "recipes": [
+          "scripts.d/25-openssl.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "resolve ref 'openssl-3.6.3' to immutable object before preservation",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/xiph/opus.git|3da9f7a6db1c05c3996cb363a9d1931a978bf1be",
+        "component": "opus",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/xiph/opus.git",
+        "pin": "3da9f7a6db1c05c3996cb363a9d1931a978bf1be",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-libopus.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 3da9f7a6db1c05c3996cb363a9d1931a978bf1be",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/xiph/rav1e.git|564ae3b0007ae2b06893fd7166bf88c5a84c5b63",
+        "component": "rav1e",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/xiph/rav1e.git",
+        "pin": "564ae3b0007ae2b06893fd7166bf88c5a84c5b63",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-rav1e.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 564ae3b0007ae2b06893fd7166bf88c5a84c5b63",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/libsdl-org/SDL.git|a2e7c76bda17c853ba93c7d2c9fdddf8a9d621d1",
+        "component": "SDL",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/libsdl-org/SDL.git",
+        "pin": "a2e7c76bda17c853ba93c7d2c9fdddf8a9d621d1",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-sdl.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit a2e7c76bda17c853ba93c7d2c9fdddf8a9d621d1",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/drobilla/serd.git|b6053bb2a4533e6a8e3821c1061f140d5e666938",
+        "component": "serd",
+        "role": "transitive material dependency",
+        "materiality": "B",
+        "repository": "https://github.com/drobilla/serd.git",
+        "pin": "b6053bb2a4533e6a8e3821c1061f140d5e666938",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-lilv/96-serd.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit b6053bb2a4533e6a8e3821c1061f140d5e666938",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/google/shaderc.git|7060a6615a1c6e2515e696651eea685524ecadb5",
+        "component": "shaderc",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/google/shaderc.git",
+        "pin": "7060a6615a1c6e2515e696651eea685524ecadb5",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/47-vulkan/50-shaderc.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 7060a6615a1c6e2515e696651eea685524ecadb5",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/google/snappy.git|747488a9f3d0daf9b639b6704d7188fba48af179",
+        "component": "snappy",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/google/snappy.git",
+        "pin": "747488a9f3d0daf9b639b6704d7188fba48af179",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-snappy.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 747488a9f3d0daf9b639b6704d7188fba48af179",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/drobilla/sord.git|4b5232bb91e7f2f1b84df384494d073fabbcd312",
+        "component": "sord",
+        "role": "transitive material dependency",
+        "materiality": "B",
+        "repository": "https://github.com/drobilla/sord.git",
+        "pin": "4b5232bb91e7f2f1b84df384494d073fabbcd312",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-lilv/97-sord.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 4b5232bb91e7f2f1b84df384494d073fabbcd312",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://git.code.sf.net/p/soxr/code|945b592b70470e29f917f4de89b4281fbbd540c0",
+        "component": "soxr",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://git.code.sf.net/p/soxr/code",
+        "pin": "945b592b70470e29f917f4de89b4281fbbd540c0",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-soxr.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 945b592b70470e29f917f4de89b4281fbbd540c0",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/KhronosGroup/SPIRV-Cross.git|9c3c8e2cefdd8194b193bb8ed2fdff4d5527e382",
+        "component": "SPIRV-Cross",
+        "role": "transitive material dependency",
+        "materiality": "B",
+        "repository": "https://github.com/KhronosGroup/SPIRV-Cross.git",
+        "pin": "9c3c8e2cefdd8194b193bb8ed2fdff4d5527e382",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/47-vulkan/55-spirv-cross.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 9c3c8e2cefdd8194b193bb8ed2fdff4d5527e382",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/KhronosGroup/SPIRV-Headers.git|f0bf307f7c49d26484db596185cece53c37701fc",
+        "component": "SPIRV-Headers",
+        "role": "transitive material dependency",
+        "materiality": "B",
+        "repository": "https://github.com/KhronosGroup/SPIRV-Headers.git",
+        "pin": "f0bf307f7c49d26484db596185cece53c37701fc",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/47-vulkan/60-spirv-headers.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit f0bf307f7c49d26484db596185cece53c37701fc",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/lv2/sratom.git|9e8ee84eed502e6030ce8bb49694fd28542b08fc",
+        "component": "sratom",
+        "role": "transitive material dependency",
+        "materiality": "B",
+        "repository": "https://github.com/lv2/sratom.git",
+        "pin": "9e8ee84eed502e6030ce8bb49694fd28542b08fc",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-lilv/98-sratom.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 9e8ee84eed502e6030ce8bb49694fd28542b08fc",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/Haivision/srt.git|fcae57145c000a9e7b72aa777adb8f85c2463242",
+        "component": "srt",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/Haivision/srt.git",
+        "pin": "fcae57145c000a9e7b72aa777adb8f85c2463242",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-srt.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit fcae57145c000a9e7b72aa777adb8f85c2463242",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://gitlab.com/AOMediaCodec/SVT-AV1.git|fb0ed7e5999caef1c4b51b7b4c8dc2c8c10f9291",
+        "component": "SVT-AV1",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://gitlab.com/AOMediaCodec/SVT-AV1.git",
+        "pin": "fb0ed7e5999caef1c4b51b7b4c8dc2c8c10f9291",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-svtav1.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit fb0ed7e5999caef1c4b51b7b4c8dc2c8c10f9291",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/xiph/theora.git|28fd5ec77f0ad0e07a371cef1047828116f6bd8a",
+        "component": "theora",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/xiph/theora.git",
+        "pin": "28fd5ec77f0ad0e07a371cef1047828116f6bd8a",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-libtheora.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 28fd5ec77f0ad0e07a371cef1047828116f6bd8a",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/njh/twolame.git|6fced852d4d5cfad58cf9dbe3ea619b08e87d398",
+        "component": "twolame",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/njh/twolame.git",
+        "pin": "6fced852d4d5cfad58cf9dbe3ea619b08e87d398",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-twolame.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 6fced852d4d5cfad58cf9dbe3ea619b08e87d398",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/uavs3/uavs3d.git|0e20d2c291853f196c68922a264bcd8471d75b68",
+        "component": "uavs3d",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/uavs3/uavs3d.git",
+        "pin": "0e20d2c291853f196c68922a264bcd8471d75b68",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-uavs3d.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 0e20d2c291853f196c68922a264bcd8471d75b68",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/Netflix/vmaf.git|e80d6c593e6e2327687dccd00b7cc9c91036d79f",
+        "component": "vmaf",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/Netflix/vmaf.git",
+        "pin": "e80d6c593e6e2327687dccd00b7cc9c91036d79f",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/45-vmaf.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit e80d6c593e6e2327687dccd00b7cc9c91036d79f",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/xiph/vorbis.git|1b75110b5a2754ba1931d82dd83cb822b266a21d",
+        "component": "vorbis",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/xiph/vorbis.git",
+        "pin": "1b75110b5a2754ba1931d82dd83cb822b266a21d",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/45-libvorbis.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 1b75110b5a2754ba1931d82dd83cb822b266a21d",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/KhronosGroup/Vulkan-Headers.git|v1.4.359",
+        "component": "Vulkan-Headers",
+        "role": "transitive material dependency",
+        "materiality": "A",
+        "repository": "https://github.com/KhronosGroup/Vulkan-Headers.git",
+        "pin": "v1.4.359",
+        "pin_kind": "git_tag_or_ref",
+        "tag_filter": "v?.*.*",
+        "recipes": [
+          "scripts.d/47-vulkan/40-vulkan-headers.sh",
+          "scripts.d/47-vulkan/45-vulkan-loader.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "resolve ref 'v1.4.359' to immutable object before preservation",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/BtbN/Vulkan-Shim-Loader.git|65b3936528cd92eb4ea3de485d03f858a3850484",
+        "component": "Vulkan-Shim-Loader",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/BtbN/Vulkan-Shim-Loader.git",
+        "pin": "65b3936528cd92eb4ea3de485d03f858a3850484",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/47-vulkan/45-vulkan-loader.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 65b3936528cd92eb4ea3de485d03f858a3850484",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/fraunhoferhhi/vvenc.git|0f2e874451d6b194615e5dfefdc96796a7da00f4",
+        "component": "vvenc",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/fraunhoferhhi/vvenc.git",
+        "pin": "0f2e874451d6b194615e5dfefdc96796a7da00f4",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-vvenc.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 0f2e874451d6b194615e5dfefdc96796a7da00f4",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/tukaani-project/xz.git|c8b8ab2ef1eb0a0217ad2027d7f5d242ceb944d3",
+        "component": "xz",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/tukaani-project/xz.git",
+        "pin": "c8b8ab2ef1eb0a0217ad2027d7f5d242ceb944d3",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/25-xz.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit c8b8ab2ef1eb0a0217ad2027d7f5d242ceb944d3",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/sekrit-twc/zimg.git|f6cc75ad23db1bb9c53673c15523e6b6e960ffc6",
+        "component": "zimg",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/sekrit-twc/zimg.git",
+        "pin": "f6cc75ad23db1bb9c53673c15523e6b6e960ffc6",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-zimg.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit f6cc75ad23db1bb9c53673c15523e6b6e960ffc6",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/drobilla/zix.git|17d632393f5addb6fa24dda2927b96515407cca7",
+        "component": "zix",
+        "role": "transitive material dependency",
+        "materiality": "B",
+        "repository": "https://github.com/drobilla/zix.git",
+        "pin": "17d632393f5addb6fa24dda2927b96515407cca7",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-lilv/96-zix.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit 17d632393f5addb6fa24dda2927b96515407cca7",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/madler/zlib.git|e3dc0a85b7032e98380dec011bc8f2c2ee0d8fca",
+        "component": "zlib",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/madler/zlib.git",
+        "pin": "e3dc0a85b7032e98380dec011bc8f2c2ee0d8fca",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/20-zlib.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit e3dc0a85b7032e98380dec011bc8f2c2ee0d8fca",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      },
+      {
+        "dedupe_key": "https://github.com/zapping-vbi/zvbi|d3a5ee9f2b047bf16cd1ee5ccf6ec05ee75409d0",
+        "component": "zvbi",
+        "role": "direct FFmpeg feature",
+        "materiality": "A",
+        "repository": "https://github.com/zapping-vbi/zvbi",
+        "pin": "d3a5ee9f2b047bf16cd1ee5ccf6ec05ee75409d0",
+        "pin_kind": "git_commit",
+        "tag_filter": null,
+        "recipes": [
+          "scripts.d/50-zvbi.sh"
+        ],
+        "patches": [],
+        "license": "TO_VERIFY_FROM_EXACT_UPSTREAM_SOURCE",
+        "source_strategy": "Git checkout at exact 40-hex commit d3a5ee9f2b047bf16cd1ee5ccf6ec05ee75409d0",
+        "content_sha256": null,
+        "source_download_required": true,
+        "status": "PENDING_SOURCE_PRESERVATION"
+      }
+    ]
+  },
+  "lame": {
+    "repository": "https://svn.code.sf.net/p/lame/svn/trunk/lame",
+    "svn_revision": "6761",
+    "recipe": "scripts.d/50-libmp3lame.sh",
+    "patches": [],
+    "license": "LGPL terms declared by the exact upstream r6761 LICENSE/COPYING preserved in phase C1",
+    "linkage": "static",
+    "configure": [
+      "--disable-shared",
+      "--enable-static",
+      "--disable-frontend",
+      "--disable-decoder"
+    ],
+    "encoder_capability": "PASS",
+    "mp3_192k_test": "PASS",
+    "source_download_required": false,
+    "preservation_status": "PRESERVED_IN_C1_SOURCE_MANIFEST"
+  },
+  "toolchain": {
+    "separation": "Build reproducibility remains separate from corresponding source; C7 resolved the material static runtime source boundary without claiming exact toolchain reproduction.",
+    "pinned": {
+      "zlib": "1.3.1",
+      "gmp": "6.3.0",
+      "ucrt": true,
+      "zstd": "1.5.7",
+      "mold": "2.40.4",
+      "mingw_w64": "v13.0.0",
+      "mpfr": "4.2.2",
+      "binutils": "2.46.0",
+      "isl": "0.27",
+      "mpc": "1.3.1",
+      "threads": "posix",
+      "gcc": "15.2.0"
+    },
+    "mutable_or_unpinned": [
+      "ubuntu:26.04 image tag without digest",
+      "base images referenced as latest",
+      "crosstool-ng repository cloned without commit pin",
+      "APT package versions",
+      "Meson pip version",
+      "rustup toolchain",
+      "cargo-c version",
+      "GitHub Actions major tags",
+      "ubuntu-latest runner"
+    ],
+    "runtime_materiality_status": "RESOLVED_IN_C7",
+    "build_reproducibility_pending": [
+      "exact Cargo version used by BtbN",
+      "post-update cc crate state",
+      "complete toolchain reconstruction"
+    ]
+  },
+  "next_authorization": {
+    "go_status": "NO_GO_FOR_PROMOTION",
+    "go_condition": "Phase C7 closed every known material source parent and patch for technical legal review; promotion still requires legal review and a separate owner decision.",
+    "minimum_scope": "Review the complete candidate bundle legally and decide Windows support and promotion separately; do not reopen source acquisition without new material evidence.",
+    "source_parent_count": 142,
+    "priority": [
+      "legal review of the technically complete source correspondence bundle"
+    ],
+    "exclude": [
+      "E recipes",
+      "other FFmpeg builds",
+      "Docker images",
+      "BtbN promotion in phase C7"
+    ]
+  },
+  "status": {
+    "asset_integrity": "PASS",
+    "necessary_capabilities": "PASS",
+    "portability_current_environment": "PASS",
+    "windows_10_before_22H2": "NOT_PROVEN",
+    "provenance_btbn": "STRONG",
+    "source_closure": "TECHNICALLY_COMPLETE_FOR_LEGAL_REVIEW",
+    "source_correspondence": "A_TECHNICALLY_COMPLETE_FOR_LEGAL_REVIEW",
+    "downloader_integration": "PASS",
+    "video_to_mp3": "PASS",
+    "ffprobe": "PASS",
+    "cancel": "PASS",
+    "shutdown": "PASS",
+    "network_real_test": "EXTERNAL_OR_SITE_NOT_REQUIRED_FOR_MIGRATION_EVIDENCE",
+    "functional_regression": "NONE",
+    "migration_readiness": "GO_COM_AJUSTES",
+    "source_closure_preservation": "PHASE_C7_138_OF_138_MATERIAL_PARENTS_PRESERVED_RUNTIME_TOOLCHAIN_RESOLVED",
+    "phase_c1_source_manifest": "BTBN_SOURCE_PROVENANCE.json",
+    "phase_c1_pending_parent_count": 63,
+    "phase_c1_blocked_parent_count": 2,
+    "phase_c2_source_manifest": "BTBN_SOURCE_PROVENANCE.json",
+    "phase_c2_baseline_preserved_parent_count": 30,
+    "phase_c2_dependency_preserved_parent_count": 2,
+    "phase_c2_material_parent_count": 85,
+    "phase_c2_material_pending_parent_count": 51,
+    "phase_c2_material_blocked_parent_count": 2,
+    "phase_c2_manifest_sha256": "6CF7A6CE8266EB8FDE4F6C85181C1725425D8BE450667F3BC21DA025A867136A",
+    "phase_c2_staging_inventory_sha256": "91629D81C1A1B8D5CA8C2DEC3CC64675A73D6D5712135D0CC693AE968F6112CE",
+    "phase_c2_bundle_sha256": "46D4F85F20F818811F0523681CF178B5499F77E363B87F003FD85B9CDDBF372F",
+    "phase_c2_bundle_inventory_sha256": "C7EAD505D0197E7CB0CF7A7D87EDC111B0509AEE5B39CF0F6124512FD87DF272",
+    "phase_c2_patch_replay": "AOM_AND_ARIBB24_APPLY_CLEANLY",
+    "phase_c3_source_manifest": "BTBN_SOURCE_PROVENANCE.json",
+    "phase_c3_baseline_preserved_parent_count": 40,
+    "phase_c3_dependency_preserved_parent_count": 4,
+    "phase_c3_material_parent_count": 85,
+    "phase_c3_material_pending_parent_count": 39,
+    "phase_c3_material_blocked_parent_count": 2,
+    "phase_c3_manifest_sha256": "5DF455250E61DFAD5D80BA372C1EED6E0DBAEDA0CBB36A0DE728B57944D66931",
+    "phase_c3_staging_inventory_sha256": "7019A4834502FB1C3590F39B685F631BCA942D2ADFDB42F0CE9C0EDE5D578CB8",
+    "phase_c3_bundle_sha256": "26BE2AC84DCEFBA102CE82613082A1F7D1CAC74525C7B1A977AF0017950B665E",
+    "phase_c3_bundle_inventory_sha256": "3B2BE83C8BCFE602F2FD0DD15527ED6AD9C4CD7440AB00D113041A9D3C7C181C",
+    "phase_c3_mbedtls": "RESOLVED",
+    "phase_c3_graphengine": "RESOLVED",
+    "phase_c3_network_tls_island": "PARTIAL",
+    "phase_c3_text_rendering_island": "RESOLVED",
+    "phase_c4_source_manifest": "BTBN_SOURCE_PROVENANCE.json",
+    "phase_c4_baseline_preserved_parent_count": 60,
+    "phase_c4_dependency_preserved_parent_count": 4,
+    "phase_c4_material_parent_count": 85,
+    "phase_c4_material_pending_parent_count": 19,
+    "phase_c4_material_blocked_parent_count": 2,
+    "phase_c4_manifest_sha256": "3BB2347C4538CFB7321414E5B707E11F2B120C42DB112CFEBC07415EF8B59532",
+    "phase_c4_staging_file_count": 205,
+    "phase_c4_staging_size": 485221718,
+    "phase_c4_staging_inventory_sha256": "850990FB6BF7EFD50432604FE8D1839979D30670C8663CE9A01E8FC2670CDC02",
+    "phase_c4_bundle_file_count": 207,
+    "phase_c4_bundle_size": 468304587,
+    "phase_c4_bundle_sha256": "35B4AF82624E4D2F29C37ABC934E3FF4519AE88A4F42D6818A95C753FBB8A82B",
+    "phase_c4_bundle_inventory_sha256": "7B6E301AF8F79F99B91B3C25B78BE96AAD42095A573371D1D37F78302907DAEB",
+    "phase_c4_network_tls_island": "RESOLVED",
+    "phase_c4_compression_island": "RESOLVED",
+    "phase_c4_text_rendering_island": "RESOLVED",
+    "phase_c4_processing_island": "PARTIAL",
+    "phase_c4_codec_audio_video_island": "PARTIAL",
+    "phase_c4_hardware_headers_island": "PARTIAL",
+    "phase_c4_runtime_toolchain_island": "NOT_STARTED",
+    "phase_c4_normal_library_pending_count": 7,
+    "phase_c4_hardware_header_pending_count": 12,
+    "phase_c4_runtime_toolchain_pending_count": 2,
+    "phase_c4b_source_manifest": "BTBN_SOURCE_PROVENANCE.json",
+    "phase_c4b_manifest_sha256": "3F88862752C47500BBAF92E8DDE800F0FD1FB24F094E4B28D1A6D2DE0647268B",
+    "phase_c4b_distributed_programs": [
+      "ffmpeg.exe",
+      "ffprobe.exe"
+    ],
+    "phase_c4b_excluded_program": "ffplay.exe",
+    "phase_c4b_baseline_preserved_parent_count": 66,
+    "phase_c4b_dependency_preserved_parent_count": 6,
+    "phase_c4b_source_parent_record_count": 100,
+    "phase_c4b_material_parent_count": 99,
+    "phase_c4b_material_preserved_parent_count": 72,
+    "phase_c4b_material_pending_parent_count": 25,
+    "phase_c4b_material_blocked_parent_count": 2,
+    "phase_c4b_normal_library_pending_count": 12,
+    "phase_c4b_normal_library_unknown_count": 101,
+    "phase_c4b_hardware_header_pending_count": 13,
+    "phase_c4b_runtime_toolchain_blocked_count": 2,
+    "phase_c4b_processing_island": "RESOLVED",
+    "phase_c4b_codec_audio_video_island": "PARTIAL",
+    "phase_c4b_hardware_headers_island": "PARTIAL",
+    "phase_c4b_runtime_toolchain_island": "NOT_STARTED",
+    "phase_c4b_staging_file_count": 232,
+    "phase_c4b_staging_size": 498268967,
+    "phase_c4b_staging_inventory_sha256": "161E8FABBAF560581211AD0B67C9C15D5135538C54D1A690C218A8D4B65BE035",
+    "phase_c4b_bundle_file_count": 234,
+    "phase_c4b_bundle_size": 480823658,
+    "phase_c4b_bundle_sha256": "0BCB6312D027C7F46EFB60CDEBC25AAC7ED04308D48661B10F243C601ED225B9",
+    "phase_c4b_bundle_inventory_sha256": "1B280CEC0D0AF681B1E1F9EC2AB279309D601882F84683CCC901E4B61F6D571C",
+    "phase_c4c_source_manifest": "BTBN_SOURCE_PROVENANCE.json",
+    "phase_c4c_manifest_sha256": "C898D6E8230A03EC2C1FDDC848FCC3A82EFF337CD567DD86FAEFDF59D80A1A6F",
+    "phase_c4c_cargo_lock_package_count": 272,
+    "phase_c4c_cargo_lock_sha256": "A82FFA5F59E3FC3A70C14579CE3D4B9157784BB56B7BC387B7E0878799E659C0",
+    "phase_c4c_cargo_material_package_count": 48,
+    "phase_c4c_cargo_preserved_package_count": 40,
+    "phase_c4c_cargo_pending_package_count": 8,
+    "phase_c4c_cargo_unknown_package_count": 0,
+    "phase_c4c_cargo_update_cc": "REPRODUCIBILITY_PENDING_BUILD_ONLY",
+    "phase_c4c_rust_runtime_materiality": "NEEDS_REVIEW",
+    "phase_c4c_source_parent_record_count": 136,
+    "phase_c4c_material_parent_count": 135,
+    "phase_c4c_material_preserved_parent_count": 112,
+    "phase_c4c_material_pending_parent_count": 21,
+    "phase_c4c_material_blocked_parent_count": 2,
+    "phase_c4c_normal_library_pending_count": 8,
+    "phase_c4c_hardware_header_pending_count": 13,
+    "phase_c4c_runtime_toolchain_blocked_count": 2,
+    "phase_c4c_staging_file_count": 273,
+    "phase_c4c_staging_size": 501408024,
+    "phase_c4c_staging_inventory_sha256": "4EBE49377A20494C8B91ECA51A1126BC56CE6E1C10B9FAE28B572788E469EA4A",
+    "phase_c4c_bundle_file_count": 275,
+    "phase_c4c_bundle_size": 483817022,
+    "phase_c4c_bundle_sha256": "4710A4641A05B2CB86FB324757FF936F29817EC38D72183168AE0F5EAF6949F9",
+    "phase_c4c_bundle_inventory_sha256": "7E73524F5184C0DAC9799C923F164B966A5A4AA3DF1B56C39D9CDB831596B005",
+    "phase_c4d_source_manifest": "BTBN_SOURCE_PROVENANCE.json",
+    "phase_c4d_manifest_sha256": "7FEE62877D58194B1237CAEFEF28C336214603BED15D37D93C81BDF4D158C97D",
+    "phase_c4d_cargo_lock_package_count": 272,
+    "phase_c4d_cargo_lock_sha256": "A82FFA5F59E3FC3A70C14579CE3D4B9157784BB56B7BC387B7E0878799E659C0",
+    "phase_c4d_cargo_material_package_count": 48,
+    "phase_c4d_cargo_preserved_package_count": 48,
+    "phase_c4d_cargo_pending_package_count": 0,
+    "phase_c4d_cargo_unknown_package_count": 0,
+    "phase_c4d_authorized_package_count": 8,
+    "phase_c4d_authorized_packages": [
+      "av1-grain 0.2.4",
+      "built 0.8.0",
+      "minimal-lexical 0.2.1",
+      "nom 7.1.3",
+      "num-derive 0.4.2",
+      "profiling 1.0.16",
+      "profiling-procmacros 1.0.16",
+      "simd_helpers 0.1.0"
+    ],
+    "phase_c4d_acquisition_report_size": 13004,
+    "phase_c4d_acquisition_report_sha256": "C52EC87D1DFF4E30A46A0E39A5A8F2350567E4B1B270DC31F7841201C658C621",
+    "phase_c4d_evidence_size": 215455,
+    "phase_c4d_evidence_sha256": "792F4CB5EB17766D9313B5C28BED698C2ED465406F453AA5B8BA2D248BFDF273",
+    "phase_c4d_cargo_update_cc": "REPRODUCIBILITY_PENDING_BUILD_ONLY",
+    "phase_c4d_rust_runtime_materiality": "NEEDS_REVIEW",
+    "phase_c4d_source_parent_record_count": 136,
+    "phase_c4d_material_parent_count": 135,
+    "phase_c4d_material_preserved_parent_count": 120,
+    "phase_c4d_material_pending_parent_count": 13,
+    "phase_c4d_material_blocked_parent_count": 2,
+    "phase_c4d_normal_library_pending_count": 0,
+    "phase_c4d_hardware_header_pending_count": 13,
+    "phase_c4d_runtime_toolchain_blocked_count": 2,
+    "phase_c4d_normal_library_island": "RESOLVED",
+    "phase_c4d_codec_audio_video_island": "RESOLVED",
+    "phase_c4d_hardware_headers_island": "PARTIAL",
+    "phase_c4d_runtime_toolchain_island": "NOT_STARTED",
+    "phase_c4d_staging_file_count": 282,
+    "phase_c4d_staging_size": 501942769,
+    "phase_c4d_staging_inventory_sha256": "C548800B81CAD059441BCCBB7CE7E66776FF7ADB06B3E35F8A5B688B9EBE5B3A",
+    "phase_c4d_bundle_file_count": 284,
+    "phase_c4d_bundle_size": 484170928,
+    "phase_c4d_bundle_sha256": "4D96628E75340F1DA160948D664EC865D39376891858A114BB52D6A409B07D4C",
+    "phase_c4d_bundle_inventory_sha256": "D19671FDEEFC694BDA717EC41838D5750F689CBD0DC20F49999B3D24ADE7A0A8",
+    "phase_c5_source_manifest": "BTBN_SOURCE_PROVENANCE.json",
+    "phase_c5_manifest_sha256": "84E3E15C405BE187A210A187B6B22E578A533C1883D6EE3908DB7C74024FCD70",
+    "phase_c5_original_hardware_identity_count": 13,
+    "phase_c5_preserved_original_identity_count": 11,
+    "phase_c5_superseded_original_identity_count": 2,
+    "phase_c5_new_material_transitive_count": 3,
+    "phase_c5_new_source_parent_count": 14,
+    "phase_c5_source_parent_record_count": 139,
+    "phase_c5_baseline_preserved_parent_count": 76,
+    "phase_c5_dependency_preserved_parent_count": 58,
+    "phase_c5_material_parent_count": 136,
+    "phase_c5_material_preserved_parent_count": 134,
+    "phase_c5_material_pending_parent_count": 0,
+    "phase_c5_material_blocked_parent_count": 2,
+    "phase_c5_normal_library_pending_count": 0,
+    "phase_c5_hardware_header_pending_count": 0,
+    "phase_c5_runtime_toolchain_blocked_count": 2,
+    "phase_c5_normal_library_island": "RESOLVED",
+    "phase_c5_codec_audio_video_island": "RESOLVED",
+    "phase_c5_hardware_headers_island": "RESOLVED",
+    "phase_c5_runtime_toolchain_island": "NOT_STARTED",
+    "phase_c5_evidence_size": 12332,
+    "phase_c5_evidence_sha256": "340A76CE5FB0D363118AAB7451FDCFF3EAFC6201EB382FCDAE6653DB356A9DA7",
+    "phase_c5_staging_file_count": 325,
+    "phase_c5_staging_size": 536553266,
+    "phase_c5_staging_inventory_sha256": "F8891BABA73D48F603AE1584A8B54D971278DF83BA1B2D81AE6B33AB983D19F8",
+    "phase_c5_bundle_file_count": 327,
+    "phase_c5_bundle_size": 513197544,
+    "phase_c5_bundle_sha256": "26ED70160E0CB2E100BDFAA31704D90EDB2328BFB6CC33EF3F52CC693C29795A",
+    "phase_c5_bundle_inventory_sha256": "0F9115B5B1866C0CDD42403F3BFD6A7F43965EE510719A7859C156B888EC27D6",
+    "phase_c7_source_manifest": "BTBN_SOURCE_PROVENANCE.json",
+    "phase_c7_manifest_sha256": "D7DB1D53B855484F5BDEE2F5DCA2360719CFAC1E338A1A073138C9D0A1D1F8FE",
+    "phase_c7_source_parent_record_count": 142,
+    "phase_c7_material_parent_count": 138,
+    "phase_c7_material_preserved_parent_count": 138,
+    "phase_c7_material_pending_parent_count": 0,
+    "phase_c7_material_blocked_parent_count": 0,
+    "phase_c7_runtime_toolchain_island": "RESOLVED",
+    "phase_c7_mingw_std_threads": "NOT_REQUIRED_FOR_DISTRIBUTED_PAIR",
+    "phase_c7_gcc_patch_count": 19,
+    "phase_c7_gcc_material_patch_count": 8,
+    "phase_c7_mingw_patch_count": 7,
+    "phase_c7_mingw_material_patch_count": 2,
+    "phase_c7_build_reproducibility": "PARTIAL",
+    "phase_c7_staging_file_count": 369,
+    "phase_c7_staging_size": 674166301,
+    "phase_c7_staging_inventory_sha256": "607589681E24CFE5B3E7347263EC32562ED228FE2B818545AF9B4BF3AC74EC4A",
+    "phase_c7_bundle_classification": "COMPLETE_CANDIDATE_FOR_LEGAL_REVIEW",
+    "phase_c7_bundle_file_count": 371,
+    "phase_c7_bundle_size": 646861654,
+    "phase_c7_bundle_sha256": "DD7DBBE3BACA3B164D73CC6C09C2200967C77E7FA25FCBAA88A1E67EAF58870E",
+    "phase_c7_bundle_inventory_sha256": "7BD8141C14BBF777F97C3B6E219BA438045B7F8988DCCE0306316634B9C99D1E",
+    "phase_c7_bundle_determinism": "PASS",
+    "phase_c7_source_correspondence": "A_TECHNICALLY_COMPLETE_FOR_LEGAL_REVIEW",
+    "phase_c7_legal_review": "PENDING",
+    "phase_c7_btbn_promotion": "NO_GO",
+    "active_ffmpeg_remains": "GYAN"
+  }
+}

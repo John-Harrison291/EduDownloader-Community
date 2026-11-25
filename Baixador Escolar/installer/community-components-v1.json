@@ -1,0 +1,470 @@
+{
+  "schema": 1,
+  "edition": "community",
+  "revision": 1,
+  "issued": "2026-11-24T00:00:00Z",
+  "expires": "2027-02-20T00:00:00Z",
+  "revoked": [],
+  "approvals": [
+    {
+      "component": "yt-dlp",
+      "version": "2026.11.23",
+      "architecture": "windows-x64",
+      "minimum_app": "3.0.0",
+      "maximum_app": "3.0.0",
+      "provenance": "https://github.com/yt-dlp/yt-dlp/releases/tag/2026.11.23",
+      "notices": [
+        "LICENSE",
+        "THIRD_PARTY_LICENSES.txt"
+      ],
+      "assets": [
+        {
+          "kind": "file",
+          "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.11.23/yt-dlp.exe",
+          "size": 23627865,
+          "sha256": "622ed48023cac1daa52a3bf3a6ac38f03514de214b5f0fa069389fd0f6d17e5c",
+          "signer": null,
+          "files": [
+            {
+              "source": "yt-dlp.exe",
+              "target": "yt-dlp.exe",
+              "size": 23627865,
+              "sha256": "622ed48023cac1daa52a3bf3a6ac38f03514de214b5f0fa069389fd0f6d17e5c"
+            }
+          ]
+        },
+        {
+          "kind": "file",
+          "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.11.23/SHA2-256SUMS",
+          "size": 1595,
+          "sha256": "40cbeef6bd7c0377479fe87e41add10488a511a1001519b7d4ba2ff67fba618c",
+          "signer": null,
+          "files": [
+            {
+              "source": "SHA2-256SUMS",
+              "target": "SHA2-256SUMS",
+              "size": 1595,
+              "sha256": "40cbeef6bd7c0377479fe87e41add10488a511a1001519b7d4ba2ff67fba618c"
+            }
+          ]
+        },
+        {
+          "kind": "file",
+          "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/2026.11.23/LICENSE",
+          "size": 1211,
+          "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c",
+          "signer": null,
+          "files": [
+            {
+              "source": "LICENSE",
+              "target": "LICENSE",
+              "size": 1211,
+              "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c"
+            }
+          ]
+        },
+        {
+          "kind": "file",
+          "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/2026.11.23/THIRD_PARTY_LICENSES.txt",
+          "size": 245018,
+          "sha256": "510233b06ab5222b087d3384ac82ee3f369fde9991fb71e08175d88b72383584",
+          "signer": null,
+          "files": [
+            {
+              "source": "THIRD_PARTY_LICENSES.txt",
+              "target": "THIRD_PARTY_LICENSES.txt",
+              "size": 245018,
+              "sha256": "510233b06ab5222b087d3384ac82ee3f369fde9991fb71e08175d88b72383584"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "component": "deno",
+      "version": "2.9.8",
+      "provenance": "https://github.com/denoland/deno/releases/tag/v2.9.8",
+      "notices": [
+        "Licencas/DENO_LICENSE.md",
+        "Licencas/DENO-BASELINE-LICENSES.txt",
+        "Licencas/DENO-2.9.8-DEPENDENCIAS.txt"
+      ],
+      "assets": [
+        {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.8/deno-x86_64-pc-windows-msvc.zip",
+          "kind": "zip",
+          "size": 42917472,
+          "sha256": "cba84b26e0df5ae7f74fc66b86a95b866872a86292ebd84fa1e959927edd93bf",
+          "signer": "bfd8626da705c530808af8e9466ba4270f73f1a6",
+          "files": [
+            {
+              "source": "deno.exe",
+              "target": "deno.exe",
+              "size": 98081568,
+              "sha256": "924397800533d3eb0ed0c889b20ad70e18b970d93acd8135bc043f425e528266"
+            }
+          ]
+        },
+        {
+          "kind": "file",
+          "url": "https://raw.githubusercontent.com/denoland/deno/v2.9.8/LICENSE.md",
+          "size": 1074,
+          "sha256": "f62497fffecc0852960c8d3e6934b9db86d16396e9b604072e923892cae3a588",
+          "signer": null,
+          "files": [
+            {
+              "source": "LICENSE.md",
+              "target": "Licencas/DENO_LICENSE.md",
+              "size": 1074,
+              "sha256": "f62497fffecc0852960c8d3e6934b9db86d16396e9b604072e923892cae3a588"
+            }
+          ]
+        },
+        {
+          "kind": "packaged",
+          "url": "https://github.com/denoland/deno/releases/tag/v2.9.8",
+          "size": 2601696,
+          "sha256": "5dce768cb069d3cf0a73f4f2dc3308fe6b0786fd2a4dff602aca6e36e5532347",
+          "signer": null,
+          "files": [
+            {
+              "source": "installer/component-assets/DENO-BASELINE-LICENSES.txt",
+              "target": "Licencas/DENO-BASELINE-LICENSES.txt",
+              "size": 2601696,
+              "sha256": "5dce768cb069d3cf0a73f4f2dc3308fe6b0786fd2a4dff602aca6e36e5532347"
+            }
+          ]
+        },
+        {
+          "kind": "packaged",
+          "url": "https://github.com/denoland/deno/releases/tag/v2.9.8",
+          "size": 83129,
+          "sha256": "b5f6a1e4841b26a4e3a92a094e6e52f0bc40dfee18d946343b81b8172b69450f",
+          "signer": null,
+          "files": [
+            {
+              "source": "installer/component-assets/DENO-2.9.8-DEPENDENCIAS.txt",
+              "target": "Licencas/DENO-2.9.8-DEPENDENCIAS.txt",
+              "size": 83129,
+              "sha256": "b5f6a1e4841b26a4e3a92a094e6e52f0bc40dfee18d946343b81b8172b69450f"
+            }
+          ]
+        }
+      ],
+      "architecture": "windows-x64",
+      "minimum_app": "3.0.0",
+      "maximum_app": "3.0.0"
+    },
+    {
+      "component": "ffmpeg-ffprobe",
+      "version": "8.1.2",
+      "provenance": "https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2026-08-25-13-06",
+      "notices": [
+        "Licencas/FFMPEG_BTBN_LICENSE.txt",
+        "Licencas/FFMPEG_BTBN_NOTICE.txt"
+      ],
+      "assets": [
+        {
+          "kind": "packaged",
+          "url": "https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2026-08-25-13-06",
+          "size": 113981440,
+          "sha256": "88f0453c46dbf83d3da583a3ececcba6f2b82169c89a9b4254c481267e7135f8",
+          "signer": null,
+          "files": [
+            {
+              "source": "ffmpeg.exe",
+              "target": "ffmpeg.exe",
+              "size": 113981440,
+              "sha256": "88f0453c46dbf83d3da583a3ececcba6f2b82169c89a9b4254c481267e7135f8"
+            }
+          ]
+        },
+        {
+          "kind": "packaged",
+          "url": "https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2026-08-25-13-06",
+          "size": 113775104,
+          "sha256": "07a26215e0c482407412eeba88fd169caa97c8cbcd0c567cf9c6cfba6f2843c7",
+          "signer": null,
+          "files": [
+            {
+              "source": "ffprobe.exe",
+              "target": "ffprobe.exe",
+              "size": 113775104,
+              "sha256": "07a26215e0c482407412eeba88fd169caa97c8cbcd0c567cf9c6cfba6f2843c7"
+            }
+          ]
+        },
+        {
+          "kind": "packaged",
+          "url": "https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2026-08-25-13-06",
+          "size": 7651,
+          "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+          "signer": null,
+          "files": [
+            {
+              "source": "installer/component-assets/FFMPEG_BTBN_LICENSE.txt",
+              "target": "Licencas/FFMPEG_BTBN_LICENSE.txt",
+              "size": 7651,
+              "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+            }
+          ]
+        },
+        {
+          "kind": "packaged",
+          "url": "https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2026-08-25-13-06",
+          "size": 776,
+          "sha256": "b2610f994f7cade5a3e70a9639b424f9f48c030806cadae3e2d684c37035fb56",
+          "signer": null,
+          "files": [
+            {
+              "source": "installer/component-assets/FFMPEG_BTBN_NOTICE.txt",
+              "target": "Licencas/FFMPEG_BTBN_NOTICE.txt",
+              "size": 776,
+              "sha256": "b2610f994f7cade5a3e70a9639b424f9f48c030806cadae3e2d684c37035fb56"
+            }
+          ]
+        }
+      ],
+      "architecture": "windows-x64",
+      "minimum_app": "3.0.0",
+      "maximum_app": "3.0.0"
+    },
+    {
+      "component": "ocr",
+      "version": "5.5.4",
+      "provenance": "https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4",
+      "notices": [
+        "Licenses/COPYING.MinGW-w64-runtime.txt",
+        "Licenses/COPYING.MinGW-w64.txt",
+        "Licenses/COPYING.winpthreads.txt",
+        "Licenses/Leptonica-BSD.txt",
+        "Licenses/LLVM-MinGW-runtime.txt",
+        "Licenses/tessdata-best-LICENSE.txt",
+        "Licenses/tessdata-fast-LICENSE.txt",
+        "Licenses/Tesseract-Apache-2.0.txt"
+      ],
+      "assets": [
+        {
+          "kind": "packaged",
+          "url": "https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4",
+          "size": 300,
+          "sha256": "89efd4aac9fd26a1d0433518b3f610cd89c4d56fcfebdec25d0039071c80c0bb",
+          "signer": null,
+          "files": [
+            {
+              "source": "Componentes/OCR/component.json",
+              "target": "component.json",
+              "size": 300,
+              "sha256": "89efd4aac9fd26a1d0433518b3f610cd89c4d56fcfebdec25d0039071c80c0bb"
+            }
+          ]
+        },
+        {
+          "kind": "packaged",
+          "url": "https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4",
+          "size": 12155,
+          "sha256": "1db8da07b436c68833c0673ffee3d9fcb2526047f3820b81661865dfedc79a1f",
+          "signer": null,
+          "files": [
+            {
+              "source": "Componentes/OCR/Licenses/COPYING.MinGW-w64-runtime.txt",
+              "target": "Licenses/COPYING.MinGW-w64-runtime.txt",
+              "size": 12155,
+              "sha256": "1db8da07b436c68833c0673ffee3d9fcb2526047f3820b81661865dfedc79a1f"
+            }
+          ]
+        },
+        {
+          "kind": "packaged",
+          "url": "https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4",
+          "size": 5905,
+          "sha256": "f38e6194bd3bfa1b654f118e5acefe0aead437bbe669eee43957ccc65a7127f1",
+          "signer": null,
+          "files": [
+            {
+              "source": "Componentes/OCR/Licenses/COPYING.MinGW-w64.txt",
+              "target": "Licenses/COPYING.MinGW-w64.txt",
+              "size": 5905,
+              "sha256": "f38e6194bd3bfa1b654f118e5acefe0aead437bbe669eee43957ccc65a7127f1"
+            }
+          ]
+        },
+        {
+          "kind": "packaged",
+          "url": "https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4",
+          "size": 2883,
+          "sha256": "63263614cdd29f2f93cba85e992f041b31f9fc7b4033692f31269489a8a1b177",
+          "signer": null,
+          "files": [
+            {
+              "source": "Componentes/OCR/Licenses/COPYING.winpthreads.txt",
+              "target": "Licenses/COPYING.winpthreads.txt",
+              "size": 2883,
+              "sha256": "63263614cdd29f2f93cba85e992f041b31f9fc7b4033692f31269489a8a1b177"
+            }
+          ]
+        },
+        {
+          "kind": "packaged",
+          "url": "https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4",
+          "size": 1521,
+          "sha256": "87829abb5bbb00b55a107365da89e9a33f86c4250169e5a1e5588505be7d5806",
+          "signer": null,
+          "files": [
+            {
+              "source": "Componentes/OCR/Licenses/Leptonica-BSD.txt",
+              "target": "Licenses/Leptonica-BSD.txt",
+              "size": 1521,
+              "sha256": "87829abb5bbb00b55a107365da89e9a33f86c4250169e5a1e5588505be7d5806"
+            }
+          ]
+        },
+        {
+          "kind": "packaged",
+          "url": "https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4",
+          "size": 15141,
+          "sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee",
+          "signer": null,
+          "files": [
+            {
+              "source": "Componentes/OCR/Licenses/LLVM-MinGW-runtime.txt",
+              "target": "Licenses/LLVM-MinGW-runtime.txt",
+              "size": 15141,
+              "sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee"
+            }
+          ]
+        },
+        {
+          "kind": "file",
+          "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_best/e12c65a915945e4c28e237a9b52bc4a8f39a0cec/LICENSE",
+          "size": 10173,
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+          "signer": null,
+          "files": [
+            {
+              "source": "tessdata-best-LICENSE.txt",
+              "target": "Licenses/tessdata-best-LICENSE.txt",
+              "size": 10173,
+              "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+            }
+          ]
+        },
+        {
+          "kind": "file",
+          "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/87416418657359cb625c412a48b6e1d6d41c29bd/LICENSE",
+          "size": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "signer": null,
+          "files": [
+            {
+              "source": "tessdata-fast-LICENSE.txt",
+              "target": "Licenses/tessdata-fast-LICENSE.txt",
+              "size": 11358,
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+            }
+          ]
+        },
+        {
+          "kind": "packaged",
+          "url": "https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4",
+          "size": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "signer": null,
+          "files": [
+            {
+              "source": "Componentes/OCR/Licenses/Tesseract-Apache-2.0.txt",
+              "target": "Licenses/Tesseract-Apache-2.0.txt",
+              "size": 11358,
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+            }
+          ]
+        },
+        {
+          "kind": "file",
+          "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_best/e12c65a915945e4c28e237a9b52bc4a8f39a0cec/por.traineddata",
+          "size": 8159939,
+          "sha256": "711de9dbb8052067bd42f16b9119967f30bada80d57e2ef24f65d09f531adb04",
+          "signer": null,
+          "files": [
+            {
+              "source": "por.traineddata",
+              "target": "tessdata_best/por.traineddata",
+              "size": 8159939,
+              "sha256": "711de9dbb8052067bd42f16b9119967f30bada80d57e2ef24f65d09f531adb04"
+            }
+          ]
+        },
+        {
+          "kind": "file",
+          "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/87416418657359cb625c412a48b6e1d6d41c29bd/osd.traineddata",
+          "size": 10562727,
+          "sha256": "9cf5d576fcc47564f11265841e5ca839001e7e6f38ff7f7aacf46d15a96b00ff",
+          "signer": null,
+          "files": [
+            {
+              "source": "osd.traineddata",
+              "target": "tessdata_fast/osd.traineddata",
+              "size": 10562727,
+              "sha256": "9cf5d576fcc47564f11265841e5ca839001e7e6f38ff7f7aacf46d15a96b00ff"
+            }
+          ]
+        },
+        {
+          "kind": "file",
+          "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/87416418657359cb625c412a48b6e1d6d41c29bd/por.traineddata",
+          "size": 1982756,
+          "sha256": "c4932b937207a9514b7514d518b931a99938c02a28a5a5a553f8599ed58b7deb",
+          "signer": null,
+          "files": [
+            {
+              "source": "por.traineddata",
+              "target": "tessdata_fast/por.traineddata",
+              "size": 1982756,
+              "sha256": "c4932b937207a9514b7514d518b931a99938c02a28a5a5a553f8599ed58b7deb"
+            }
+          ]
+        },
+        {
+          "kind": "packaged",
+          "url": "https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4",
+          "size": 5909504,
+          "sha256": "95b889b9e5000d6f362348508b961a9be282c7f2facaf280b6ff8c9826188572",
+          "signer": null,
+          "files": [
+            {
+              "source": "Componentes/OCR/tesseract.exe",
+              "target": "tesseract.exe",
+              "size": 5909504,
+              "sha256": "95b889b9e5000d6f362348508b961a9be282c7f2facaf280b6ff8c9826188572"
+            }
+          ]
+        }
+      ],
+      "architecture": "windows-x64",
+      "minimum_app": "3.0.0",
+      "maximum_app": "3.0.0"
+    },
+    {
+      "component": "libreoffice",
+      "version": "26.8.3.1",
+      "provenance": "https://download.documentfoundation.org/libreoffice/stable/26.8.3/",
+      "notices": [
+        "LICENSE.html",
+        "NOTICE"
+      ],
+      "assets": [
+        {
+          "url": "https://tdf.c3sl.ufpr.br/libreoffice/stable/26.8.3/win/x86_64/LibreOffice_26.8.3_Win_x86-64.msi",
+          "kind": "msi",
+          "size": 376311808,
+          "sha256": "0e6918c273eabbdbbd800ee0dacbbf130a14c13c2e4cec861b06dd59e015bf94",
+          "signer": "6b5da216489de6c1d7db498ed672b7ed0f599513",
+          "files": []
+        }
+      ],
+      "architecture": "windows-x64",
+      "minimum_app": "3.0.0",
+      "maximum_app": "3.0.0"
+    }
+  ]
+}

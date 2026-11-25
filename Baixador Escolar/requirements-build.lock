@@ -1,0 +1,20 @@
+# Lock humano/canônico do ambiente validado no Windows/Python 3.14.6.
+# As versões são exatas. A identidade binária correspondente está fixada em
+# requirements-build-hashes.lock e PYTHON_WHEEL_PROVENANCE.json.
+altgraph==0.17.5
+cffi==2.1.1
+cryptography==49.0.0
+customtkinter==5.2.2
+darkdetect==0.8.0
+packaging==26.3
+pefile==2024.8.26
+pillow==13.0.0
+pip==26.1.2
+pycparser==3.0
+pyinstaller==6.21.0
+pyinstaller-hooks-contrib==2026.6
+pypdf==7.1.1
+pypdfium2==5.12.1
+pywin32-ctypes==0.2.3
+ruff==0.15.21
+setuptools==84.0.0

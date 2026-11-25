@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "description": "Community 2.5.0 Windows x64, pinned Tesseract 5.5.4 and preserved models and notices",
+  "source_manifest_sha256": "6f1a9e5ef08d67bca7a1a55820c5234b02a92b0debfd5fb0571c9e38cf1155bd",
+  "files": {
+    "component.json": {
+      "sha256": "89efd4aac9fd26a1d0433518b3f610cd89c4d56fcfebdec25d0039071c80c0bb",
+      "bytes": 300
+    },
+    "Licenses/COPYING.MinGW-w64-runtime.txt": {
+      "sha256": "1db8da07b436c68833c0673ffee3d9fcb2526047f3820b81661865dfedc79a1f",
+      "bytes": 12155
+    },
+    "Licenses/COPYING.MinGW-w64.txt": {
+      "sha256": "f38e6194bd3bfa1b654f118e5acefe0aead437bbe669eee43957ccc65a7127f1",
+      "bytes": 5905
+    },
+    "Licenses/COPYING.winpthreads.txt": {
+      "sha256": "63263614cdd29f2f93cba85e992f041b31f9fc7b4033692f31269489a8a1b177",
+      "bytes": 2883
+    },
+    "Licenses/Leptonica-BSD.txt": {
+      "sha256": "87829abb5bbb00b55a107365da89e9a33f86c4250169e5a1e5588505be7d5806",
+      "bytes": 1521
+    },
+    "Licenses/LLVM-MinGW-runtime.txt": {
+      "sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee",
+      "bytes": 15141
+    },
+    "Licenses/tessdata-best-LICENSE.txt": {
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "bytes": 10173
+    },
+    "Licenses/tessdata-fast-LICENSE.txt": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    "Licenses/Tesseract-Apache-2.0.txt": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    "tessdata_best/por.traineddata": {
+      "sha256": "711de9dbb8052067bd42f16b9119967f30bada80d57e2ef24f65d09f531adb04",
+      "bytes": 8159939
+    },
+    "tessdata_fast/osd.traineddata": {
+      "sha256": "9cf5d576fcc47564f11265841e5ca839001e7e6f38ff7f7aacf46d15a96b00ff",
+      "bytes": 10562727
+    },
+    "tessdata_fast/por.traineddata": {
+      "sha256": "c4932b937207a9514b7514d518b931a99938c02a28a5a5a553f8599ed58b7deb",
+      "bytes": 1982756
+    },
+    "tesseract.exe": {
+      "sha256": "95b889b9e5000d6f362348508b961a9be282c7f2facaf280b6ff8c9826188572",
+      "bytes": 5909504
+    }
+  }
+}

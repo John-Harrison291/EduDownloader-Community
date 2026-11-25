@@ -1,0 +1,60 @@
+{
+  "acquisition": {
+    "acquired_at": "2026-09-10",
+    "method": "GITHUB_RAW_EXACT_COMMIT",
+    "scope": "FOUR_SMALL_OFFICIAL_TEXT_FILES_ONLY"
+  },
+  "classification": "SPDX_CANONICAL_REFERENCE_TEXT",
+  "policy": "ADOPT_CANONICAL_REFERENCE_POLICY_FOR_P3_REVIEW",
+  "references": [
+    {
+      "classification": "SPDX_CANONICAL_REFERENCE_TEXT",
+      "identifier": "Apache-2.0",
+      "name": "Apache License 2.0",
+      "path": "docs/compliance/licenses/spdx-reference/text/Apache-2.0.txt",
+      "sha256": "074E6E32C86A4C0EF8B3ED25B721CA23ACA83DF277CD88106EF7177C354615FF",
+      "size": 10280,
+      "source_path": "text/Apache-2.0.txt",
+      "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/c4a7237ec8f4654e867546f9f409749300f1bf4c/text/Apache-2.0.txt"
+    },
+    {
+      "classification": "SPDX_CANONICAL_REFERENCE_TEXT",
+      "identifier": "CC0-1.0",
+      "name": "Creative Commons Zero v1.0 Universal",
+      "path": "docs/compliance/licenses/spdx-reference/text/CC0-1.0.txt",
+      "sha256": "A2010F343487D3F7618AFFE54F789F5487602331C0A8D03F49E9A7C547CF0499",
+      "size": 7048,
+      "source_path": "text/CC0-1.0.txt",
+      "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/c4a7237ec8f4654e867546f9f409749300f1bf4c/text/CC0-1.0.txt"
+    },
+    {
+      "classification": "SPDX_CANONICAL_REFERENCE_TEXT",
+      "identifier": "MIT",
+      "name": "MIT License",
+      "path": "docs/compliance/licenses/spdx-reference/text/MIT.txt",
+      "sha256": "B05785F9F18E6716BAB63424B11454513B9943A222595B70411009202FC592B5",
+      "size": 1078,
+      "source_path": "text/MIT.txt",
+      "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/c4a7237ec8f4654e867546f9f409749300f1bf4c/text/MIT.txt"
+    },
+    {
+      "classification": "SPDX_CANONICAL_REFERENCE_TEXT",
+      "identifier": "Zlib",
+      "name": "zlib License",
+      "path": "docs/compliance/licenses/spdx-reference/text/Zlib.txt",
+      "sha256": "BFB1112D49DB5B1DAECDFEF24BD7E2F3EA0BAFB33AA67AA0AB51E2BF8407C03D",
+      "size": 838,
+      "source_path": "text/Zlib.txt",
+      "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/c4a7237ec8f4654e867546f9f409749300f1bf4c/text/Zlib.txt"
+    }
+  ],
+  "schema": 1,
+  "snapshot": {
+    "commit": "c4a7237ec8f4654e867546f9f409749300f1bf4c",
+    "repository": "https://github.com/spdx/license-list-data",
+    "tag": "v3.28.0",
+    "tag_object": "779ef2e5dff6d4af389c53de5e97116ab0bb52e8",
+    "version": "3.28.0"
+  },
+  "title": "EduDownloader pinned SPDX canonical license references"
+}

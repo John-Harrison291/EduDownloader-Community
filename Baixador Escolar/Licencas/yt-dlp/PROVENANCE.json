@@ -1,0 +1,37 @@
+{
+  "archive_type": "PyInstaller one-file / CArchive + PYZ",
+  "channel": "stable",
+  "component": "yt-dlp",
+  "embedded_python": "3.10.11",
+  "executable_filename": "yt-dlp.exe",
+  "executable_sha256": "66674953FE251B89F4D08C5F0E35E0728679BD67AB3D7D05C0562AF101DD3E7A",
+  "executable_size": 17840399,
+  "executable_variant": "win_exe",
+  "official_documents": {
+    "GPL-3.0.txt": {
+      "origin": "GPLv3 integral preservada da seção correspondente do THIRD_PARTY_LICENSES.txt oficial da tag 2026.08.19",
+      "sha256": "27116FDF9E6118487959D5A9C5D7BFAB12E9AB131C235B2EF97469A5DC6C86A5"
+    },
+    "SHA2-256SUMS": {
+      "origin": "release oficial yt-dlp 2026.08.19",
+      "sha256": "A63701F30755CB4D9317950D69703E9D751D490CB1B7059E1BB501A353FE7DCB"
+    },
+    "THIRD_PARTY_LICENSES.txt": {
+      "origin": "tag oficial yt-dlp 2026.08.19",
+      "sha256": "472AEFE951C7DB35E1657C1D13FD337140511ED6F2B329205105AD441C5A02B7"
+    },
+    "YT-DLP-UNLICENSE.txt": {
+      "origin": "LICENSE da tag oficial yt-dlp 2026.08.19",
+      "sha256": "7E12E5DF4BAE12CB21581BA157CED20E1986A0508DD10D0E8A4AB9A4CF94E85C"
+    }
+  },
+  "release_commit": "3a08beaf031ab68f966401ead017ac81fe8486cf",
+  "release_tag": "2026.08.19",
+  "source_commit": "594bd50c2c78ac432f81600d309fdc4e0a92d82c",
+  "source_compliance_status": "staging-validated-technically-complete",
+  "source_provenance_manifest": {
+    "filename": "SOURCE_PROVENANCE.json",
+    "sha256": "A7C6B6454CBDCE0A72C54AA83E3D8C056310B90EF6A898523E91E459EB5742FD"
+  },
+  "version": "2026.08.19"
+}

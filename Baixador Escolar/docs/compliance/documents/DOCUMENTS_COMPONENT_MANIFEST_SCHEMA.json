@@ -1,0 +1,266 @@
+{
+  "$defs": {
+    "relative_path": {
+      "minLength": 1,
+      "pattern": "^(?![A-Za-z]:)(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))(?!.*//)(?!.*\\\\).+$",
+      "type": "string"
+    },
+    "sha256": {
+      "pattern": "^[A-F0-9]{64}$",
+      "type": "string"
+    }
+  },
+  "$id": "https://edudownloader.invalid/schemas/documents-component-manifest-v1.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "architecture": {
+      "const": "x86_64"
+    },
+    "build_provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "binary_authority": {
+          "format": "uri",
+          "type": "string"
+        },
+        "installer_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "installer_size_bytes": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "source_authority": {
+          "format": "uri",
+          "type": "string"
+        },
+        "source_correspondence_status": {
+          "enum": [
+            "COMPLETE",
+            "INCOMPLETE"
+          ]
+        }
+      },
+      "required": [
+        "binary_authority",
+        "installer_sha256",
+        "installer_size_bytes",
+        "source_authority",
+        "source_correspondence_status"
+      ],
+      "type": "object"
+    },
+    "compatibility": {
+      "additionalProperties": false,
+      "properties": {
+        "edudownloader_minimum_version": {
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+          "type": "string"
+        },
+        "manifest_schema_version": {
+          "const": 1
+        },
+        "windows": {
+          "const": "10-or-newer-x64-intended"
+        }
+      },
+      "required": [
+        "edudownloader_minimum_version",
+        "manifest_schema_version",
+        "windows"
+      ],
+      "type": "object"
+    },
+    "component_id": {
+      "const": "edudownloader.documents.libreoffice"
+    },
+    "component_version": {
+      "pattern": "^documents-component-[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "type": "string"
+    },
+    "display_name": {
+      "const": "EduDownloader Documents Component"
+    },
+    "engine_name": {
+      "const": "LibreOffice Portable MultilingualStandard"
+    },
+    "engine_version": {
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "type": "string"
+    },
+    "expected_licenses_and_notices": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "$ref": "#/$defs/relative_path"
+          },
+          "sha256": {
+            "$ref": "#/$defs/sha256"
+          }
+        },
+        "required": [
+          "path",
+          "sha256"
+        ],
+        "type": "object"
+      },
+      "minItems": 5,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "inventory": {
+      "additionalProperties": false,
+      "properties": {
+        "file_count": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "inventory_file": {
+          "$ref": "#/$defs/relative_path"
+        },
+        "inventory_file_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "inventory_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "total_size_bytes": {
+          "minimum": 1,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "file_count",
+        "inventory_file",
+        "inventory_file_sha256",
+        "inventory_sha256",
+        "total_size_bytes"
+      ],
+      "type": "object"
+    },
+    "paths": {
+      "additionalProperties": false,
+      "properties": {
+        "engine_root": {
+          "$ref": "#/$defs/relative_path"
+        },
+        "launcher": {
+          "$ref": "#/$defs/relative_path"
+        },
+        "python_home": {
+          "$ref": "#/$defs/relative_path"
+        },
+        "python_runtime": {
+          "$ref": "#/$defs/relative_path"
+        },
+        "soffice_bin": {
+          "$ref": "#/$defs/relative_path"
+        },
+        "soffice_entrypoint": {
+          "$ref": "#/$defs/relative_path"
+        }
+      },
+      "required": [
+        "engine_root",
+        "launcher",
+        "python_home",
+        "python_runtime",
+        "soffice_bin",
+        "soffice_entrypoint"
+      ],
+      "type": "object"
+    },
+    "platform": {
+      "const": "windows"
+    },
+    "runtime_policy": {
+      "additionalProperties": false,
+      "properties": {
+        "block_untrusted_referer_links": {
+          "const": true
+        },
+        "disable_active_content": {
+          "const": true
+        },
+        "disable_macros_execution": {
+          "const": true
+        },
+        "engine_tree": {
+          "const": "READ_ONLY_EXPECTED"
+        },
+        "external_resources": {
+          "const": "BLOCK_UNTRUSTED"
+        },
+        "macro_security_level": {
+          "const": 3
+        },
+        "macros": {
+          "const": "DISABLED"
+        },
+        "process_control": {
+          "const": "WINDOWS_JOB_OBJECT_PER_OPERATION"
+        },
+        "profile": {
+          "const": "ISOLATED_PER_OPERATION"
+        },
+        "python_write_bytecode": {
+          "const": false
+        },
+        "trusted_user_state": {
+          "const": "NOT_INHERITED"
+        },
+        "writable_roots": {
+          "items": {
+            "enum": [
+              "profile",
+              "temp",
+              "output"
+            ]
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "type": "array",
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "block_untrusted_referer_links",
+        "disable_active_content",
+        "disable_macros_execution",
+        "engine_tree",
+        "external_resources",
+        "macro_security_level",
+        "macros",
+        "process_control",
+        "profile",
+        "python_write_bytecode",
+        "trusted_user_state",
+        "writable_roots"
+      ],
+      "type": "object"
+    },
+    "schema_version": {
+      "const": 1
+    }
+  },
+  "required": [
+    "architecture",
+    "build_provenance",
+    "compatibility",
+    "component_id",
+    "component_version",
+    "display_name",
+    "engine_name",
+    "engine_version",
+    "expected_licenses_and_notices",
+    "inventory",
+    "paths",
+    "platform",
+    "runtime_policy",
+    "schema_version"
+  ],
+  "title": "EduDownloader Documents Component manifest",
+  "type": "object"
+}

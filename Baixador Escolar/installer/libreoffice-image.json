@@ -1,0 +1,11 @@
+{
+  "engine_version": "26.8.3.1",
+  "source_msi_sha256": "0e6918c273eabbdbbd800ee0dacbbf130a14c13c2e4cec861b06dd59e015bf94",
+  "catalog_sha256_lf": "8ba11eee24fbdb510fd00e915ce9abb26f2d8a676655d73e9d30b8dec1a454ae",
+  "catalog_removed_files": 3872,
+  "catalog_removed_bytes": 271381835,
+  "administrative_image_bytes": 1603968965,
+  "administrative_msi_copy_bytes": 19836928,
+  "installed_bytes": 1312750202,
+  "installed_files": 15551
+}

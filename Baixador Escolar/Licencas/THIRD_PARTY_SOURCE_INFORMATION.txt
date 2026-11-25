@@ -1,0 +1,60 @@
+INFORMAÇÃO DE FONTE DE TERCEIROS — EDUDOWNLOADER 2.0.0
+
+Os três bundles abaixo correspondem aos componentes distribuídos na versão
+2.0.0 e devem acompanhar o pacote binário, como arquivos separados.
+Na Community, procure os nomes exatos nos assets da mesma Release.
+Na Commercial, os mesmos materiais devem acompanhar a entrega privada.
+Confira os SHA-256 antes de usar. Se algum bundle não estiver acessível,
+a entrega de fontes está incompleta. Esta nota não autoriza publicação.
+
+PACOTES BINÁRIOS CORRESPONDENTES
+EduDownloader-2.0.0-Community.zip
+EduDownloader-2.0.0-Commercial.zip
+
+YT-DLP
+Versão: 2026.08.19, win_exe
+yt-dlp.exe SHA-256: 66674953FE251B89F4D08C5F0E35E0728679BD67AB3D7D05C0562AF101DD3E7A
+Licença: executável combinado GPLv3+; código principal The Unlicense;
+demais termos em yt-dlp/THIRD_PARTY_LICENSES.txt.
+Asset de fonte previsto: EduDownloader-ThirdParty-Source-yt-dlp-2026.08.19.zip
+Tamanho: 155871040 bytes
+SHA-256: 38898AD6003147EF3EEC3BD4EA035F379549B17F2FF05262A9B983F2BFEAC3FC
+Inventário SHA-256: 2F73720444FA6659A79393DCA0E97AFF4DC3304D34197A44D49711465EDC5700
+Correspondência: SOURCE_PROVENANCE.json e inventário dentro do asset;
+Licencas/yt-dlp/SOURCE_CORRESPONDENCE.md é evidência técnica do projeto.
+
+DENO
+Versão: 2.9.5, x86_64-pc-windows-msvc
+deno.exe SHA-256: 98F8C2A2D470E4CCB04C935C86FF8050817D877762AEC5EAEEB9E409CCB3B9FD
+Licenças: DENO_LICENSE.txt e deno/DENO_THIRD_PARTY_NOTICES.txt; componentes
+MPL-2.0 identificados no inventário de fonte. Textos upstream ausentes ou
+parciais continuam distintos das referências canônicas SPDX.
+Asset de fonte previsto: EduDownloader-ThirdParty-Source-Deno-2.9.5-COMPLETE.zip
+Tamanho: 268052753 bytes
+SHA-256: C0A2B121B96AF8E52DE6A01E31DBD5711948F19B3550E57DB4C27A5F558A54C8
+Inventário SHA-256: 631B9722D989E073651B928AC79F42B02F4330941D3BBC668FEE8BD19F43ED6F
+Correspondência: BUNDLE_MANIFEST.json e SOURCE-BUNDLE-INVENTORY.json no asset;
+o relatório DENO_RUNTIME_SOURCE_CORRESPONDENCE.md é evidência do projeto.
+O bundle preserva a fonte identificada; não alega reconstrução bit a bit.
+
+FFMPEG / FFPROBE
+
+Componente: FFmpeg / FFprobe
+Distribuidor/build: BtbN/FFmpeg-Builds, autobuild-2026-08-25-13-06
+Versão: n8.1.2-44-g7c533d0f86-20260825, win64-lgpl-8.1 static x64
+Licença declarada: LGPL-3.0-or-later
+Commit FFmpeg: 7c533d0f86f13a06ec93968f6194349665b3536a
+
+ffmpeg.exe SHA-256: 88F0453C46DBF83D3DA583A3ECECCBA6F2B82169C89A9B4254C481267E7135F8
+ffprobe.exe SHA-256: 07A26215E0C482407412EEBA88FD169CAA97C8CBCD0C567CF9C6CFBA6F2843C7
+
+Asset de fonte previsto:
+EduDownloader-ThirdParty-Source-FFmpeg-BtbN-autobuild-2026-08-25-13-06-COMPLETE-CANDIDATE.zip
+Tamanho do bundle: 646861654 bytes
+SHA-256 do bundle: DD7DBBE3BACA3B164D73CC6C09C2200967C77E7FA25FCBAA88A1E67EAF58870E
+SHA-256 do inventário interno: 7BD8141C14BBF777F97C3B6E219BA438045B7F8988DCCE0306316634B9C99D1E
+
+O bundle de fonte correspondente está preservado e verificado localmente, fora
+do aplicativo. Deve acompanhar o binário com o mesmo nome/hash indicado acima,
+como asset da Release Community ou material da entrega privada Commercial.
+Esta nota não afirma que o asset já foi publicado nem fornece URL fictícia.

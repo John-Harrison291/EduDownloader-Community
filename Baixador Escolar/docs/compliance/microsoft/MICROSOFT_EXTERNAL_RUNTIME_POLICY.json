@@ -1,0 +1,22 @@
+{
+  "baseline": {
+    "architecture": "x64",
+    "supported_windows": "WINDOWS_10_OR_NEWER_X64"
+  },
+  "distribution_model": "EXTERNAL_PREREQUISITE",
+  "policies": {
+    "api_set": "SYSTEM_RUNTIME_NOT_TO_BE_BUNDLED",
+    "direct_vc_runtime": "FORBIDDEN_IN_CLIENT_PACKAGE",
+    "ucrt": "SYSTEM_RUNTIME_NOT_TO_BE_BUNDLED",
+    "upstream_embedded_material": "SEPARATE_RECORDED_RISK"
+  },
+  "runtime_files": [],
+  "schema_version": 1,
+  "status": {
+    "p3_direct_runtime": "CLOSED_BY_EXTERNAL_PREREQUISITE",
+    "p3_transitive_runtime": "COMMUNITY_1_4_RECORDED_RISK"
+  },
+  "vc_runtime_authority": {
+    "source": "WINDOWS_INSTALLED_PREREQUISITE"
+  }
+}

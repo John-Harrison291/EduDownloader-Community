@@ -1,0 +1,565 @@
+{
+  "baseline": {
+    "app_version": "0.9.5",
+    "historical_candidate_inventory_sha256": "26B6CCDAA3332D46DAF30DCEE44100EADFA53971C990F995A418A0A65B073857",
+    "product_edition": "community",
+    "r2_candidate_inventory_sha256": "2977A447168A9E82B97A1691648DBB3DBEE434002BEDDFE3C86609FAFE755AF3"
+  },
+  "delivery_artifacts": [
+    {
+      "path": "CPYTHON_RUNTIME_NOTICES.txt",
+      "sha256": "8C6E1FC9443C0E97E0D157332253DA8B6658CF0220889BB7F2898685FEC63667",
+      "size_bytes": 135361
+    },
+    {
+      "path": "CRYPTOGRAPHY_CFFI_THIRD_PARTY_NOTICES.txt",
+      "sha256": "0283B72DB405ED80DB9E8AC0000EA1C2C59B03DEDF020AD798BB616B66AA9E83",
+      "size_bytes": 200583
+    },
+    {
+      "path": "CUSTOMTKINTER_LICENSE.txt",
+      "sha256": "4C58162E0686C537AFBB0A40577B5F96467EEBE518F03FC2152707DA2FBE4F7A",
+      "size_bytes": 1092
+    },
+    {
+      "path": "CUSTOMTKINTER_THIRD_PARTY_NOTICES.txt",
+      "sha256": "1992C214E2B525B07D9983A0261D2D80E38A6383AC45862CB441E01C78C77E8D",
+      "size_bytes": 15869
+    },
+    {
+      "path": "DARKDETECT_LICENSE.txt",
+      "sha256": "8502C4EEBBC5C754550D9C6CE5EB020EA3C1D96283CB05073959AABBCEB10CA6",
+      "size_bytes": 1519
+    },
+    {
+      "path": "deno/DENO_THIRD_PARTY_NOTICES.txt",
+      "sha256": "C9A0A855D64FDC384F667BEF0E52D0F4E7B1FEF410B1641A1074393AC5B49801",
+      "size_bytes": 2602274
+    },
+    {
+      "path": "DENO_LICENSE.txt",
+      "sha256": "618D2EC42931B0C65673BBD17EF1CEB62643E02627CDE70D16999F6E185F4717",
+      "size_bytes": 1074
+    },
+    {
+      "path": "FFMPEG_BTBN_LICENSE.txt",
+      "sha256": "DA7EABB7BAFDF7D3AE5E9F223AA5BDC1EECE45AC569DC21B3B037520B4464768",
+      "size_bytes": 7651
+    },
+    {
+      "path": "FFMPEG_BTBN_NOTICE.txt",
+      "sha256": "B2610F994F7CADE5A3E70A9639B424F9F48C030806CADAE3E2D684C37035FB56",
+      "size_bytes": 776
+    },
+    {
+      "path": "MICROSOFT_RUNTIME_NOTICE.txt",
+      "sha256": "CA6BDF6397D6E4D5BD0AAF556516818701027F31DE96F062D12193436FA96C9D",
+      "size_bytes": 851
+    },
+    {
+      "path": "PACKAGING_LICENSES.txt",
+      "sha256": "84E7806D22CDB567CEFF015AA7B394138D070785ACA084E9F130B707E804A9DE",
+      "size_bytes": 12536
+    },
+    {
+      "path": "PILLOW_COMPOSITION.md",
+      "sha256": "7A5F759D1C80D355D67B1E48D836E2EB0880FC42CAB084418F225FA5DB5E470D",
+      "size_bytes": 2049
+    },
+    {
+      "path": "PILLOW_LICENSE.txt",
+      "sha256": "988FFE8AB3480B0F4E9A0AB2702BFFD73D9FB6B47198043FB3BA101A62FAC236",
+      "size_bytes": 78481
+    },
+    {
+      "path": "PILLOW_SBOM.cdx.json",
+      "sha256": "FE1CA6E3A4F73E7018A3805A75A19377453F342D203712F37387AD6EE853FD44",
+      "size_bytes": 21892
+    },
+    {
+      "path": "pyinstaller-hooks-contrib/LICENSE",
+      "sha256": "91D0BAAFF00773038E72C0A1FC9D5D2D38706B7A2B9C04F34296608F931B9CD0",
+      "size_bytes": 27666
+    },
+    {
+      "path": "PyInstaller/COPYING.txt",
+      "sha256": "DCF75FDB959DB1E3B41C0F8505069D2ECE781B5EC6B3D0A4D30975CFC6580245",
+      "size_bytes": 32138
+    },
+    {
+      "path": "PyInstaller/ZLIB_LICENSE.txt",
+      "sha256": "E32FF4E00D9D94930537635291DA39E7E612703334BF6FDE8C7F1686FE8A45A2",
+      "size_bytes": 1002
+    },
+    {
+      "path": "PYPDF_LICENSE.txt",
+      "sha256": "EE45A66599B97828618617BAE8048513669FB57ECC0A3FF90465AF14185AA514",
+      "size_bytes": 1643
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/abseil.txt",
+      "sha256": "F54FFF0B905DF5B3464527C652A30E903B172D6DCAB4D89B5E6F105D5E4A4603",
+      "size_bytes": 11564
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/agg23.txt",
+      "sha256": "C110D3EA2AD77467CE0DCFF7D3337E6C8BE8049A5103F4B9BD5FD911A77972E5",
+      "size_bytes": 725
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/fast_float.txt",
+      "sha256": "BF1B57355FECA8FCE77EE95F48002F8D4789FB71B30EC7599C06CDA4901FBB2B",
+      "size_bytes": 1106
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/freetype.txt",
+      "sha256": "F4B133E25DF1F86AD3FFEA453AA0E613F0474F34778DBBB3E437E7B2724937D8",
+      "size_bytes": 6741
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/icu.txt",
+      "sha256": "93679F4389D53B6835D89843F251844FB9BC455B35BAB036D3C8E7ABE497A47A",
+      "size_bytes": 28286
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/lcms.txt",
+      "sha256": "7312B68C5B25E9BF2B828706FB4E29588F22705112F411FD42E1F7D84C3D139A",
+      "size_bytes": 1353
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/libjpeg_turbo.ijg",
+      "sha256": "DB16A04128171879C60708D171B88D97345A2DD20F9BFC173680A4497C73F704",
+      "size_bytes": 13059
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/libjpeg_turbo.md",
+      "sha256": "BE2B2B5AB168BCE87BC3E31F2A5C5ADBA4B7F6E9E51D618E958D1D46972EBD95",
+      "size_bytes": 5755
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/libopenjpeg.txt",
+      "sha256": "C5AB0890A737C2DFA7BA675036554F6D17741D98629B0C2A145354D00617E6B2",
+      "size_bytes": 1794
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/libpng.txt",
+      "sha256": "452390433BA0F88AA3E2B122C647741B72A0C117CD6ED7A329B49785AECB5511",
+      "size_bytes": 5479
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/libtiff.txt",
+      "sha256": "92B72BA97E6C2749C2A94BC0EF646B47080217F1E772A482B33CF5A5F98A6506",
+      "size_bytes": 1139
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/llvm-libc.txt",
+      "sha256": "3B6226C32E168C83B891D8D6F0D3C29C2116DC3EF93DC93C307B54F279ECF383",
+      "size_bytes": 15418
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/pdfium-binaries.txt",
+      "sha256": "8854F4388F1CA13B3AD9BAA42E95F5546B4C0B17109C159256D3ECA7BE39B09B",
+      "size_bytes": 1184
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/pdfium.txt",
+      "sha256": "961EACD9633FFF6D051DB7208B755E9210E30EFAC7ADEC3E6A6D52798F0CCF0E",
+      "size_bytes": 12818
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/simdutf.txt",
+      "sha256": "C172A0BA936FF31230FEBB5DAD869E25CB7C1A07480C7A381BE8CF011BB52719",
+      "size_bytes": 1077
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/zlib.txt",
+      "sha256": "33FD641C9F3B0E0BE64BC78FEA9E94807674CDD70C48477599226CB8956565FE",
+      "size_bytes": 1332
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/LICENSES/Apache-2.0.txt",
+      "sha256": "3DDF9BE5C28FE27DAD143A5DC76EEA25222AD1DD68934A047064E56ED2FA40C5",
+      "size_bytes": 11560
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/LICENSES/BSD-3-Clause.txt",
+      "sha256": "AD9A9E823DF025F42389C1812EAE28019F657D1ED7B3A4EBFD5010B0736A0DA4",
+      "size_bytes": 1485
+    },
+    {
+      "path": "PYPDFIUM2_LICENSES/LICENSES/CC-BY-4.0.txt",
+      "sha256": "F1B1748301CD4274F46733C218D510929661B4990855DE5FC645DACD69C4371C",
+      "size_bytes": 14844
+    },
+    {
+      "path": "TCL_LICENSES.txt",
+      "sha256": "1F87457340BE467F3DC4DD05E0D53B56080DE1ABCB9306E5BDC9DCABEF636D61",
+      "size_bytes": 5261
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "sha256": "61ACE3D385E4E868CF259FBBAB17AC85F17BEE98F5F50B4E76B49DC649DD203D",
+      "size_bytes": 2585
+    },
+    {
+      "path": "THIRD_PARTY_SOURCE_INFORMATION.txt",
+      "sha256": "AE28F8FD13F345560F5BFC13970A7B68B5771F642D92FC84C892F318B6847F26",
+      "size_bytes": 3199
+    },
+    {
+      "path": "TK_LICENSE.txt",
+      "sha256": "FFD84090E337EEB0EA65449C4D569EAE07220BFB643810342D7BCCD31B78A24B",
+      "size_bytes": 2646
+    },
+    {
+      "path": "yt-dlp/GPL-3.0.txt",
+      "sha256": "27116FDF9E6118487959D5A9C5D7BFAB12E9AB131C235B2EF97469A5DC6C86A5",
+      "size_bytes": 35150
+    },
+    {
+      "path": "yt-dlp/RUNTIME_SOURCE_NOTICES.md",
+      "sha256": "1A656FBC00F2B3AEE893CD930F7C0DE53662AA3ED172B148C7AC9FD70BF3F992",
+      "size_bytes": 3397
+    },
+    {
+      "path": "yt-dlp/THIRD_PARTY_LICENSES.txt",
+      "sha256": "472AEFE951C7DB35E1657C1D13FD337140511ED6F2B329205105AD441C5A02B7",
+      "size_bytes": 243550
+    },
+    {
+      "path": "yt-dlp/YT-DLP-UNLICENSE.txt",
+      "sha256": "7E12E5DF4BAE12CB21581BA157CED20E1986A0508DD10D0E8A4AB9A4CF94E85C",
+      "size_bytes": 1211
+    }
+  ],
+  "delivery_tree_sha256": "FD0ECCB3DEF6BBBABB5CFCD5BE21930CB870C9DAC09E7796C179320A3A0955EC",
+  "families": [
+    {
+      "component": "Microsoft Visual C++ Runtime",
+      "delivery_artifacts": [
+        "MICROSOFT_RUNTIME_NOTICE.txt"
+      ],
+      "delivery_status": "PREREQUISITE_INSTRUCTIONS",
+      "distributed_material": [],
+      "license_identity": "External system prerequisite; Microsoft terms apply to the user's installation",
+      "notice_identity": "DIRECT_DLLS_NOT_DISTRIBUTED_TRANSITIVE_RISK_RECORDED",
+      "review_status": "DIRECT_CLOSED_TRANSITIVE_RECORDED_RISK",
+      "runtime_components": [
+        "Microsoft Visual C++ Runtime"
+      ],
+      "source_authority": "Microsoft official installation guidance; no installer redistributed",
+      "version": "Compatible x64 v14 runtime installed by the user/system"
+    },
+    {
+      "component": "CPython runtime",
+      "delivery_artifacts": [
+        "CPYTHON_RUNTIME_NOTICES.txt"
+      ],
+      "delivery_status": "PREPARED_NOT_DELIVERED",
+      "distributed_material": [
+        "python314.dll",
+        "base_library.zip",
+        "stdlib extensions"
+      ],
+      "license_identity": "Python-2.0 and exact bundled-component texts",
+      "notice_identity": "RESOLVED",
+      "review_status": "P3_REQUIRED",
+      "runtime_components": [
+        "CPython"
+      ],
+      "source_authority": "CPython 3.14.6 source correspondence D3",
+      "version": "3.14.6"
+    },
+    {
+      "component": "Tcl",
+      "delivery_artifacts": [
+        "TCL_LICENSES.txt"
+      ],
+      "delivery_status": "PREPARED_NOT_DELIVERED",
+      "distributed_material": [
+        "tcl86t.dll",
+        "_tcl_data"
+      ],
+      "license_identity": "Tcl license terms and bundled zlib/libtommath texts",
+      "notice_identity": "RESOLVED",
+      "review_status": "P3_REQUIRED",
+      "runtime_components": [
+        "Tcl"
+      ],
+      "source_authority": "CPython/Tcl-Tk source correspondence D3",
+      "version": "8.6.15.0"
+    },
+    {
+      "component": "Tk",
+      "delivery_artifacts": [
+        "TK_LICENSE.txt"
+      ],
+      "delivery_status": "PREPARED_NOT_DELIVERED",
+      "distributed_material": [
+        "tk86t.dll",
+        "_tk_data"
+      ],
+      "license_identity": "Tk license terms",
+      "notice_identity": "RESOLVED",
+      "review_status": "P3_REQUIRED",
+      "runtime_components": [
+        "Tk"
+      ],
+      "source_authority": "CPython/Tcl-Tk source correspondence D3",
+      "version": "8.6.15.0"
+    },
+    {
+      "component": "PyInstaller and hooks",
+      "delivery_artifacts": [
+        "PyInstaller/COPYING.txt",
+        "PyInstaller/ZLIB_LICENSE.txt",
+        "pyinstaller-hooks-contrib/LICENSE"
+      ],
+      "delivery_status": "DELIVERED_IN_R2_AND_RETAINED",
+      "distributed_material": [
+        "EduDownloader.exe bootloader",
+        "runtime hooks"
+      ],
+      "license_identity": "PyInstaller GPL-2.0-or-later; bootloader exception for frozen applications; bundled runtime hooks Apache-2.0 (analysis hooks are build-time)",
+      "notice_identity": "RESOLVED",
+      "review_status": "P3_REQUIRED",
+      "runtime_components": [
+        "pyinstaller",
+        "pyinstaller-hooks-contrib"
+      ],
+      "source_authority": "PyInstaller/hooks source correspondence D4",
+      "version": "6.21.0 / 2026.6"
+    },
+    {
+      "component": "cffi and cryptography closure",
+      "delivery_artifacts": [
+        "CRYPTOGRAPHY_CFFI_THIRD_PARTY_NOTICES.txt"
+      ],
+      "delivery_status": "PREPARED_NOT_DELIVERED",
+      "distributed_material": [
+        "_cffi_backend.pyd",
+        "cryptography _rust.pyd"
+      ],
+      "license_identity": "cffi MIT-0; cryptography Apache-2.0 OR BSD-3-Clause; OpenSSL Apache-2.0; Rust/crates per exact closure notices (alternative licenses and exceptions retained)",
+      "notice_identity": "RESOLVED",
+      "review_status": "P3_REQUIRED",
+      "runtime_components": [
+        "cffi",
+        "cryptography"
+      ],
+      "source_authority": "cffi/cryptography source correspondence D6",
+      "version": "cffi 2.1.1 / cryptography 49.0.0 / OpenSSL 4.0.1 / Rust 1.96.0"
+    },
+    {
+      "component": "Deno",
+      "delivery_artifacts": [
+        "DENO_LICENSE.txt",
+        "deno/DENO_THIRD_PARTY_NOTICES.txt"
+      ],
+      "delivery_status": "PARTIAL_PREPARED_NOT_DELIVERED",
+      "distributed_material": [
+        "deno.exe"
+      ],
+      "license_identity": "Resolved; 916 upstream texts and four canonical SPDX references",
+      "notice_identity": "RESOLVED_WITH_15_UPSTREAM_TEXT_GAPS",
+      "review_status": "P3_REQUIRED",
+      "runtime_components": [
+        "Deno"
+      ],
+      "source_authority": "Deno 2.9.5 D11I review bundle and D11H SPDX policy",
+      "version": "2.9.5 x86_64-pc-windows-msvc"
+    },
+    {
+      "component": "CustomTkinter",
+      "delivery_artifacts": [
+        "CUSTOMTKINTER_LICENSE.txt",
+        "CUSTOMTKINTER_THIRD_PARTY_NOTICES.txt"
+      ],
+      "delivery_status": "PARTIAL_PREPARED_NOT_DELIVERED",
+      "distributed_material": [
+        "Python package",
+        "Roboto fonts",
+        "shape font",
+        "icon"
+      ],
+      "license_identity": "MIT evidence plus resolved Roboto/Digsby texts",
+      "notice_identity": "PARTIAL_ROBOTO_PRODUCER_PENDING",
+      "review_status": "ROBOTO_PRODUCER_PENDING_AND_P3_REQUIRED",
+      "runtime_components": [
+        "customtkinter"
+      ],
+      "source_authority": "CustomTkinter source correspondence D8",
+      "version": "5.2.2"
+    },
+    {
+      "component": "Pillow",
+      "delivery_artifacts": [
+        "PILLOW_COMPOSITION.md",
+        "PILLOW_LICENSE.txt",
+        "PILLOW_SBOM.cdx.json"
+      ],
+      "delivery_status": "PREPARED_FOR_CURRENT_BUILDS",
+      "distributed_material": [
+        "PIL Python modules and material native extensions"
+      ],
+      "license_identity": "MIT-CMU with wheel-provided component notices",
+      "notice_identity": "RESOLVED",
+      "review_status": "P3_REQUIRED",
+      "runtime_components": [
+        "pillow"
+      ],
+      "source_authority": "Pillow 13.0.0 approved Windows x64 wheel",
+      "version": "13.0.0"
+    },
+    {
+      "component": "pypdfium2/PDFium",
+      "delivery_artifacts": [
+        "PYPDFIUM2_LICENSES/LICENSES/Apache-2.0.txt",
+        "PYPDFIUM2_LICENSES/LICENSES/BSD-3-Clause.txt",
+        "PYPDFIUM2_LICENSES/LICENSES/CC-BY-4.0.txt",
+        "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/abseil.txt",
+        "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/agg23.txt",
+        "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/fast_float.txt",
+        "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/freetype.txt",
+        "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/icu.txt",
+        "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/lcms.txt",
+        "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/libjpeg_turbo.ijg",
+        "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/libjpeg_turbo.md",
+        "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/libopenjpeg.txt",
+        "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/libpng.txt",
+        "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/libtiff.txt",
+        "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/llvm-libc.txt",
+        "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/pdfium-binaries.txt",
+        "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/pdfium.txt",
+        "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/simdutf.txt",
+        "PYPDFIUM2_LICENSES/data/windows_x64/BUILD_LICENSES/zlib.txt"
+      ],
+      "delivery_status": "PREPARED_AND_PRESENT_IN_R2",
+      "distributed_material": [
+        "pypdfium2 Python modules",
+        "pdfium.dll"
+      ],
+      "license_identity": "Apache-2.0/BSD-3-Clause and exact PDFium build notices",
+      "notice_identity": "RESOLVED",
+      "review_status": "P3_REQUIRED",
+      "runtime_components": [
+        "pypdfium2"
+      ],
+      "source_authority": "pypdfium2 wheel-provided LICENSES tree",
+      "version": "5.12.1"
+    },
+    {
+      "component": "yt-dlp",
+      "delivery_artifacts": [
+        "yt-dlp/GPL-3.0.txt",
+        "yt-dlp/RUNTIME_SOURCE_NOTICES.md",
+        "yt-dlp/THIRD_PARTY_LICENSES.txt",
+        "yt-dlp/YT-DLP-UNLICENSE.txt"
+      ],
+      "delivery_status": "PREPARED_FOR_NEXT_CANDIDATE",
+      "distributed_material": [
+        "yt-dlp.exe"
+      ],
+      "license_identity": "Unlicense plus exact embedded-runtime third-party texts",
+      "notice_identity": "RESOLVED",
+      "review_status": "P3_REQUIRED",
+      "runtime_components": [
+        "yt-dlp"
+      ],
+      "source_authority": "official yt-dlp 2026.08.19 release and P3 delta closure",
+      "version": "2026.08.19"
+    },
+    {
+      "component": "FFmpeg/FFprobe BtbN",
+      "delivery_artifacts": [
+        "FFMPEG_BTBN_LICENSE.txt",
+        "FFMPEG_BTBN_NOTICE.txt",
+        "THIRD_PARTY_SOURCE_INFORMATION.txt"
+      ],
+      "delivery_status": "PREPARED_NOT_PUBLISHED",
+      "distributed_material": [
+        "ffmpeg.exe",
+        "ffprobe.exe"
+      ],
+      "license_identity": "LGPL-3.0-or-later (BtbN LGPL static variant)",
+      "notice_identity": "RESOLVED_FOR_ACTIVE_BTBN_BASELINE",
+      "review_status": "P3_REQUIRED",
+      "runtime_components": [
+        "FFmpeg",
+        "FFprobe"
+      ],
+      "source_authority": "BtbN autobuild-2026-08-25-13-06 complete technical source bundle",
+      "version": "n8.1.2-44-g7c533d0f86-20260825 win64-lgpl-8.1"
+    },
+    {
+      "component": "Other Python runtime packages",
+      "delivery_artifacts": [
+        "DARKDETECT_LICENSE.txt",
+        "PACKAGING_LICENSES.txt",
+        "PYPDF_LICENSE.txt"
+      ],
+      "delivery_status": "PREPARED_NOT_DELIVERED",
+      "distributed_material": [
+        "PYZ modules"
+      ],
+      "license_identity": "darkdetect BSD-3-Clause; packaging Apache-2.0 OR BSD-2-Clause; pypdf BSD-3-Clause",
+      "notice_identity": "RESOLVED",
+      "review_status": "P3_REQUIRED",
+      "runtime_components": [
+        "darkdetect",
+        "packaging",
+        "pypdf"
+      ],
+      "source_authority": "approved exact wheels and package metadata",
+      "version": "darkdetect 0.8.0 / packaging 26.3 / pypdf 7.1.1"
+    }
+  ],
+  "global_delivery_artifacts": [
+    "THIRD_PARTY_NOTICES.txt"
+  ],
+  "next_candidate_notice_set": "PARTIAL",
+  "r2_notice_delivery": {
+    "cffi_cryptography": {
+      "reason": "component-specific runtime notices are not delivered",
+      "status": "PENDING_FIX"
+    },
+    "cpython_tcl_tk": {
+      "reason": "component-specific runtime notices are not delivered",
+      "status": "PENDING_FIX"
+    },
+    "customtkinter": {
+      "reason": "component license is present; bundled font review remains separate",
+      "status": "PARTIAL"
+    },
+    "deno": {
+      "reason": "Deno license is present; third-party notice closure remains separate",
+      "status": "PARTIAL"
+    },
+    "microsoft": {
+      "reason": "D13A notice template is not delivered pending P3 review",
+      "status": "PENDING_FIX"
+    },
+    "other": {
+      "reason": "delivered notices exist; remaining review is tracked separately",
+      "status": "PARTIAL"
+    },
+    "pyinstaller": {
+      "reason": "physical license files checked in the candidate",
+      "status": "DELIVERED"
+    }
+  },
+  "schema_version": 1,
+  "separations": {
+    "build_reproducibility": "P2_SEPARATE_PENDING",
+    "legal_review": "P3_REQUIRED",
+    "notice_delivery": "THIS_INVENTORY_ONLY",
+    "source_correspondence": "SEPARATE_TRACKED_BUNDLES_AND_MANIFESTS"
+  },
+  "source_only_license_artifacts": [
+    "yt-dlp/COMPOSITION.md",
+    "yt-dlp/PROVENANCE.json",
+    "yt-dlp/SHA2-256SUMS",
+    "yt-dlp/SOURCE_CORRESPONDENCE.md",
+    "yt-dlp/SOURCE_PROVENANCE.json"
+  ]
+}

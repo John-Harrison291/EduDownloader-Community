@@ -1,0 +1,33 @@
+# Baseline observada no último build interno 0.9.4 validado com
+# Python 3.14.6, PyInstaller 6.21.0 e o conjunto atual de dependências.
+#
+# Inclui módulos de plataformas não Windows, integrações opcionais não usadas
+# pelo produto e artefatos conhecidos da análise de imports. Qualquer entrada
+# nova ou ausente exige revisão explícita antes de atualizar esta lista.
+excluded|_frozen_importlib
+missing|Crypto
+missing|Crypto.Cipher
+missing|Crypto.Util
+missing|Foundation
+missing|PyObjCTools
+missing|_frozen_importlib_external
+missing|_posixsubprocess
+missing|_scproxy
+missing|arabic_reshaper
+missing|bidi
+missing|collections.abc
+missing|defusedxml
+missing|fcntl
+missing|fontTools
+missing|fontTools.ttLib
+missing|grp
+missing|java
+missing|java.lang
+missing|numpy
+missing|olefile
+missing|posix
+missing|pwd
+missing|resource
+missing|tabulate
+missing|typing_extensions
+missing|vms_lib

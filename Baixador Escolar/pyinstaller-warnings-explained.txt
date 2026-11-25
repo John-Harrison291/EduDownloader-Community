@@ -1,0 +1,5 @@
+# Warnings novos do primeiro build limpo offline 0.9.5, separados da baseline
+# histórica 0.9.4. Cada entrada exige presença exata e justificativa auditável.
+missing|win32evtlog|Import opcional e tardio de logging.handlers para NTEventLogHandler; o produto não usa esse handler
+missing|win32evtlogutil|Import opcional e tardio de logging.handlers para NTEventLogHandler; o produto não usa esse handler
+missing|brotli|pypdf 7.1.1 importa a extensão opcional somente para streams com BrotliDecode. O extra não pertence ao lock e as operações comuns não dependem dele.

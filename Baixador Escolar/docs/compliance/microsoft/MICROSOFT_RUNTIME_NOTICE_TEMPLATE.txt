@@ -1,0 +1,31 @@
+MICROSOFT VISUAL C++ RUNTIME — MODELO TÉCNICO PARA FUTURO CANDIDATO
+
+Status: P3_PENDING_REVIEW
+Entrega: PREPARED_NOT_DELIVERED
+
+Runtime family:
+Microsoft Visual C++ v14 Redistributable (x64)
+
+Versão pinada:
+14.51.36247.0
+
+Arquivos planejados:
+- VCRUNTIME140.dll
+- VCRUNTIME140_1.dll
+
+Autoridade:
+https://aka.ms/vc14/vc_redist.x64.exe
+
+Referências oficiais:
+- https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
+- https://learn.microsoft.com/en-us/cpp/windows/redistributing-visual-cpp-files?view=msvc-170
+- https://learn.microsoft.com/en-us/visualstudio/releases/2026/redistribution
+- https://visualstudio.microsoft.com/license-terms/vs2026-ga-visualcpp-v14-redist-runtime/
+
+Política UCRT/API Set para a baseline WINDOWS_10_OR_NEWER_X64:
+SYSTEM_RUNTIME_NOT_TO_BE_BUNDLED
+
+Este arquivo é um modelo técnico. Ele não declara LEGAL_APPROVED,
+COMMERCIAL_REDISTRIBUTION_APPROVED, production_ready ou public_release_allowed.
+Antes de entregá-lo em qualquer candidato, revisar os termos Microsoft
+aplicáveis, os requisitos de notice e a forma de redistribuição em P3.
